@@ -1,7 +1,3 @@
-> Origin's eyelet  
-> then, opening one by one  
-> eyelets of the gaze.
-
 # eyelet
 
 - besides top-down reasoning with `conclusion :- premise` rules, eyelet also supports bottom-up reasoning with `conclusion :+ premise` rules
@@ -30,8 +26,3 @@ __or__
 
 - install [Scryer Prolog](https://github.com/mthom/scryer-prolog?tab=readme-ov-file#installing-scryer-prolog)
 - run [./testscryer](./testscryer) to go from [./input/](./input/) to [./output/](./output/)
-
-## Background
-
-- Personal notes by Tim Berners-Lee: [Design Issues](https://www.w3.org/DesignIssues/)
-- Book of Markus Triska: [The Power of Prolog](https://www.metalevel.at/prolog)
