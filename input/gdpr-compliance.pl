@@ -1,4 +1,5 @@
 % A simple Prolog-based rule system to check GDPR compliance for data subjects
+% Original code from https://chatgpt.com/share/6810c429-f588-800b-92f6-772b3bd116be
 
 :- op(1200, xfx, :+).
 
