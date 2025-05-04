@@ -1,6 +1,6 @@
 > At the origin
-> undergo evolution
-> via observership.
+undergo evolution
+via observership.
 
 # eyelet
 
