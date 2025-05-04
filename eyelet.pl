@@ -19,7 +19,7 @@
 :- dynamic(limit/1).
 :- dynamic(step/3).
 
-version('eyelet v1.5.0 (2025-04-25)').
+version('eyelet v1.5.1 (2025-05-04)').
 
 % main goal
 main :-
@@ -137,7 +137,8 @@ assert_conj((B, C)) :-
     assert_conj(C).
 assert_conj(A) :-
     (   \+ A
-    ->  assertz(A)
+    ->  copy_term(A, B),
+        assertz(B)
     ;   true
     ).
 
