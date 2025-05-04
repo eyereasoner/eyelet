@@ -1,3 +1,7 @@
+> At the origin
+> undergo evolution
+> via observership.
+
 # eyelet
 
 - besides top-down reasoning with `conclusion :- premise` rules, eyelet also supports bottom-up reasoning with `conclusion :+ premise` rules
