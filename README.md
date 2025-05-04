@@ -1,6 +1,6 @@
 > Entwining orig-  
-> in with evolution ov-  
-> er observership.
+> in with evolution o-  
+> ver observership.
 
 # eyelet
 
