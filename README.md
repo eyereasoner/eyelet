@@ -1,6 +1,6 @@
-> At the origin  
-> undergo evolution  
-> via observership.
+> Entwining orig-  
+> in with evolution ov-  
+> er observership.
 
 # eyelet
 
