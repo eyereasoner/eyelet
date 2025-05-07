@@ -1,7 +1,3 @@
-> Eyelet entwining  
-> origin, evolution  
-> and observership.  
-
 # eyelet
 
 - besides top-down reasoning with `conclusion :- premise` rules, eyelet also supports bottom-up reasoning with `conclusion :+ premise` rules
