@@ -1,5 +1,5 @@
 % --------------------
-% eyelet -- Jos De Roo
+% eyewip -- Jos De Roo
 % --------------------
 
 :- use_module(library(between)).
@@ -19,7 +19,7 @@
 :- dynamic(limit/1).
 :- dynamic(step/3).
 
-version('eyelet v1.5.1 (2025-05-04)').
+version('eyewip v1.5.2 (2025-05-11)').
 
 % main goal
 main :-
@@ -37,7 +37,7 @@ main :-
         (Conc :+ Prem),
         dynify((Conc :+ Prem))
     ),
-    catch(eyelet, E,
+    catch(eyewip, E,
         (   E = halt(Exit)
         ->  true
         ;   format(user_error, "*** ~w~n", [E]),
@@ -61,7 +61,7 @@ main :-
     halt(Exit).
 
 %
-% eyelet
+% eyewip
 %
 % 1/ select rule Conc :+ Prem
 % 2/ prove Prem and if it fails backtrack to 1/
@@ -75,7 +75,7 @@ main :-
 %    else assert brake and start again at 1/
 %
 
-eyelet :-
+eyewip :-
     (   (Conc :+ Prem),                         % 1/
         copy_term((Conc :+ Prem), Rule),
         Prem,                                   % 2/
@@ -111,7 +111,7 @@ eyelet :-
                 Closure < Limit,
                 NewClosure is Closure+1,
                 becomes(closure(Closure), closure(NewClosure)),
-                eyelet
+                eyewip
             ;   format(":- op(1200, xfx, :+).~n~n", []),
                 forall(
                     answer(P),
@@ -127,7 +127,7 @@ eyelet :-
                 )
             )
         ;   assertz(brake),
-            eyelet
+            eyewip
         )
     ).
 
