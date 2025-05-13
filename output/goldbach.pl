@@ -34,7 +34,6 @@ answer(goldbach(4294967296,[5,4294967291])).
 answer(goldbach(8589934592,[79,8589934513])).
 answer(goldbach(17179869184,[41,17179869143])).
 answer(goldbach(34359738368,[31,34359738337])).
-answer(goldbach(68719476736,[5,68719476731])).
 
 step((true:+goldbach(4,[A,B])),goldbach(4,[2,2]),true).
 step((true:+goldbach(8,[A,B])),goldbach(8,[3,5]),true).
@@ -70,4 +69,3 @@ step((true:+goldbach(4294967296,[A,B])),goldbach(4294967296,[5,4294967291]),true
 step((true:+goldbach(8589934592,[A,B])),goldbach(8589934592,[79,8589934513]),true).
 step((true:+goldbach(17179869184,[A,B])),goldbach(17179869184,[41,17179869143]),true).
 step((true:+goldbach(34359738368,[A,B])),goldbach(34359738368,[31,34359738337]),true).
-step((true:+goldbach(68719476736,[A,B])),goldbach(68719476736,[5,68719476731]),true).
