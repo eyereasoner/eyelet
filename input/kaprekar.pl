@@ -37,4 +37,4 @@ recursionCount(I, J) :-
 
 % query
 (true :+ recursionCount(I, _)) :-
-    between(1, 1000, I).
+    between(1, 10000, I).
