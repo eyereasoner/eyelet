@@ -3,6 +3,7 @@
 % --------------------
 
 :- use_module(library(between)).
+:- use_module(library(charsio)).
 :- use_module(library(format)).
 :- use_module(library(iso_ext)).
 :- use_module(library(lists)).
@@ -11,15 +12,15 @@
 :- op(1200, xfx, :+).
 
 :- dynamic((:+)/2).
-:- dynamic(answer/1).
+:- dynamic(answer/2).
 :- dynamic(brake/0).
 :- dynamic(closure/1).
 :- dynamic(count/2).
 :- dynamic(fuse/1).
 :- dynamic(limit/1).
-:- dynamic(step/3).
+:- dynamic(step/4).
 
-version('eyewip v1.5.2 (2025-05-11)').
+version('eyewip v1.5.3 (2025-05-16)').
 
 % main goal
 main :-
@@ -79,16 +80,17 @@ eyewip :-
     (   (Conc :+ Prem),                         % 1/
         copy_term((Conc :+ Prem), Rule),
         Prem,                                   % 2/
+        term_hash(Prem, Hash),
         (   Conc = true                         % 3/
-        ->  assert_conj(answer(Prem)),
-            assert_conj(step(Rule, Prem, Conc))
+        ->  assert_conj(answer(Hash, Prem)),
+            assert_conj(step(Hash, Rule, Prem, Conc))
         ;   (   Conc = false
             ->  format(":- op(1200, xfx, :+).~n~n", []),
                 portray_clause(fuse(Prem)),
-                (   step(_, _, _),
+                (   step(_, _, _, _),
                     nl
                 ->  forall(
-                        step(R, P, C),
+                        step(_, R, P, C),
                         portray_clause(step(R, P, C))
                     )
                 ;   true
@@ -100,7 +102,7 @@ eyewip :-
                 ),
                 \+ Conc,
                 assert_conj(Conc),
-                assert_conj(step(Rule, Prem, Conc)),
+                assert_conj(step(Hash, Rule, Prem, Conc)),
                 retract(brake)
             )
         ),
@@ -114,13 +116,13 @@ eyewip :-
                 eyewip
             ;   format(":- op(1200, xfx, :+).~n~n", []),
                 forall(
-                    answer(P),
+                    answer(_, P),
                     portray_clause(answer(P))
                 ),
-                (   step(_, _, _),
+                (   step(_, _, _, _),
                     nl
                 ->  forall(
-                        step(R, P, C),
+                        step(_, R, P, C),
                         portray_clause(step(R, P, C))
                     )
                 ;   true
@@ -216,6 +218,17 @@ dynify(A) :-
         catch((assertz(T), retract(T)), _, true)
     ),
     dynify(C).
+
+% convert term to hash using a simple checksum
+term_hash(Term, Hash) :-
+    write_term_to_chars(Term, [], Chars),
+    checksum(Chars, 0, Hash).
+
+checksum([], Hash, Hash).
+checksum([Char|Rest], Acc, Hash) :-
+    char_code(Char, Code),
+    NewAcc is (Acc * 31 + Code) mod 1000000007,
+    checksum(Rest, NewAcc, Hash).
 
 % debugging tools
 fm(A) :-
