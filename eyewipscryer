@@ -1,0 +1,4 @@
+#!/bin/bash
+export eyewip=$(dirname "$(readlink -f "$0")")/eyewip.pl
+
+scryer-prolog -g main ${eyewip} "$@"
