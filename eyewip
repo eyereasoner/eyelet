@@ -1,4 +1,0 @@
-#!/bin/bash
-export eyewip=$(dirname "$(readlink -f "$0")")/eyewip.pl
-
-tpl -g main ${eyewip} "$@"
