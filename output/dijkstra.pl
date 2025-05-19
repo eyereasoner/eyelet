@@ -1,26 +1,26 @@
 :- op(1200, xfx, :+).
 
-answer(dijkstra("af",["acbdef",13])).
-answer(dijkstra("af",["acbdf",14])).
-answer(dijkstra("af",["abdef",14])).
-answer(dijkstra("af",["abdf",15])).
-answer(dijkstra("af",["acef",15])).
-answer(dijkstra("af",["acdef",15])).
-answer(dijkstra("af",["acdf",16])).
+answer(dijkstra([a, f], [[a, c, b, d, e, f], 13])).
+answer(dijkstra([a, f], [[a, c, b, d, f], 14])).
+answer(dijkstra([a, f], [[a, b, d, e, f], 14])).
+answer(dijkstra([a, f], [[a, b, d, f], 15])).
+answer(dijkstra([a, f], [[a, c, e, f], 15])).
+answer(dijkstra([a, f], [[a, c, d, e, f], 15])).
+answer(dijkstra([a, f], [[a, c, d, f], 16])).
 
-step((edge([A,B],C):+edge([B,A],C)),edge("ab",4),edge("ba",4)).
-step((edge([A,B],C):+edge([B,A],C)),edge("ac",2),edge("ca",2)).
-step((edge([A,B],C):+edge([B,A],C)),edge("bc",1),edge("cb",1)).
-step((edge([A,B],C):+edge([B,A],C)),edge("bd",5),edge("db",5)).
-step((edge([A,B],C):+edge([B,A],C)),edge("cd",8),edge("dc",8)).
-step((edge([A,B],C):+edge([B,A],C)),edge("ce",10),edge("ec",10)).
-step((edge([A,B],C):+edge([B,A],C)),edge("de",2),edge("ed",2)).
-step((edge([A,B],C):+edge([B,A],C)),edge("df",6),edge("fd",6)).
-step((edge([A,B],C):+edge([B,A],C)),edge("ef",3),edge("fe",3)).
-step((true:+dijkstra("af",[A,B])),dijkstra("af",["acbdef",13]),true).
-step((true:+dijkstra("af",[A,B])),dijkstra("af",["acbdf",14]),true).
-step((true:+dijkstra("af",[A,B])),dijkstra("af",["abdef",14]),true).
-step((true:+dijkstra("af",[A,B])),dijkstra("af",["abdf",15]),true).
-step((true:+dijkstra("af",[A,B])),dijkstra("af",["acef",15]),true).
-step((true:+dijkstra("af",[A,B])),dijkstra("af",["acdef",15]),true).
-step((true:+dijkstra("af",[A,B])),dijkstra("af",["acdf",16]),true).
+step((edge([A, B], C):+edge([B, A], C)), edge([a, b], 4), edge([b, a], 4)).
+step((edge([A, B], C):+edge([B, A], C)), edge([a, c], 2), edge([c, a], 2)).
+step((edge([A, B], C):+edge([B, A], C)), edge([b, c], 1), edge([c, b], 1)).
+step((edge([A, B], C):+edge([B, A], C)), edge([b, d], 5), edge([d, b], 5)).
+step((edge([A, B], C):+edge([B, A], C)), edge([c, d], 8), edge([d, c], 8)).
+step((edge([A, B], C):+edge([B, A], C)), edge([c, e], 10), edge([e, c], 10)).
+step((edge([A, B], C):+edge([B, A], C)), edge([d, e], 2), edge([e, d], 2)).
+step((edge([A, B], C):+edge([B, A], C)), edge([d, f], 6), edge([f, d], 6)).
+step((edge([A, B], C):+edge([B, A], C)), edge([e, f], 3), edge([f, e], 3)).
+step((true:+dijkstra([a, f], [_, _])), dijkstra([a, f], [[a, c, b, d, e, f], 13]), true).
+step((true:+dijkstra([a, f], [_, _])), dijkstra([a, f], [[a, c, b, d, f], 14]), true).
+step((true:+dijkstra([a, f], [_, _])), dijkstra([a, f], [[a, b, d, e, f], 14]), true).
+step((true:+dijkstra([a, f], [_, _])), dijkstra([a, f], [[a, b, d, f], 15]), true).
+step((true:+dijkstra([a, f], [_, _])), dijkstra([a, f], [[a, c, e, f], 15]), true).
+step((true:+dijkstra([a, f], [_, _])), dijkstra([a, f], [[a, c, d, e, f], 15]), true).
+step((true:+dijkstra([a, f], [_, _])), dijkstra([a, f], [[a, c, d, f], 16]), true).

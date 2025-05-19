@@ -17,4 +17,4 @@ collatz(N0, N, [N0|J]) :-
 
 % query
 (true :+ collatz(N, _)) :-
-    between(1, 10000, N).
+    between(1, 1000, N).

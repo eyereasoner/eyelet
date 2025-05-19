@@ -2,4 +2,4 @@
 
 answer(solution(sandy)).
 
-step((true:+solution(A)),solution(sandy),true).
+step((true:+solution(_)), solution(sandy), true).

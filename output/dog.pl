@@ -1,5 +1,5 @@
 :- op(1200, xfx, :+).
 
-answer(mustHave(alice,dogLicense)).
+answer(mustHave(alice, dogLicense)).
 
-step((true:+mustHave(A,B)),mustHave(alice,dogLicense),true).
+step((true:+mustHave(_, _)), mustHave(alice, dogLicense), true).

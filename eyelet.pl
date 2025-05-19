@@ -2,28 +2,28 @@
 % eyelet -- Jos De Roo
 % --------------------
 
-:- use_module(library(between)).
-:- use_module(library(charsio)).
-:- use_module(library(format)).
-:- use_module(library(iso_ext)).
 :- use_module(library(lists)).
 :- use_module(library(terms)).
 
 :- op(1200, xfx, :+).
 
 :- dynamic((:+)/2).
-:- dynamic(answer/2).
+:- dynamic(answer/1).
 :- dynamic(brake/0).
 :- dynamic(closure/1).
 :- dynamic(count/2).
 :- dynamic(fuse/1).
 :- dynamic(limit/1).
-:- dynamic(step/4).
+:- dynamic(step/3).
 
-version('eyelet v1.5.4 (2025-05-19)').
+version('eyelet v1.5.5 (2025-05-19)').
 
 % main goal
 main :-
+    catch(use_module(library(between)), _, true),
+    catch(use_module(library(format)), _, true),
+    catch(use_module(library(iso_ext)), _, true),
+    set_prolog_flag(double_quotes, chars),
     assertz(closure(0)),
     assertz(limit(-1)),
     assertz(count(fm, 0)),
@@ -80,17 +80,16 @@ eyelet :-
     (   (Conc :+ Prem),                         % 1/
         copy_term((Conc :+ Prem), Rule),
         Prem,                                   % 2/
-        term_hash(Prem, Hash),
         (   Conc = true                         % 3/
-        ->  assert_conj(answer(Hash, Prem)),
-            assert_conj(step(Hash, Rule, Prem, Conc))
+        ->  assert_conj(answer(Prem)),
+            assert_conj(step(Rule, Prem, Conc))
         ;   (   Conc = false
             ->  format(":- op(1200, xfx, :+).~n~n", []),
                 portray_clause(fuse(Prem)),
-                (   step(_, _, _, _),
+                (   step(_, _, _),
                     nl
                 ->  forall(
-                        step(_, R, P, C),
+                        step(R, P, C),
                         portray_clause(step(R, P, C))
                     )
                 ;   true
@@ -102,7 +101,7 @@ eyelet :-
                 ),
                 \+ Conc,
                 assert_conj(Conc),
-                assert_conj(step(Hash, Rule, Prem, Conc)),
+                assert_conj(step(Rule, Prem, Conc)),
                 retract(brake)
             )
         ),
@@ -116,13 +115,13 @@ eyelet :-
                 eyelet
             ;   format(":- op(1200, xfx, :+).~n~n", []),
                 forall(
-                    answer(_, P),
+                    answer(P),
                     portray_clause(answer(P))
                 ),
-                (   step(_, _, _, _),
+                (   step(_, _, _),
                     nl
                 ->  forall(
-                        step(_, R, P, C),
+                        step(R, P, C),
                         portray_clause(step(R, P, C))
                     )
                 ;   true
@@ -218,17 +217,6 @@ dynify(A) :-
         catch((assertz(T), retract(T)), _, true)
     ),
     dynify(C).
-
-% convert term to hash using a simple checksum
-term_hash(Term, Hash) :-
-    write_term_to_chars(Term, [], Chars),
-    checksum(Chars, 0, Hash).
-
-checksum([], Hash, Hash).
-checksum([Char|Rest], Acc, Hash) :-
-    char_code(Char, Code),
-    NewAcc is (Acc * 31 + Code) mod 1000000007,
-    checksum(Rest, NewAcc, Hash).
 
 % debugging tools
 fm(A) :-

@@ -2,4 +2,4 @@
 
 fuse('Mortal'('Socrates')).
 
-step(('Mortal'(A):+'Human'(A)),'Human'('Socrates'),'Mortal'('Socrates')).
+step(('Mortal'(A):+'Human'(A)), 'Human'('Socrates'), 'Mortal'('Socrates')).

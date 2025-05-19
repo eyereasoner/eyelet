@@ -2,4 +2,4 @@
 
 answer(test('Philip K Dick')).
 
-step((true:+test(A)),test('Philip K Dick'),true).
+step((true:+test(_)), test('Philip K Dick'), true).

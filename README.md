@@ -21,10 +21,15 @@
 
 ## Testing
 
+- install [SWI-Prolog](https://www.swi-prolog.org/Download.html)
+- run [./test](./test) to go from [./input/](./input/) to [./output/](./output/)
+
+__or__
+
 - install [Trealla Prolog](https://github.com/trealla-prolog/trealla?tab=readme-ov-file#building)
-- run [./testtrealla](./testtrealla) to go from [./input/](./input/) to [./output/](./output/)
+- run [./test-trealla](./test-trealla) to go from [./input/](./input/) to [./output-trealla/](./output-trealla/)
 
 __or__
 
 - install [Scryer Prolog](https://github.com/mthom/scryer-prolog?tab=readme-ov-file#installing-scryer-prolog)
-- run [./testscryer](./testscryer) to go from [./input/](./input/) to [./output/](./output/)
+- run [./test-scryer](./test-scryer) to go from [./input/](./input/) to [./output-scryer/](./output-scryer/)

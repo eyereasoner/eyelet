@@ -1,3039 +1,3039 @@
 :- op(1200, xfx, :+).
 
-answer(cycle(i0,[i12,i66,i9,i12,i66,i9,i12,i9,i12,i9,i12])).
-answer(cycle(i0,[i12,i66,i9,i12,i9,i12,i66,i9,i12,i9,i12])).
-answer(cycle(i0,[i12,i66,i9,i12,i9,i12,i9,i12,i66,i9,i12])).
-answer(cycle(i0,[i12,i9,i12,i66,i9,i12,i66,i9,i12,i9,i12])).
-answer(cycle(i0,[i12,i9,i12,i66,i9,i12,i9,i12,i66,i9,i12])).
-answer(cycle(i0,[i12,i9,i12,i9,i12,i66,i9,i12,i66,i9,i12])).
-answer(cycle(i0,[i12,i9,i12,i9,i12,i9,i12,i9,i12,i9,i12])).
-answer(cycle(i0,[i66,i9,i12,i66,i9,i12,i9,i12,i9,i12,i66])).
-answer(cycle(i0,[i66,i9,i12,i9,i12,i66,i9,i12,i9,i12,i66])).
-answer(cycle(i0,[i66,i9,i12,i9,i12,i9,i12,i66,i9,i12,i66])).
-answer(cycle(i0,[i6,i6,i6,i6,i6,i6,i6,i6,i6,i6,i6])).
-answer(cycle(i0,[i75,i84,i75,i84,i75,i84,i75,i84,i75,i84,i75])).
-answer(cycle(i0,[i84,i75,i84,i75,i84,i75,i84,i75,i84,i75,i84])).
-answer(cycle(i0,[i9,i12,i66,i9,i12,i66,i9,i12,i9,i12,i9])).
-answer(cycle(i0,[i9,i12,i66,i9,i12,i9,i12,i66,i9,i12,i9])).
-answer(cycle(i0,[i9,i12,i66,i9,i12,i9,i12,i9,i12,i66,i9])).
-answer(cycle(i0,[i9,i12,i9,i12,i66,i9,i12,i66,i9,i12,i9])).
-answer(cycle(i0,[i9,i12,i9,i12,i66,i9,i12,i9,i12,i66,i9])).
-answer(cycle(i0,[i9,i12,i9,i12,i9,i12,i66,i9,i12,i66,i9])).
-answer(cycle(i0,[i9,i12,i9,i12,i9,i12,i9,i12,i9,i12,i9])).
-answer(cycle(i10,[i15,i78,i60,i33,i87,i15,i78,i60,i33,i87,i15])).
-answer(cycle(i10,[i33,i87,i15,i78,i60,i33,i87,i15,i78,i60,i33])).
-answer(cycle(i10,[i60,i33,i87,i15,i78,i60,i33,i87,i15,i78,i60])).
-answer(cycle(i10,[i78,i60,i33,i87,i15,i78,i60,i33,i87,i15,i78])).
-answer(cycle(i10,[i87,i15,i78,i60,i33,i87,i15,i78,i60,i33,i87])).
-answer(cycle(i11,[i15,i30,i78,i45,i51,i15,i30,i78,i45,i51,i15])).
-answer(cycle(i11,[i30,i78,i45,i51,i15,i30,i78,i45,i51,i15,i30])).
-answer(cycle(i11,[i39,i39,i39,i39,i39,i39,i39,i39,i39,i39,i39])).
-answer(cycle(i11,[i3,i3,i3,i3,i3,i3,i3,i3,i3,i3,i3])).
-answer(cycle(i11,[i45,i51,i15,i30,i78,i45,i51,i15,i30,i78,i45])).
-answer(cycle(i11,[i51,i15,i30,i78,i45,i51,i15,i30,i78,i45,i51])).
-answer(cycle(i11,[i78,i45,i51,i15,i30,i78,i45,i51,i15,i30,i78])).
-answer(cycle(i12,[i45,i45,i45,i45,i45,i45,i45,i45,i45,i45,i45])).
-answer(cycle(i12,[i66,i66,i66,i66,i66,i66,i66,i66,i66,i66,i66])).
-answer(cycle(i13,[i12,i60,i12,i60,i12,i60,i12,i60,i12,i60,i12])).
-answer(cycle(i13,[i45,i48,i78,i81,i87,i45,i48,i78,i81,i87,i45])).
-answer(cycle(i13,[i48,i78,i81,i87,i45,i48,i78,i81,i87,i45,i48])).
-answer(cycle(i13,[i60,i12,i60,i12,i60,i12,i60,i12,i60,i12,i60])).
-answer(cycle(i13,[i78,i81,i87,i45,i48,i78,i81,i87,i45,i48,i78])).
-answer(cycle(i13,[i81,i87,i45,i48,i78,i81,i87,i45,i48,i78,i81])).
-answer(cycle(i13,[i87,i45,i48,i78,i81,i87,i45,i48,i78,i81,i87])).
-answer(cycle(i15,[i36,i96,i36,i96,i36,i96,i36,i96,i36,i96,i36])).
-answer(cycle(i15,[i36,i96,i36,i96,i36,i96,i36,i96,i96,i96,i36])).
-answer(cycle(i15,[i36,i96,i36,i96,i36,i96,i96,i36,i96,i96,i36])).
-answer(cycle(i15,[i36,i96,i36,i96,i36,i96,i96,i96,i36,i96,i36])).
-answer(cycle(i15,[i36,i96,i36,i96,i36,i96,i96,i96,i96,i96,i36])).
-answer(cycle(i15,[i36,i96,i36,i96,i96,i36,i96,i36,i96,i96,i36])).
-answer(cycle(i15,[i36,i96,i36,i96,i96,i36,i96,i96,i36,i96,i36])).
-answer(cycle(i15,[i36,i96,i36,i96,i96,i36,i96,i96,i96,i96,i36])).
-answer(cycle(i15,[i36,i96,i36,i96,i96,i96,i36,i96,i36,i96,i36])).
-answer(cycle(i15,[i36,i96,i36,i96,i96,i96,i36,i96,i96,i96,i36])).
-answer(cycle(i15,[i36,i96,i36,i96,i96,i96,i96,i36,i96,i96,i36])).
-answer(cycle(i15,[i36,i96,i36,i96,i96,i96,i96,i96,i36,i96,i36])).
-answer(cycle(i15,[i36,i96,i36,i96,i96,i96,i96,i96,i96,i96,i36])).
-answer(cycle(i15,[i36,i96,i96,i36,i96,i36,i96,i36,i96,i96,i36])).
-answer(cycle(i15,[i36,i96,i96,i36,i96,i36,i96,i96,i36,i96,i36])).
-answer(cycle(i15,[i36,i96,i96,i36,i96,i36,i96,i96,i96,i96,i36])).
-answer(cycle(i15,[i36,i96,i96,i36,i96,i96,i36,i96,i36,i96,i36])).
-answer(cycle(i15,[i36,i96,i96,i36,i96,i96,i36,i96,i96,i96,i36])).
-answer(cycle(i15,[i36,i96,i96,i36,i96,i96,i96,i36,i96,i96,i36])).
-answer(cycle(i15,[i36,i96,i96,i36,i96,i96,i96,i96,i36,i96,i36])).
-answer(cycle(i15,[i36,i96,i96,i36,i96,i96,i96,i96,i96,i96,i36])).
-answer(cycle(i15,[i36,i96,i96,i96,i36,i96,i36,i96,i36,i96,i36])).
-answer(cycle(i15,[i36,i96,i96,i96,i36,i96,i36,i96,i96,i96,i36])).
-answer(cycle(i15,[i36,i96,i96,i96,i36,i96,i96,i36,i96,i96,i36])).
-answer(cycle(i15,[i36,i96,i96,i96,i36,i96,i96,i96,i36,i96,i36])).
-answer(cycle(i15,[i36,i96,i96,i96,i36,i96,i96,i96,i96,i96,i36])).
-answer(cycle(i15,[i36,i96,i96,i96,i96,i36,i96,i36,i96,i96,i36])).
-answer(cycle(i15,[i36,i96,i96,i96,i96,i36,i96,i96,i36,i96,i36])).
-answer(cycle(i15,[i36,i96,i96,i96,i96,i36,i96,i96,i96,i96,i36])).
-answer(cycle(i15,[i36,i96,i96,i96,i96,i96,i36,i96,i36,i96,i36])).
-answer(cycle(i15,[i36,i96,i96,i96,i96,i96,i36,i96,i96,i96,i36])).
-answer(cycle(i15,[i36,i96,i96,i96,i96,i96,i96,i36,i96,i96,i36])).
-answer(cycle(i15,[i36,i96,i96,i96,i96,i96,i96,i96,i36,i96,i36])).
-answer(cycle(i15,[i36,i96,i96,i96,i96,i96,i96,i96,i96,i96,i36])).
-answer(cycle(i15,[i96,i36,i96,i36,i96,i36,i96,i36,i96,i36,i96])).
-answer(cycle(i15,[i96,i36,i96,i36,i96,i36,i96,i36,i96,i96,i96])).
-answer(cycle(i15,[i96,i36,i96,i36,i96,i36,i96,i96,i36,i96,i96])).
-answer(cycle(i15,[i96,i36,i96,i36,i96,i36,i96,i96,i96,i36,i96])).
-answer(cycle(i15,[i96,i36,i96,i36,i96,i36,i96,i96,i96,i96,i96])).
-answer(cycle(i15,[i96,i36,i96,i36,i96,i96,i36,i96,i36,i96,i96])).
-answer(cycle(i15,[i96,i36,i96,i36,i96,i96,i36,i96,i96,i36,i96])).
-answer(cycle(i15,[i96,i36,i96,i36,i96,i96,i36,i96,i96,i96,i96])).
-answer(cycle(i15,[i96,i36,i96,i36,i96,i96,i96,i36,i96,i36,i96])).
-answer(cycle(i15,[i96,i36,i96,i36,i96,i96,i96,i36,i96,i96,i96])).
-answer(cycle(i15,[i96,i36,i96,i36,i96,i96,i96,i96,i36,i96,i96])).
-answer(cycle(i15,[i96,i36,i96,i36,i96,i96,i96,i96,i96,i36,i96])).
-answer(cycle(i15,[i96,i36,i96,i36,i96,i96,i96,i96,i96,i96,i96])).
-answer(cycle(i15,[i96,i36,i96,i96,i36,i96,i36,i96,i36,i96,i96])).
-answer(cycle(i15,[i96,i36,i96,i96,i36,i96,i36,i96,i96,i36,i96])).
-answer(cycle(i15,[i96,i36,i96,i96,i36,i96,i36,i96,i96,i96,i96])).
-answer(cycle(i15,[i96,i36,i96,i96,i36,i96,i96,i36,i96,i36,i96])).
-answer(cycle(i15,[i96,i36,i96,i96,i36,i96,i96,i36,i96,i96,i96])).
-answer(cycle(i15,[i96,i36,i96,i96,i36,i96,i96,i96,i36,i96,i96])).
-answer(cycle(i15,[i96,i36,i96,i96,i36,i96,i96,i96,i96,i36,i96])).
-answer(cycle(i15,[i96,i36,i96,i96,i36,i96,i96,i96,i96,i96,i96])).
-answer(cycle(i15,[i96,i36,i96,i96,i96,i36,i96,i36,i96,i36,i96])).
-answer(cycle(i15,[i96,i36,i96,i96,i96,i36,i96,i36,i96,i96,i96])).
-answer(cycle(i15,[i96,i36,i96,i96,i96,i36,i96,i96,i36,i96,i96])).
-answer(cycle(i15,[i96,i36,i96,i96,i96,i36,i96,i96,i96,i36,i96])).
-answer(cycle(i15,[i96,i36,i96,i96,i96,i36,i96,i96,i96,i96,i96])).
-answer(cycle(i15,[i96,i36,i96,i96,i96,i96,i36,i96,i36,i96,i96])).
-answer(cycle(i15,[i96,i36,i96,i96,i96,i96,i36,i96,i96,i36,i96])).
-answer(cycle(i15,[i96,i36,i96,i96,i96,i96,i36,i96,i96,i96,i96])).
-answer(cycle(i15,[i96,i36,i96,i96,i96,i96,i96,i36,i96,i36,i96])).
-answer(cycle(i15,[i96,i36,i96,i96,i96,i96,i96,i36,i96,i96,i96])).
-answer(cycle(i15,[i96,i36,i96,i96,i96,i96,i96,i96,i36,i96,i96])).
-answer(cycle(i15,[i96,i36,i96,i96,i96,i96,i96,i96,i96,i36,i96])).
-answer(cycle(i15,[i96,i36,i96,i96,i96,i96,i96,i96,i96,i96,i96])).
-answer(cycle(i15,[i96,i96,i36,i96,i36,i96,i36,i96,i36,i96,i96])).
-answer(cycle(i15,[i96,i96,i36,i96,i36,i96,i36,i96,i96,i36,i96])).
-answer(cycle(i15,[i96,i96,i36,i96,i36,i96,i36,i96,i96,i96,i96])).
-answer(cycle(i15,[i96,i96,i36,i96,i36,i96,i96,i36,i96,i36,i96])).
-answer(cycle(i15,[i96,i96,i36,i96,i36,i96,i96,i36,i96,i96,i96])).
-answer(cycle(i15,[i96,i96,i36,i96,i36,i96,i96,i96,i36,i96,i96])).
-answer(cycle(i15,[i96,i96,i36,i96,i36,i96,i96,i96,i96,i36,i96])).
-answer(cycle(i15,[i96,i96,i36,i96,i36,i96,i96,i96,i96,i96,i96])).
-answer(cycle(i15,[i96,i96,i36,i96,i96,i36,i96,i36,i96,i36,i96])).
-answer(cycle(i15,[i96,i96,i36,i96,i96,i36,i96,i36,i96,i96,i96])).
-answer(cycle(i15,[i96,i96,i36,i96,i96,i36,i96,i96,i36,i96,i96])).
-answer(cycle(i15,[i96,i96,i36,i96,i96,i36,i96,i96,i96,i36,i96])).
-answer(cycle(i15,[i96,i96,i36,i96,i96,i36,i96,i96,i96,i96,i96])).
-answer(cycle(i15,[i96,i96,i36,i96,i96,i96,i36,i96,i36,i96,i96])).
-answer(cycle(i15,[i96,i96,i36,i96,i96,i96,i36,i96,i96,i36,i96])).
-answer(cycle(i15,[i96,i96,i36,i96,i96,i96,i36,i96,i96,i96,i96])).
-answer(cycle(i15,[i96,i96,i36,i96,i96,i96,i96,i36,i96,i36,i96])).
-answer(cycle(i15,[i96,i96,i36,i96,i96,i96,i96,i36,i96,i96,i96])).
-answer(cycle(i15,[i96,i96,i36,i96,i96,i96,i96,i96,i36,i96,i96])).
-answer(cycle(i15,[i96,i96,i36,i96,i96,i96,i96,i96,i96,i36,i96])).
-answer(cycle(i15,[i96,i96,i36,i96,i96,i96,i96,i96,i96,i96,i96])).
-answer(cycle(i15,[i96,i96,i96,i36,i96,i36,i96,i36,i96,i36,i96])).
-answer(cycle(i15,[i96,i96,i96,i36,i96,i36,i96,i36,i96,i96,i96])).
-answer(cycle(i15,[i96,i96,i96,i36,i96,i36,i96,i96,i36,i96,i96])).
-answer(cycle(i15,[i96,i96,i96,i36,i96,i36,i96,i96,i96,i36,i96])).
-answer(cycle(i15,[i96,i96,i96,i36,i96,i36,i96,i96,i96,i96,i96])).
-answer(cycle(i15,[i96,i96,i96,i36,i96,i96,i36,i96,i36,i96,i96])).
-answer(cycle(i15,[i96,i96,i96,i36,i96,i96,i36,i96,i96,i36,i96])).
-answer(cycle(i15,[i96,i96,i96,i36,i96,i96,i36,i96,i96,i96,i96])).
-answer(cycle(i15,[i96,i96,i96,i36,i96,i96,i96,i36,i96,i36,i96])).
-answer(cycle(i15,[i96,i96,i96,i36,i96,i96,i96,i36,i96,i96,i96])).
-answer(cycle(i15,[i96,i96,i96,i36,i96,i96,i96,i96,i36,i96,i96])).
-answer(cycle(i15,[i96,i96,i96,i36,i96,i96,i96,i96,i96,i36,i96])).
-answer(cycle(i15,[i96,i96,i96,i36,i96,i96,i96,i96,i96,i96,i96])).
-answer(cycle(i15,[i96,i96,i96,i96,i36,i96,i36,i96,i36,i96,i96])).
-answer(cycle(i15,[i96,i96,i96,i96,i36,i96,i36,i96,i96,i36,i96])).
-answer(cycle(i15,[i96,i96,i96,i96,i36,i96,i36,i96,i96,i96,i96])).
-answer(cycle(i15,[i96,i96,i96,i96,i36,i96,i96,i36,i96,i36,i96])).
-answer(cycle(i15,[i96,i96,i96,i96,i36,i96,i96,i36,i96,i96,i96])).
-answer(cycle(i15,[i96,i96,i96,i96,i36,i96,i96,i96,i36,i96,i96])).
-answer(cycle(i15,[i96,i96,i96,i96,i36,i96,i96,i96,i96,i36,i96])).
-answer(cycle(i15,[i96,i96,i96,i96,i36,i96,i96,i96,i96,i96,i96])).
-answer(cycle(i15,[i96,i96,i96,i96,i96,i36,i96,i36,i96,i36,i96])).
-answer(cycle(i15,[i96,i96,i96,i96,i96,i36,i96,i36,i96,i96,i96])).
-answer(cycle(i15,[i96,i96,i96,i96,i96,i36,i96,i96,i36,i96,i96])).
-answer(cycle(i15,[i96,i96,i96,i96,i96,i36,i96,i96,i96,i36,i96])).
-answer(cycle(i15,[i96,i96,i96,i96,i96,i36,i96,i96,i96,i96,i96])).
-answer(cycle(i15,[i96,i96,i96,i96,i96,i96,i36,i96,i36,i96,i96])).
-answer(cycle(i15,[i96,i96,i96,i96,i96,i96,i36,i96,i96,i36,i96])).
-answer(cycle(i15,[i96,i96,i96,i96,i96,i96,i36,i96,i96,i96,i96])).
-answer(cycle(i15,[i96,i96,i96,i96,i96,i96,i96,i36,i96,i36,i96])).
-answer(cycle(i15,[i96,i96,i96,i96,i96,i96,i96,i36,i96,i96,i96])).
-answer(cycle(i15,[i96,i96,i96,i96,i96,i96,i96,i96,i36,i96,i96])).
-answer(cycle(i15,[i96,i96,i96,i96,i96,i96,i96,i96,i96,i36,i96])).
-answer(cycle(i15,[i96,i96,i96,i96,i96,i96,i96,i96,i96,i96,i96])).
-answer(cycle(i15,[i9,i9,i9,i9,i9,i9,i9,i9,i9,i9,i9])).
-answer(cycle(i16,[i21,i42,i45,i93,i39,i45,i93,i45,i93,i63,i21])).
-answer(cycle(i16,[i21,i42,i45,i93,i45,i93,i39,i45,i93,i63,i21])).
-answer(cycle(i16,[i21,i42,i45,i93,i63,i21,i42,i45,i93,i63,i21])).
-answer(cycle(i16,[i27,i93,i39,i42,i45,i93,i45,i93,i39,i87,i27])).
-answer(cycle(i16,[i27,i93,i39,i45,i93,i39,i45,i93,i39,i87,i27])).
-answer(cycle(i16,[i27,i93,i39,i87,i27,i93,i45,i93,i39,i87,i27])).
-answer(cycle(i16,[i27,i93,i45,i93,i39,i42,i45,i93,i39,i87,i27])).
-answer(cycle(i16,[i27,i93,i45,i93,i39,i87,i27,i93,i39,i87,i27])).
-answer(cycle(i16,[i27,i93,i45,i93,i45,i93,i45,i93,i39,i87,i27])).
-answer(cycle(i16,[i39,i42,i45,i93,i39,i42,i45,i93,i45,i93,i39])).
-answer(cycle(i16,[i39,i42,i45,i93,i39,i45,i93,i39,i45,i93,i39])).
-answer(cycle(i16,[i39,i42,i45,i93,i39,i87,i27,i93,i45,i93,i39])).
-answer(cycle(i16,[i39,i42,i45,i93,i45,i93,i39,i42,i45,i93,i39])).
-answer(cycle(i16,[i39,i42,i45,i93,i45,i93,i39,i87,i27,i93,i39])).
-answer(cycle(i16,[i39,i42,i45,i93,i45,i93,i45,i93,i45,i93,i39])).
-answer(cycle(i16,[i39,i45,i93,i39,i42,i45,i93,i39,i45,i93,i39])).
-answer(cycle(i16,[i39,i45,i93,i39,i45,i93,i39,i42,i45,i93,i39])).
-answer(cycle(i16,[i39,i45,i93,i39,i45,i93,i39,i87,i27,i93,i39])).
-answer(cycle(i16,[i39,i45,i93,i39,i45,i93,i45,i93,i45,i93,i39])).
-answer(cycle(i16,[i39,i45,i93,i39,i87,i27,i93,i39,i45,i93,i39])).
-answer(cycle(i16,[i39,i45,i93,i45,i93,i39,i45,i93,i45,i93,i39])).
-answer(cycle(i16,[i39,i45,i93,i45,i93,i45,i93,i39,i45,i93,i39])).
-answer(cycle(i16,[i39,i45,i93,i45,i93,i63,i21,i42,i45,i93,i39])).
-answer(cycle(i16,[i39,i45,i93,i63,i21,i42,i45,i93,i45,i93,i39])).
-answer(cycle(i16,[i39,i87,i27,i93,i39,i42,i45,i93,i45,i93,i39])).
-answer(cycle(i16,[i39,i87,i27,i93,i39,i45,i93,i39,i45,i93,i39])).
-answer(cycle(i16,[i39,i87,i27,i93,i39,i87,i27,i93,i45,i93,i39])).
-answer(cycle(i16,[i39,i87,i27,i93,i45,i93,i39,i42,i45,i93,i39])).
-answer(cycle(i16,[i39,i87,i27,i93,i45,i93,i39,i87,i27,i93,i39])).
-answer(cycle(i16,[i39,i87,i27,i93,i45,i93,i45,i93,i45,i93,i39])).
-answer(cycle(i16,[i42,i45,i93,i39,i42,i45,i93,i45,i93,i39,i42])).
-answer(cycle(i16,[i42,i45,i93,i39,i45,i93,i39,i45,i93,i39,i42])).
-answer(cycle(i16,[i42,i45,i93,i39,i45,i93,i45,i93,i63,i21,i42])).
-answer(cycle(i16,[i42,i45,i93,i39,i87,i27,i93,i45,i93,i39,i42])).
-answer(cycle(i16,[i42,i45,i93,i45,i93,i39,i42,i45,i93,i39,i42])).
-answer(cycle(i16,[i42,i45,i93,i45,i93,i39,i45,i93,i63,i21,i42])).
-answer(cycle(i16,[i42,i45,i93,i45,i93,i39,i87,i27,i93,i39,i42])).
-answer(cycle(i16,[i42,i45,i93,i45,i93,i45,i93,i45,i93,i39,i42])).
-answer(cycle(i16,[i42,i45,i93,i63,i21,i42,i45,i93,i63,i21,i42])).
-answer(cycle(i16,[i45,i93,i39,i42,i45,i93,i39,i42,i45,i93,i45])).
-answer(cycle(i16,[i45,i93,i39,i42,i45,i93,i39,i45,i93,i39,i45])).
-answer(cycle(i16,[i45,i93,i39,i42,i45,i93,i39,i87,i27,i93,i45])).
-answer(cycle(i16,[i45,i93,i39,i42,i45,i93,i45,i93,i39,i42,i45])).
-answer(cycle(i16,[i45,i93,i39,i42,i45,i93,i45,i93,i45,i93,i45])).
-answer(cycle(i16,[i45,i93,i39,i45,i93,i39,i42,i45,i93,i39,i45])).
-answer(cycle(i16,[i45,i93,i39,i45,i93,i39,i45,i93,i39,i42,i45])).
-answer(cycle(i16,[i45,i93,i39,i45,i93,i39,i45,i93,i45,i93,i45])).
-answer(cycle(i16,[i45,i93,i39,i45,i93,i39,i87,i27,i93,i39,i45])).
-answer(cycle(i16,[i45,i93,i39,i45,i93,i45,i93,i39,i45,i93,i45])).
-answer(cycle(i16,[i45,i93,i39,i45,i93,i45,i93,i45,i93,i39,i45])).
-answer(cycle(i16,[i45,i93,i39,i45,i93,i45,i93,i63,i21,i42,i45])).
-answer(cycle(i16,[i45,i93,i39,i45,i93,i63,i21,i42,i45,i93,i45])).
-answer(cycle(i16,[i45,i93,i39,i87,i27,i93,i39,i42,i45,i93,i45])).
-answer(cycle(i16,[i45,i93,i39,i87,i27,i93,i39,i45,i93,i39,i45])).
-answer(cycle(i16,[i45,i93,i39,i87,i27,i93,i39,i87,i27,i93,i45])).
-answer(cycle(i16,[i45,i93,i39,i87,i27,i93,i45,i93,i39,i42,i45])).
-answer(cycle(i16,[i45,i93,i39,i87,i27,i93,i45,i93,i45,i93,i45])).
-answer(cycle(i16,[i45,i93,i45,i93,i39,i42,i45,i93,i39,i42,i45])).
-answer(cycle(i16,[i45,i93,i45,i93,i39,i42,i45,i93,i45,i93,i45])).
-answer(cycle(i16,[i45,i93,i45,i93,i39,i45,i93,i39,i45,i93,i45])).
-answer(cycle(i16,[i45,i93,i45,i93,i39,i45,i93,i45,i93,i39,i45])).
-answer(cycle(i16,[i45,i93,i45,i93,i39,i45,i93,i63,i21,i42,i45])).
-answer(cycle(i16,[i45,i93,i45,i93,i39,i87,i27,i93,i39,i42,i45])).
-answer(cycle(i16,[i45,i93,i45,i93,i39,i87,i27,i93,i45,i93,i45])).
-answer(cycle(i16,[i45,i93,i45,i93,i45,i93,i39,i42,i45,i93,i45])).
-answer(cycle(i16,[i45,i93,i45,i93,i45,i93,i39,i45,i93,i39,i45])).
-answer(cycle(i16,[i45,i93,i45,i93,i45,i93,i39,i87,i27,i93,i45])).
-answer(cycle(i16,[i45,i93,i45,i93,i45,i93,i45,i93,i39,i42,i45])).
-answer(cycle(i16,[i45,i93,i45,i93,i45,i93,i45,i93,i45,i93,i45])).
-answer(cycle(i16,[i45,i93,i45,i93,i63,i21,i42,i45,i93,i39,i45])).
-answer(cycle(i16,[i45,i93,i63,i21,i42,i45,i93,i39,i45,i93,i45])).
-answer(cycle(i16,[i45,i93,i63,i21,i42,i45,i93,i45,i93,i39,i45])).
-answer(cycle(i16,[i45,i93,i63,i21,i42,i45,i93,i63,i21,i42,i45])).
-answer(cycle(i16,[i63,i21,i42,i45,i93,i39,i45,i93,i45,i93,i63])).
-answer(cycle(i16,[i63,i21,i42,i45,i93,i45,i93,i39,i45,i93,i63])).
-answer(cycle(i16,[i63,i21,i42,i45,i93,i63,i21,i42,i45,i93,i63])).
-answer(cycle(i16,[i87,i27,i93,i39,i42,i45,i93,i45,i93,i39,i87])).
-answer(cycle(i16,[i87,i27,i93,i39,i45,i93,i39,i45,i93,i39,i87])).
-answer(cycle(i16,[i87,i27,i93,i39,i87,i27,i93,i45,i93,i39,i87])).
-answer(cycle(i16,[i87,i27,i93,i45,i93,i39,i42,i45,i93,i39,i87])).
-answer(cycle(i16,[i87,i27,i93,i45,i93,i39,i87,i27,i93,i39,i87])).
-answer(cycle(i16,[i87,i27,i93,i45,i93,i45,i93,i45,i93,i39,i87])).
-answer(cycle(i16,[i93,i39,i42,i45,i93,i39,i42,i45,i93,i45,i93])).
-answer(cycle(i16,[i93,i39,i42,i45,i93,i39,i45,i93,i39,i45,i93])).
-answer(cycle(i16,[i93,i39,i42,i45,i93,i39,i87,i27,i93,i45,i93])).
-answer(cycle(i16,[i93,i39,i42,i45,i93,i45,i93,i39,i42,i45,i93])).
-answer(cycle(i16,[i93,i39,i42,i45,i93,i45,i93,i39,i87,i27,i93])).
-answer(cycle(i16,[i93,i39,i42,i45,i93,i45,i93,i45,i93,i45,i93])).
-answer(cycle(i16,[i93,i39,i45,i93,i39,i42,i45,i93,i39,i45,i93])).
-answer(cycle(i16,[i93,i39,i45,i93,i39,i45,i93,i39,i42,i45,i93])).
-answer(cycle(i16,[i93,i39,i45,i93,i39,i45,i93,i39,i87,i27,i93])).
-answer(cycle(i16,[i93,i39,i45,i93,i39,i45,i93,i45,i93,i45,i93])).
-answer(cycle(i16,[i93,i39,i45,i93,i39,i87,i27,i93,i39,i45,i93])).
-answer(cycle(i16,[i93,i39,i45,i93,i45,i93,i39,i45,i93,i45,i93])).
-answer(cycle(i16,[i93,i39,i45,i93,i45,i93,i45,i93,i39,i45,i93])).
-answer(cycle(i16,[i93,i39,i45,i93,i45,i93,i63,i21,i42,i45,i93])).
-answer(cycle(i16,[i93,i39,i45,i93,i63,i21,i42,i45,i93,i45,i93])).
-answer(cycle(i16,[i93,i39,i87,i27,i93,i39,i42,i45,i93,i45,i93])).
-answer(cycle(i16,[i93,i39,i87,i27,i93,i39,i45,i93,i39,i45,i93])).
-answer(cycle(i16,[i93,i39,i87,i27,i93,i39,i87,i27,i93,i45,i93])).
-answer(cycle(i16,[i93,i39,i87,i27,i93,i45,i93,i39,i42,i45,i93])).
-answer(cycle(i16,[i93,i39,i87,i27,i93,i45,i93,i39,i87,i27,i93])).
-answer(cycle(i16,[i93,i39,i87,i27,i93,i45,i93,i45,i93,i45,i93])).
-answer(cycle(i16,[i93,i45,i93,i39,i42,i45,i93,i39,i42,i45,i93])).
-answer(cycle(i16,[i93,i45,i93,i39,i42,i45,i93,i39,i87,i27,i93])).
-answer(cycle(i16,[i93,i45,i93,i39,i42,i45,i93,i45,i93,i45,i93])).
-answer(cycle(i16,[i93,i45,i93,i39,i45,i93,i39,i45,i93,i45,i93])).
-answer(cycle(i16,[i93,i45,i93,i39,i45,i93,i45,i93,i39,i45,i93])).
-answer(cycle(i16,[i93,i45,i93,i39,i45,i93,i63,i21,i42,i45,i93])).
-answer(cycle(i16,[i93,i45,i93,i39,i87,i27,i93,i39,i42,i45,i93])).
-answer(cycle(i16,[i93,i45,i93,i39,i87,i27,i93,i39,i87,i27,i93])).
-answer(cycle(i16,[i93,i45,i93,i39,i87,i27,i93,i45,i93,i45,i93])).
-answer(cycle(i16,[i93,i45,i93,i45,i93,i39,i42,i45,i93,i45,i93])).
-answer(cycle(i16,[i93,i45,i93,i45,i93,i39,i45,i93,i39,i45,i93])).
-answer(cycle(i16,[i93,i45,i93,i45,i93,i39,i87,i27,i93,i45,i93])).
-answer(cycle(i16,[i93,i45,i93,i45,i93,i45,i93,i39,i42,i45,i93])).
-answer(cycle(i16,[i93,i45,i93,i45,i93,i45,i93,i39,i87,i27,i93])).
-answer(cycle(i16,[i93,i45,i93,i45,i93,i45,i93,i45,i93,i45,i93])).
-answer(cycle(i16,[i93,i45,i93,i63,i21,i42,i45,i93,i39,i45,i93])).
-answer(cycle(i16,[i93,i63,i21,i42,i45,i93,i39,i45,i93,i45,i93])).
-answer(cycle(i16,[i93,i63,i21,i42,i45,i93,i45,i93,i39,i45,i93])).
-answer(cycle(i16,[i93,i63,i21,i42,i45,i93,i63,i21,i42,i45,i93])).
-answer(cycle(i17,[i0,i30,i33,i63,i42,i54,i0,i30,i33,i75,i0])).
-answer(cycle(i17,[i0,i30,i33,i75,i0,i30,i33,i63,i42,i54,i0])).
-answer(cycle(i17,[i0,i30,i33,i75,i30,i33,i75,i30,i33,i75,i0])).
-answer(cycle(i17,[i30,i33,i63,i42,i54,i0,i30,i33,i75,i0,i30])).
-answer(cycle(i17,[i30,i33,i75,i0,i30,i33,i63,i42,i54,i0,i30])).
-answer(cycle(i17,[i30,i33,i75,i0,i30,i33,i75,i30,i33,i75,i30])).
-answer(cycle(i17,[i30,i33,i75,i30,i33,i75,i0,i30,i33,i75,i30])).
-answer(cycle(i17,[i30,i33,i75,i30,i33,i75,i30,i33,i75,i0,i30])).
-answer(cycle(i17,[i33,i63,i42,i54,i0,i30,i33,i75,i0,i30,i33])).
-answer(cycle(i17,[i33,i75,i0,i30,i33,i63,i42,i54,i0,i30,i33])).
-answer(cycle(i17,[i33,i75,i0,i30,i33,i75,i30,i33,i75,i30,i33])).
-answer(cycle(i17,[i33,i75,i30,i33,i75,i0,i30,i33,i75,i30,i33])).
-answer(cycle(i17,[i33,i75,i30,i33,i75,i30,i33,i75,i0,i30,i33])).
-answer(cycle(i17,[i42,i54,i0,i30,i33,i75,i0,i30,i33,i63,i42])).
-answer(cycle(i17,[i54,i0,i30,i33,i75,i0,i30,i33,i63,i42,i54])).
-answer(cycle(i17,[i63,i42,i54,i0,i30,i33,i75,i0,i30,i33,i63])).
-answer(cycle(i17,[i75,i0,i30,i33,i63,i42,i54,i0,i30,i33,i75])).
-answer(cycle(i17,[i75,i0,i30,i33,i75,i30,i33,i75,i30,i33,i75])).
-answer(cycle(i17,[i75,i30,i33,i75,i0,i30,i33,i75,i30,i33,i75])).
-answer(cycle(i17,[i75,i30,i33,i75,i30,i33,i75,i0,i30,i33,i75])).
-answer(cycle(i18,[i75,i75,i75,i75,i75,i75,i75,i75,i75,i75,i75])).
-answer(cycle(i19,[i12,i93,i66,i36,i21,i21,i21,i21,i87,i33,i12])).
-answer(cycle(i19,[i12,i93,i66,i36,i21,i87,i69,i36,i72,i33,i12])).
-answer(cycle(i19,[i12,i93,i66,i36,i72,i66,i36,i21,i87,i33,i12])).
-answer(cycle(i19,[i21,i21,i21,i21,i21,i21,i21,i21,i21,i21,i21])).
-answer(cycle(i19,[i21,i21,i21,i21,i21,i21,i21,i87,i69,i36,i21])).
-answer(cycle(i19,[i21,i21,i21,i21,i21,i21,i87,i69,i36,i21,i21])).
-answer(cycle(i19,[i21,i21,i21,i21,i21,i87,i69,i36,i21,i21,i21])).
-answer(cycle(i19,[i21,i21,i21,i21,i87,i33,i12,i93,i66,i36,i21])).
-answer(cycle(i19,[i21,i21,i21,i21,i87,i69,i36,i21,i21,i21,i21])).
-answer(cycle(i19,[i21,i21,i21,i21,i87,i69,i36,i72,i66,i36,i21])).
-answer(cycle(i19,[i21,i21,i21,i87,i33,i12,i93,i66,i36,i21,i21])).
-answer(cycle(i19,[i21,i21,i21,i87,i69,i36,i21,i21,i21,i21,i21])).
-answer(cycle(i19,[i21,i21,i21,i87,i69,i36,i21,i87,i69,i36,i21])).
-answer(cycle(i19,[i21,i21,i21,i87,i69,i36,i72,i66,i36,i21,i21])).
-answer(cycle(i19,[i21,i21,i87,i33,i12,i93,i66,i36,i21,i21,i21])).
-answer(cycle(i19,[i21,i21,i87,i69,i36,i21,i21,i21,i21,i21,i21])).
-answer(cycle(i19,[i21,i21,i87,i69,i36,i21,i21,i87,i69,i36,i21])).
-answer(cycle(i19,[i21,i21,i87,i69,i36,i21,i87,i69,i36,i21,i21])).
-answer(cycle(i19,[i21,i21,i87,i69,i36,i72,i66,i36,i21,i21,i21])).
-answer(cycle(i19,[i21,i87,i33,i12,i93,i66,i36,i21,i21,i21,i21])).
-answer(cycle(i19,[i21,i87,i33,i12,i93,i66,i36,i72,i66,i36,i21])).
-answer(cycle(i19,[i21,i87,i69,i36,i21,i21,i21,i21,i21,i21,i21])).
-answer(cycle(i19,[i21,i87,i69,i36,i21,i21,i21,i87,i69,i36,i21])).
-answer(cycle(i19,[i21,i87,i69,i36,i21,i21,i87,i69,i36,i21,i21])).
-answer(cycle(i19,[i21,i87,i69,i36,i21,i87,i69,i36,i21,i21,i21])).
-answer(cycle(i19,[i21,i87,i69,i36,i72,i33,i12,i93,i66,i36,i21])).
-answer(cycle(i19,[i21,i87,i69,i36,i72,i66,i36,i21,i21,i21,i21])).
-answer(cycle(i19,[i21,i87,i69,i36,i72,i66,i36,i72,i66,i36,i21])).
-answer(cycle(i19,[i33,i12,i93,i66,i36,i21,i21,i21,i21,i87,i33])).
-answer(cycle(i19,[i33,i12,i93,i66,i36,i21,i87,i69,i36,i72,i33])).
-answer(cycle(i19,[i33,i12,i93,i66,i36,i72,i66,i36,i21,i87,i33])).
-answer(cycle(i19,[i36,i21,i21,i21,i21,i21,i21,i21,i87,i69,i36])).
-answer(cycle(i19,[i36,i21,i21,i21,i21,i87,i33,i12,i93,i66,i36])).
-answer(cycle(i19,[i36,i21,i21,i21,i21,i87,i69,i36,i72,i66,i36])).
-answer(cycle(i19,[i36,i21,i21,i21,i87,i69,i36,i21,i87,i69,i36])).
-answer(cycle(i19,[i36,i21,i21,i87,i69,i36,i21,i21,i87,i69,i36])).
-answer(cycle(i19,[i36,i21,i87,i33,i12,i93,i66,i36,i72,i66,i36])).
-answer(cycle(i19,[i36,i21,i87,i69,i36,i21,i21,i21,i87,i69,i36])).
-answer(cycle(i19,[i36,i21,i87,i69,i36,i72,i33,i12,i93,i66,i36])).
-answer(cycle(i19,[i36,i21,i87,i69,i36,i72,i66,i36,i72,i66,i36])).
-answer(cycle(i19,[i36,i72,i33,i12,i93,i66,i36,i21,i87,i69,i36])).
-answer(cycle(i19,[i36,i72,i66,i36,i21,i21,i21,i21,i87,i69,i36])).
-answer(cycle(i19,[i36,i72,i66,i36,i21,i87,i33,i12,i93,i66,i36])).
-answer(cycle(i19,[i36,i72,i66,i36,i21,i87,i69,i36,i72,i66,i36])).
-answer(cycle(i19,[i36,i72,i66,i36,i72,i66,i36,i21,i87,i69,i36])).
-answer(cycle(i19,[i66,i36,i21,i21,i21,i21,i87,i33,i12,i93,i66])).
-answer(cycle(i19,[i66,i36,i21,i21,i21,i21,i87,i69,i36,i72,i66])).
-answer(cycle(i19,[i66,i36,i21,i87,i33,i12,i93,i66,i36,i72,i66])).
-answer(cycle(i19,[i66,i36,i21,i87,i69,i36,i72,i33,i12,i93,i66])).
-answer(cycle(i19,[i66,i36,i21,i87,i69,i36,i72,i66,i36,i72,i66])).
-answer(cycle(i19,[i66,i36,i72,i66,i36,i21,i87,i33,i12,i93,i66])).
-answer(cycle(i19,[i66,i36,i72,i66,i36,i21,i87,i69,i36,i72,i66])).
-answer(cycle(i19,[i69,i36,i21,i21,i21,i21,i21,i21,i21,i87,i69])).
-answer(cycle(i19,[i69,i36,i21,i21,i21,i87,i69,i36,i21,i87,i69])).
-answer(cycle(i19,[i69,i36,i21,i21,i87,i69,i36,i21,i21,i87,i69])).
-answer(cycle(i19,[i69,i36,i21,i87,i69,i36,i21,i21,i21,i87,i69])).
-answer(cycle(i19,[i69,i36,i72,i33,i12,i93,i66,i36,i21,i87,i69])).
-answer(cycle(i19,[i69,i36,i72,i66,i36,i21,i21,i21,i21,i87,i69])).
-answer(cycle(i19,[i69,i36,i72,i66,i36,i72,i66,i36,i21,i87,i69])).
-answer(cycle(i19,[i72,i33,i12,i93,i66,i36,i21,i87,i69,i36,i72])).
-answer(cycle(i19,[i72,i66,i36,i21,i21,i21,i21,i87,i69,i36,i72])).
-answer(cycle(i19,[i72,i66,i36,i21,i87,i33,i12,i93,i66,i36,i72])).
-answer(cycle(i19,[i72,i66,i36,i21,i87,i69,i36,i72,i66,i36,i72])).
-answer(cycle(i19,[i72,i66,i36,i72,i66,i36,i21,i87,i69,i36,i72])).
-answer(cycle(i19,[i87,i33,i12,i93,i66,i36,i21,i21,i21,i21,i87])).
-answer(cycle(i19,[i87,i33,i12,i93,i66,i36,i72,i66,i36,i21,i87])).
-answer(cycle(i19,[i87,i69,i36,i21,i21,i21,i21,i21,i21,i21,i87])).
-answer(cycle(i19,[i87,i69,i36,i21,i21,i21,i87,i69,i36,i21,i87])).
-answer(cycle(i19,[i87,i69,i36,i21,i21,i87,i69,i36,i21,i21,i87])).
-answer(cycle(i19,[i87,i69,i36,i21,i87,i69,i36,i21,i21,i21,i87])).
-answer(cycle(i19,[i87,i69,i36,i72,i33,i12,i93,i66,i36,i21,i87])).
-answer(cycle(i19,[i87,i69,i36,i72,i66,i36,i21,i21,i21,i21,i87])).
-answer(cycle(i19,[i87,i69,i36,i72,i66,i36,i72,i66,i36,i21,i87])).
-answer(cycle(i19,[i93,i66,i36,i21,i21,i21,i21,i87,i33,i12,i93])).
-answer(cycle(i19,[i93,i66,i36,i21,i87,i69,i36,i72,i33,i12,i93])).
-answer(cycle(i19,[i93,i66,i36,i72,i66,i36,i21,i87,i33,i12,i93])).
-answer(cycle(i2,[i27,i66,i27,i66,i27,i66,i27,i66,i27,i66,i27])).
-answer(cycle(i2,[i3,i3,i3,i3,i3,i3,i3,i3,i3,i3,i3])).
-answer(cycle(i2,[i66,i27,i66,i27,i66,i27,i66,i27,i66,i27,i66])).
-answer(cycle(i21,[i3,i3,i3,i3,i3,i3,i3,i3,i3,i3,i3])).
-answer(cycle(i24,[i24,i33,i24,i33,i24,i33,i24,i33,i24,i33,i24])).
-answer(cycle(i24,[i27,i27,i27,i27,i27,i27,i27,i27,i27,i27,i27])).
-answer(cycle(i24,[i33,i24,i33,i24,i33,i24,i33,i24,i33,i24,i33])).
-answer(cycle(i24,[i57,i57,i57,i57,i57,i57,i57,i57,i57,i57,i57])).
-answer(cycle(i24,[i60,i87,i60,i87,i60,i87,i60,i87,i60,i87,i60])).
-answer(cycle(i24,[i78,i78,i78,i78,i78,i78,i78,i78,i78,i78,i78])).
-answer(cycle(i24,[i87,i60,i87,i60,i87,i60,i87,i60,i87,i60,i87])).
-answer(cycle(i25,[i6,i6,i6,i6,i6,i6,i6,i6,i6,i6,i6])).
-answer(cycle(i27,[i21,i72,i21,i72,i21,i72,i21,i72,i21,i72,i21])).
-answer(cycle(i27,[i39,i84,i39,i84,i39,i84,i39,i84,i39,i84,i39])).
-answer(cycle(i27,[i72,i21,i72,i21,i72,i21,i72,i21,i72,i21,i72])).
-answer(cycle(i27,[i84,i39,i84,i39,i84,i39,i84,i39,i84,i39,i84])).
-answer(cycle(i28,[i15,i36,i6,i87,i81,i15,i36,i6,i87,i81,i15])).
-answer(cycle(i28,[i18,i78,i18,i78,i18,i78,i18,i78,i18,i78,i18])).
-answer(cycle(i28,[i36,i6,i87,i81,i15,i36,i6,i87,i81,i15,i36])).
-answer(cycle(i28,[i6,i87,i81,i15,i36,i6,i87,i81,i15,i36,i6])).
-answer(cycle(i28,[i78,i18,i78,i18,i78,i18,i78,i18,i78,i18,i78])).
-answer(cycle(i28,[i81,i15,i36,i6,i87,i81,i15,i36,i6,i87,i81])).
-answer(cycle(i28,[i87,i81,i15,i36,i6,i87,i81,i15,i36,i6,i87])).
-answer(cycle(i29,[i12,i12,i12,i12,i12,i12,i12,i12,i12,i12,i12])).
-answer(cycle(i29,[i39,i39,i39,i39,i39,i39,i39,i39,i39,i39,i39])).
-answer(cycle(i3,[i96,i96,i96,i96,i96,i96,i96,i96,i96,i96,i96])).
-answer(cycle(i31,[i15,i3,i15,i3,i15,i3,i15,i3,i15,i3,i15])).
-answer(cycle(i31,[i3,i15,i3,i15,i3,i15,i3,i15,i3,i15,i3])).
-answer(cycle(i31,[i66,i66,i66,i66,i66,i66,i66,i66,i66,i66,i66])).
-answer(cycle(i32,[i0,i33,i15,i60,i63,i0,i33,i15,i60,i63,i0])).
-answer(cycle(i32,[i15,i60,i63,i0,i33,i15,i60,i63,i0,i33,i15])).
-answer(cycle(i32,[i33,i15,i60,i63,i0,i33,i15,i60,i63,i0,i33])).
-answer(cycle(i32,[i60,i63,i0,i33,i15,i60,i63,i0,i33,i15,i60])).
-answer(cycle(i32,[i63,i0,i33,i15,i60,i63,i0,i33,i15,i60,i63])).
-answer(cycle(i32,[i6,i90,i6,i90,i6,i90,i6,i90,i6,i90,i6])).
-answer(cycle(i32,[i90,i6,i90,i6,i90,i6,i90,i6,i90,i6,i90])).
-answer(cycle(i33,[i69,i69,i69,i69,i69,i69,i69,i69,i69,i69,i69])).
-answer(cycle(i34,[i0,i30,i0,i30,i0,i30,i0,i30,i0,i30,i0])).
-answer(cycle(i34,[i18,i18,i18,i18,i18,i18,i18,i18,i18,i18,i18])).
-answer(cycle(i34,[i24,i24,i24,i24,i24,i24,i24,i24,i24,i24,i24])).
-answer(cycle(i34,[i30,i0,i30,i0,i30,i0,i30,i0,i30,i0,i30])).
-answer(cycle(i34,[i60,i60,i60,i60,i60,i60,i60,i60,i60,i60,i60])).
-answer(cycle(i34,[i81,i81,i81,i81,i81,i81,i81,i81,i81,i81,i81])).
-answer(cycle(i35,[i45,i45,i45,i45,i45,i45,i45,i45,i45,i45,i45])).
-answer(cycle(i36,[i24,i84,i51,i36,i24,i84,i51,i36,i93,i36,i24])).
-answer(cycle(i36,[i24,i84,i51,i36,i72,i24,i84,i51,i36,i72,i24])).
-answer(cycle(i36,[i24,i84,i51,i36,i93,i36,i24,i84,i51,i36,i24])).
-answer(cycle(i36,[i24,i84,i51,i36,i93,i36,i93,i36,i93,i36,i24])).
-answer(cycle(i36,[i36,i24,i84,i51,i36,i24,i84,i51,i36,i93,i36])).
-answer(cycle(i36,[i36,i24,i84,i51,i36,i93,i36,i24,i84,i51,i36])).
-answer(cycle(i36,[i36,i24,i84,i51,i36,i93,i36,i93,i36,i93,i36])).
-answer(cycle(i36,[i36,i72,i24,i84,i51,i36,i72,i24,i84,i51,i36])).
-answer(cycle(i36,[i36,i93,i36,i24,i84,i51,i36,i24,i84,i51,i36])).
-answer(cycle(i36,[i36,i93,i36,i24,i84,i51,i36,i93,i36,i93,i36])).
-answer(cycle(i36,[i36,i93,i36,i93,i36,i24,i84,i51,i36,i93,i36])).
-answer(cycle(i36,[i36,i93,i36,i93,i36,i93,i36,i24,i84,i51,i36])).
-answer(cycle(i36,[i36,i93,i36,i93,i36,i93,i36,i93,i36,i93,i36])).
-answer(cycle(i36,[i51,i36,i24,i84,i51,i36,i93,i36,i24,i84,i51])).
-answer(cycle(i36,[i51,i36,i72,i24,i84,i51,i36,i72,i24,i84,i51])).
-answer(cycle(i36,[i51,i36,i93,i36,i24,i84,i51,i36,i24,i84,i51])).
-answer(cycle(i36,[i51,i36,i93,i36,i93,i36,i93,i36,i24,i84,i51])).
-answer(cycle(i36,[i72,i24,i84,i51,i36,i72,i24,i84,i51,i36,i72])).
-answer(cycle(i36,[i84,i51,i36,i24,i84,i51,i36,i93,i36,i24,i84])).
-answer(cycle(i36,[i84,i51,i36,i72,i24,i84,i51,i36,i72,i24,i84])).
-answer(cycle(i36,[i84,i51,i36,i93,i36,i24,i84,i51,i36,i24,i84])).
-answer(cycle(i36,[i84,i51,i36,i93,i36,i93,i36,i93,i36,i24,i84])).
-answer(cycle(i36,[i93,i36,i24,i84,i51,i36,i24,i84,i51,i36,i93])).
-answer(cycle(i36,[i93,i36,i24,i84,i51,i36,i93,i36,i93,i36,i93])).
-answer(cycle(i36,[i93,i36,i93,i36,i24,i84,i51,i36,i93,i36,i93])).
-answer(cycle(i36,[i93,i36,i93,i36,i93,i36,i24,i84,i51,i36,i93])).
-answer(cycle(i36,[i93,i36,i93,i36,i93,i36,i93,i36,i93,i36,i93])).
-answer(cycle(i37,[i6,i6,i6,i6,i6,i6,i6,i6,i6,i6,i6])).
-answer(cycle(i39,[i90,i90,i90,i90,i90,i90,i90,i90,i90,i90,i90])).
-answer(cycle(i39,[i96,i96,i96,i96,i96,i96,i96,i96,i96,i96,i96])).
-answer(cycle(i4,[i57,i57,i57,i57,i57,i57,i57,i57,i57,i57,i57])).
-answer(cycle(i4,[i69,i69,i69,i69,i69,i69,i69,i69,i69,i69,i69])).
-answer(cycle(i42,[i72,i75,i72,i75,i72,i75,i72,i75,i72,i75,i72])).
-answer(cycle(i42,[i75,i72,i75,i72,i75,i72,i75,i72,i75,i72,i75])).
-answer(cycle(i42,[i81,i81,i81,i81,i81,i81,i81,i81,i81,i81,i81])).
-answer(cycle(i42,[i87,i87,i87,i87,i87,i87,i87,i87,i87,i87,i87])).
-answer(cycle(i42,[i9,i9,i9,i9,i9,i9,i9,i9,i9,i9,i9])).
-answer(cycle(i43,[i18,i18,i18,i18,i18,i18,i18,i18,i18,i18,i18])).
-answer(cycle(i43,[i60,i60,i60,i60,i60,i60,i60,i60,i60,i60,i60])).
-answer(cycle(i44,[i27,i54,i51,i63,i48,i27,i54,i51,i63,i48,i27])).
-answer(cycle(i44,[i48,i27,i54,i51,i63,i48,i27,i54,i51,i63,i48])).
-answer(cycle(i44,[i51,i63,i48,i27,i54,i51,i63,i48,i27,i54,i51])).
-answer(cycle(i44,[i54,i51,i63,i48,i27,i54,i51,i63,i48,i27,i54])).
-answer(cycle(i44,[i63,i48,i27,i54,i51,i63,i48,i27,i54,i51,i63])).
-answer(cycle(i45,[i0,i0,i0,i0,i0,i0,i0,i0,i0,i0,i0])).
-answer(cycle(i48,[i69,i69,i69,i69,i69,i69,i69,i69,i69,i69,i69])).
-answer(cycle(i48,[i72,i90,i72,i90,i72,i90,i72,i90,i72,i90,i72])).
-answer(cycle(i48,[i90,i72,i90,i72,i90,i72,i90,i72,i90,i72,i90])).
-answer(cycle(i5,[i0,i63,i81,i15,i60,i15,i60,i15,i60,i48,i0])).
-answer(cycle(i5,[i0,i63,i81,i15,i60,i15,i81,i15,i60,i48,i0])).
-answer(cycle(i5,[i0,i63,i81,i15,i81,i15,i60,i15,i60,i48,i0])).
-answer(cycle(i5,[i0,i63,i81,i15,i81,i15,i81,i15,i60,i48,i0])).
-answer(cycle(i5,[i0,i63,i9,i0,i63,i9,i93,i9,i93,i9,i0])).
-answer(cycle(i5,[i0,i63,i9,i0,i81,i15,i60,i15,i60,i48,i0])).
-answer(cycle(i5,[i0,i63,i9,i0,i81,i15,i81,i15,i60,i48,i0])).
-answer(cycle(i5,[i0,i63,i9,i93,i81,i15,i60,i15,i60,i48,i0])).
-answer(cycle(i5,[i0,i63,i9,i93,i81,i15,i81,i15,i60,i48,i0])).
-answer(cycle(i5,[i0,i63,i9,i93,i9,i0,i63,i9,i93,i9,i0])).
-answer(cycle(i5,[i0,i63,i9,i93,i9,i0,i81,i15,i60,i48,i0])).
-answer(cycle(i5,[i0,i63,i9,i93,i9,i93,i81,i15,i60,i48,i0])).
-answer(cycle(i5,[i0,i63,i9,i93,i9,i93,i9,i0,i63,i9,i0])).
-answer(cycle(i5,[i0,i81,i15,i60,i15,i60,i48,i0,i63,i9,i0])).
-answer(cycle(i5,[i0,i81,i15,i60,i48,i0,i63,i9,i93,i9,i0])).
-answer(cycle(i5,[i0,i81,i15,i60,i48,i0,i81,i15,i60,i48,i0])).
-answer(cycle(i5,[i0,i81,i15,i81,i15,i60,i48,i0,i63,i9,i0])).
-answer(cycle(i5,[i15,i60,i15,i60,i15,i60,i15,i60,i15,i60,i15])).
-answer(cycle(i5,[i15,i60,i15,i60,i15,i60,i15,i60,i15,i81,i15])).
-answer(cycle(i5,[i15,i60,i15,i60,i15,i60,i15,i81,i15,i60,i15])).
-answer(cycle(i5,[i15,i60,i15,i60,i15,i60,i15,i81,i15,i81,i15])).
-answer(cycle(i5,[i15,i60,i15,i60,i15,i60,i48,i0,i63,i81,i15])).
-answer(cycle(i5,[i15,i60,i15,i60,i15,i81,i15,i60,i15,i60,i15])).
-answer(cycle(i5,[i15,i60,i15,i60,i15,i81,i15,i60,i15,i81,i15])).
-answer(cycle(i5,[i15,i60,i15,i60,i15,i81,i15,i81,i15,i60,i15])).
-answer(cycle(i5,[i15,i60,i15,i60,i15,i81,i15,i81,i15,i81,i15])).
-answer(cycle(i5,[i15,i60,i15,i60,i48,i0,i63,i81,i15,i60,i15])).
-answer(cycle(i5,[i15,i60,i15,i60,i48,i0,i63,i81,i15,i81,i15])).
-answer(cycle(i5,[i15,i60,i15,i60,i48,i0,i63,i9,i0,i81,i15])).
-answer(cycle(i5,[i15,i60,i15,i60,i48,i0,i63,i9,i93,i81,i15])).
-answer(cycle(i5,[i15,i60,i15,i81,i15,i60,i15,i60,i15,i60,i15])).
-answer(cycle(i5,[i15,i60,i15,i81,i15,i60,i15,i60,i15,i81,i15])).
-answer(cycle(i5,[i15,i60,i15,i81,i15,i60,i15,i81,i15,i60,i15])).
-answer(cycle(i5,[i15,i60,i15,i81,i15,i60,i15,i81,i15,i81,i15])).
-answer(cycle(i5,[i15,i60,i15,i81,i15,i60,i48,i0,i63,i81,i15])).
-answer(cycle(i5,[i15,i60,i15,i81,i15,i81,i15,i60,i15,i60,i15])).
-answer(cycle(i5,[i15,i60,i15,i81,i15,i81,i15,i60,i15,i81,i15])).
-answer(cycle(i5,[i15,i60,i15,i81,i15,i81,i15,i81,i15,i60,i15])).
-answer(cycle(i5,[i15,i60,i15,i81,i15,i81,i15,i81,i15,i81,i15])).
-answer(cycle(i5,[i15,i60,i48,i0,i63,i81,i15,i60,i15,i60,i15])).
-answer(cycle(i5,[i15,i60,i48,i0,i63,i81,i15,i60,i15,i81,i15])).
-answer(cycle(i5,[i15,i60,i48,i0,i63,i81,i15,i81,i15,i60,i15])).
-answer(cycle(i5,[i15,i60,i48,i0,i63,i81,i15,i81,i15,i81,i15])).
-answer(cycle(i5,[i15,i60,i48,i0,i63,i9,i0,i81,i15,i60,i15])).
-answer(cycle(i5,[i15,i60,i48,i0,i63,i9,i0,i81,i15,i81,i15])).
-answer(cycle(i5,[i15,i60,i48,i0,i63,i9,i93,i81,i15,i60,i15])).
-answer(cycle(i5,[i15,i60,i48,i0,i63,i9,i93,i81,i15,i81,i15])).
-answer(cycle(i5,[i15,i60,i48,i0,i63,i9,i93,i9,i0,i81,i15])).
-answer(cycle(i5,[i15,i60,i48,i0,i63,i9,i93,i9,i93,i81,i15])).
-answer(cycle(i5,[i15,i60,i48,i0,i81,i15,i60,i48,i0,i81,i15])).
-answer(cycle(i5,[i15,i81,i15,i60,i15,i60,i15,i60,i15,i60,i15])).
-answer(cycle(i5,[i15,i81,i15,i60,i15,i60,i15,i60,i15,i81,i15])).
-answer(cycle(i5,[i15,i81,i15,i60,i15,i60,i15,i81,i15,i60,i15])).
-answer(cycle(i5,[i15,i81,i15,i60,i15,i60,i15,i81,i15,i81,i15])).
-answer(cycle(i5,[i15,i81,i15,i60,i15,i60,i48,i0,i63,i81,i15])).
-answer(cycle(i5,[i15,i81,i15,i60,i15,i81,i15,i60,i15,i60,i15])).
-answer(cycle(i5,[i15,i81,i15,i60,i15,i81,i15,i60,i15,i81,i15])).
-answer(cycle(i5,[i15,i81,i15,i60,i15,i81,i15,i81,i15,i60,i15])).
-answer(cycle(i5,[i15,i81,i15,i60,i15,i81,i15,i81,i15,i81,i15])).
-answer(cycle(i5,[i15,i81,i15,i60,i48,i0,i63,i81,i15,i60,i15])).
-answer(cycle(i5,[i15,i81,i15,i60,i48,i0,i63,i81,i15,i81,i15])).
-answer(cycle(i5,[i15,i81,i15,i60,i48,i0,i63,i9,i0,i81,i15])).
-answer(cycle(i5,[i15,i81,i15,i60,i48,i0,i63,i9,i93,i81,i15])).
-answer(cycle(i5,[i15,i81,i15,i81,i15,i60,i15,i60,i15,i60,i15])).
-answer(cycle(i5,[i15,i81,i15,i81,i15,i60,i15,i60,i15,i81,i15])).
-answer(cycle(i5,[i15,i81,i15,i81,i15,i60,i15,i81,i15,i60,i15])).
-answer(cycle(i5,[i15,i81,i15,i81,i15,i60,i15,i81,i15,i81,i15])).
-answer(cycle(i5,[i15,i81,i15,i81,i15,i60,i48,i0,i63,i81,i15])).
-answer(cycle(i5,[i15,i81,i15,i81,i15,i81,i15,i60,i15,i60,i15])).
-answer(cycle(i5,[i15,i81,i15,i81,i15,i81,i15,i60,i15,i81,i15])).
-answer(cycle(i5,[i15,i81,i15,i81,i15,i81,i15,i81,i15,i60,i15])).
-answer(cycle(i5,[i15,i81,i15,i81,i15,i81,i15,i81,i15,i81,i15])).
-answer(cycle(i5,[i48,i0,i63,i81,i15,i60,i15,i60,i15,i60,i48])).
-answer(cycle(i5,[i48,i0,i63,i81,i15,i60,i15,i81,i15,i60,i48])).
-answer(cycle(i5,[i48,i0,i63,i81,i15,i81,i15,i60,i15,i60,i48])).
-answer(cycle(i5,[i48,i0,i63,i81,i15,i81,i15,i81,i15,i60,i48])).
-answer(cycle(i5,[i48,i0,i63,i9,i0,i81,i15,i60,i15,i60,i48])).
-answer(cycle(i5,[i48,i0,i63,i9,i0,i81,i15,i81,i15,i60,i48])).
-answer(cycle(i5,[i48,i0,i63,i9,i93,i81,i15,i60,i15,i60,i48])).
-answer(cycle(i5,[i48,i0,i63,i9,i93,i81,i15,i81,i15,i60,i48])).
-answer(cycle(i5,[i48,i0,i63,i9,i93,i9,i0,i81,i15,i60,i48])).
-answer(cycle(i5,[i48,i0,i63,i9,i93,i9,i93,i81,i15,i60,i48])).
-answer(cycle(i5,[i48,i0,i81,i15,i60,i48,i0,i81,i15,i60,i48])).
-answer(cycle(i5,[i60,i15,i60,i15,i60,i15,i60,i15,i60,i15,i60])).
-answer(cycle(i5,[i60,i15,i60,i15,i60,i15,i60,i15,i81,i15,i60])).
-answer(cycle(i5,[i60,i15,i60,i15,i60,i15,i81,i15,i60,i15,i60])).
-answer(cycle(i5,[i60,i15,i60,i15,i60,i15,i81,i15,i81,i15,i60])).
-answer(cycle(i5,[i60,i15,i60,i15,i60,i48,i0,i63,i81,i15,i60])).
-answer(cycle(i5,[i60,i15,i60,i15,i81,i15,i60,i15,i60,i15,i60])).
-answer(cycle(i5,[i60,i15,i60,i15,i81,i15,i60,i15,i81,i15,i60])).
-answer(cycle(i5,[i60,i15,i60,i15,i81,i15,i81,i15,i60,i15,i60])).
-answer(cycle(i5,[i60,i15,i60,i15,i81,i15,i81,i15,i81,i15,i60])).
-answer(cycle(i5,[i60,i15,i60,i48,i0,i63,i81,i15,i60,i15,i60])).
-answer(cycle(i5,[i60,i15,i60,i48,i0,i63,i81,i15,i81,i15,i60])).
-answer(cycle(i5,[i60,i15,i60,i48,i0,i63,i9,i0,i81,i15,i60])).
-answer(cycle(i5,[i60,i15,i60,i48,i0,i63,i9,i93,i81,i15,i60])).
-answer(cycle(i5,[i60,i15,i81,i15,i60,i15,i60,i15,i60,i15,i60])).
-answer(cycle(i5,[i60,i15,i81,i15,i60,i15,i60,i15,i81,i15,i60])).
-answer(cycle(i5,[i60,i15,i81,i15,i60,i15,i81,i15,i60,i15,i60])).
-answer(cycle(i5,[i60,i15,i81,i15,i60,i15,i81,i15,i81,i15,i60])).
-answer(cycle(i5,[i60,i15,i81,i15,i60,i48,i0,i63,i81,i15,i60])).
-answer(cycle(i5,[i60,i15,i81,i15,i81,i15,i60,i15,i60,i15,i60])).
-answer(cycle(i5,[i60,i15,i81,i15,i81,i15,i60,i15,i81,i15,i60])).
-answer(cycle(i5,[i60,i15,i81,i15,i81,i15,i81,i15,i60,i15,i60])).
-answer(cycle(i5,[i60,i15,i81,i15,i81,i15,i81,i15,i81,i15,i60])).
-answer(cycle(i5,[i60,i48,i0,i63,i81,i15,i60,i15,i60,i15,i60])).
-answer(cycle(i5,[i60,i48,i0,i63,i81,i15,i60,i15,i81,i15,i60])).
-answer(cycle(i5,[i60,i48,i0,i63,i81,i15,i81,i15,i60,i15,i60])).
-answer(cycle(i5,[i60,i48,i0,i63,i81,i15,i81,i15,i81,i15,i60])).
-answer(cycle(i5,[i60,i48,i0,i63,i9,i0,i81,i15,i60,i15,i60])).
-answer(cycle(i5,[i60,i48,i0,i63,i9,i0,i81,i15,i81,i15,i60])).
-answer(cycle(i5,[i60,i48,i0,i63,i9,i93,i81,i15,i60,i15,i60])).
-answer(cycle(i5,[i60,i48,i0,i63,i9,i93,i81,i15,i81,i15,i60])).
-answer(cycle(i5,[i60,i48,i0,i63,i9,i93,i9,i0,i81,i15,i60])).
-answer(cycle(i5,[i60,i48,i0,i63,i9,i93,i9,i93,i81,i15,i60])).
-answer(cycle(i5,[i60,i48,i0,i81,i15,i60,i48,i0,i81,i15,i60])).
-answer(cycle(i5,[i63,i81,i15,i60,i15,i60,i15,i60,i48,i0,i63])).
-answer(cycle(i5,[i63,i81,i15,i60,i15,i81,i15,i60,i48,i0,i63])).
-answer(cycle(i5,[i63,i81,i15,i81,i15,i60,i15,i60,i48,i0,i63])).
-answer(cycle(i5,[i63,i81,i15,i81,i15,i81,i15,i60,i48,i0,i63])).
-answer(cycle(i5,[i63,i9,i0,i63,i9,i93,i9,i93,i9,i0,i63])).
-answer(cycle(i5,[i63,i9,i0,i81,i15,i60,i15,i60,i48,i0,i63])).
-answer(cycle(i5,[i63,i9,i0,i81,i15,i81,i15,i60,i48,i0,i63])).
-answer(cycle(i5,[i63,i9,i93,i81,i15,i60,i15,i60,i48,i0,i63])).
-answer(cycle(i5,[i63,i9,i93,i81,i15,i81,i15,i60,i48,i0,i63])).
-answer(cycle(i5,[i63,i9,i93,i9,i0,i63,i9,i93,i9,i0,i63])).
-answer(cycle(i5,[i63,i9,i93,i9,i0,i81,i15,i60,i48,i0,i63])).
-answer(cycle(i5,[i63,i9,i93,i9,i93,i81,i15,i60,i48,i0,i63])).
-answer(cycle(i5,[i63,i9,i93,i9,i93,i9,i0,i63,i9,i0,i63])).
-answer(cycle(i5,[i81,i15,i60,i15,i60,i15,i60,i15,i60,i15,i81])).
-answer(cycle(i5,[i81,i15,i60,i15,i60,i15,i60,i15,i81,i15,i81])).
-answer(cycle(i5,[i81,i15,i60,i15,i60,i15,i60,i48,i0,i63,i81])).
-answer(cycle(i5,[i81,i15,i60,i15,i60,i15,i81,i15,i60,i15,i81])).
-answer(cycle(i5,[i81,i15,i60,i15,i60,i15,i81,i15,i81,i15,i81])).
-answer(cycle(i5,[i81,i15,i60,i15,i60,i48,i0,i63,i81,i15,i81])).
-answer(cycle(i5,[i81,i15,i60,i15,i60,i48,i0,i63,i9,i0,i81])).
-answer(cycle(i5,[i81,i15,i60,i15,i60,i48,i0,i63,i9,i93,i81])).
-answer(cycle(i5,[i81,i15,i60,i15,i81,i15,i60,i15,i60,i15,i81])).
-answer(cycle(i5,[i81,i15,i60,i15,i81,i15,i60,i15,i81,i15,i81])).
-answer(cycle(i5,[i81,i15,i60,i15,i81,i15,i60,i48,i0,i63,i81])).
-answer(cycle(i5,[i81,i15,i60,i15,i81,i15,i81,i15,i60,i15,i81])).
-answer(cycle(i5,[i81,i15,i60,i15,i81,i15,i81,i15,i81,i15,i81])).
-answer(cycle(i5,[i81,i15,i60,i48,i0,i63,i81,i15,i60,i15,i81])).
-answer(cycle(i5,[i81,i15,i60,i48,i0,i63,i81,i15,i81,i15,i81])).
-answer(cycle(i5,[i81,i15,i60,i48,i0,i63,i9,i0,i81,i15,i81])).
-answer(cycle(i5,[i81,i15,i60,i48,i0,i63,i9,i93,i81,i15,i81])).
-answer(cycle(i5,[i81,i15,i60,i48,i0,i63,i9,i93,i9,i0,i81])).
-answer(cycle(i5,[i81,i15,i60,i48,i0,i63,i9,i93,i9,i93,i81])).
-answer(cycle(i5,[i81,i15,i60,i48,i0,i81,i15,i60,i48,i0,i81])).
-answer(cycle(i5,[i81,i15,i81,i15,i60,i15,i60,i15,i60,i15,i81])).
-answer(cycle(i5,[i81,i15,i81,i15,i60,i15,i60,i15,i81,i15,i81])).
-answer(cycle(i5,[i81,i15,i81,i15,i60,i15,i60,i48,i0,i63,i81])).
-answer(cycle(i5,[i81,i15,i81,i15,i60,i15,i81,i15,i60,i15,i81])).
-answer(cycle(i5,[i81,i15,i81,i15,i60,i15,i81,i15,i81,i15,i81])).
-answer(cycle(i5,[i81,i15,i81,i15,i60,i48,i0,i63,i81,i15,i81])).
-answer(cycle(i5,[i81,i15,i81,i15,i60,i48,i0,i63,i9,i0,i81])).
-answer(cycle(i5,[i81,i15,i81,i15,i60,i48,i0,i63,i9,i93,i81])).
-answer(cycle(i5,[i81,i15,i81,i15,i81,i15,i60,i15,i60,i15,i81])).
-answer(cycle(i5,[i81,i15,i81,i15,i81,i15,i60,i15,i81,i15,i81])).
-answer(cycle(i5,[i81,i15,i81,i15,i81,i15,i60,i48,i0,i63,i81])).
-answer(cycle(i5,[i81,i15,i81,i15,i81,i15,i81,i15,i60,i15,i81])).
-answer(cycle(i5,[i81,i15,i81,i15,i81,i15,i81,i15,i81,i15,i81])).
-answer(cycle(i5,[i93,i81,i15,i60,i15,i60,i48,i0,i63,i9,i93])).
-answer(cycle(i5,[i93,i81,i15,i60,i48,i0,i63,i9,i93,i9,i93])).
-answer(cycle(i5,[i93,i81,i15,i81,i15,i60,i48,i0,i63,i9,i93])).
-answer(cycle(i5,[i93,i9,i0,i63,i9,i0,i63,i9,i93,i9,i93])).
-answer(cycle(i5,[i93,i9,i0,i63,i9,i93,i9,i0,i63,i9,i93])).
-answer(cycle(i5,[i93,i9,i0,i81,i15,i60,i48,i0,i63,i9,i93])).
-answer(cycle(i5,[i93,i9,i93,i81,i15,i60,i48,i0,i63,i9,i93])).
-answer(cycle(i5,[i93,i9,i93,i9,i0,i63,i9,i0,i63,i9,i93])).
-answer(cycle(i5,[i93,i9,i93,i9,i93,i9,i93,i9,i93,i9,i93])).
-answer(cycle(i5,[i9,i0,i63,i9,i0,i63,i9,i93,i9,i93,i9])).
-answer(cycle(i5,[i9,i0,i63,i9,i93,i9,i0,i63,i9,i93,i9])).
-answer(cycle(i5,[i9,i0,i63,i9,i93,i9,i93,i9,i0,i63,i9])).
-answer(cycle(i5,[i9,i0,i81,i15,i60,i15,i60,i48,i0,i63,i9])).
-answer(cycle(i5,[i9,i0,i81,i15,i60,i48,i0,i63,i9,i93,i9])).
-answer(cycle(i5,[i9,i0,i81,i15,i81,i15,i60,i48,i0,i63,i9])).
-answer(cycle(i5,[i9,i93,i81,i15,i60,i15,i60,i48,i0,i63,i9])).
-answer(cycle(i5,[i9,i93,i81,i15,i60,i48,i0,i63,i9,i93,i9])).
-answer(cycle(i5,[i9,i93,i81,i15,i81,i15,i60,i48,i0,i63,i9])).
-answer(cycle(i5,[i9,i93,i9,i0,i63,i9,i0,i63,i9,i93,i9])).
-answer(cycle(i5,[i9,i93,i9,i0,i63,i9,i93,i9,i0,i63,i9])).
-answer(cycle(i5,[i9,i93,i9,i0,i81,i15,i60,i48,i0,i63,i9])).
-answer(cycle(i5,[i9,i93,i9,i93,i81,i15,i60,i48,i0,i63,i9])).
-answer(cycle(i5,[i9,i93,i9,i93,i9,i0,i63,i9,i0,i63,i9])).
-answer(cycle(i5,[i9,i93,i9,i93,i9,i93,i9,i93,i9,i93,i9])).
-answer(cycle(i50,[i12,i27,i15,i12,i27,i30,i39,i48,i27,i15,i12])).
-answer(cycle(i50,[i12,i27,i15,i21,i72,i78,i87,i48,i27,i15,i12])).
-answer(cycle(i50,[i12,i27,i30,i39,i33,i9,i33,i9,i27,i15,i12])).
-answer(cycle(i50,[i12,i27,i30,i39,i48,i27,i15,i12,i27,i15,i12])).
-answer(cycle(i50,[i12,i57,i69,i66,i51,i57,i69,i66,i51,i84,i12])).
-answer(cycle(i50,[i15,i12,i27,i15,i12,i27,i30,i39,i48,i27,i15])).
-answer(cycle(i50,[i15,i12,i27,i15,i21,i72,i78,i87,i48,i27,i15])).
-answer(cycle(i50,[i15,i12,i27,i30,i39,i33,i9,i33,i9,i27,i15])).
-answer(cycle(i50,[i15,i12,i27,i30,i39,i48,i27,i15,i12,i27,i15])).
-answer(cycle(i50,[i15,i21,i72,i78,i87,i48,i27,i15,i12,i27,i15])).
-answer(cycle(i50,[i15,i30,i39,i33,i9,i27,i30,i39,i48,i27,i15])).
-answer(cycle(i50,[i15,i30,i39,i33,i9,i33,i9,i33,i9,i27,i15])).
-answer(cycle(i50,[i15,i30,i39,i48,i27,i15,i30,i39,i48,i27,i15])).
-answer(cycle(i50,[i15,i30,i39,i48,i27,i30,i39,i33,i9,i27,i15])).
-answer(cycle(i50,[i21,i72,i78,i87,i48,i27,i15,i12,i27,i15,i21])).
-answer(cycle(i50,[i27,i15,i12,i27,i15,i12,i27,i30,i39,i48,i27])).
-answer(cycle(i50,[i27,i15,i12,i27,i15,i21,i72,i78,i87,i48,i27])).
-answer(cycle(i50,[i27,i15,i12,i27,i30,i39,i33,i9,i33,i9,i27])).
-answer(cycle(i50,[i27,i15,i12,i27,i30,i39,i48,i27,i15,i12,i27])).
-answer(cycle(i50,[i27,i15,i21,i72,i78,i87,i48,i27,i15,i12,i27])).
-answer(cycle(i50,[i27,i15,i30,i39,i33,i9,i27,i30,i39,i48,i27])).
-answer(cycle(i50,[i27,i15,i30,i39,i33,i9,i33,i9,i33,i9,i27])).
-answer(cycle(i50,[i27,i15,i30,i39,i48,i27,i15,i30,i39,i48,i27])).
-answer(cycle(i50,[i27,i15,i30,i39,i48,i27,i30,i39,i33,i9,i27])).
-answer(cycle(i50,[i27,i30,i39,i33,i9,i27,i15,i30,i39,i48,i27])).
-answer(cycle(i50,[i27,i30,i39,i33,i9,i27,i30,i39,i33,i9,i27])).
-answer(cycle(i50,[i27,i30,i39,i33,i9,i33,i9,i27,i15,i12,i27])).
-answer(cycle(i50,[i27,i30,i39,i48,i27,i15,i12,i27,i15,i12,i27])).
-answer(cycle(i50,[i27,i30,i39,i48,i27,i15,i30,i39,i33,i9,i27])).
-answer(cycle(i50,[i30,i39,i33,i9,i27,i15,i30,i39,i48,i27,i30])).
-answer(cycle(i50,[i30,i39,i33,i9,i27,i30,i39,i33,i9,i27,i30])).
-answer(cycle(i50,[i30,i39,i33,i9,i27,i30,i39,i48,i27,i15,i30])).
-answer(cycle(i50,[i30,i39,i33,i9,i33,i9,i27,i15,i12,i27,i30])).
-answer(cycle(i50,[i30,i39,i33,i9,i33,i9,i33,i9,i27,i15,i30])).
-answer(cycle(i50,[i30,i39,i48,i27,i15,i12,i27,i15,i12,i27,i30])).
-answer(cycle(i50,[i30,i39,i48,i27,i15,i30,i39,i33,i9,i27,i30])).
-answer(cycle(i50,[i30,i39,i48,i27,i15,i30,i39,i48,i27,i15,i30])).
-answer(cycle(i50,[i30,i39,i48,i27,i30,i39,i33,i9,i27,i15,i30])).
-answer(cycle(i50,[i33,i9,i27,i15,i12,i27,i30,i39,i33,i9,i33])).
-answer(cycle(i50,[i33,i9,i27,i15,i30,i39,i33,i9,i33,i9,i33])).
-answer(cycle(i50,[i33,i9,i27,i15,i30,i39,i48,i27,i30,i39,i33])).
-answer(cycle(i50,[i33,i9,i27,i30,i39,i33,i9,i27,i30,i39,i33])).
-answer(cycle(i50,[i33,i9,i27,i30,i39,i48,i27,i15,i30,i39,i33])).
-answer(cycle(i50,[i33,i9,i33,i9,i27,i15,i12,i27,i30,i39,i33])).
-answer(cycle(i50,[i33,i9,i33,i9,i27,i15,i30,i39,i33,i9,i33])).
-answer(cycle(i50,[i33,i9,i33,i9,i33,i9,i27,i15,i30,i39,i33])).
-answer(cycle(i50,[i33,i9,i33,i9,i33,i9,i33,i9,i33,i9,i33])).
-answer(cycle(i50,[i36,i36,i36,i36,i36,i36,i36,i36,i36,i36,i36])).
-answer(cycle(i50,[i39,i33,i9,i27,i15,i30,i39,i48,i27,i30,i39])).
-answer(cycle(i50,[i39,i33,i9,i27,i30,i39,i33,i9,i27,i30,i39])).
-answer(cycle(i50,[i39,i33,i9,i27,i30,i39,i48,i27,i15,i30,i39])).
-answer(cycle(i50,[i39,i33,i9,i33,i9,i27,i15,i12,i27,i30,i39])).
-answer(cycle(i50,[i39,i33,i9,i33,i9,i33,i9,i27,i15,i30,i39])).
-answer(cycle(i50,[i39,i48,i27,i15,i12,i27,i15,i12,i27,i30,i39])).
-answer(cycle(i50,[i39,i48,i27,i15,i30,i39,i33,i9,i27,i30,i39])).
-answer(cycle(i50,[i39,i48,i27,i15,i30,i39,i48,i27,i15,i30,i39])).
-answer(cycle(i50,[i39,i48,i27,i30,i39,i33,i9,i27,i15,i30,i39])).
-answer(cycle(i50,[i48,i27,i15,i12,i27,i15,i12,i27,i30,i39,i48])).
-answer(cycle(i50,[i48,i27,i15,i12,i27,i15,i21,i72,i78,i87,i48])).
-answer(cycle(i50,[i48,i27,i15,i30,i39,i33,i9,i27,i30,i39,i48])).
-answer(cycle(i50,[i48,i27,i15,i30,i39,i48,i27,i15,i30,i39,i48])).
-answer(cycle(i50,[i48,i27,i30,i39,i33,i9,i27,i15,i30,i39,i48])).
-answer(cycle(i50,[i51,i57,i69,i66,i51,i84,i12,i57,i69,i66,i51])).
-answer(cycle(i50,[i51,i57,i69,i66,i57,i69,i66,i57,i69,i66,i51])).
-answer(cycle(i50,[i51,i84,i12,i57,i69,i66,i51,i57,i69,i66,i51])).
-answer(cycle(i50,[i51,i84,i72,i69,i66,i51,i84,i72,i69,i66,i51])).
-answer(cycle(i50,[i51,i84,i72,i78,i87,i99,i54,i72,i69,i66,i51])).
-answer(cycle(i50,[i51,i84,i72,i78,i87,i99,i66,i57,i69,i66,i51])).
-answer(cycle(i50,[i54,i72,i69,i66,i51,i84,i72,i78,i87,i99,i54])).
-answer(cycle(i50,[i54,i72,i78,i87,i99,i54,i72,i78,i87,i99,i54])).
-answer(cycle(i50,[i57,i69,i66,i51,i57,i69,i66,i51,i84,i12,i57])).
-answer(cycle(i50,[i57,i69,i66,i51,i57,i69,i66,i57,i69,i66,i57])).
-answer(cycle(i50,[i57,i69,i66,i51,i84,i12,i57,i69,i66,i51,i57])).
-answer(cycle(i50,[i57,i69,i66,i51,i84,i72,i78,i87,i99,i66,i57])).
-answer(cycle(i50,[i57,i69,i66,i57,i69,i66,i51,i57,i69,i66,i57])).
-answer(cycle(i50,[i57,i69,i66,i57,i69,i66,i57,i69,i66,i51,i57])).
-answer(cycle(i50,[i66,i51,i57,i69,i66,i51,i84,i12,i57,i69,i66])).
-answer(cycle(i50,[i66,i51,i57,i69,i66,i57,i69,i66,i57,i69,i66])).
-answer(cycle(i50,[i66,i51,i84,i12,i57,i69,i66,i51,i57,i69,i66])).
-answer(cycle(i50,[i66,i51,i84,i72,i69,i66,i51,i84,i72,i69,i66])).
-answer(cycle(i50,[i66,i51,i84,i72,i78,i87,i99,i54,i72,i69,i66])).
-answer(cycle(i50,[i66,i51,i84,i72,i78,i87,i99,i66,i57,i69,i66])).
-answer(cycle(i50,[i66,i57,i69,i66,i51,i57,i69,i66,i57,i69,i66])).
-answer(cycle(i50,[i66,i57,i69,i66,i51,i84,i72,i78,i87,i99,i66])).
-answer(cycle(i50,[i66,i57,i69,i66,i57,i69,i66,i51,i57,i69,i66])).
-answer(cycle(i50,[i69,i66,i51,i57,i69,i66,i51,i84,i12,i57,i69])).
-answer(cycle(i50,[i69,i66,i51,i57,i69,i66,i57,i69,i66,i57,i69])).
-answer(cycle(i50,[i69,i66,i51,i84,i12,i57,i69,i66,i51,i57,i69])).
-answer(cycle(i50,[i69,i66,i51,i84,i72,i69,i66,i51,i84,i72,i69])).
-answer(cycle(i50,[i69,i66,i51,i84,i72,i78,i87,i99,i54,i72,i69])).
-answer(cycle(i50,[i69,i66,i51,i84,i72,i78,i87,i99,i66,i57,i69])).
-answer(cycle(i50,[i69,i66,i57,i69,i66,i51,i57,i69,i66,i57,i69])).
-answer(cycle(i50,[i69,i66,i57,i69,i66,i57,i69,i66,i51,i57,i69])).
-answer(cycle(i50,[i6,i6,i6,i6,i6,i6,i6,i6,i6,i6,i6])).
-answer(cycle(i50,[i72,i69,i66,i51,i84,i72,i69,i66,i51,i84,i72])).
-answer(cycle(i50,[i72,i69,i66,i51,i84,i72,i78,i87,i99,i54,i72])).
-answer(cycle(i50,[i72,i78,i87,i48,i27,i15,i12,i27,i15,i21,i72])).
-answer(cycle(i50,[i72,i78,i87,i99,i54,i72,i69,i66,i51,i84,i72])).
-answer(cycle(i50,[i72,i78,i87,i99,i54,i72,i78,i87,i99,i54,i72])).
-answer(cycle(i50,[i72,i78,i87,i99,i66,i57,i69,i66,i51,i84,i72])).
-answer(cycle(i50,[i78,i87,i48,i27,i15,i12,i27,i15,i21,i72,i78])).
-answer(cycle(i50,[i78,i87,i99,i54,i72,i69,i66,i51,i84,i72,i78])).
-answer(cycle(i50,[i78,i87,i99,i54,i72,i78,i87,i99,i54,i72,i78])).
-answer(cycle(i50,[i78,i87,i99,i66,i57,i69,i66,i51,i84,i72,i78])).
-answer(cycle(i50,[i84,i12,i57,i69,i66,i51,i57,i69,i66,i51,i84])).
-answer(cycle(i50,[i84,i72,i69,i66,i51,i84,i72,i69,i66,i51,i84])).
-answer(cycle(i50,[i84,i72,i78,i87,i99,i54,i72,i69,i66,i51,i84])).
-answer(cycle(i50,[i84,i72,i78,i87,i99,i66,i57,i69,i66,i51,i84])).
-answer(cycle(i50,[i87,i48,i27,i15,i12,i27,i15,i21,i72,i78,i87])).
-answer(cycle(i50,[i87,i99,i54,i72,i69,i66,i51,i84,i72,i78,i87])).
-answer(cycle(i50,[i87,i99,i54,i72,i78,i87,i99,i54,i72,i78,i87])).
-answer(cycle(i50,[i87,i99,i66,i57,i69,i66,i51,i84,i72,i78,i87])).
-answer(cycle(i50,[i99,i54,i72,i69,i66,i51,i84,i72,i78,i87,i99])).
-answer(cycle(i50,[i99,i54,i72,i78,i87,i99,i54,i72,i78,i87,i99])).
-answer(cycle(i50,[i99,i66,i57,i69,i66,i51,i84,i72,i78,i87,i99])).
-answer(cycle(i50,[i9,i27,i15,i12,i27,i30,i39,i33,i9,i33,i9])).
-answer(cycle(i50,[i9,i27,i15,i30,i39,i33,i9,i33,i9,i33,i9])).
-answer(cycle(i50,[i9,i27,i15,i30,i39,i48,i27,i30,i39,i33,i9])).
-answer(cycle(i50,[i9,i27,i30,i39,i33,i9,i27,i30,i39,i33,i9])).
-answer(cycle(i50,[i9,i27,i30,i39,i48,i27,i15,i30,i39,i33,i9])).
-answer(cycle(i50,[i9,i33,i9,i27,i15,i12,i27,i30,i39,i33,i9])).
-answer(cycle(i50,[i9,i33,i9,i27,i15,i30,i39,i33,i9,i33,i9])).
-answer(cycle(i50,[i9,i33,i9,i33,i9,i27,i15,i30,i39,i33,i9])).
-answer(cycle(i50,[i9,i33,i9,i33,i9,i33,i9,i33,i9,i33,i9])).
-answer(cycle(i52,[i21,i78,i21,i78,i21,i78,i21,i78,i21,i78,i21])).
-answer(cycle(i52,[i78,i21,i78,i21,i78,i21,i78,i21,i78,i21,i78])).
-answer(cycle(i53,[i15,i15,i15,i15,i15,i15,i15,i15,i15,i15,i15])).
-answer(cycle(i53,[i21,i75,i78,i96,i6,i21,i75,i78,i96,i6,i21])).
-answer(cycle(i53,[i6,i21,i75,i78,i96,i6,i21,i75,i78,i96,i6])).
-answer(cycle(i53,[i75,i78,i96,i6,i21,i75,i78,i96,i6,i21,i75])).
-answer(cycle(i53,[i78,i96,i6,i21,i75,i78,i96,i6,i21,i75,i78])).
-answer(cycle(i53,[i96,i6,i21,i75,i78,i96,i6,i21,i75,i78,i96])).
-answer(cycle(i54,[i33,i96,i9,i51,i66,i33,i96,i9,i51,i66,i33])).
-answer(cycle(i54,[i51,i66,i33,i96,i9,i51,i66,i33,i96,i9,i51])).
-answer(cycle(i54,[i66,i33,i96,i9,i51,i66,i33,i96,i9,i51,i66])).
-answer(cycle(i54,[i96,i9,i51,i66,i33,i96,i9,i51,i66,i33,i96])).
-answer(cycle(i54,[i9,i51,i66,i33,i96,i9,i51,i66,i33,i96,i9])).
-answer(cycle(i55,[i33,i33,i33,i33,i33,i33,i33,i33,i33,i33,i33])).
-answer(cycle(i55,[i54,i54,i54,i54,i54,i54,i54,i54,i54,i54,i54])).
-answer(cycle(i56,[i27,i27,i27,i27,i27,i27,i27,i27,i27,i27,i27])).
-answer(cycle(i56,[i9,i9,i9,i9,i9,i9,i9,i9,i9,i9,i9])).
-answer(cycle(i57,[i48,i69,i48,i69,i48,i69,i48,i69,i48,i69,i48])).
-answer(cycle(i57,[i51,i84,i51,i84,i51,i84,i51,i84,i51,i84,i51])).
-answer(cycle(i57,[i69,i48,i69,i48,i69,i48,i69,i48,i69,i48,i69])).
-answer(cycle(i57,[i84,i51,i84,i51,i84,i51,i84,i51,i84,i51,i84])).
-answer(cycle(i58,[i18,i18,i18,i18,i18,i18,i18,i18,i18,i18,i18])).
-answer(cycle(i58,[i54,i54,i54,i54,i54,i54,i54,i54,i54,i54,i54])).
-answer(cycle(i59,[i48,i48,i48,i48,i48,i48,i48,i48,i48,i48,i48])).
-answer(cycle(i6,[i3,i3,i3,i3,i3,i3,i3,i3,i3,i3,i3])).
-answer(cycle(i6,[i75,i75,i75,i75,i75,i75,i75,i75,i75,i75,i75])).
-answer(cycle(i60,[i12,i63,i93,i27,i39,i48,i42,i45,i99,i33,i12])).
-answer(cycle(i60,[i27,i39,i48,i42,i45,i99,i33,i12,i63,i93,i27])).
-answer(cycle(i60,[i33,i12,i63,i93,i27,i39,i48,i42,i45,i99,i33])).
-answer(cycle(i60,[i39,i48,i42,i45,i99,i33,i12,i63,i93,i27,i39])).
-answer(cycle(i60,[i42,i45,i99,i33,i12,i63,i93,i27,i39,i48,i42])).
-answer(cycle(i60,[i45,i99,i33,i12,i63,i93,i27,i39,i48,i42,i45])).
-answer(cycle(i60,[i48,i42,i45,i99,i33,i12,i63,i93,i27,i39,i48])).
-answer(cycle(i60,[i63,i93,i27,i39,i48,i42,i45,i99,i33,i12,i63])).
-answer(cycle(i60,[i93,i27,i39,i48,i42,i45,i99,i33,i12,i63,i93])).
-answer(cycle(i60,[i99,i33,i12,i63,i93,i27,i39,i48,i42,i45,i99])).
-answer(cycle(i62,[i24,i81,i24,i81,i24,i81,i24,i81,i24,i81,i24])).
-answer(cycle(i62,[i24,i81,i24,i81,i24,i81,i24,i81,i81,i81,i24])).
-answer(cycle(i62,[i24,i81,i24,i81,i24,i81,i81,i24,i81,i81,i24])).
-answer(cycle(i62,[i24,i81,i24,i81,i24,i81,i81,i81,i24,i81,i24])).
-answer(cycle(i62,[i24,i81,i24,i81,i24,i81,i81,i81,i81,i81,i24])).
-answer(cycle(i62,[i24,i81,i24,i81,i81,i24,i81,i24,i81,i81,i24])).
-answer(cycle(i62,[i24,i81,i24,i81,i81,i24,i81,i81,i24,i81,i24])).
-answer(cycle(i62,[i24,i81,i24,i81,i81,i24,i81,i81,i81,i81,i24])).
-answer(cycle(i62,[i24,i81,i24,i81,i81,i81,i24,i81,i24,i81,i24])).
-answer(cycle(i62,[i24,i81,i24,i81,i81,i81,i24,i81,i81,i81,i24])).
-answer(cycle(i62,[i24,i81,i24,i81,i81,i81,i81,i24,i81,i81,i24])).
-answer(cycle(i62,[i24,i81,i24,i81,i81,i81,i81,i81,i24,i81,i24])).
-answer(cycle(i62,[i24,i81,i24,i81,i81,i81,i81,i81,i81,i81,i24])).
-answer(cycle(i62,[i24,i81,i81,i24,i81,i24,i81,i24,i81,i81,i24])).
-answer(cycle(i62,[i24,i81,i81,i24,i81,i24,i81,i81,i24,i81,i24])).
-answer(cycle(i62,[i24,i81,i81,i24,i81,i24,i81,i81,i81,i81,i24])).
-answer(cycle(i62,[i24,i81,i81,i24,i81,i81,i24,i81,i24,i81,i24])).
-answer(cycle(i62,[i24,i81,i81,i24,i81,i81,i24,i81,i81,i81,i24])).
-answer(cycle(i62,[i24,i81,i81,i24,i81,i81,i81,i24,i81,i81,i24])).
-answer(cycle(i62,[i24,i81,i81,i24,i81,i81,i81,i81,i24,i81,i24])).
-answer(cycle(i62,[i24,i81,i81,i24,i81,i81,i81,i81,i81,i81,i24])).
-answer(cycle(i62,[i24,i81,i81,i81,i24,i81,i24,i81,i24,i81,i24])).
-answer(cycle(i62,[i24,i81,i81,i81,i24,i81,i24,i81,i81,i81,i24])).
-answer(cycle(i62,[i24,i81,i81,i81,i24,i81,i81,i24,i81,i81,i24])).
-answer(cycle(i62,[i24,i81,i81,i81,i24,i81,i81,i81,i24,i81,i24])).
-answer(cycle(i62,[i24,i81,i81,i81,i24,i81,i81,i81,i81,i81,i24])).
-answer(cycle(i62,[i24,i81,i81,i81,i81,i24,i81,i24,i81,i81,i24])).
-answer(cycle(i62,[i24,i81,i81,i81,i81,i24,i81,i81,i24,i81,i24])).
-answer(cycle(i62,[i24,i81,i81,i81,i81,i24,i81,i81,i81,i81,i24])).
-answer(cycle(i62,[i24,i81,i81,i81,i81,i81,i24,i81,i24,i81,i24])).
-answer(cycle(i62,[i24,i81,i81,i81,i81,i81,i24,i81,i81,i81,i24])).
-answer(cycle(i62,[i24,i81,i81,i81,i81,i81,i81,i24,i81,i81,i24])).
-answer(cycle(i62,[i24,i81,i81,i81,i81,i81,i81,i81,i24,i81,i24])).
-answer(cycle(i62,[i24,i81,i81,i81,i81,i81,i81,i81,i81,i81,i24])).
-answer(cycle(i62,[i63,i63,i63,i63,i63,i63,i63,i63,i63,i63,i63])).
-answer(cycle(i62,[i81,i24,i81,i24,i81,i24,i81,i24,i81,i24,i81])).
-answer(cycle(i62,[i81,i24,i81,i24,i81,i24,i81,i24,i81,i81,i81])).
-answer(cycle(i62,[i81,i24,i81,i24,i81,i24,i81,i81,i24,i81,i81])).
-answer(cycle(i62,[i81,i24,i81,i24,i81,i24,i81,i81,i81,i24,i81])).
-answer(cycle(i62,[i81,i24,i81,i24,i81,i24,i81,i81,i81,i81,i81])).
-answer(cycle(i62,[i81,i24,i81,i24,i81,i81,i24,i81,i24,i81,i81])).
-answer(cycle(i62,[i81,i24,i81,i24,i81,i81,i24,i81,i81,i24,i81])).
-answer(cycle(i62,[i81,i24,i81,i24,i81,i81,i24,i81,i81,i81,i81])).
-answer(cycle(i62,[i81,i24,i81,i24,i81,i81,i81,i24,i81,i24,i81])).
-answer(cycle(i62,[i81,i24,i81,i24,i81,i81,i81,i24,i81,i81,i81])).
-answer(cycle(i62,[i81,i24,i81,i24,i81,i81,i81,i81,i24,i81,i81])).
-answer(cycle(i62,[i81,i24,i81,i24,i81,i81,i81,i81,i81,i24,i81])).
-answer(cycle(i62,[i81,i24,i81,i24,i81,i81,i81,i81,i81,i81,i81])).
-answer(cycle(i62,[i81,i24,i81,i81,i24,i81,i24,i81,i24,i81,i81])).
-answer(cycle(i62,[i81,i24,i81,i81,i24,i81,i24,i81,i81,i24,i81])).
-answer(cycle(i62,[i81,i24,i81,i81,i24,i81,i24,i81,i81,i81,i81])).
-answer(cycle(i62,[i81,i24,i81,i81,i24,i81,i81,i24,i81,i24,i81])).
-answer(cycle(i62,[i81,i24,i81,i81,i24,i81,i81,i24,i81,i81,i81])).
-answer(cycle(i62,[i81,i24,i81,i81,i24,i81,i81,i81,i24,i81,i81])).
-answer(cycle(i62,[i81,i24,i81,i81,i24,i81,i81,i81,i81,i24,i81])).
-answer(cycle(i62,[i81,i24,i81,i81,i24,i81,i81,i81,i81,i81,i81])).
-answer(cycle(i62,[i81,i24,i81,i81,i81,i24,i81,i24,i81,i24,i81])).
-answer(cycle(i62,[i81,i24,i81,i81,i81,i24,i81,i24,i81,i81,i81])).
-answer(cycle(i62,[i81,i24,i81,i81,i81,i24,i81,i81,i24,i81,i81])).
-answer(cycle(i62,[i81,i24,i81,i81,i81,i24,i81,i81,i81,i24,i81])).
-answer(cycle(i62,[i81,i24,i81,i81,i81,i24,i81,i81,i81,i81,i81])).
-answer(cycle(i62,[i81,i24,i81,i81,i81,i81,i24,i81,i24,i81,i81])).
-answer(cycle(i62,[i81,i24,i81,i81,i81,i81,i24,i81,i81,i24,i81])).
-answer(cycle(i62,[i81,i24,i81,i81,i81,i81,i24,i81,i81,i81,i81])).
-answer(cycle(i62,[i81,i24,i81,i81,i81,i81,i81,i24,i81,i24,i81])).
-answer(cycle(i62,[i81,i24,i81,i81,i81,i81,i81,i24,i81,i81,i81])).
-answer(cycle(i62,[i81,i24,i81,i81,i81,i81,i81,i81,i24,i81,i81])).
-answer(cycle(i62,[i81,i24,i81,i81,i81,i81,i81,i81,i81,i24,i81])).
-answer(cycle(i62,[i81,i24,i81,i81,i81,i81,i81,i81,i81,i81,i81])).
-answer(cycle(i62,[i81,i81,i24,i81,i24,i81,i24,i81,i24,i81,i81])).
-answer(cycle(i62,[i81,i81,i24,i81,i24,i81,i24,i81,i81,i24,i81])).
-answer(cycle(i62,[i81,i81,i24,i81,i24,i81,i24,i81,i81,i81,i81])).
-answer(cycle(i62,[i81,i81,i24,i81,i24,i81,i81,i24,i81,i24,i81])).
-answer(cycle(i62,[i81,i81,i24,i81,i24,i81,i81,i24,i81,i81,i81])).
-answer(cycle(i62,[i81,i81,i24,i81,i24,i81,i81,i81,i24,i81,i81])).
-answer(cycle(i62,[i81,i81,i24,i81,i24,i81,i81,i81,i81,i24,i81])).
-answer(cycle(i62,[i81,i81,i24,i81,i24,i81,i81,i81,i81,i81,i81])).
-answer(cycle(i62,[i81,i81,i24,i81,i81,i24,i81,i24,i81,i24,i81])).
-answer(cycle(i62,[i81,i81,i24,i81,i81,i24,i81,i24,i81,i81,i81])).
-answer(cycle(i62,[i81,i81,i24,i81,i81,i24,i81,i81,i24,i81,i81])).
-answer(cycle(i62,[i81,i81,i24,i81,i81,i24,i81,i81,i81,i24,i81])).
-answer(cycle(i62,[i81,i81,i24,i81,i81,i24,i81,i81,i81,i81,i81])).
-answer(cycle(i62,[i81,i81,i24,i81,i81,i81,i24,i81,i24,i81,i81])).
-answer(cycle(i62,[i81,i81,i24,i81,i81,i81,i24,i81,i81,i24,i81])).
-answer(cycle(i62,[i81,i81,i24,i81,i81,i81,i24,i81,i81,i81,i81])).
-answer(cycle(i62,[i81,i81,i24,i81,i81,i81,i81,i24,i81,i24,i81])).
-answer(cycle(i62,[i81,i81,i24,i81,i81,i81,i81,i24,i81,i81,i81])).
-answer(cycle(i62,[i81,i81,i24,i81,i81,i81,i81,i81,i24,i81,i81])).
-answer(cycle(i62,[i81,i81,i24,i81,i81,i81,i81,i81,i81,i24,i81])).
-answer(cycle(i62,[i81,i81,i24,i81,i81,i81,i81,i81,i81,i81,i81])).
-answer(cycle(i62,[i81,i81,i81,i24,i81,i24,i81,i24,i81,i24,i81])).
-answer(cycle(i62,[i81,i81,i81,i24,i81,i24,i81,i24,i81,i81,i81])).
-answer(cycle(i62,[i81,i81,i81,i24,i81,i24,i81,i81,i24,i81,i81])).
-answer(cycle(i62,[i81,i81,i81,i24,i81,i24,i81,i81,i81,i24,i81])).
-answer(cycle(i62,[i81,i81,i81,i24,i81,i24,i81,i81,i81,i81,i81])).
-answer(cycle(i62,[i81,i81,i81,i24,i81,i81,i24,i81,i24,i81,i81])).
-answer(cycle(i62,[i81,i81,i81,i24,i81,i81,i24,i81,i81,i24,i81])).
-answer(cycle(i62,[i81,i81,i81,i24,i81,i81,i24,i81,i81,i81,i81])).
-answer(cycle(i62,[i81,i81,i81,i24,i81,i81,i81,i24,i81,i24,i81])).
-answer(cycle(i62,[i81,i81,i81,i24,i81,i81,i81,i24,i81,i81,i81])).
-answer(cycle(i62,[i81,i81,i81,i24,i81,i81,i81,i81,i24,i81,i81])).
-answer(cycle(i62,[i81,i81,i81,i24,i81,i81,i81,i81,i81,i24,i81])).
-answer(cycle(i62,[i81,i81,i81,i24,i81,i81,i81,i81,i81,i81,i81])).
-answer(cycle(i62,[i81,i81,i81,i81,i24,i81,i24,i81,i24,i81,i81])).
-answer(cycle(i62,[i81,i81,i81,i81,i24,i81,i24,i81,i81,i24,i81])).
-answer(cycle(i62,[i81,i81,i81,i81,i24,i81,i24,i81,i81,i81,i81])).
-answer(cycle(i62,[i81,i81,i81,i81,i24,i81,i81,i24,i81,i24,i81])).
-answer(cycle(i62,[i81,i81,i81,i81,i24,i81,i81,i24,i81,i81,i81])).
-answer(cycle(i62,[i81,i81,i81,i81,i24,i81,i81,i81,i24,i81,i81])).
-answer(cycle(i62,[i81,i81,i81,i81,i24,i81,i81,i81,i81,i24,i81])).
-answer(cycle(i62,[i81,i81,i81,i81,i24,i81,i81,i81,i81,i81,i81])).
-answer(cycle(i62,[i81,i81,i81,i81,i81,i24,i81,i24,i81,i24,i81])).
-answer(cycle(i62,[i81,i81,i81,i81,i81,i24,i81,i24,i81,i81,i81])).
-answer(cycle(i62,[i81,i81,i81,i81,i81,i24,i81,i81,i24,i81,i81])).
-answer(cycle(i62,[i81,i81,i81,i81,i81,i24,i81,i81,i81,i24,i81])).
-answer(cycle(i62,[i81,i81,i81,i81,i81,i24,i81,i81,i81,i81,i81])).
-answer(cycle(i62,[i81,i81,i81,i81,i81,i81,i24,i81,i24,i81,i81])).
-answer(cycle(i62,[i81,i81,i81,i81,i81,i81,i24,i81,i81,i24,i81])).
-answer(cycle(i62,[i81,i81,i81,i81,i81,i81,i24,i81,i81,i81,i81])).
-answer(cycle(i62,[i81,i81,i81,i81,i81,i81,i81,i24,i81,i24,i81])).
-answer(cycle(i62,[i81,i81,i81,i81,i81,i81,i81,i24,i81,i81,i81])).
-answer(cycle(i62,[i81,i81,i81,i81,i81,i81,i81,i81,i24,i81,i81])).
-answer(cycle(i62,[i81,i81,i81,i81,i81,i81,i81,i81,i81,i24,i81])).
-answer(cycle(i62,[i81,i81,i81,i81,i81,i81,i81,i81,i81,i81,i81])).
-answer(cycle(i63,[i72,i72,i72,i72,i72,i72,i72,i72,i72,i72,i72])).
-answer(cycle(i63,[i93,i93,i93,i93,i93,i93,i93,i93,i93,i93,i93])).
-answer(cycle(i64,[i3,i9,i3,i9,i3,i9,i3,i9,i3,i9,i3])).
-answer(cycle(i64,[i42,i42,i42,i42,i42,i42,i42,i42,i42,i42,i42])).
-answer(cycle(i64,[i54,i54,i54,i54,i54,i54,i54,i54,i54,i54,i54])).
-answer(cycle(i64,[i9,i3,i9,i3,i9,i3,i9,i3,i9,i3,i9])).
-answer(cycle(i65,[i12,i12,i12,i12,i12,i12,i12,i12,i12,i12,i12])).
-answer(cycle(i65,[i18,i57,i72,i9,i96,i18,i57,i72,i9,i96,i18])).
-answer(cycle(i65,[i18,i57,i72,i9,i96,i18,i57,i78,i9,i96,i18])).
-answer(cycle(i65,[i18,i57,i78,i78,i78,i78,i78,i78,i9,i96,i18])).
-answer(cycle(i65,[i18,i57,i78,i78,i9,i3,i84,i45,i9,i96,i18])).
-answer(cycle(i65,[i18,i57,i78,i9,i96,i18,i57,i72,i9,i96,i18])).
-answer(cycle(i65,[i18,i57,i78,i9,i96,i18,i57,i78,i9,i96,i18])).
-answer(cycle(i65,[i3,i84,i45,i9,i96,i18,i57,i78,i78,i9,i3])).
-answer(cycle(i65,[i45,i9,i96,i18,i57,i78,i78,i9,i3,i84,i45])).
-answer(cycle(i65,[i57,i72,i9,i96,i18,i57,i72,i9,i96,i18,i57])).
-answer(cycle(i65,[i57,i72,i9,i96,i18,i57,i78,i9,i96,i18,i57])).
-answer(cycle(i65,[i57,i78,i78,i78,i78,i78,i78,i9,i96,i18,i57])).
-answer(cycle(i65,[i57,i78,i78,i9,i3,i84,i45,i9,i96,i18,i57])).
-answer(cycle(i65,[i57,i78,i9,i96,i18,i57,i72,i9,i96,i18,i57])).
-answer(cycle(i65,[i57,i78,i9,i96,i18,i57,i78,i9,i96,i18,i57])).
-answer(cycle(i65,[i72,i9,i96,i18,i57,i72,i9,i96,i18,i57,i72])).
-answer(cycle(i65,[i72,i9,i96,i18,i57,i78,i9,i96,i18,i57,i72])).
-answer(cycle(i65,[i78,i78,i78,i78,i78,i78,i78,i78,i78,i78,i78])).
-answer(cycle(i65,[i78,i78,i78,i78,i78,i78,i9,i96,i18,i57,i78])).
-answer(cycle(i65,[i78,i78,i78,i78,i78,i9,i96,i18,i57,i78,i78])).
-answer(cycle(i65,[i78,i78,i78,i78,i9,i96,i18,i57,i78,i78,i78])).
-answer(cycle(i65,[i78,i78,i78,i9,i96,i18,i57,i78,i78,i78,i78])).
-answer(cycle(i65,[i78,i78,i9,i3,i84,i45,i9,i96,i18,i57,i78])).
-answer(cycle(i65,[i78,i78,i9,i96,i18,i57,i78,i78,i78,i78,i78])).
-answer(cycle(i65,[i78,i9,i3,i84,i45,i9,i96,i18,i57,i78,i78])).
-answer(cycle(i65,[i78,i9,i96,i18,i57,i72,i9,i96,i18,i57,i78])).
-answer(cycle(i65,[i78,i9,i96,i18,i57,i78,i78,i78,i78,i78,i78])).
-answer(cycle(i65,[i78,i9,i96,i18,i57,i78,i9,i96,i18,i57,i78])).
-answer(cycle(i65,[i84,i45,i9,i96,i18,i57,i78,i78,i9,i3,i84])).
-answer(cycle(i65,[i96,i18,i57,i72,i9,i96,i18,i57,i72,i9,i96])).
-answer(cycle(i65,[i96,i18,i57,i72,i9,i96,i18,i57,i78,i9,i96])).
-answer(cycle(i65,[i96,i18,i57,i78,i78,i78,i78,i78,i78,i9,i96])).
-answer(cycle(i65,[i96,i18,i57,i78,i78,i9,i3,i84,i45,i9,i96])).
-answer(cycle(i65,[i96,i18,i57,i78,i9,i96,i18,i57,i72,i9,i96])).
-answer(cycle(i65,[i96,i18,i57,i78,i9,i96,i18,i57,i78,i9,i96])).
-answer(cycle(i65,[i9,i3,i84,i45,i9,i96,i18,i57,i78,i78,i9])).
-answer(cycle(i65,[i9,i96,i18,i57,i72,i9,i96,i18,i57,i72,i9])).
-answer(cycle(i65,[i9,i96,i18,i57,i72,i9,i96,i18,i57,i78,i9])).
-answer(cycle(i65,[i9,i96,i18,i57,i78,i78,i78,i78,i78,i78,i9])).
-answer(cycle(i65,[i9,i96,i18,i57,i78,i78,i9,i3,i84,i45,i9])).
-answer(cycle(i65,[i9,i96,i18,i57,i78,i9,i96,i18,i57,i72,i9])).
-answer(cycle(i65,[i9,i96,i18,i57,i78,i9,i96,i18,i57,i78,i9])).
-answer(cycle(i66,[i6,i6,i6,i6,i6,i6,i6,i6,i6,i6,i6])).
-answer(cycle(i67,[i15,i15,i15,i15,i15,i15,i15,i15,i15,i15,i15])).
-answer(cycle(i67,[i15,i15,i15,i15,i15,i15,i15,i15,i54,i9,i15])).
-answer(cycle(i67,[i15,i15,i15,i15,i15,i15,i15,i54,i9,i15,i15])).
-answer(cycle(i67,[i15,i15,i15,i15,i15,i15,i54,i9,i15,i15,i15])).
-answer(cycle(i67,[i15,i15,i15,i15,i15,i54,i9,i15,i15,i15,i15])).
-answer(cycle(i67,[i15,i15,i15,i15,i15,i54,i9,i15,i54,i9,i15])).
-answer(cycle(i67,[i15,i15,i15,i15,i54,i9,i15,i15,i15,i15,i15])).
-answer(cycle(i67,[i15,i15,i15,i15,i54,i9,i15,i15,i54,i9,i15])).
-answer(cycle(i67,[i15,i15,i15,i15,i54,i9,i15,i54,i9,i15,i15])).
-answer(cycle(i67,[i15,i15,i15,i54,i9,i15,i15,i15,i15,i15,i15])).
-answer(cycle(i67,[i15,i15,i15,i54,i9,i15,i15,i15,i54,i9,i15])).
-answer(cycle(i67,[i15,i15,i15,i54,i9,i15,i15,i54,i9,i15,i15])).
-answer(cycle(i67,[i15,i15,i15,i54,i9,i15,i54,i9,i15,i15,i15])).
-answer(cycle(i67,[i15,i15,i54,i9,i15,i15,i15,i15,i15,i15,i15])).
-answer(cycle(i67,[i15,i15,i54,i9,i15,i15,i15,i15,i54,i9,i15])).
-answer(cycle(i67,[i15,i15,i54,i9,i15,i15,i15,i54,i9,i15,i15])).
-answer(cycle(i67,[i15,i15,i54,i9,i15,i15,i54,i9,i15,i15,i15])).
-answer(cycle(i67,[i15,i15,i54,i9,i15,i54,i9,i15,i15,i15,i15])).
-answer(cycle(i67,[i15,i15,i54,i9,i15,i54,i9,i15,i54,i9,i15])).
-answer(cycle(i67,[i15,i54,i9,i15,i15,i15,i15,i15,i15,i15,i15])).
-answer(cycle(i67,[i15,i54,i9,i15,i15,i15,i15,i15,i54,i9,i15])).
-answer(cycle(i67,[i15,i54,i9,i15,i15,i15,i15,i54,i9,i15,i15])).
-answer(cycle(i67,[i15,i54,i9,i15,i15,i15,i54,i9,i15,i15,i15])).
-answer(cycle(i67,[i15,i54,i9,i15,i15,i54,i9,i15,i15,i15,i15])).
-answer(cycle(i67,[i15,i54,i9,i15,i15,i54,i9,i15,i54,i9,i15])).
-answer(cycle(i67,[i15,i54,i9,i15,i54,i9,i15,i15,i15,i15,i15])).
-answer(cycle(i67,[i15,i54,i9,i15,i54,i9,i15,i15,i54,i9,i15])).
-answer(cycle(i67,[i15,i54,i9,i15,i54,i9,i15,i54,i9,i15,i15])).
-answer(cycle(i67,[i54,i9,i15,i15,i15,i15,i15,i15,i15,i15,i54])).
-answer(cycle(i67,[i54,i9,i15,i15,i15,i15,i15,i54,i9,i15,i54])).
-answer(cycle(i67,[i54,i9,i15,i15,i15,i15,i54,i9,i15,i15,i54])).
-answer(cycle(i67,[i54,i9,i15,i15,i15,i54,i9,i15,i15,i15,i54])).
-answer(cycle(i67,[i54,i9,i15,i15,i54,i9,i15,i15,i15,i15,i54])).
-answer(cycle(i67,[i54,i9,i15,i15,i54,i9,i15,i54,i9,i15,i54])).
-answer(cycle(i67,[i54,i9,i15,i54,i9,i15,i15,i15,i15,i15,i54])).
-answer(cycle(i67,[i54,i9,i15,i54,i9,i15,i15,i54,i9,i15,i54])).
-answer(cycle(i67,[i54,i9,i15,i54,i9,i15,i54,i9,i15,i15,i54])).
-answer(cycle(i67,[i9,i15,i15,i15,i15,i15,i15,i15,i15,i54,i9])).
-answer(cycle(i67,[i9,i15,i15,i15,i15,i15,i54,i9,i15,i54,i9])).
-answer(cycle(i67,[i9,i15,i15,i15,i15,i54,i9,i15,i15,i54,i9])).
-answer(cycle(i67,[i9,i15,i15,i15,i54,i9,i15,i15,i15,i54,i9])).
-answer(cycle(i67,[i9,i15,i15,i54,i9,i15,i15,i15,i15,i54,i9])).
-answer(cycle(i67,[i9,i15,i15,i54,i9,i15,i54,i9,i15,i54,i9])).
-answer(cycle(i67,[i9,i15,i54,i9,i15,i15,i15,i15,i15,i54,i9])).
-answer(cycle(i67,[i9,i15,i54,i9,i15,i15,i54,i9,i15,i54,i9])).
-answer(cycle(i67,[i9,i15,i54,i9,i15,i54,i9,i15,i15,i54,i9])).
-answer(cycle(i69,[i24,i24,i24,i24,i24,i24,i24,i24,i24,i24,i24])).
-answer(cycle(i69,[i3,i3,i3,i3,i3,i3,i3,i3,i3,i3,i3])).
-answer(cycle(i7,[i18,i75,i84,i72,i57,i18,i75,i84,i72,i57,i18])).
-answer(cycle(i7,[i45,i45,i45,i45,i45,i45,i45,i45,i45,i45,i45])).
-answer(cycle(i7,[i57,i18,i75,i84,i72,i57,i18,i75,i84,i72,i57])).
-answer(cycle(i7,[i72,i57,i18,i75,i84,i72,i57,i18,i75,i84,i72])).
-answer(cycle(i7,[i75,i84,i72,i57,i18,i75,i84,i72,i57,i18,i75])).
-answer(cycle(i7,[i84,i72,i57,i18,i75,i84,i72,i57,i18,i75,i84])).
-answer(cycle(i70,[i0,i18,i0,i18,i0,i18,i0,i18,i0,i18,i0])).
-answer(cycle(i70,[i18,i0,i18,i0,i18,i0,i18,i0,i18,i0,i18])).
-answer(cycle(i70,[i39,i48,i69,i84,i75,i69,i84,i75,i69,i90,i39])).
-answer(cycle(i70,[i39,i48,i69,i84,i75,i69,i84,i87,i69,i90,i39])).
-answer(cycle(i70,[i39,i48,i69,i84,i87,i69,i84,i75,i69,i90,i39])).
-answer(cycle(i70,[i39,i48,i69,i84,i87,i69,i84,i87,i69,i90,i39])).
-answer(cycle(i70,[i48,i69,i84,i75,i69,i84,i75,i69,i90,i39,i48])).
-answer(cycle(i70,[i48,i69,i84,i75,i69,i84,i87,i69,i90,i39,i48])).
-answer(cycle(i70,[i48,i69,i84,i87,i69,i84,i75,i69,i90,i39,i48])).
-answer(cycle(i70,[i48,i69,i84,i87,i69,i84,i87,i69,i90,i39,i48])).
-answer(cycle(i70,[i69,i84,i75,i69,i84,i75,i69,i90,i39,i48,i69])).
-answer(cycle(i70,[i69,i84,i75,i69,i84,i87,i69,i90,i39,i48,i69])).
-answer(cycle(i70,[i69,i84,i75,i69,i90,i39,i48,i69,i84,i75,i69])).
-answer(cycle(i70,[i69,i84,i75,i69,i90,i39,i48,i69,i84,i87,i69])).
-answer(cycle(i70,[i69,i84,i87,i69,i84,i75,i69,i90,i39,i48,i69])).
-answer(cycle(i70,[i69,i84,i87,i69,i84,i87,i69,i90,i39,i48,i69])).
-answer(cycle(i70,[i69,i84,i87,i69,i90,i39,i48,i69,i84,i75,i69])).
-answer(cycle(i70,[i69,i84,i87,i69,i90,i39,i48,i69,i84,i87,i69])).
-answer(cycle(i70,[i69,i90,i39,i48,i69,i84,i75,i69,i84,i75,i69])).
-answer(cycle(i70,[i69,i90,i39,i48,i69,i84,i75,i69,i84,i87,i69])).
-answer(cycle(i70,[i69,i90,i39,i48,i69,i84,i87,i69,i84,i75,i69])).
-answer(cycle(i70,[i69,i90,i39,i48,i69,i84,i87,i69,i84,i87,i69])).
-answer(cycle(i70,[i75,i69,i84,i75,i69,i90,i39,i48,i69,i84,i75])).
-answer(cycle(i70,[i75,i69,i84,i87,i69,i90,i39,i48,i69,i84,i75])).
-answer(cycle(i70,[i75,i69,i90,i39,i48,i69,i84,i75,i69,i84,i75])).
-answer(cycle(i70,[i75,i69,i90,i39,i48,i69,i84,i87,i69,i84,i75])).
-answer(cycle(i70,[i84,i75,i69,i84,i75,i69,i90,i39,i48,i69,i84])).
-answer(cycle(i70,[i84,i75,i69,i84,i87,i69,i90,i39,i48,i69,i84])).
-answer(cycle(i70,[i84,i75,i69,i90,i39,i48,i69,i84,i75,i69,i84])).
-answer(cycle(i70,[i84,i75,i69,i90,i39,i48,i69,i84,i87,i69,i84])).
-answer(cycle(i70,[i84,i87,i69,i84,i75,i69,i90,i39,i48,i69,i84])).
-answer(cycle(i70,[i84,i87,i69,i84,i87,i69,i90,i39,i48,i69,i84])).
-answer(cycle(i70,[i84,i87,i69,i90,i39,i48,i69,i84,i75,i69,i84])).
-answer(cycle(i70,[i84,i87,i69,i90,i39,i48,i69,i84,i87,i69,i84])).
-answer(cycle(i70,[i87,i69,i84,i75,i69,i90,i39,i48,i69,i84,i87])).
-answer(cycle(i70,[i87,i69,i84,i87,i69,i90,i39,i48,i69,i84,i87])).
-answer(cycle(i70,[i87,i69,i90,i39,i48,i69,i84,i75,i69,i84,i87])).
-answer(cycle(i70,[i87,i69,i90,i39,i48,i69,i84,i87,i69,i84,i87])).
-answer(cycle(i70,[i90,i39,i48,i69,i84,i75,i69,i84,i75,i69,i90])).
-answer(cycle(i70,[i90,i39,i48,i69,i84,i75,i69,i84,i87,i69,i90])).
-answer(cycle(i70,[i90,i39,i48,i69,i84,i87,i69,i84,i75,i69,i90])).
-answer(cycle(i70,[i90,i39,i48,i69,i84,i87,i69,i84,i87,i69,i90])).
-answer(cycle(i71,[i0,i21,i0,i21,i0,i21,i0,i21,i0,i21,i0])).
-answer(cycle(i71,[i0,i21,i0,i21,i0,i45,i21,i0,i45,i21,i0])).
-answer(cycle(i71,[i0,i21,i0,i45,i21,i0,i21,i0,i45,i21,i0])).
-answer(cycle(i71,[i0,i21,i0,i45,i21,i0,i45,i21,i0,i21,i0])).
-answer(cycle(i71,[i0,i45,i21,i0,i21,i0,i21,i0,i45,i21,i0])).
-answer(cycle(i71,[i0,i45,i21,i0,i21,i0,i45,i21,i0,i21,i0])).
-answer(cycle(i71,[i0,i45,i21,i0,i45,i21,i0,i21,i0,i21,i0])).
-answer(cycle(i71,[i21,i0,i21,i0,i21,i0,i21,i0,i21,i0,i21])).
-answer(cycle(i71,[i21,i0,i21,i0,i21,i0,i45,i21,i0,i45,i21])).
-answer(cycle(i71,[i21,i0,i21,i0,i45,i21,i0,i21,i0,i45,i21])).
-answer(cycle(i71,[i21,i0,i21,i0,i45,i21,i0,i45,i21,i0,i21])).
-answer(cycle(i71,[i21,i0,i45,i21,i0,i21,i0,i21,i0,i45,i21])).
-answer(cycle(i71,[i21,i0,i45,i21,i0,i21,i0,i45,i21,i0,i21])).
-answer(cycle(i71,[i21,i0,i45,i21,i0,i45,i21,i0,i21,i0,i21])).
-answer(cycle(i71,[i45,i21,i0,i21,i0,i21,i0,i45,i21,i0,i45])).
-answer(cycle(i71,[i45,i21,i0,i21,i0,i45,i21,i0,i21,i0,i45])).
-answer(cycle(i71,[i45,i21,i0,i45,i21,i0,i21,i0,i21,i0,i45])).
-answer(cycle(i72,[i60,i60,i60,i60,i60,i60,i60,i60,i60,i60,i60])).
-answer(cycle(i74,[i27,i57,i27,i57,i27,i57,i27,i57,i27,i57,i27])).
-answer(cycle(i74,[i33,i60,i33,i60,i33,i60,i33,i60,i33,i60,i33])).
-answer(cycle(i74,[i57,i27,i57,i27,i57,i27,i57,i27,i57,i27,i57])).
-answer(cycle(i74,[i60,i33,i60,i33,i60,i33,i60,i33,i60,i33,i60])).
-answer(cycle(i74,[i90,i90,i90,i90,i90,i90,i90,i90,i90,i90,i90])).
-answer(cycle(i75,[i0,i0,i0,i0,i0,i0,i0,i0,i0,i0,i0])).
-answer(cycle(i75,[i0,i0,i0,i0,i0,i0,i0,i0,i0,i30,i0])).
-answer(cycle(i75,[i0,i0,i0,i0,i0,i0,i0,i0,i30,i0,i0])).
-answer(cycle(i75,[i0,i0,i0,i0,i0,i0,i0,i30,i0,i0,i0])).
-answer(cycle(i75,[i0,i0,i0,i0,i0,i0,i0,i30,i0,i30,i0])).
-answer(cycle(i75,[i0,i0,i0,i0,i0,i0,i30,i0,i0,i0,i0])).
-answer(cycle(i75,[i0,i0,i0,i0,i0,i0,i30,i0,i0,i30,i0])).
-answer(cycle(i75,[i0,i0,i0,i0,i0,i0,i30,i0,i30,i0,i0])).
-answer(cycle(i75,[i0,i0,i0,i0,i0,i30,i0,i0,i0,i0,i0])).
-answer(cycle(i75,[i0,i0,i0,i0,i0,i30,i0,i0,i0,i30,i0])).
-answer(cycle(i75,[i0,i0,i0,i0,i0,i30,i0,i0,i30,i0,i0])).
-answer(cycle(i75,[i0,i0,i0,i0,i0,i30,i0,i30,i0,i0,i0])).
-answer(cycle(i75,[i0,i0,i0,i0,i0,i30,i0,i30,i0,i30,i0])).
-answer(cycle(i75,[i0,i0,i0,i0,i30,i0,i0,i0,i0,i0,i0])).
-answer(cycle(i75,[i0,i0,i0,i0,i30,i0,i0,i0,i0,i30,i0])).
-answer(cycle(i75,[i0,i0,i0,i0,i30,i0,i0,i0,i30,i0,i0])).
-answer(cycle(i75,[i0,i0,i0,i0,i30,i0,i0,i30,i0,i0,i0])).
-answer(cycle(i75,[i0,i0,i0,i0,i30,i0,i0,i30,i0,i30,i0])).
-answer(cycle(i75,[i0,i0,i0,i0,i30,i0,i30,i0,i0,i0,i0])).
-answer(cycle(i75,[i0,i0,i0,i0,i30,i0,i30,i0,i0,i30,i0])).
-answer(cycle(i75,[i0,i0,i0,i0,i30,i0,i30,i0,i30,i0,i0])).
-answer(cycle(i75,[i0,i0,i0,i30,i0,i0,i0,i0,i0,i0,i0])).
-answer(cycle(i75,[i0,i0,i0,i30,i0,i0,i0,i0,i0,i30,i0])).
-answer(cycle(i75,[i0,i0,i0,i30,i0,i0,i0,i0,i30,i0,i0])).
-answer(cycle(i75,[i0,i0,i0,i30,i0,i0,i0,i30,i0,i0,i0])).
-answer(cycle(i75,[i0,i0,i0,i30,i0,i0,i0,i30,i0,i30,i0])).
-answer(cycle(i75,[i0,i0,i0,i30,i0,i0,i30,i0,i0,i0,i0])).
-answer(cycle(i75,[i0,i0,i0,i30,i0,i0,i30,i0,i0,i30,i0])).
-answer(cycle(i75,[i0,i0,i0,i30,i0,i0,i30,i0,i30,i0,i0])).
-answer(cycle(i75,[i0,i0,i0,i30,i0,i30,i0,i0,i0,i0,i0])).
-answer(cycle(i75,[i0,i0,i0,i30,i0,i30,i0,i0,i0,i30,i0])).
-answer(cycle(i75,[i0,i0,i0,i30,i0,i30,i0,i0,i30,i0,i0])).
-answer(cycle(i75,[i0,i0,i0,i30,i0,i30,i0,i30,i0,i0,i0])).
-answer(cycle(i75,[i0,i0,i0,i30,i0,i30,i0,i30,i0,i30,i0])).
-answer(cycle(i75,[i0,i0,i30,i0,i0,i0,i0,i0,i0,i0,i0])).
-answer(cycle(i75,[i0,i0,i30,i0,i0,i0,i0,i0,i0,i30,i0])).
-answer(cycle(i75,[i0,i0,i30,i0,i0,i0,i0,i0,i30,i0,i0])).
-answer(cycle(i75,[i0,i0,i30,i0,i0,i0,i0,i30,i0,i0,i0])).
-answer(cycle(i75,[i0,i0,i30,i0,i0,i0,i0,i30,i0,i30,i0])).
-answer(cycle(i75,[i0,i0,i30,i0,i0,i0,i30,i0,i0,i0,i0])).
-answer(cycle(i75,[i0,i0,i30,i0,i0,i0,i30,i0,i0,i30,i0])).
-answer(cycle(i75,[i0,i0,i30,i0,i0,i0,i30,i0,i30,i0,i0])).
-answer(cycle(i75,[i0,i0,i30,i0,i0,i30,i0,i0,i0,i0,i0])).
-answer(cycle(i75,[i0,i0,i30,i0,i0,i30,i0,i0,i0,i30,i0])).
-answer(cycle(i75,[i0,i0,i30,i0,i0,i30,i0,i0,i30,i0,i0])).
-answer(cycle(i75,[i0,i0,i30,i0,i0,i30,i0,i30,i0,i0,i0])).
-answer(cycle(i75,[i0,i0,i30,i0,i0,i30,i0,i30,i0,i30,i0])).
-answer(cycle(i75,[i0,i0,i30,i0,i30,i0,i0,i0,i0,i0,i0])).
-answer(cycle(i75,[i0,i0,i30,i0,i30,i0,i0,i0,i0,i30,i0])).
-answer(cycle(i75,[i0,i0,i30,i0,i30,i0,i0,i0,i30,i0,i0])).
-answer(cycle(i75,[i0,i0,i30,i0,i30,i0,i0,i30,i0,i0,i0])).
-answer(cycle(i75,[i0,i0,i30,i0,i30,i0,i0,i30,i0,i30,i0])).
-answer(cycle(i75,[i0,i0,i30,i0,i30,i0,i30,i0,i0,i0,i0])).
-answer(cycle(i75,[i0,i0,i30,i0,i30,i0,i30,i0,i0,i30,i0])).
-answer(cycle(i75,[i0,i0,i30,i0,i30,i0,i30,i0,i30,i0,i0])).
-answer(cycle(i75,[i0,i30,i0,i0,i0,i0,i0,i0,i0,i0,i0])).
-answer(cycle(i75,[i0,i30,i0,i0,i0,i0,i0,i0,i0,i30,i0])).
-answer(cycle(i75,[i0,i30,i0,i0,i0,i0,i0,i0,i30,i0,i0])).
-answer(cycle(i75,[i0,i30,i0,i0,i0,i0,i0,i30,i0,i0,i0])).
-answer(cycle(i75,[i0,i30,i0,i0,i0,i0,i0,i30,i0,i30,i0])).
-answer(cycle(i75,[i0,i30,i0,i0,i0,i0,i30,i0,i0,i0,i0])).
-answer(cycle(i75,[i0,i30,i0,i0,i0,i0,i30,i0,i0,i30,i0])).
-answer(cycle(i75,[i0,i30,i0,i0,i0,i0,i30,i0,i30,i0,i0])).
-answer(cycle(i75,[i0,i30,i0,i0,i0,i30,i0,i0,i0,i0,i0])).
-answer(cycle(i75,[i0,i30,i0,i0,i0,i30,i0,i0,i0,i30,i0])).
-answer(cycle(i75,[i0,i30,i0,i0,i0,i30,i0,i0,i30,i0,i0])).
-answer(cycle(i75,[i0,i30,i0,i0,i0,i30,i0,i30,i0,i0,i0])).
-answer(cycle(i75,[i0,i30,i0,i0,i0,i30,i0,i30,i0,i30,i0])).
-answer(cycle(i75,[i0,i30,i0,i0,i30,i0,i0,i0,i0,i0,i0])).
-answer(cycle(i75,[i0,i30,i0,i0,i30,i0,i0,i0,i0,i30,i0])).
-answer(cycle(i75,[i0,i30,i0,i0,i30,i0,i0,i0,i30,i0,i0])).
-answer(cycle(i75,[i0,i30,i0,i0,i30,i0,i0,i30,i0,i0,i0])).
-answer(cycle(i75,[i0,i30,i0,i0,i30,i0,i0,i30,i0,i30,i0])).
-answer(cycle(i75,[i0,i30,i0,i0,i30,i0,i30,i0,i0,i0,i0])).
-answer(cycle(i75,[i0,i30,i0,i0,i30,i0,i30,i0,i0,i30,i0])).
-answer(cycle(i75,[i0,i30,i0,i0,i30,i0,i30,i0,i30,i0,i0])).
-answer(cycle(i75,[i0,i30,i0,i30,i0,i0,i0,i0,i0,i0,i0])).
-answer(cycle(i75,[i0,i30,i0,i30,i0,i0,i0,i0,i0,i30,i0])).
-answer(cycle(i75,[i0,i30,i0,i30,i0,i0,i0,i0,i30,i0,i0])).
-answer(cycle(i75,[i0,i30,i0,i30,i0,i0,i0,i30,i0,i0,i0])).
-answer(cycle(i75,[i0,i30,i0,i30,i0,i0,i0,i30,i0,i30,i0])).
-answer(cycle(i75,[i0,i30,i0,i30,i0,i0,i30,i0,i0,i0,i0])).
-answer(cycle(i75,[i0,i30,i0,i30,i0,i0,i30,i0,i0,i30,i0])).
-answer(cycle(i75,[i0,i30,i0,i30,i0,i0,i30,i0,i30,i0,i0])).
-answer(cycle(i75,[i0,i30,i0,i30,i0,i30,i0,i0,i0,i0,i0])).
-answer(cycle(i75,[i0,i30,i0,i30,i0,i30,i0,i0,i0,i30,i0])).
-answer(cycle(i75,[i0,i30,i0,i30,i0,i30,i0,i0,i30,i0,i0])).
-answer(cycle(i75,[i0,i30,i0,i30,i0,i30,i0,i30,i0,i0,i0])).
-answer(cycle(i75,[i0,i30,i0,i30,i0,i30,i0,i30,i0,i30,i0])).
-answer(cycle(i75,[i30,i0,i0,i0,i0,i0,i0,i0,i0,i0,i30])).
-answer(cycle(i75,[i30,i0,i0,i0,i0,i0,i0,i0,i30,i0,i30])).
-answer(cycle(i75,[i30,i0,i0,i0,i0,i0,i0,i30,i0,i0,i30])).
-answer(cycle(i75,[i30,i0,i0,i0,i0,i0,i30,i0,i0,i0,i30])).
-answer(cycle(i75,[i30,i0,i0,i0,i0,i0,i30,i0,i30,i0,i30])).
-answer(cycle(i75,[i30,i0,i0,i0,i0,i30,i0,i0,i0,i0,i30])).
-answer(cycle(i75,[i30,i0,i0,i0,i0,i30,i0,i0,i30,i0,i30])).
-answer(cycle(i75,[i30,i0,i0,i0,i0,i30,i0,i30,i0,i0,i30])).
-answer(cycle(i75,[i30,i0,i0,i0,i30,i0,i0,i0,i0,i0,i30])).
-answer(cycle(i75,[i30,i0,i0,i0,i30,i0,i0,i0,i30,i0,i30])).
-answer(cycle(i75,[i30,i0,i0,i0,i30,i0,i0,i30,i0,i0,i30])).
-answer(cycle(i75,[i30,i0,i0,i0,i30,i0,i30,i0,i0,i0,i30])).
-answer(cycle(i75,[i30,i0,i0,i0,i30,i0,i30,i0,i30,i0,i30])).
-answer(cycle(i75,[i30,i0,i0,i30,i0,i0,i0,i0,i0,i0,i30])).
-answer(cycle(i75,[i30,i0,i0,i30,i0,i0,i0,i0,i30,i0,i30])).
-answer(cycle(i75,[i30,i0,i0,i30,i0,i0,i0,i30,i0,i0,i30])).
-answer(cycle(i75,[i30,i0,i0,i30,i0,i0,i30,i0,i0,i0,i30])).
-answer(cycle(i75,[i30,i0,i0,i30,i0,i0,i30,i0,i30,i0,i30])).
-answer(cycle(i75,[i30,i0,i0,i30,i0,i30,i0,i0,i0,i0,i30])).
-answer(cycle(i75,[i30,i0,i0,i30,i0,i30,i0,i0,i30,i0,i30])).
-answer(cycle(i75,[i30,i0,i0,i30,i0,i30,i0,i30,i0,i0,i30])).
-answer(cycle(i75,[i30,i0,i30,i0,i0,i0,i0,i0,i0,i0,i30])).
-answer(cycle(i75,[i30,i0,i30,i0,i0,i0,i0,i0,i30,i0,i30])).
-answer(cycle(i75,[i30,i0,i30,i0,i0,i0,i0,i30,i0,i0,i30])).
-answer(cycle(i75,[i30,i0,i30,i0,i0,i0,i30,i0,i0,i0,i30])).
-answer(cycle(i75,[i30,i0,i30,i0,i0,i0,i30,i0,i30,i0,i30])).
-answer(cycle(i75,[i30,i0,i30,i0,i0,i30,i0,i0,i0,i0,i30])).
-answer(cycle(i75,[i30,i0,i30,i0,i0,i30,i0,i0,i30,i0,i30])).
-answer(cycle(i75,[i30,i0,i30,i0,i0,i30,i0,i30,i0,i0,i30])).
-answer(cycle(i75,[i30,i0,i30,i0,i30,i0,i0,i0,i0,i0,i30])).
-answer(cycle(i75,[i30,i0,i30,i0,i30,i0,i0,i0,i30,i0,i30])).
-answer(cycle(i75,[i30,i0,i30,i0,i30,i0,i0,i30,i0,i0,i30])).
-answer(cycle(i75,[i30,i0,i30,i0,i30,i0,i30,i0,i0,i0,i30])).
-answer(cycle(i75,[i30,i0,i30,i0,i30,i0,i30,i0,i30,i0,i30])).
-answer(cycle(i76,[i60,i78,i60,i78,i60,i78,i60,i78,i60,i78,i60])).
-answer(cycle(i76,[i78,i60,i78,i60,i78,i60,i78,i60,i78,i60,i78])).
-answer(cycle(i77,[i24,i24,i24,i24,i24,i24,i24,i24,i24,i24,i24])).
-answer(cycle(i77,[i69,i96,i69,i96,i69,i96,i69,i96,i69,i96,i69])).
-answer(cycle(i77,[i72,i72,i72,i72,i72,i72,i72,i72,i72,i72,i72])).
-answer(cycle(i77,[i96,i69,i96,i69,i96,i69,i96,i69,i96,i69,i96])).
-answer(cycle(i78,[i6,i6,i6,i6,i6,i6,i6,i6,i6,i6,i6])).
-answer(cycle(i79,[i39,i3,i69,i9,i39,i3,i69,i9,i69,i9,i39])).
-answer(cycle(i79,[i39,i3,i69,i9,i69,i9,i39,i3,i69,i9,i39])).
-answer(cycle(i79,[i39,i3,i69,i9,i69,i9,i69,i9,i69,i9,i39])).
-answer(cycle(i79,[i39,i81,i3,i69,i9,i39,i81,i3,i69,i9,i39])).
-answer(cycle(i79,[i3,i69,i9,i39,i3,i69,i9,i69,i9,i39,i3])).
-answer(cycle(i79,[i3,i69,i9,i39,i81,i3,i69,i9,i39,i81,i3])).
-answer(cycle(i79,[i3,i69,i9,i69,i9,i39,i3,i69,i9,i39,i3])).
-answer(cycle(i79,[i3,i69,i9,i69,i9,i69,i9,i69,i9,i39,i3])).
-answer(cycle(i79,[i69,i9,i39,i3,i69,i9,i39,i3,i69,i9,i69])).
-answer(cycle(i79,[i69,i9,i39,i3,i69,i9,i69,i9,i39,i3,i69])).
-answer(cycle(i79,[i69,i9,i39,i3,i69,i9,i69,i9,i69,i9,i69])).
-answer(cycle(i79,[i69,i9,i39,i81,i3,i69,i9,i39,i81,i3,i69])).
-answer(cycle(i79,[i69,i9,i69,i9,i39,i3,i69,i9,i39,i3,i69])).
-answer(cycle(i79,[i69,i9,i69,i9,i39,i3,i69,i9,i69,i9,i69])).
-answer(cycle(i79,[i69,i9,i69,i9,i69,i9,i39,i3,i69,i9,i69])).
-answer(cycle(i79,[i69,i9,i69,i9,i69,i9,i69,i9,i39,i3,i69])).
-answer(cycle(i79,[i69,i9,i69,i9,i69,i9,i69,i9,i69,i9,i69])).
-answer(cycle(i79,[i81,i3,i69,i9,i39,i81,i3,i69,i9,i39,i81])).
-answer(cycle(i79,[i9,i39,i3,i69,i9,i39,i3,i69,i9,i69,i9])).
-answer(cycle(i79,[i9,i39,i3,i69,i9,i69,i9,i39,i3,i69,i9])).
-answer(cycle(i79,[i9,i39,i3,i69,i9,i69,i9,i69,i9,i69,i9])).
-answer(cycle(i79,[i9,i39,i81,i3,i69,i9,i39,i81,i3,i69,i9])).
-answer(cycle(i79,[i9,i69,i9,i39,i3,i69,i9,i39,i3,i69,i9])).
-answer(cycle(i79,[i9,i69,i9,i39,i3,i69,i9,i69,i9,i69,i9])).
-answer(cycle(i79,[i9,i69,i9,i69,i9,i39,i3,i69,i9,i69,i9])).
-answer(cycle(i79,[i9,i69,i9,i69,i9,i69,i9,i39,i3,i69,i9])).
-answer(cycle(i79,[i9,i69,i9,i69,i9,i69,i9,i69,i9,i69,i9])).
-answer(cycle(i80,[i12,i45,i12,i45,i12,i45,i12,i45,i12,i45,i12])).
-answer(cycle(i80,[i15,i42,i15,i42,i15,i42,i15,i42,i15,i42,i15])).
-answer(cycle(i80,[i15,i42,i15,i42,i15,i60,i42,i15,i60,i42,i15])).
-answer(cycle(i80,[i15,i42,i15,i60,i42,i15,i42,i15,i60,i42,i15])).
-answer(cycle(i80,[i15,i42,i15,i60,i42,i15,i60,i42,i15,i42,i15])).
-answer(cycle(i80,[i15,i60,i42,i15,i42,i15,i42,i15,i60,i42,i15])).
-answer(cycle(i80,[i15,i60,i42,i15,i42,i15,i60,i42,i15,i42,i15])).
-answer(cycle(i80,[i15,i60,i42,i15,i60,i42,i15,i42,i15,i42,i15])).
-answer(cycle(i80,[i42,i15,i42,i15,i42,i15,i42,i15,i42,i15,i42])).
-answer(cycle(i80,[i42,i15,i42,i15,i42,i15,i60,i42,i15,i60,i42])).
-answer(cycle(i80,[i42,i15,i42,i15,i60,i42,i15,i42,i15,i60,i42])).
-answer(cycle(i80,[i42,i15,i42,i15,i60,i42,i15,i60,i42,i15,i42])).
-answer(cycle(i80,[i42,i15,i60,i42,i15,i42,i15,i42,i15,i60,i42])).
-answer(cycle(i80,[i42,i15,i60,i42,i15,i42,i15,i60,i42,i15,i42])).
-answer(cycle(i80,[i42,i15,i60,i42,i15,i60,i42,i15,i42,i15,i42])).
-answer(cycle(i80,[i45,i12,i45,i12,i45,i12,i45,i12,i45,i12,i45])).
-answer(cycle(i80,[i54,i81,i54,i81,i54,i81,i54,i81,i54,i81,i54])).
-answer(cycle(i80,[i60,i42,i15,i42,i15,i42,i15,i60,i42,i15,i60])).
-answer(cycle(i80,[i60,i42,i15,i42,i15,i60,i42,i15,i42,i15,i60])).
-answer(cycle(i80,[i60,i42,i15,i60,i42,i15,i42,i15,i42,i15,i60])).
-answer(cycle(i80,[i81,i54,i81,i54,i81,i54,i81,i54,i81,i54,i81])).
-answer(cycle(i80,[i90,i90,i90,i90,i90,i90,i90,i90,i90,i90,i90])).
-answer(cycle(i81,[i21,i75,i30,i75,i30,i75,i60,i21,i75,i60,i21])).
-answer(cycle(i81,[i21,i75,i30,i75,i60,i21,i75,i30,i75,i60,i21])).
-answer(cycle(i81,[i21,i75,i60,i21,i75,i30,i75,i30,i75,i60,i21])).
-answer(cycle(i81,[i27,i84,i27,i84,i27,i84,i27,i84,i27,i84,i27])).
-answer(cycle(i81,[i30,i75,i30,i75,i30,i75,i30,i75,i30,i75,i30])).
-answer(cycle(i81,[i30,i75,i30,i75,i60,i21,i75,i60,i21,i75,i30])).
-answer(cycle(i81,[i30,i75,i60,i21,i75,i30,i75,i60,i21,i75,i30])).
-answer(cycle(i81,[i30,i75,i60,i21,i75,i60,i21,i75,i30,i75,i30])).
-answer(cycle(i81,[i60,i21,i75,i30,i75,i30,i75,i60,i21,i75,i60])).
-answer(cycle(i81,[i60,i21,i75,i30,i75,i60,i21,i75,i30,i75,i60])).
-answer(cycle(i81,[i60,i21,i75,i60,i21,i75,i30,i75,i30,i75,i60])).
-answer(cycle(i81,[i75,i30,i75,i30,i75,i30,i75,i30,i75,i30,i75])).
-answer(cycle(i81,[i75,i30,i75,i30,i75,i60,i21,i75,i60,i21,i75])).
-answer(cycle(i81,[i75,i30,i75,i60,i21,i75,i30,i75,i60,i21,i75])).
-answer(cycle(i81,[i75,i30,i75,i60,i21,i75,i60,i21,i75,i30,i75])).
-answer(cycle(i81,[i75,i60,i21,i75,i30,i75,i30,i75,i60,i21,i75])).
-answer(cycle(i81,[i75,i60,i21,i75,i30,i75,i60,i21,i75,i30,i75])).
-answer(cycle(i81,[i75,i60,i21,i75,i60,i21,i75,i30,i75,i30,i75])).
-answer(cycle(i81,[i84,i27,i84,i27,i84,i27,i84,i27,i84,i27,i84])).
-answer(cycle(i82,[i21,i21,i21,i21,i21,i21,i21,i21,i21,i21,i21])).
-answer(cycle(i82,[i36,i36,i36,i36,i36,i36,i36,i36,i36,i36,i36])).
-answer(cycle(i83,[i0,i6,i84,i69,i6,i84,i69,i6,i84,i69,i0])).
-answer(cycle(i83,[i69,i0,i6,i84,i69,i6,i84,i69,i6,i84,i69])).
-answer(cycle(i83,[i69,i6,i84,i69,i0,i6,i84,i69,i6,i84,i69])).
-answer(cycle(i83,[i69,i6,i84,i69,i6,i84,i69,i0,i6,i84,i69])).
-answer(cycle(i83,[i6,i84,i69,i0,i6,i84,i69,i6,i84,i69,i6])).
-answer(cycle(i83,[i6,i84,i69,i6,i84,i69,i0,i6,i84,i69,i6])).
-answer(cycle(i83,[i6,i84,i69,i6,i84,i69,i6,i84,i69,i0,i6])).
-answer(cycle(i83,[i84,i69,i0,i6,i84,i69,i6,i84,i69,i6,i84])).
-answer(cycle(i83,[i84,i69,i6,i84,i69,i0,i6,i84,i69,i6,i84])).
-answer(cycle(i83,[i84,i69,i6,i84,i69,i6,i84,i69,i0,i6,i84])).
-answer(cycle(i84,[i0,i0,i0,i0,i0,i0,i0,i0,i0,i0,i0])).
-answer(cycle(i84,[i21,i87,i33,i93,i51,i30,i21,i87,i51,i30,i21])).
-answer(cycle(i84,[i21,i87,i51,i30,i21,i87,i33,i93,i51,i30,i21])).
-answer(cycle(i84,[i30,i21,i87,i33,i93,i51,i30,i21,i87,i51,i30])).
-answer(cycle(i84,[i30,i21,i87,i51,i30,i21,i87,i33,i93,i51,i30])).
-answer(cycle(i84,[i33,i93,i51,i30,i21,i87,i51,i30,i21,i87,i33])).
-answer(cycle(i84,[i51,i30,i21,i87,i33,i93,i51,i30,i21,i87,i51])).
-answer(cycle(i84,[i51,i30,i21,i87,i51,i30,i21,i87,i33,i93,i51])).
-answer(cycle(i84,[i87,i33,i93,i51,i30,i21,i87,i51,i30,i21,i87])).
-answer(cycle(i84,[i87,i51,i30,i21,i87,i33,i93,i51,i30,i21,i87])).
-answer(cycle(i84,[i93,i51,i30,i21,i87,i51,i30,i21,i87,i33,i93])).
-answer(cycle(i86,[i0,i0,i0,i0,i0,i0,i0,i0,i0,i0,i0])).
-answer(cycle(i88,[i3,i3,i3,i3,i3,i3,i3,i3,i3,i3,i3])).
-answer(cycle(i88,[i54,i54,i54,i54,i54,i54,i54,i54,i54,i54,i54])).
-answer(cycle(i88,[i57,i57,i57,i57,i57,i57,i57,i57,i57,i57,i57])).
-answer(cycle(i89,[i48,i48,i48,i48,i48,i48,i48,i48,i48,i48,i48])).
-answer(cycle(i89,[i9,i9,i9,i9,i9,i9,i9,i9,i9,i9,i9])).
-answer(cycle(i9,[i30,i9,i54,i30,i9,i54,i30,i9,i84,i54,i30])).
-answer(cycle(i9,[i30,i9,i54,i30,i9,i84,i54,i30,i9,i54,i30])).
-answer(cycle(i9,[i30,i9,i84,i54,i30,i9,i54,i30,i9,i54,i30])).
-answer(cycle(i9,[i54,i30,i9,i54,i30,i9,i54,i30,i9,i84,i54])).
-answer(cycle(i9,[i54,i30,i9,i54,i30,i9,i84,i54,i30,i9,i54])).
-answer(cycle(i9,[i54,i30,i9,i84,i54,i30,i9,i54,i30,i9,i54])).
-answer(cycle(i9,[i84,i54,i30,i9,i54,i30,i9,i54,i30,i9,i84])).
-answer(cycle(i9,[i9,i54,i30,i9,i54,i30,i9,i84,i54,i30,i9])).
-answer(cycle(i9,[i9,i54,i30,i9,i84,i54,i30,i9,i54,i30,i9])).
-answer(cycle(i9,[i9,i84,i54,i30,i9,i54,i30,i9,i54,i30,i9])).
-answer(cycle(i92,[i45,i84,i45,i84,i45,i84,i45,i84,i45,i84,i45])).
-answer(cycle(i92,[i84,i45,i84,i45,i84,i45,i84,i45,i84,i45,i84])).
-answer(cycle(i93,[i33,i48,i33,i48,i33,i48,i33,i48,i33,i48,i33])).
-answer(cycle(i93,[i48,i33,i48,i33,i48,i33,i48,i33,i48,i33,i48])).
-answer(cycle(i93,[i54,i69,i54,i69,i54,i69,i54,i69,i54,i69,i54])).
-answer(cycle(i93,[i69,i54,i69,i54,i69,i54,i69,i54,i69,i54,i69])).
-answer(cycle(i93,[i84,i84,i84,i84,i84,i84,i84,i84,i84,i84,i84])).
-answer(cycle(i94,[i15,i15,i15,i15,i15,i15,i15,i15,i15,i15,i15])).
-answer(cycle(i95,[i48,i51,i48,i51,i48,i51,i48,i51,i48,i51,i48])).
-answer(cycle(i95,[i48,i51,i48,i51,i48,i51,i48,i51,i51,i51,i48])).
-answer(cycle(i95,[i48,i51,i48,i51,i48,i51,i51,i48,i51,i51,i48])).
-answer(cycle(i95,[i48,i51,i48,i51,i48,i51,i51,i51,i48,i51,i48])).
-answer(cycle(i95,[i48,i51,i48,i51,i48,i51,i51,i51,i51,i51,i48])).
-answer(cycle(i95,[i48,i51,i48,i51,i51,i48,i51,i48,i51,i51,i48])).
-answer(cycle(i95,[i48,i51,i48,i51,i51,i48,i51,i51,i48,i51,i48])).
-answer(cycle(i95,[i48,i51,i48,i51,i51,i48,i51,i51,i51,i51,i48])).
-answer(cycle(i95,[i48,i51,i48,i51,i51,i51,i48,i51,i48,i51,i48])).
-answer(cycle(i95,[i48,i51,i48,i51,i51,i51,i48,i51,i51,i51,i48])).
-answer(cycle(i95,[i48,i51,i48,i51,i51,i51,i51,i48,i51,i51,i48])).
-answer(cycle(i95,[i48,i51,i48,i51,i51,i51,i51,i51,i48,i51,i48])).
-answer(cycle(i95,[i48,i51,i48,i51,i51,i51,i51,i51,i51,i51,i48])).
-answer(cycle(i95,[i48,i51,i51,i48,i51,i48,i51,i48,i51,i51,i48])).
-answer(cycle(i95,[i48,i51,i51,i48,i51,i48,i51,i51,i48,i51,i48])).
-answer(cycle(i95,[i48,i51,i51,i48,i51,i48,i51,i51,i51,i51,i48])).
-answer(cycle(i95,[i48,i51,i51,i48,i51,i51,i48,i51,i48,i51,i48])).
-answer(cycle(i95,[i48,i51,i51,i48,i51,i51,i48,i51,i51,i51,i48])).
-answer(cycle(i95,[i48,i51,i51,i48,i51,i51,i51,i48,i51,i51,i48])).
-answer(cycle(i95,[i48,i51,i51,i48,i51,i51,i51,i51,i48,i51,i48])).
-answer(cycle(i95,[i48,i51,i51,i48,i51,i51,i51,i51,i51,i51,i48])).
-answer(cycle(i95,[i48,i51,i51,i51,i48,i51,i48,i51,i48,i51,i48])).
-answer(cycle(i95,[i48,i51,i51,i51,i48,i51,i48,i51,i51,i51,i48])).
-answer(cycle(i95,[i48,i51,i51,i51,i48,i51,i51,i48,i51,i51,i48])).
-answer(cycle(i95,[i48,i51,i51,i51,i48,i51,i51,i51,i48,i51,i48])).
-answer(cycle(i95,[i48,i51,i51,i51,i48,i51,i51,i51,i51,i51,i48])).
-answer(cycle(i95,[i48,i51,i51,i51,i51,i48,i51,i48,i51,i51,i48])).
-answer(cycle(i95,[i48,i51,i51,i51,i51,i48,i51,i51,i48,i51,i48])).
-answer(cycle(i95,[i48,i51,i51,i51,i51,i48,i51,i51,i51,i51,i48])).
-answer(cycle(i95,[i48,i51,i51,i51,i51,i51,i48,i51,i48,i51,i48])).
-answer(cycle(i95,[i48,i51,i51,i51,i51,i51,i48,i51,i51,i51,i48])).
-answer(cycle(i95,[i48,i51,i51,i51,i51,i51,i51,i48,i51,i51,i48])).
-answer(cycle(i95,[i48,i51,i51,i51,i51,i51,i51,i51,i48,i51,i48])).
-answer(cycle(i95,[i48,i51,i51,i51,i51,i51,i51,i51,i51,i51,i48])).
-answer(cycle(i95,[i51,i48,i51,i48,i51,i48,i51,i48,i51,i48,i51])).
-answer(cycle(i95,[i51,i48,i51,i48,i51,i48,i51,i48,i51,i51,i51])).
-answer(cycle(i95,[i51,i48,i51,i48,i51,i48,i51,i51,i48,i51,i51])).
-answer(cycle(i95,[i51,i48,i51,i48,i51,i48,i51,i51,i51,i48,i51])).
-answer(cycle(i95,[i51,i48,i51,i48,i51,i48,i51,i51,i51,i51,i51])).
-answer(cycle(i95,[i51,i48,i51,i48,i51,i51,i48,i51,i48,i51,i51])).
-answer(cycle(i95,[i51,i48,i51,i48,i51,i51,i48,i51,i51,i48,i51])).
-answer(cycle(i95,[i51,i48,i51,i48,i51,i51,i48,i51,i51,i51,i51])).
-answer(cycle(i95,[i51,i48,i51,i48,i51,i51,i51,i48,i51,i48,i51])).
-answer(cycle(i95,[i51,i48,i51,i48,i51,i51,i51,i48,i51,i51,i51])).
-answer(cycle(i95,[i51,i48,i51,i48,i51,i51,i51,i51,i48,i51,i51])).
-answer(cycle(i95,[i51,i48,i51,i48,i51,i51,i51,i51,i51,i48,i51])).
-answer(cycle(i95,[i51,i48,i51,i48,i51,i51,i51,i51,i51,i51,i51])).
-answer(cycle(i95,[i51,i48,i51,i51,i48,i51,i48,i51,i48,i51,i51])).
-answer(cycle(i95,[i51,i48,i51,i51,i48,i51,i48,i51,i51,i48,i51])).
-answer(cycle(i95,[i51,i48,i51,i51,i48,i51,i48,i51,i51,i51,i51])).
-answer(cycle(i95,[i51,i48,i51,i51,i48,i51,i51,i48,i51,i48,i51])).
-answer(cycle(i95,[i51,i48,i51,i51,i48,i51,i51,i48,i51,i51,i51])).
-answer(cycle(i95,[i51,i48,i51,i51,i48,i51,i51,i51,i48,i51,i51])).
-answer(cycle(i95,[i51,i48,i51,i51,i48,i51,i51,i51,i51,i48,i51])).
-answer(cycle(i95,[i51,i48,i51,i51,i48,i51,i51,i51,i51,i51,i51])).
-answer(cycle(i95,[i51,i48,i51,i51,i51,i48,i51,i48,i51,i48,i51])).
-answer(cycle(i95,[i51,i48,i51,i51,i51,i48,i51,i48,i51,i51,i51])).
-answer(cycle(i95,[i51,i48,i51,i51,i51,i48,i51,i51,i48,i51,i51])).
-answer(cycle(i95,[i51,i48,i51,i51,i51,i48,i51,i51,i51,i48,i51])).
-answer(cycle(i95,[i51,i48,i51,i51,i51,i48,i51,i51,i51,i51,i51])).
-answer(cycle(i95,[i51,i48,i51,i51,i51,i51,i48,i51,i48,i51,i51])).
-answer(cycle(i95,[i51,i48,i51,i51,i51,i51,i48,i51,i51,i48,i51])).
-answer(cycle(i95,[i51,i48,i51,i51,i51,i51,i48,i51,i51,i51,i51])).
-answer(cycle(i95,[i51,i48,i51,i51,i51,i51,i51,i48,i51,i48,i51])).
-answer(cycle(i95,[i51,i48,i51,i51,i51,i51,i51,i48,i51,i51,i51])).
-answer(cycle(i95,[i51,i48,i51,i51,i51,i51,i51,i51,i48,i51,i51])).
-answer(cycle(i95,[i51,i48,i51,i51,i51,i51,i51,i51,i51,i48,i51])).
-answer(cycle(i95,[i51,i48,i51,i51,i51,i51,i51,i51,i51,i51,i51])).
-answer(cycle(i95,[i51,i51,i48,i51,i48,i51,i48,i51,i48,i51,i51])).
-answer(cycle(i95,[i51,i51,i48,i51,i48,i51,i48,i51,i51,i48,i51])).
-answer(cycle(i95,[i51,i51,i48,i51,i48,i51,i48,i51,i51,i51,i51])).
-answer(cycle(i95,[i51,i51,i48,i51,i48,i51,i51,i48,i51,i48,i51])).
-answer(cycle(i95,[i51,i51,i48,i51,i48,i51,i51,i48,i51,i51,i51])).
-answer(cycle(i95,[i51,i51,i48,i51,i48,i51,i51,i51,i48,i51,i51])).
-answer(cycle(i95,[i51,i51,i48,i51,i48,i51,i51,i51,i51,i48,i51])).
-answer(cycle(i95,[i51,i51,i48,i51,i48,i51,i51,i51,i51,i51,i51])).
-answer(cycle(i95,[i51,i51,i48,i51,i51,i48,i51,i48,i51,i48,i51])).
-answer(cycle(i95,[i51,i51,i48,i51,i51,i48,i51,i48,i51,i51,i51])).
-answer(cycle(i95,[i51,i51,i48,i51,i51,i48,i51,i51,i48,i51,i51])).
-answer(cycle(i95,[i51,i51,i48,i51,i51,i48,i51,i51,i51,i48,i51])).
-answer(cycle(i95,[i51,i51,i48,i51,i51,i48,i51,i51,i51,i51,i51])).
-answer(cycle(i95,[i51,i51,i48,i51,i51,i51,i48,i51,i48,i51,i51])).
-answer(cycle(i95,[i51,i51,i48,i51,i51,i51,i48,i51,i51,i48,i51])).
-answer(cycle(i95,[i51,i51,i48,i51,i51,i51,i48,i51,i51,i51,i51])).
-answer(cycle(i95,[i51,i51,i48,i51,i51,i51,i51,i48,i51,i48,i51])).
-answer(cycle(i95,[i51,i51,i48,i51,i51,i51,i51,i48,i51,i51,i51])).
-answer(cycle(i95,[i51,i51,i48,i51,i51,i51,i51,i51,i48,i51,i51])).
-answer(cycle(i95,[i51,i51,i48,i51,i51,i51,i51,i51,i51,i48,i51])).
-answer(cycle(i95,[i51,i51,i48,i51,i51,i51,i51,i51,i51,i51,i51])).
-answer(cycle(i95,[i51,i51,i51,i48,i51,i48,i51,i48,i51,i48,i51])).
-answer(cycle(i95,[i51,i51,i51,i48,i51,i48,i51,i48,i51,i51,i51])).
-answer(cycle(i95,[i51,i51,i51,i48,i51,i48,i51,i51,i48,i51,i51])).
-answer(cycle(i95,[i51,i51,i51,i48,i51,i48,i51,i51,i51,i48,i51])).
-answer(cycle(i95,[i51,i51,i51,i48,i51,i48,i51,i51,i51,i51,i51])).
-answer(cycle(i95,[i51,i51,i51,i48,i51,i51,i48,i51,i48,i51,i51])).
-answer(cycle(i95,[i51,i51,i51,i48,i51,i51,i48,i51,i51,i48,i51])).
-answer(cycle(i95,[i51,i51,i51,i48,i51,i51,i48,i51,i51,i51,i51])).
-answer(cycle(i95,[i51,i51,i51,i48,i51,i51,i51,i48,i51,i48,i51])).
-answer(cycle(i95,[i51,i51,i51,i48,i51,i51,i51,i48,i51,i51,i51])).
-answer(cycle(i95,[i51,i51,i51,i48,i51,i51,i51,i51,i48,i51,i51])).
-answer(cycle(i95,[i51,i51,i51,i48,i51,i51,i51,i51,i51,i48,i51])).
-answer(cycle(i95,[i51,i51,i51,i48,i51,i51,i51,i51,i51,i51,i51])).
-answer(cycle(i95,[i51,i51,i51,i51,i48,i51,i48,i51,i48,i51,i51])).
-answer(cycle(i95,[i51,i51,i51,i51,i48,i51,i48,i51,i51,i48,i51])).
-answer(cycle(i95,[i51,i51,i51,i51,i48,i51,i48,i51,i51,i51,i51])).
-answer(cycle(i95,[i51,i51,i51,i51,i48,i51,i51,i48,i51,i48,i51])).
-answer(cycle(i95,[i51,i51,i51,i51,i48,i51,i51,i48,i51,i51,i51])).
-answer(cycle(i95,[i51,i51,i51,i51,i48,i51,i51,i51,i48,i51,i51])).
-answer(cycle(i95,[i51,i51,i51,i51,i48,i51,i51,i51,i51,i48,i51])).
-answer(cycle(i95,[i51,i51,i51,i51,i48,i51,i51,i51,i51,i51,i51])).
-answer(cycle(i95,[i51,i51,i51,i51,i51,i48,i51,i48,i51,i48,i51])).
-answer(cycle(i95,[i51,i51,i51,i51,i51,i48,i51,i48,i51,i51,i51])).
-answer(cycle(i95,[i51,i51,i51,i51,i51,i48,i51,i51,i48,i51,i51])).
-answer(cycle(i95,[i51,i51,i51,i51,i51,i48,i51,i51,i51,i48,i51])).
-answer(cycle(i95,[i51,i51,i51,i51,i51,i48,i51,i51,i51,i51,i51])).
-answer(cycle(i95,[i51,i51,i51,i51,i51,i51,i48,i51,i48,i51,i51])).
-answer(cycle(i95,[i51,i51,i51,i51,i51,i51,i48,i51,i51,i48,i51])).
-answer(cycle(i95,[i51,i51,i51,i51,i51,i51,i48,i51,i51,i51,i51])).
-answer(cycle(i95,[i51,i51,i51,i51,i51,i51,i51,i48,i51,i48,i51])).
-answer(cycle(i95,[i51,i51,i51,i51,i51,i51,i51,i48,i51,i51,i51])).
-answer(cycle(i95,[i51,i51,i51,i51,i51,i51,i51,i51,i48,i51,i51])).
-answer(cycle(i95,[i51,i51,i51,i51,i51,i51,i51,i51,i51,i48,i51])).
-answer(cycle(i95,[i51,i51,i51,i51,i51,i51,i51,i51,i51,i51,i51])).
-answer(cycle(i95,[i96,i96,i96,i96,i96,i96,i96,i96,i96,i96,i96])).
-answer(cycle(i96,[i27,i27,i27,i27,i27,i27,i27,i27,i27,i27,i27])).
-answer(cycle(i96,[i33,i69,i75,i48,i33,i69,i75,i75,i75,i48,i33])).
-answer(cycle(i96,[i33,i69,i75,i75,i48,i33,i69,i75,i75,i48,i33])).
-answer(cycle(i96,[i33,i69,i75,i75,i75,i48,i33,i69,i75,i48,i33])).
-answer(cycle(i96,[i33,i69,i75,i75,i75,i75,i75,i75,i75,i48,i33])).
-answer(cycle(i96,[i48,i33,i69,i75,i48,i33,i69,i75,i75,i75,i48])).
-answer(cycle(i96,[i48,i33,i69,i75,i75,i48,i33,i69,i75,i75,i48])).
-answer(cycle(i96,[i48,i33,i69,i75,i75,i75,i48,i33,i69,i75,i48])).
-answer(cycle(i96,[i48,i33,i69,i75,i75,i75,i75,i75,i75,i75,i48])).
-answer(cycle(i96,[i69,i75,i48,i33,i69,i75,i75,i75,i48,i33,i69])).
-answer(cycle(i96,[i69,i75,i75,i48,i33,i69,i75,i75,i48,i33,i69])).
-answer(cycle(i96,[i69,i75,i75,i75,i48,i33,i69,i75,i48,i33,i69])).
-answer(cycle(i96,[i69,i75,i75,i75,i75,i75,i75,i75,i48,i33,i69])).
-answer(cycle(i96,[i75,i48,i33,i69,i75,i48,i33,i69,i75,i75,i75])).
-answer(cycle(i96,[i75,i48,i33,i69,i75,i75,i48,i33,i69,i75,i75])).
-answer(cycle(i96,[i75,i48,i33,i69,i75,i75,i75,i48,i33,i69,i75])).
-answer(cycle(i96,[i75,i48,i33,i69,i75,i75,i75,i75,i75,i75,i75])).
-answer(cycle(i96,[i75,i75,i48,i33,i69,i75,i48,i33,i69,i75,i75])).
-answer(cycle(i96,[i75,i75,i48,i33,i69,i75,i75,i48,i33,i69,i75])).
-answer(cycle(i96,[i75,i75,i48,i33,i69,i75,i75,i75,i75,i75,i75])).
-answer(cycle(i96,[i75,i75,i75,i48,i33,i69,i75,i48,i33,i69,i75])).
-answer(cycle(i96,[i75,i75,i75,i48,i33,i69,i75,i75,i75,i75,i75])).
-answer(cycle(i96,[i75,i75,i75,i75,i48,i33,i69,i75,i75,i75,i75])).
-answer(cycle(i96,[i75,i75,i75,i75,i75,i48,i33,i69,i75,i75,i75])).
-answer(cycle(i96,[i75,i75,i75,i75,i75,i75,i48,i33,i69,i75,i75])).
-answer(cycle(i96,[i75,i75,i75,i75,i75,i75,i75,i48,i33,i69,i75])).
-answer(cycle(i96,[i75,i75,i75,i75,i75,i75,i75,i75,i75,i75,i75])).
-answer(cycle(i97,[i18,i69,i18,i69,i18,i69,i18,i69,i18,i69,i18])).
-answer(cycle(i97,[i27,i27,i27,i27,i27,i27,i27,i27,i27,i27,i27])).
-answer(cycle(i97,[i60,i60,i60,i60,i60,i60,i60,i60,i60,i60,i60])).
-answer(cycle(i97,[i69,i18,i69,i18,i69,i18,i69,i18,i69,i18,i69])).
-answer(cycle(i97,[i75,i84,i75,i84,i75,i84,i75,i84,i75,i84,i75])).
-answer(cycle(i97,[i84,i75,i84,i75,i84,i75,i84,i75,i84,i75,i84])).
-answer(cycle(i98,[i12,i12,i12,i12,i12,i12,i12,i12,i12,i12,i12])).
-answer(cycle(i98,[i15,i15,i15,i15,i15,i15,i15,i15,i15,i15,i15])).
+answer(cycle(i_94, [i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15])).
+answer(cycle(i_64, [i_3, i_9, i_3, i_9, i_3, i_9, i_3, i_9, i_3, i_9, i_3])).
+answer(cycle(i_64, [i_42, i_42, i_42, i_42, i_42, i_42, i_42, i_42, i_42, i_42, i_42])).
+answer(cycle(i_64, [i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54])).
+answer(cycle(i_64, [i_9, i_3, i_9, i_3, i_9, i_3, i_9, i_3, i_9, i_3, i_9])).
+answer(cycle(i_34, [i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0])).
+answer(cycle(i_34, [i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18])).
+answer(cycle(i_34, [i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24])).
+answer(cycle(i_34, [i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30])).
+answer(cycle(i_34, [i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60])).
+answer(cycle(i_34, [i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81])).
+answer(cycle(i_95, [i_48, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_48])).
+answer(cycle(i_95, [i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_48])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51])).
+answer(cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51])).
+answer(cycle(i_95, [i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96])).
+answer(cycle(i_35, [i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45])).
+answer(cycle(i_63, [i_72, i_72, i_72, i_72, i_72, i_72, i_72, i_72, i_72, i_72, i_72])).
+answer(cycle(i_63, [i_93, i_93, i_93, i_93, i_93, i_93, i_93, i_93, i_93, i_93, i_93])).
+answer(cycle(i_66, [i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6])).
+answer(cycle(i_36, [i_24, i_84, i_51, i_36, i_24, i_84, i_51, i_36, i_93, i_36, i_24])).
+answer(cycle(i_36, [i_24, i_84, i_51, i_36, i_72, i_24, i_84, i_51, i_36, i_72, i_24])).
+answer(cycle(i_36, [i_24, i_84, i_51, i_36, i_93, i_36, i_24, i_84, i_51, i_36, i_24])).
+answer(cycle(i_36, [i_24, i_84, i_51, i_36, i_93, i_36, i_93, i_36, i_93, i_36, i_24])).
+answer(cycle(i_36, [i_36, i_24, i_84, i_51, i_36, i_24, i_84, i_51, i_36, i_93, i_36])).
+answer(cycle(i_36, [i_36, i_24, i_84, i_51, i_36, i_93, i_36, i_24, i_84, i_51, i_36])).
+answer(cycle(i_36, [i_36, i_24, i_84, i_51, i_36, i_93, i_36, i_93, i_36, i_93, i_36])).
+answer(cycle(i_36, [i_36, i_72, i_24, i_84, i_51, i_36, i_72, i_24, i_84, i_51, i_36])).
+answer(cycle(i_36, [i_36, i_93, i_36, i_24, i_84, i_51, i_36, i_24, i_84, i_51, i_36])).
+answer(cycle(i_36, [i_36, i_93, i_36, i_24, i_84, i_51, i_36, i_93, i_36, i_93, i_36])).
+answer(cycle(i_36, [i_36, i_93, i_36, i_93, i_36, i_24, i_84, i_51, i_36, i_93, i_36])).
+answer(cycle(i_36, [i_36, i_93, i_36, i_93, i_36, i_93, i_36, i_24, i_84, i_51, i_36])).
+answer(cycle(i_36, [i_36, i_93, i_36, i_93, i_36, i_93, i_36, i_93, i_36, i_93, i_36])).
+answer(cycle(i_36, [i_51, i_36, i_24, i_84, i_51, i_36, i_93, i_36, i_24, i_84, i_51])).
+answer(cycle(i_36, [i_51, i_36, i_72, i_24, i_84, i_51, i_36, i_72, i_24, i_84, i_51])).
+answer(cycle(i_36, [i_51, i_36, i_93, i_36, i_24, i_84, i_51, i_36, i_24, i_84, i_51])).
+answer(cycle(i_36, [i_51, i_36, i_93, i_36, i_93, i_36, i_93, i_36, i_24, i_84, i_51])).
+answer(cycle(i_36, [i_72, i_24, i_84, i_51, i_36, i_72, i_24, i_84, i_51, i_36, i_72])).
+answer(cycle(i_36, [i_84, i_51, i_36, i_24, i_84, i_51, i_36, i_93, i_36, i_24, i_84])).
+answer(cycle(i_36, [i_84, i_51, i_36, i_72, i_24, i_84, i_51, i_36, i_72, i_24, i_84])).
+answer(cycle(i_36, [i_84, i_51, i_36, i_93, i_36, i_24, i_84, i_51, i_36, i_24, i_84])).
+answer(cycle(i_36, [i_84, i_51, i_36, i_93, i_36, i_93, i_36, i_93, i_36, i_24, i_84])).
+answer(cycle(i_36, [i_93, i_36, i_24, i_84, i_51, i_36, i_24, i_84, i_51, i_36, i_93])).
+answer(cycle(i_36, [i_93, i_36, i_24, i_84, i_51, i_36, i_93, i_36, i_93, i_36, i_93])).
+answer(cycle(i_36, [i_93, i_36, i_93, i_36, i_24, i_84, i_51, i_36, i_93, i_36, i_93])).
+answer(cycle(i_36, [i_93, i_36, i_93, i_36, i_93, i_36, i_24, i_84, i_51, i_36, i_93])).
+answer(cycle(i_36, [i_93, i_36, i_93, i_36, i_93, i_36, i_93, i_36, i_93, i_36, i_93])).
+answer(cycle(i_92, [i_45, i_84, i_45, i_84, i_45, i_84, i_45, i_84, i_45, i_84, i_45])).
+answer(cycle(i_92, [i_84, i_45, i_84, i_45, i_84, i_45, i_84, i_45, i_84, i_45, i_84])).
+answer(cycle(i_37, [i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6])).
+answer(cycle(i_65, [i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12])).
+answer(cycle(i_65, [i_18, i_57, i_72, i_9, i_96, i_18, i_57, i_72, i_9, i_96, i_18])).
+answer(cycle(i_65, [i_18, i_57, i_72, i_9, i_96, i_18, i_57, i_78, i_9, i_96, i_18])).
+answer(cycle(i_65, [i_18, i_57, i_78, i_78, i_78, i_78, i_78, i_78, i_9, i_96, i_18])).
+answer(cycle(i_65, [i_18, i_57, i_78, i_78, i_9, i_3, i_84, i_45, i_9, i_96, i_18])).
+answer(cycle(i_65, [i_18, i_57, i_78, i_9, i_96, i_18, i_57, i_72, i_9, i_96, i_18])).
+answer(cycle(i_65, [i_18, i_57, i_78, i_9, i_96, i_18, i_57, i_78, i_9, i_96, i_18])).
+answer(cycle(i_65, [i_3, i_84, i_45, i_9, i_96, i_18, i_57, i_78, i_78, i_9, i_3])).
+answer(cycle(i_65, [i_45, i_9, i_96, i_18, i_57, i_78, i_78, i_9, i_3, i_84, i_45])).
+answer(cycle(i_65, [i_57, i_72, i_9, i_96, i_18, i_57, i_72, i_9, i_96, i_18, i_57])).
+answer(cycle(i_65, [i_57, i_72, i_9, i_96, i_18, i_57, i_78, i_9, i_96, i_18, i_57])).
+answer(cycle(i_65, [i_57, i_78, i_78, i_78, i_78, i_78, i_78, i_9, i_96, i_18, i_57])).
+answer(cycle(i_65, [i_57, i_78, i_78, i_9, i_3, i_84, i_45, i_9, i_96, i_18, i_57])).
+answer(cycle(i_65, [i_57, i_78, i_9, i_96, i_18, i_57, i_72, i_9, i_96, i_18, i_57])).
+answer(cycle(i_65, [i_57, i_78, i_9, i_96, i_18, i_57, i_78, i_9, i_96, i_18, i_57])).
+answer(cycle(i_65, [i_72, i_9, i_96, i_18, i_57, i_72, i_9, i_96, i_18, i_57, i_72])).
+answer(cycle(i_65, [i_72, i_9, i_96, i_18, i_57, i_78, i_9, i_96, i_18, i_57, i_72])).
+answer(cycle(i_65, [i_78, i_78, i_78, i_78, i_78, i_78, i_78, i_78, i_78, i_78, i_78])).
+answer(cycle(i_65, [i_78, i_78, i_78, i_78, i_78, i_78, i_9, i_96, i_18, i_57, i_78])).
+answer(cycle(i_65, [i_78, i_78, i_78, i_78, i_78, i_9, i_96, i_18, i_57, i_78, i_78])).
+answer(cycle(i_65, [i_78, i_78, i_78, i_78, i_9, i_96, i_18, i_57, i_78, i_78, i_78])).
+answer(cycle(i_65, [i_78, i_78, i_78, i_9, i_96, i_18, i_57, i_78, i_78, i_78, i_78])).
+answer(cycle(i_65, [i_78, i_78, i_9, i_3, i_84, i_45, i_9, i_96, i_18, i_57, i_78])).
+answer(cycle(i_65, [i_78, i_78, i_9, i_96, i_18, i_57, i_78, i_78, i_78, i_78, i_78])).
+answer(cycle(i_65, [i_78, i_9, i_3, i_84, i_45, i_9, i_96, i_18, i_57, i_78, i_78])).
+answer(cycle(i_65, [i_78, i_9, i_96, i_18, i_57, i_72, i_9, i_96, i_18, i_57, i_78])).
+answer(cycle(i_65, [i_78, i_9, i_96, i_18, i_57, i_78, i_78, i_78, i_78, i_78, i_78])).
+answer(cycle(i_65, [i_78, i_9, i_96, i_18, i_57, i_78, i_9, i_96, i_18, i_57, i_78])).
+answer(cycle(i_65, [i_84, i_45, i_9, i_96, i_18, i_57, i_78, i_78, i_9, i_3, i_84])).
+answer(cycle(i_65, [i_96, i_18, i_57, i_72, i_9, i_96, i_18, i_57, i_72, i_9, i_96])).
+answer(cycle(i_65, [i_96, i_18, i_57, i_72, i_9, i_96, i_18, i_57, i_78, i_9, i_96])).
+answer(cycle(i_65, [i_96, i_18, i_57, i_78, i_78, i_78, i_78, i_78, i_78, i_9, i_96])).
+answer(cycle(i_65, [i_96, i_18, i_57, i_78, i_78, i_9, i_3, i_84, i_45, i_9, i_96])).
+answer(cycle(i_65, [i_96, i_18, i_57, i_78, i_9, i_96, i_18, i_57, i_72, i_9, i_96])).
+answer(cycle(i_65, [i_96, i_18, i_57, i_78, i_9, i_96, i_18, i_57, i_78, i_9, i_96])).
+answer(cycle(i_65, [i_9, i_3, i_84, i_45, i_9, i_96, i_18, i_57, i_78, i_78, i_9])).
+answer(cycle(i_65, [i_9, i_96, i_18, i_57, i_72, i_9, i_96, i_18, i_57, i_72, i_9])).
+answer(cycle(i_65, [i_9, i_96, i_18, i_57, i_72, i_9, i_96, i_18, i_57, i_78, i_9])).
+answer(cycle(i_65, [i_9, i_96, i_18, i_57, i_78, i_78, i_78, i_78, i_78, i_78, i_9])).
+answer(cycle(i_65, [i_9, i_96, i_18, i_57, i_78, i_78, i_9, i_3, i_84, i_45, i_9])).
+answer(cycle(i_65, [i_9, i_96, i_18, i_57, i_78, i_9, i_96, i_18, i_57, i_72, i_9])).
+answer(cycle(i_65, [i_9, i_96, i_18, i_57, i_78, i_9, i_96, i_18, i_57, i_78, i_9])).
+answer(cycle(i_93, [i_33, i_48, i_33, i_48, i_33, i_48, i_33, i_48, i_33, i_48, i_33])).
+answer(cycle(i_93, [i_48, i_33, i_48, i_33, i_48, i_33, i_48, i_33, i_48, i_33, i_48])).
+answer(cycle(i_93, [i_54, i_69, i_54, i_69, i_54, i_69, i_54, i_69, i_54, i_69, i_54])).
+answer(cycle(i_93, [i_69, i_54, i_69, i_54, i_69, i_54, i_69, i_54, i_69, i_54, i_69])).
+answer(cycle(i_93, [i_84, i_84, i_84, i_84, i_84, i_84, i_84, i_84, i_84, i_84, i_84])).
+answer(cycle(i_60, [i_12, i_63, i_93, i_27, i_39, i_48, i_42, i_45, i_99, i_33, i_12])).
+answer(cycle(i_60, [i_27, i_39, i_48, i_42, i_45, i_99, i_33, i_12, i_63, i_93, i_27])).
+answer(cycle(i_60, [i_33, i_12, i_63, i_93, i_27, i_39, i_48, i_42, i_45, i_99, i_33])).
+answer(cycle(i_60, [i_39, i_48, i_42, i_45, i_99, i_33, i_12, i_63, i_93, i_27, i_39])).
+answer(cycle(i_60, [i_42, i_45, i_99, i_33, i_12, i_63, i_93, i_27, i_39, i_48, i_42])).
+answer(cycle(i_60, [i_45, i_99, i_33, i_12, i_63, i_93, i_27, i_39, i_48, i_42, i_45])).
+answer(cycle(i_60, [i_48, i_42, i_45, i_99, i_33, i_12, i_63, i_93, i_27, i_39, i_48])).
+answer(cycle(i_60, [i_63, i_93, i_27, i_39, i_48, i_42, i_45, i_99, i_33, i_12, i_63])).
+answer(cycle(i_60, [i_93, i_27, i_39, i_48, i_42, i_45, i_99, i_33, i_12, i_63, i_93])).
+answer(cycle(i_60, [i_99, i_33, i_12, i_63, i_93, i_27, i_39, i_48, i_42, i_45, i_99])).
+answer(cycle(i_31, [i_15, i_3, i_15, i_3, i_15, i_3, i_15, i_3, i_15, i_3, i_15])).
+answer(cycle(i_31, [i_3, i_15, i_3, i_15, i_3, i_15, i_3, i_15, i_3, i_15, i_3])).
+answer(cycle(i_31, [i_66, i_66, i_66, i_66, i_66, i_66, i_66, i_66, i_66, i_66, i_66])).
+answer(cycle(i_5, [i_0, i_63, i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_48, i_0])).
+answer(cycle(i_5, [i_0, i_63, i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_48, i_0])).
+answer(cycle(i_5, [i_0, i_63, i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_48, i_0])).
+answer(cycle(i_5, [i_0, i_63, i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_48, i_0])).
+answer(cycle(i_5, [i_0, i_63, i_9, i_0, i_63, i_9, i_93, i_9, i_93, i_9, i_0])).
+answer(cycle(i_5, [i_0, i_63, i_9, i_0, i_81, i_15, i_60, i_15, i_60, i_48, i_0])).
+answer(cycle(i_5, [i_0, i_63, i_9, i_0, i_81, i_15, i_81, i_15, i_60, i_48, i_0])).
+answer(cycle(i_5, [i_0, i_63, i_9, i_93, i_81, i_15, i_60, i_15, i_60, i_48, i_0])).
+answer(cycle(i_5, [i_0, i_63, i_9, i_93, i_81, i_15, i_81, i_15, i_60, i_48, i_0])).
+answer(cycle(i_5, [i_0, i_63, i_9, i_93, i_9, i_0, i_63, i_9, i_93, i_9, i_0])).
+answer(cycle(i_5, [i_0, i_63, i_9, i_93, i_9, i_0, i_81, i_15, i_60, i_48, i_0])).
+answer(cycle(i_5, [i_0, i_63, i_9, i_93, i_9, i_93, i_81, i_15, i_60, i_48, i_0])).
+answer(cycle(i_5, [i_0, i_63, i_9, i_93, i_9, i_93, i_9, i_0, i_63, i_9, i_0])).
+answer(cycle(i_5, [i_0, i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_9, i_0])).
+answer(cycle(i_5, [i_0, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_9, i_0])).
+answer(cycle(i_5, [i_0, i_81, i_15, i_60, i_48, i_0, i_81, i_15, i_60, i_48, i_0])).
+answer(cycle(i_5, [i_0, i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_0])).
+answer(cycle(i_5, [i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_60, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_60, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_60, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_60, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_60, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_9, i_0, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_60, i_15, i_60, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_60, i_15, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_81, i_15, i_60, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_81, i_15, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_48, i_0, i_63, i_9, i_0, i_81, i_15, i_60, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_48, i_0, i_63, i_9, i_0, i_81, i_15, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_81, i_15, i_60, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_81, i_15, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_9, i_0, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_9, i_93, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_60, i_48, i_0, i_81, i_15, i_60, i_48, i_0, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_60, i_15])).
+answer(cycle(i_5, [i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_60, i_15])).
+answer(cycle(i_5, [i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_60, i_15])).
+answer(cycle(i_5, [i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_60, i_15])).
+answer(cycle(i_5, [i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_60, i_15])).
+answer(cycle(i_5, [i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_0, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_15])).
+answer(cycle(i_5, [i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_15])).
+answer(cycle(i_5, [i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_15])).
+answer(cycle(i_5, [i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_81, i_15])).
+answer(cycle(i_5, [i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_15])).
+answer(cycle(i_5, [i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_81, i_15])).
+answer(cycle(i_5, [i_48, i_0, i_63, i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_48])).
+answer(cycle(i_5, [i_48, i_0, i_63, i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_48])).
+answer(cycle(i_5, [i_48, i_0, i_63, i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_48])).
+answer(cycle(i_5, [i_48, i_0, i_63, i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_48])).
+answer(cycle(i_5, [i_48, i_0, i_63, i_9, i_0, i_81, i_15, i_60, i_15, i_60, i_48])).
+answer(cycle(i_5, [i_48, i_0, i_63, i_9, i_0, i_81, i_15, i_81, i_15, i_60, i_48])).
+answer(cycle(i_5, [i_48, i_0, i_63, i_9, i_93, i_81, i_15, i_60, i_15, i_60, i_48])).
+answer(cycle(i_5, [i_48, i_0, i_63, i_9, i_93, i_81, i_15, i_81, i_15, i_60, i_48])).
+answer(cycle(i_5, [i_48, i_0, i_63, i_9, i_93, i_9, i_0, i_81, i_15, i_60, i_48])).
+answer(cycle(i_5, [i_48, i_0, i_63, i_9, i_93, i_9, i_93, i_81, i_15, i_60, i_48])).
+answer(cycle(i_5, [i_48, i_0, i_81, i_15, i_60, i_48, i_0, i_81, i_15, i_60, i_48])).
+answer(cycle(i_5, [i_60, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_60, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_81, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_15, i_60, i_48, i_0, i_63, i_9, i_0, i_81, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_81, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_48, i_0, i_63, i_81, i_15, i_60, i_15, i_60, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_48, i_0, i_63, i_81, i_15, i_60, i_15, i_81, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_48, i_0, i_63, i_81, i_15, i_81, i_15, i_60, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_48, i_0, i_63, i_81, i_15, i_81, i_15, i_81, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_48, i_0, i_63, i_9, i_0, i_81, i_15, i_60, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_48, i_0, i_63, i_9, i_0, i_81, i_15, i_81, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_48, i_0, i_63, i_9, i_93, i_81, i_15, i_60, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_48, i_0, i_63, i_9, i_93, i_81, i_15, i_81, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_48, i_0, i_63, i_9, i_93, i_9, i_0, i_81, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_48, i_0, i_63, i_9, i_93, i_9, i_93, i_81, i_15, i_60])).
+answer(cycle(i_5, [i_60, i_48, i_0, i_81, i_15, i_60, i_48, i_0, i_81, i_15, i_60])).
+answer(cycle(i_5, [i_63, i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_48, i_0, i_63])).
+answer(cycle(i_5, [i_63, i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_48, i_0, i_63])).
+answer(cycle(i_5, [i_63, i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63])).
+answer(cycle(i_5, [i_63, i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63])).
+answer(cycle(i_5, [i_63, i_9, i_0, i_63, i_9, i_93, i_9, i_93, i_9, i_0, i_63])).
+answer(cycle(i_5, [i_63, i_9, i_0, i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63])).
+answer(cycle(i_5, [i_63, i_9, i_0, i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63])).
+answer(cycle(i_5, [i_63, i_9, i_93, i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63])).
+answer(cycle(i_5, [i_63, i_9, i_93, i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63])).
+answer(cycle(i_5, [i_63, i_9, i_93, i_9, i_0, i_63, i_9, i_93, i_9, i_0, i_63])).
+answer(cycle(i_5, [i_63, i_9, i_93, i_9, i_0, i_81, i_15, i_60, i_48, i_0, i_63])).
+answer(cycle(i_5, [i_63, i_9, i_93, i_9, i_93, i_81, i_15, i_60, i_48, i_0, i_63])).
+answer(cycle(i_5, [i_63, i_9, i_93, i_9, i_93, i_9, i_0, i_63, i_9, i_0, i_63])).
+answer(cycle(i_5, [i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_9, i_0, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_60, i_15, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_81, i_15, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_0, i_81, i_15, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_81, i_15, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_9, i_0, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_9, i_93, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_60, i_48, i_0, i_81, i_15, i_60, i_48, i_0, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_0, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_81])).
+answer(cycle(i_5, [i_81, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_81])).
+answer(cycle(i_5, [i_93, i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_9, i_93])).
+answer(cycle(i_5, [i_93, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_9, i_93])).
+answer(cycle(i_5, [i_93, i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93])).
+answer(cycle(i_5, [i_93, i_9, i_0, i_63, i_9, i_0, i_63, i_9, i_93, i_9, i_93])).
+answer(cycle(i_5, [i_93, i_9, i_0, i_63, i_9, i_93, i_9, i_0, i_63, i_9, i_93])).
+answer(cycle(i_5, [i_93, i_9, i_0, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93])).
+answer(cycle(i_5, [i_93, i_9, i_93, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93])).
+answer(cycle(i_5, [i_93, i_9, i_93, i_9, i_0, i_63, i_9, i_0, i_63, i_9, i_93])).
+answer(cycle(i_5, [i_93, i_9, i_93, i_9, i_93, i_9, i_93, i_9, i_93, i_9, i_93])).
+answer(cycle(i_5, [i_9, i_0, i_63, i_9, i_0, i_63, i_9, i_93, i_9, i_93, i_9])).
+answer(cycle(i_5, [i_9, i_0, i_63, i_9, i_93, i_9, i_0, i_63, i_9, i_93, i_9])).
+answer(cycle(i_5, [i_9, i_0, i_63, i_9, i_93, i_9, i_93, i_9, i_0, i_63, i_9])).
+answer(cycle(i_5, [i_9, i_0, i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_9])).
+answer(cycle(i_5, [i_9, i_0, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_9])).
+answer(cycle(i_5, [i_9, i_0, i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_9])).
+answer(cycle(i_5, [i_9, i_93, i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_9])).
+answer(cycle(i_5, [i_9, i_93, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_9])).
+answer(cycle(i_5, [i_9, i_93, i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_9])).
+answer(cycle(i_5, [i_9, i_93, i_9, i_0, i_63, i_9, i_0, i_63, i_9, i_93, i_9])).
+answer(cycle(i_5, [i_9, i_93, i_9, i_0, i_63, i_9, i_93, i_9, i_0, i_63, i_9])).
+answer(cycle(i_5, [i_9, i_93, i_9, i_0, i_81, i_15, i_60, i_48, i_0, i_63, i_9])).
+answer(cycle(i_5, [i_9, i_93, i_9, i_93, i_81, i_15, i_60, i_48, i_0, i_63, i_9])).
+answer(cycle(i_5, [i_9, i_93, i_9, i_93, i_9, i_0, i_63, i_9, i_0, i_63, i_9])).
+answer(cycle(i_5, [i_9, i_93, i_9, i_93, i_9, i_93, i_9, i_93, i_9, i_93, i_9])).
+answer(cycle(i_62, [i_24, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_24])).
+answer(cycle(i_62, [i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_24])).
+answer(cycle(i_62, [i_63, i_63, i_63, i_63, i_63, i_63, i_63, i_63, i_63, i_63, i_63])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81])).
+answer(cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81])).
+answer(cycle(i_32, [i_0, i_33, i_15, i_60, i_63, i_0, i_33, i_15, i_60, i_63, i_0])).
+answer(cycle(i_32, [i_15, i_60, i_63, i_0, i_33, i_15, i_60, i_63, i_0, i_33, i_15])).
+answer(cycle(i_32, [i_33, i_15, i_60, i_63, i_0, i_33, i_15, i_60, i_63, i_0, i_33])).
+answer(cycle(i_32, [i_60, i_63, i_0, i_33, i_15, i_60, i_63, i_0, i_33, i_15, i_60])).
+answer(cycle(i_32, [i_63, i_0, i_33, i_15, i_60, i_63, i_0, i_33, i_15, i_60, i_63])).
+answer(cycle(i_32, [i_6, i_90, i_6, i_90, i_6, i_90, i_6, i_90, i_6, i_90, i_6])).
+answer(cycle(i_32, [i_90, i_6, i_90, i_6, i_90, i_6, i_90, i_6, i_90, i_6, i_90])).
+answer(cycle(i_89, [i_48, i_48, i_48, i_48, i_48, i_48, i_48, i_48, i_48, i_48, i_48])).
+answer(cycle(i_89, [i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9])).
+answer(cycle(i_33, [i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69])).
+answer(cycle(i_11, [i_15, i_30, i_78, i_45, i_51, i_15, i_30, i_78, i_45, i_51, i_15])).
+answer(cycle(i_11, [i_30, i_78, i_45, i_51, i_15, i_30, i_78, i_45, i_51, i_15, i_30])).
+answer(cycle(i_11, [i_39, i_39, i_39, i_39, i_39, i_39, i_39, i_39, i_39, i_39, i_39])).
+answer(cycle(i_11, [i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3])).
+answer(cycle(i_11, [i_45, i_51, i_15, i_30, i_78, i_45, i_51, i_15, i_30, i_78, i_45])).
+answer(cycle(i_11, [i_51, i_15, i_30, i_78, i_45, i_51, i_15, i_30, i_78, i_45, i_51])).
+answer(cycle(i_11, [i_78, i_45, i_51, i_15, i_30, i_78, i_45, i_51, i_15, i_30, i_78])).
+answer(cycle(i_71, [i_0, i_21, i_0, i_21, i_0, i_21, i_0, i_21, i_0, i_21, i_0])).
+answer(cycle(i_71, [i_0, i_21, i_0, i_21, i_0, i_45, i_21, i_0, i_45, i_21, i_0])).
+answer(cycle(i_71, [i_0, i_21, i_0, i_45, i_21, i_0, i_21, i_0, i_45, i_21, i_0])).
+answer(cycle(i_71, [i_0, i_21, i_0, i_45, i_21, i_0, i_45, i_21, i_0, i_21, i_0])).
+answer(cycle(i_71, [i_0, i_45, i_21, i_0, i_21, i_0, i_21, i_0, i_45, i_21, i_0])).
+answer(cycle(i_71, [i_0, i_45, i_21, i_0, i_21, i_0, i_45, i_21, i_0, i_21, i_0])).
+answer(cycle(i_71, [i_0, i_45, i_21, i_0, i_45, i_21, i_0, i_21, i_0, i_21, i_0])).
+answer(cycle(i_71, [i_21, i_0, i_21, i_0, i_21, i_0, i_21, i_0, i_21, i_0, i_21])).
+answer(cycle(i_71, [i_21, i_0, i_21, i_0, i_21, i_0, i_45, i_21, i_0, i_45, i_21])).
+answer(cycle(i_71, [i_21, i_0, i_21, i_0, i_45, i_21, i_0, i_21, i_0, i_45, i_21])).
+answer(cycle(i_71, [i_21, i_0, i_21, i_0, i_45, i_21, i_0, i_45, i_21, i_0, i_21])).
+answer(cycle(i_71, [i_21, i_0, i_45, i_21, i_0, i_21, i_0, i_21, i_0, i_45, i_21])).
+answer(cycle(i_71, [i_21, i_0, i_45, i_21, i_0, i_21, i_0, i_45, i_21, i_0, i_21])).
+answer(cycle(i_71, [i_21, i_0, i_45, i_21, i_0, i_45, i_21, i_0, i_21, i_0, i_21])).
+answer(cycle(i_71, [i_45, i_21, i_0, i_21, i_0, i_21, i_0, i_45, i_21, i_0, i_45])).
+answer(cycle(i_71, [i_45, i_21, i_0, i_21, i_0, i_45, i_21, i_0, i_21, i_0, i_45])).
+answer(cycle(i_71, [i_45, i_21, i_0, i_45, i_21, i_0, i_21, i_0, i_21, i_0, i_45])).
+answer(cycle(i_42, [i_72, i_75, i_72, i_75, i_72, i_75, i_72, i_75, i_72, i_75, i_72])).
+answer(cycle(i_42, [i_75, i_72, i_75, i_72, i_75, i_72, i_75, i_72, i_75, i_72, i_75])).
+answer(cycle(i_42, [i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81])).
+answer(cycle(i_42, [i_87, i_87, i_87, i_87, i_87, i_87, i_87, i_87, i_87, i_87, i_87])).
+answer(cycle(i_42, [i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9])).
+answer(cycle(i_70, [i_0, i_18, i_0, i_18, i_0, i_18, i_0, i_18, i_0, i_18, i_0])).
+answer(cycle(i_70, [i_18, i_0, i_18, i_0, i_18, i_0, i_18, i_0, i_18, i_0, i_18])).
+answer(cycle(i_70, [i_39, i_48, i_69, i_84, i_75, i_69, i_84, i_75, i_69, i_90, i_39])).
+answer(cycle(i_70, [i_39, i_48, i_69, i_84, i_75, i_69, i_84, i_87, i_69, i_90, i_39])).
+answer(cycle(i_70, [i_39, i_48, i_69, i_84, i_87, i_69, i_84, i_75, i_69, i_90, i_39])).
+answer(cycle(i_70, [i_39, i_48, i_69, i_84, i_87, i_69, i_84, i_87, i_69, i_90, i_39])).
+answer(cycle(i_70, [i_48, i_69, i_84, i_75, i_69, i_84, i_75, i_69, i_90, i_39, i_48])).
+answer(cycle(i_70, [i_48, i_69, i_84, i_75, i_69, i_84, i_87, i_69, i_90, i_39, i_48])).
+answer(cycle(i_70, [i_48, i_69, i_84, i_87, i_69, i_84, i_75, i_69, i_90, i_39, i_48])).
+answer(cycle(i_70, [i_48, i_69, i_84, i_87, i_69, i_84, i_87, i_69, i_90, i_39, i_48])).
+answer(cycle(i_70, [i_69, i_84, i_75, i_69, i_84, i_75, i_69, i_90, i_39, i_48, i_69])).
+answer(cycle(i_70, [i_69, i_84, i_75, i_69, i_84, i_87, i_69, i_90, i_39, i_48, i_69])).
+answer(cycle(i_70, [i_69, i_84, i_75, i_69, i_90, i_39, i_48, i_69, i_84, i_75, i_69])).
+answer(cycle(i_70, [i_69, i_84, i_75, i_69, i_90, i_39, i_48, i_69, i_84, i_87, i_69])).
+answer(cycle(i_70, [i_69, i_84, i_87, i_69, i_84, i_75, i_69, i_90, i_39, i_48, i_69])).
+answer(cycle(i_70, [i_69, i_84, i_87, i_69, i_84, i_87, i_69, i_90, i_39, i_48, i_69])).
+answer(cycle(i_70, [i_69, i_84, i_87, i_69, i_90, i_39, i_48, i_69, i_84, i_75, i_69])).
+answer(cycle(i_70, [i_69, i_84, i_87, i_69, i_90, i_39, i_48, i_69, i_84, i_87, i_69])).
+answer(cycle(i_70, [i_69, i_90, i_39, i_48, i_69, i_84, i_75, i_69, i_84, i_75, i_69])).
+answer(cycle(i_70, [i_69, i_90, i_39, i_48, i_69, i_84, i_75, i_69, i_84, i_87, i_69])).
+answer(cycle(i_70, [i_69, i_90, i_39, i_48, i_69, i_84, i_87, i_69, i_84, i_75, i_69])).
+answer(cycle(i_70, [i_69, i_90, i_39, i_48, i_69, i_84, i_87, i_69, i_84, i_87, i_69])).
+answer(cycle(i_70, [i_75, i_69, i_84, i_75, i_69, i_90, i_39, i_48, i_69, i_84, i_75])).
+answer(cycle(i_70, [i_75, i_69, i_84, i_87, i_69, i_90, i_39, i_48, i_69, i_84, i_75])).
+answer(cycle(i_70, [i_75, i_69, i_90, i_39, i_48, i_69, i_84, i_75, i_69, i_84, i_75])).
+answer(cycle(i_70, [i_75, i_69, i_90, i_39, i_48, i_69, i_84, i_87, i_69, i_84, i_75])).
+answer(cycle(i_70, [i_84, i_75, i_69, i_84, i_75, i_69, i_90, i_39, i_48, i_69, i_84])).
+answer(cycle(i_70, [i_84, i_75, i_69, i_84, i_87, i_69, i_90, i_39, i_48, i_69, i_84])).
+answer(cycle(i_70, [i_84, i_75, i_69, i_90, i_39, i_48, i_69, i_84, i_75, i_69, i_84])).
+answer(cycle(i_70, [i_84, i_75, i_69, i_90, i_39, i_48, i_69, i_84, i_87, i_69, i_84])).
+answer(cycle(i_70, [i_84, i_87, i_69, i_84, i_75, i_69, i_90, i_39, i_48, i_69, i_84])).
+answer(cycle(i_70, [i_84, i_87, i_69, i_84, i_87, i_69, i_90, i_39, i_48, i_69, i_84])).
+answer(cycle(i_70, [i_84, i_87, i_69, i_90, i_39, i_48, i_69, i_84, i_75, i_69, i_84])).
+answer(cycle(i_70, [i_84, i_87, i_69, i_90, i_39, i_48, i_69, i_84, i_87, i_69, i_84])).
+answer(cycle(i_70, [i_87, i_69, i_84, i_75, i_69, i_90, i_39, i_48, i_69, i_84, i_87])).
+answer(cycle(i_70, [i_87, i_69, i_84, i_87, i_69, i_90, i_39, i_48, i_69, i_84, i_87])).
+answer(cycle(i_70, [i_87, i_69, i_90, i_39, i_48, i_69, i_84, i_75, i_69, i_84, i_87])).
+answer(cycle(i_70, [i_87, i_69, i_90, i_39, i_48, i_69, i_84, i_87, i_69, i_84, i_87])).
+answer(cycle(i_70, [i_90, i_39, i_48, i_69, i_84, i_75, i_69, i_84, i_75, i_69, i_90])).
+answer(cycle(i_70, [i_90, i_39, i_48, i_69, i_84, i_75, i_69, i_84, i_87, i_69, i_90])).
+answer(cycle(i_70, [i_90, i_39, i_48, i_69, i_84, i_87, i_69, i_84, i_75, i_69, i_90])).
+answer(cycle(i_70, [i_90, i_39, i_48, i_69, i_84, i_87, i_69, i_84, i_87, i_69, i_90])).
+answer(cycle(i_10, [i_15, i_78, i_60, i_33, i_87, i_15, i_78, i_60, i_33, i_87, i_15])).
+answer(cycle(i_10, [i_33, i_87, i_15, i_78, i_60, i_33, i_87, i_15, i_78, i_60, i_33])).
+answer(cycle(i_10, [i_60, i_33, i_87, i_15, i_78, i_60, i_33, i_87, i_15, i_78, i_60])).
+answer(cycle(i_10, [i_78, i_60, i_33, i_87, i_15, i_78, i_60, i_33, i_87, i_15, i_78])).
+answer(cycle(i_10, [i_87, i_15, i_78, i_60, i_33, i_87, i_15, i_78, i_60, i_33, i_87])).
+answer(cycle(i_43, [i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18])).
+answer(cycle(i_43, [i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60])).
+answer(cycle(i_0, [i_12, i_66, i_9, i_12, i_66, i_9, i_12, i_9, i_12, i_9, i_12])).
+answer(cycle(i_0, [i_12, i_66, i_9, i_12, i_9, i_12, i_66, i_9, i_12, i_9, i_12])).
+answer(cycle(i_0, [i_12, i_66, i_9, i_12, i_9, i_12, i_9, i_12, i_66, i_9, i_12])).
+answer(cycle(i_0, [i_12, i_9, i_12, i_66, i_9, i_12, i_66, i_9, i_12, i_9, i_12])).
+answer(cycle(i_0, [i_12, i_9, i_12, i_66, i_9, i_12, i_9, i_12, i_66, i_9, i_12])).
+answer(cycle(i_0, [i_12, i_9, i_12, i_9, i_12, i_66, i_9, i_12, i_66, i_9, i_12])).
+answer(cycle(i_0, [i_12, i_9, i_12, i_9, i_12, i_9, i_12, i_9, i_12, i_9, i_12])).
+answer(cycle(i_0, [i_66, i_9, i_12, i_66, i_9, i_12, i_9, i_12, i_9, i_12, i_66])).
+answer(cycle(i_0, [i_66, i_9, i_12, i_9, i_12, i_66, i_9, i_12, i_9, i_12, i_66])).
+answer(cycle(i_0, [i_66, i_9, i_12, i_9, i_12, i_9, i_12, i_66, i_9, i_12, i_66])).
+answer(cycle(i_0, [i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6])).
+answer(cycle(i_0, [i_75, i_84, i_75, i_84, i_75, i_84, i_75, i_84, i_75, i_84, i_75])).
+answer(cycle(i_0, [i_84, i_75, i_84, i_75, i_84, i_75, i_84, i_75, i_84, i_75, i_84])).
+answer(cycle(i_0, [i_9, i_12, i_66, i_9, i_12, i_66, i_9, i_12, i_9, i_12, i_9])).
+answer(cycle(i_0, [i_9, i_12, i_66, i_9, i_12, i_9, i_12, i_66, i_9, i_12, i_9])).
+answer(cycle(i_0, [i_9, i_12, i_66, i_9, i_12, i_9, i_12, i_9, i_12, i_66, i_9])).
+answer(cycle(i_0, [i_9, i_12, i_9, i_12, i_66, i_9, i_12, i_66, i_9, i_12, i_9])).
+answer(cycle(i_0, [i_9, i_12, i_9, i_12, i_66, i_9, i_12, i_9, i_12, i_66, i_9])).
+answer(cycle(i_0, [i_9, i_12, i_9, i_12, i_9, i_12, i_66, i_9, i_12, i_66, i_9])).
+answer(cycle(i_0, [i_9, i_12, i_9, i_12, i_9, i_12, i_9, i_12, i_9, i_12, i_9])).
+answer(cycle(i_44, [i_27, i_54, i_51, i_63, i_48, i_27, i_54, i_51, i_63, i_48, i_27])).
+answer(cycle(i_44, [i_48, i_27, i_54, i_51, i_63, i_48, i_27, i_54, i_51, i_63, i_48])).
+answer(cycle(i_44, [i_51, i_63, i_48, i_27, i_54, i_51, i_63, i_48, i_27, i_54, i_51])).
+answer(cycle(i_44, [i_54, i_51, i_63, i_48, i_27, i_54, i_51, i_63, i_48, i_27, i_54])).
+answer(cycle(i_44, [i_63, i_48, i_27, i_54, i_51, i_63, i_48, i_27, i_54, i_51, i_63])).
+answer(cycle(i_72, [i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60])).
+answer(cycle(i_15, [i_36, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_36])).
+answer(cycle(i_15, [i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_36])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96])).
+answer(cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96])).
+answer(cycle(i_15, [i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9])).
+answer(cycle(i_98, [i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12])).
+answer(cycle(i_98, [i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15])).
+answer(cycle(i_9, [i_30, i_9, i_54, i_30, i_9, i_54, i_30, i_9, i_84, i_54, i_30])).
+answer(cycle(i_9, [i_30, i_9, i_54, i_30, i_9, i_84, i_54, i_30, i_9, i_54, i_30])).
+answer(cycle(i_9, [i_30, i_9, i_84, i_54, i_30, i_9, i_54, i_30, i_9, i_54, i_30])).
+answer(cycle(i_9, [i_54, i_30, i_9, i_54, i_30, i_9, i_54, i_30, i_9, i_84, i_54])).
+answer(cycle(i_9, [i_54, i_30, i_9, i_54, i_30, i_9, i_84, i_54, i_30, i_9, i_54])).
+answer(cycle(i_9, [i_54, i_30, i_9, i_84, i_54, i_30, i_9, i_54, i_30, i_9, i_54])).
+answer(cycle(i_9, [i_84, i_54, i_30, i_9, i_54, i_30, i_9, i_54, i_30, i_9, i_84])).
+answer(cycle(i_9, [i_9, i_54, i_30, i_9, i_54, i_30, i_9, i_84, i_54, i_30, i_9])).
+answer(cycle(i_9, [i_9, i_54, i_30, i_9, i_84, i_54, i_30, i_9, i_54, i_30, i_9])).
+answer(cycle(i_9, [i_9, i_84, i_54, i_30, i_9, i_54, i_30, i_9, i_54, i_30, i_9])).
+answer(cycle(i_39, [i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90])).
+answer(cycle(i_39, [i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96])).
+answer(cycle(i_67, [i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15])).
+answer(cycle(i_67, [i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_54, i_9, i_15])).
+answer(cycle(i_67, [i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_15])).
+answer(cycle(i_67, [i_15, i_15, i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_15])).
+answer(cycle(i_67, [i_15, i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_15])).
+answer(cycle(i_67, [i_15, i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_54, i_9, i_15])).
+answer(cycle(i_67, [i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_15])).
+answer(cycle(i_67, [i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_54, i_9, i_15])).
+answer(cycle(i_67, [i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_15])).
+answer(cycle(i_67, [i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_15, i_15])).
+answer(cycle(i_67, [i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_54, i_9, i_15])).
+answer(cycle(i_67, [i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_54, i_9, i_15, i_15])).
+answer(cycle(i_67, [i_15, i_15, i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_15, i_15])).
+answer(cycle(i_67, [i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_15, i_15, i_15])).
+answer(cycle(i_67, [i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_54, i_9, i_15])).
+answer(cycle(i_67, [i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_54, i_9, i_15, i_15])).
+answer(cycle(i_67, [i_15, i_15, i_54, i_9, i_15, i_15, i_54, i_9, i_15, i_15, i_15])).
+answer(cycle(i_67, [i_15, i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_15, i_15, i_15])).
+answer(cycle(i_67, [i_15, i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_54, i_9, i_15])).
+answer(cycle(i_67, [i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15])).
+answer(cycle(i_67, [i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_15, i_54, i_9, i_15])).
+answer(cycle(i_67, [i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_15])).
+answer(cycle(i_67, [i_15, i_54, i_9, i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_15])).
+answer(cycle(i_67, [i_15, i_54, i_9, i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_15])).
+answer(cycle(i_67, [i_15, i_54, i_9, i_15, i_15, i_54, i_9, i_15, i_54, i_9, i_15])).
+answer(cycle(i_67, [i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_15])).
+answer(cycle(i_67, [i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_15, i_54, i_9, i_15])).
+answer(cycle(i_67, [i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_15])).
+answer(cycle(i_67, [i_54, i_9, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_54])).
+answer(cycle(i_67, [i_54, i_9, i_15, i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_54])).
+answer(cycle(i_67, [i_54, i_9, i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_54])).
+answer(cycle(i_67, [i_54, i_9, i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_54])).
+answer(cycle(i_67, [i_54, i_9, i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_54])).
+answer(cycle(i_67, [i_54, i_9, i_15, i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_54])).
+answer(cycle(i_67, [i_54, i_9, i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_15, i_54])).
+answer(cycle(i_67, [i_54, i_9, i_15, i_54, i_9, i_15, i_15, i_54, i_9, i_15, i_54])).
+answer(cycle(i_67, [i_54, i_9, i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_15, i_54])).
+answer(cycle(i_67, [i_9, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_54, i_9])).
+answer(cycle(i_67, [i_9, i_15, i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_54, i_9])).
+answer(cycle(i_67, [i_9, i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_54, i_9])).
+answer(cycle(i_67, [i_9, i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_54, i_9])).
+answer(cycle(i_67, [i_9, i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_54, i_9])).
+answer(cycle(i_67, [i_9, i_15, i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_54, i_9])).
+answer(cycle(i_67, [i_9, i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_15, i_54, i_9])).
+answer(cycle(i_67, [i_9, i_15, i_54, i_9, i_15, i_15, i_54, i_9, i_15, i_54, i_9])).
+answer(cycle(i_67, [i_9, i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_15, i_54, i_9])).
+answer(cycle(i_13, [i_12, i_60, i_12, i_60, i_12, i_60, i_12, i_60, i_12, i_60, i_12])).
+answer(cycle(i_13, [i_45, i_48, i_78, i_81, i_87, i_45, i_48, i_78, i_81, i_87, i_45])).
+answer(cycle(i_13, [i_48, i_78, i_81, i_87, i_45, i_48, i_78, i_81, i_87, i_45, i_48])).
+answer(cycle(i_13, [i_60, i_12, i_60, i_12, i_60, i_12, i_60, i_12, i_60, i_12, i_60])).
+answer(cycle(i_13, [i_78, i_81, i_87, i_45, i_48, i_78, i_81, i_87, i_45, i_48, i_78])).
+answer(cycle(i_13, [i_81, i_87, i_45, i_48, i_78, i_81, i_87, i_45, i_48, i_78, i_81])).
+answer(cycle(i_13, [i_87, i_45, i_48, i_78, i_81, i_87, i_45, i_48, i_78, i_81, i_87])).
+answer(cycle(i_3, [i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96])).
+answer(cycle(i_6, [i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3])).
+answer(cycle(i_6, [i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75])).
+answer(cycle(i_96, [i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27])).
+answer(cycle(i_96, [i_33, i_69, i_75, i_48, i_33, i_69, i_75, i_75, i_75, i_48, i_33])).
+answer(cycle(i_96, [i_33, i_69, i_75, i_75, i_48, i_33, i_69, i_75, i_75, i_48, i_33])).
+answer(cycle(i_96, [i_33, i_69, i_75, i_75, i_75, i_48, i_33, i_69, i_75, i_48, i_33])).
+answer(cycle(i_96, [i_33, i_69, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_48, i_33])).
+answer(cycle(i_96, [i_48, i_33, i_69, i_75, i_48, i_33, i_69, i_75, i_75, i_75, i_48])).
+answer(cycle(i_96, [i_48, i_33, i_69, i_75, i_75, i_48, i_33, i_69, i_75, i_75, i_48])).
+answer(cycle(i_96, [i_48, i_33, i_69, i_75, i_75, i_75, i_48, i_33, i_69, i_75, i_48])).
+answer(cycle(i_96, [i_48, i_33, i_69, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_48])).
+answer(cycle(i_96, [i_69, i_75, i_48, i_33, i_69, i_75, i_75, i_75, i_48, i_33, i_69])).
+answer(cycle(i_96, [i_69, i_75, i_75, i_48, i_33, i_69, i_75, i_75, i_48, i_33, i_69])).
+answer(cycle(i_96, [i_69, i_75, i_75, i_75, i_48, i_33, i_69, i_75, i_48, i_33, i_69])).
+answer(cycle(i_96, [i_69, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_48, i_33, i_69])).
+answer(cycle(i_96, [i_75, i_48, i_33, i_69, i_75, i_48, i_33, i_69, i_75, i_75, i_75])).
+answer(cycle(i_96, [i_75, i_48, i_33, i_69, i_75, i_75, i_48, i_33, i_69, i_75, i_75])).
+answer(cycle(i_96, [i_75, i_48, i_33, i_69, i_75, i_75, i_75, i_48, i_33, i_69, i_75])).
+answer(cycle(i_96, [i_75, i_48, i_33, i_69, i_75, i_75, i_75, i_75, i_75, i_75, i_75])).
+answer(cycle(i_96, [i_75, i_75, i_48, i_33, i_69, i_75, i_48, i_33, i_69, i_75, i_75])).
+answer(cycle(i_96, [i_75, i_75, i_48, i_33, i_69, i_75, i_75, i_48, i_33, i_69, i_75])).
+answer(cycle(i_96, [i_75, i_75, i_48, i_33, i_69, i_75, i_75, i_75, i_75, i_75, i_75])).
+answer(cycle(i_96, [i_75, i_75, i_75, i_48, i_33, i_69, i_75, i_48, i_33, i_69, i_75])).
+answer(cycle(i_96, [i_75, i_75, i_75, i_48, i_33, i_69, i_75, i_75, i_75, i_75, i_75])).
+answer(cycle(i_96, [i_75, i_75, i_75, i_75, i_48, i_33, i_69, i_75, i_75, i_75, i_75])).
+answer(cycle(i_96, [i_75, i_75, i_75, i_75, i_75, i_48, i_33, i_69, i_75, i_75, i_75])).
+answer(cycle(i_96, [i_75, i_75, i_75, i_75, i_75, i_75, i_48, i_33, i_69, i_75, i_75])).
+answer(cycle(i_96, [i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_48, i_33, i_69, i_75])).
+answer(cycle(i_96, [i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75])).
+answer(cycle(i_12, [i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45])).
+answer(cycle(i_12, [i_66, i_66, i_66, i_66, i_66, i_66, i_66, i_66, i_66, i_66, i_66])).
+answer(cycle(i_69, [i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24])).
+answer(cycle(i_69, [i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3])).
+answer(cycle(i_97, [i_18, i_69, i_18, i_69, i_18, i_69, i_18, i_69, i_18, i_69, i_18])).
+answer(cycle(i_97, [i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27])).
+answer(cycle(i_97, [i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60])).
+answer(cycle(i_97, [i_69, i_18, i_69, i_18, i_69, i_18, i_69, i_18, i_69, i_18, i_69])).
+answer(cycle(i_97, [i_75, i_84, i_75, i_84, i_75, i_84, i_75, i_84, i_75, i_84, i_75])).
+answer(cycle(i_97, [i_84, i_75, i_84, i_75, i_84, i_75, i_84, i_75, i_84, i_75, i_84])).
+answer(cycle(i_79, [i_39, i_3, i_69, i_9, i_39, i_3, i_69, i_9, i_69, i_9, i_39])).
+answer(cycle(i_79, [i_39, i_3, i_69, i_9, i_69, i_9, i_39, i_3, i_69, i_9, i_39])).
+answer(cycle(i_79, [i_39, i_3, i_69, i_9, i_69, i_9, i_69, i_9, i_69, i_9, i_39])).
+answer(cycle(i_79, [i_39, i_81, i_3, i_69, i_9, i_39, i_81, i_3, i_69, i_9, i_39])).
+answer(cycle(i_79, [i_3, i_69, i_9, i_39, i_3, i_69, i_9, i_69, i_9, i_39, i_3])).
+answer(cycle(i_79, [i_3, i_69, i_9, i_39, i_81, i_3, i_69, i_9, i_39, i_81, i_3])).
+answer(cycle(i_79, [i_3, i_69, i_9, i_69, i_9, i_39, i_3, i_69, i_9, i_39, i_3])).
+answer(cycle(i_79, [i_3, i_69, i_9, i_69, i_9, i_69, i_9, i_69, i_9, i_39, i_3])).
+answer(cycle(i_79, [i_69, i_9, i_39, i_3, i_69, i_9, i_39, i_3, i_69, i_9, i_69])).
+answer(cycle(i_79, [i_69, i_9, i_39, i_3, i_69, i_9, i_69, i_9, i_39, i_3, i_69])).
+answer(cycle(i_79, [i_69, i_9, i_39, i_3, i_69, i_9, i_69, i_9, i_69, i_9, i_69])).
+answer(cycle(i_79, [i_69, i_9, i_39, i_81, i_3, i_69, i_9, i_39, i_81, i_3, i_69])).
+answer(cycle(i_79, [i_69, i_9, i_69, i_9, i_39, i_3, i_69, i_9, i_39, i_3, i_69])).
+answer(cycle(i_79, [i_69, i_9, i_69, i_9, i_39, i_3, i_69, i_9, i_69, i_9, i_69])).
+answer(cycle(i_79, [i_69, i_9, i_69, i_9, i_69, i_9, i_39, i_3, i_69, i_9, i_69])).
+answer(cycle(i_79, [i_69, i_9, i_69, i_9, i_69, i_9, i_69, i_9, i_39, i_3, i_69])).
+answer(cycle(i_79, [i_69, i_9, i_69, i_9, i_69, i_9, i_69, i_9, i_69, i_9, i_69])).
+answer(cycle(i_79, [i_81, i_3, i_69, i_9, i_39, i_81, i_3, i_69, i_9, i_39, i_81])).
+answer(cycle(i_79, [i_9, i_39, i_3, i_69, i_9, i_39, i_3, i_69, i_9, i_69, i_9])).
+answer(cycle(i_79, [i_9, i_39, i_3, i_69, i_9, i_69, i_9, i_39, i_3, i_69, i_9])).
+answer(cycle(i_79, [i_9, i_39, i_3, i_69, i_9, i_69, i_9, i_69, i_9, i_69, i_9])).
+answer(cycle(i_79, [i_9, i_39, i_81, i_3, i_69, i_9, i_39, i_81, i_3, i_69, i_9])).
+answer(cycle(i_79, [i_9, i_69, i_9, i_39, i_3, i_69, i_9, i_39, i_3, i_69, i_9])).
+answer(cycle(i_79, [i_9, i_69, i_9, i_39, i_3, i_69, i_9, i_69, i_9, i_69, i_9])).
+answer(cycle(i_79, [i_9, i_69, i_9, i_69, i_9, i_39, i_3, i_69, i_9, i_69, i_9])).
+answer(cycle(i_79, [i_9, i_69, i_9, i_69, i_9, i_69, i_9, i_39, i_3, i_69, i_9])).
+answer(cycle(i_79, [i_9, i_69, i_9, i_69, i_9, i_69, i_9, i_69, i_9, i_69, i_9])).
+answer(cycle(i_19, [i_12, i_93, i_66, i_36, i_21, i_21, i_21, i_21, i_87, i_33, i_12])).
+answer(cycle(i_19, [i_12, i_93, i_66, i_36, i_21, i_87, i_69, i_36, i_72, i_33, i_12])).
+answer(cycle(i_19, [i_12, i_93, i_66, i_36, i_72, i_66, i_36, i_21, i_87, i_33, i_12])).
+answer(cycle(i_19, [i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_21])).
+answer(cycle(i_19, [i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_87, i_69, i_36, i_21])).
+answer(cycle(i_19, [i_21, i_21, i_21, i_21, i_21, i_21, i_87, i_69, i_36, i_21, i_21])).
+answer(cycle(i_19, [i_21, i_21, i_21, i_21, i_21, i_87, i_69, i_36, i_21, i_21, i_21])).
+answer(cycle(i_19, [i_21, i_21, i_21, i_21, i_87, i_33, i_12, i_93, i_66, i_36, i_21])).
+answer(cycle(i_19, [i_21, i_21, i_21, i_21, i_87, i_69, i_36, i_21, i_21, i_21, i_21])).
+answer(cycle(i_19, [i_21, i_21, i_21, i_21, i_87, i_69, i_36, i_72, i_66, i_36, i_21])).
+answer(cycle(i_19, [i_21, i_21, i_21, i_87, i_33, i_12, i_93, i_66, i_36, i_21, i_21])).
+answer(cycle(i_19, [i_21, i_21, i_21, i_87, i_69, i_36, i_21, i_21, i_21, i_21, i_21])).
+answer(cycle(i_19, [i_21, i_21, i_21, i_87, i_69, i_36, i_21, i_87, i_69, i_36, i_21])).
+answer(cycle(i_19, [i_21, i_21, i_21, i_87, i_69, i_36, i_72, i_66, i_36, i_21, i_21])).
+answer(cycle(i_19, [i_21, i_21, i_87, i_33, i_12, i_93, i_66, i_36, i_21, i_21, i_21])).
+answer(cycle(i_19, [i_21, i_21, i_87, i_69, i_36, i_21, i_21, i_21, i_21, i_21, i_21])).
+answer(cycle(i_19, [i_21, i_21, i_87, i_69, i_36, i_21, i_21, i_87, i_69, i_36, i_21])).
+answer(cycle(i_19, [i_21, i_21, i_87, i_69, i_36, i_21, i_87, i_69, i_36, i_21, i_21])).
+answer(cycle(i_19, [i_21, i_21, i_87, i_69, i_36, i_72, i_66, i_36, i_21, i_21, i_21])).
+answer(cycle(i_19, [i_21, i_87, i_33, i_12, i_93, i_66, i_36, i_21, i_21, i_21, i_21])).
+answer(cycle(i_19, [i_21, i_87, i_33, i_12, i_93, i_66, i_36, i_72, i_66, i_36, i_21])).
+answer(cycle(i_19, [i_21, i_87, i_69, i_36, i_21, i_21, i_21, i_21, i_21, i_21, i_21])).
+answer(cycle(i_19, [i_21, i_87, i_69, i_36, i_21, i_21, i_21, i_87, i_69, i_36, i_21])).
+answer(cycle(i_19, [i_21, i_87, i_69, i_36, i_21, i_21, i_87, i_69, i_36, i_21, i_21])).
+answer(cycle(i_19, [i_21, i_87, i_69, i_36, i_21, i_87, i_69, i_36, i_21, i_21, i_21])).
+answer(cycle(i_19, [i_21, i_87, i_69, i_36, i_72, i_33, i_12, i_93, i_66, i_36, i_21])).
+answer(cycle(i_19, [i_21, i_87, i_69, i_36, i_72, i_66, i_36, i_21, i_21, i_21, i_21])).
+answer(cycle(i_19, [i_21, i_87, i_69, i_36, i_72, i_66, i_36, i_72, i_66, i_36, i_21])).
+answer(cycle(i_19, [i_33, i_12, i_93, i_66, i_36, i_21, i_21, i_21, i_21, i_87, i_33])).
+answer(cycle(i_19, [i_33, i_12, i_93, i_66, i_36, i_21, i_87, i_69, i_36, i_72, i_33])).
+answer(cycle(i_19, [i_33, i_12, i_93, i_66, i_36, i_72, i_66, i_36, i_21, i_87, i_33])).
+answer(cycle(i_19, [i_36, i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_87, i_69, i_36])).
+answer(cycle(i_19, [i_36, i_21, i_21, i_21, i_21, i_87, i_33, i_12, i_93, i_66, i_36])).
+answer(cycle(i_19, [i_36, i_21, i_21, i_21, i_21, i_87, i_69, i_36, i_72, i_66, i_36])).
+answer(cycle(i_19, [i_36, i_21, i_21, i_21, i_87, i_69, i_36, i_21, i_87, i_69, i_36])).
+answer(cycle(i_19, [i_36, i_21, i_21, i_87, i_69, i_36, i_21, i_21, i_87, i_69, i_36])).
+answer(cycle(i_19, [i_36, i_21, i_87, i_33, i_12, i_93, i_66, i_36, i_72, i_66, i_36])).
+answer(cycle(i_19, [i_36, i_21, i_87, i_69, i_36, i_21, i_21, i_21, i_87, i_69, i_36])).
+answer(cycle(i_19, [i_36, i_21, i_87, i_69, i_36, i_72, i_33, i_12, i_93, i_66, i_36])).
+answer(cycle(i_19, [i_36, i_21, i_87, i_69, i_36, i_72, i_66, i_36, i_72, i_66, i_36])).
+answer(cycle(i_19, [i_36, i_72, i_33, i_12, i_93, i_66, i_36, i_21, i_87, i_69, i_36])).
+answer(cycle(i_19, [i_36, i_72, i_66, i_36, i_21, i_21, i_21, i_21, i_87, i_69, i_36])).
+answer(cycle(i_19, [i_36, i_72, i_66, i_36, i_21, i_87, i_33, i_12, i_93, i_66, i_36])).
+answer(cycle(i_19, [i_36, i_72, i_66, i_36, i_21, i_87, i_69, i_36, i_72, i_66, i_36])).
+answer(cycle(i_19, [i_36, i_72, i_66, i_36, i_72, i_66, i_36, i_21, i_87, i_69, i_36])).
+answer(cycle(i_19, [i_66, i_36, i_21, i_21, i_21, i_21, i_87, i_33, i_12, i_93, i_66])).
+answer(cycle(i_19, [i_66, i_36, i_21, i_21, i_21, i_21, i_87, i_69, i_36, i_72, i_66])).
+answer(cycle(i_19, [i_66, i_36, i_21, i_87, i_33, i_12, i_93, i_66, i_36, i_72, i_66])).
+answer(cycle(i_19, [i_66, i_36, i_21, i_87, i_69, i_36, i_72, i_33, i_12, i_93, i_66])).
+answer(cycle(i_19, [i_66, i_36, i_21, i_87, i_69, i_36, i_72, i_66, i_36, i_72, i_66])).
+answer(cycle(i_19, [i_66, i_36, i_72, i_66, i_36, i_21, i_87, i_33, i_12, i_93, i_66])).
+answer(cycle(i_19, [i_66, i_36, i_72, i_66, i_36, i_21, i_87, i_69, i_36, i_72, i_66])).
+answer(cycle(i_19, [i_69, i_36, i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_87, i_69])).
+answer(cycle(i_19, [i_69, i_36, i_21, i_21, i_21, i_87, i_69, i_36, i_21, i_87, i_69])).
+answer(cycle(i_19, [i_69, i_36, i_21, i_21, i_87, i_69, i_36, i_21, i_21, i_87, i_69])).
+answer(cycle(i_19, [i_69, i_36, i_21, i_87, i_69, i_36, i_21, i_21, i_21, i_87, i_69])).
+answer(cycle(i_19, [i_69, i_36, i_72, i_33, i_12, i_93, i_66, i_36, i_21, i_87, i_69])).
+answer(cycle(i_19, [i_69, i_36, i_72, i_66, i_36, i_21, i_21, i_21, i_21, i_87, i_69])).
+answer(cycle(i_19, [i_69, i_36, i_72, i_66, i_36, i_72, i_66, i_36, i_21, i_87, i_69])).
+answer(cycle(i_19, [i_72, i_33, i_12, i_93, i_66, i_36, i_21, i_87, i_69, i_36, i_72])).
+answer(cycle(i_19, [i_72, i_66, i_36, i_21, i_21, i_21, i_21, i_87, i_69, i_36, i_72])).
+answer(cycle(i_19, [i_72, i_66, i_36, i_21, i_87, i_33, i_12, i_93, i_66, i_36, i_72])).
+answer(cycle(i_19, [i_72, i_66, i_36, i_21, i_87, i_69, i_36, i_72, i_66, i_36, i_72])).
+answer(cycle(i_19, [i_72, i_66, i_36, i_72, i_66, i_36, i_21, i_87, i_69, i_36, i_72])).
+answer(cycle(i_19, [i_87, i_33, i_12, i_93, i_66, i_36, i_21, i_21, i_21, i_21, i_87])).
+answer(cycle(i_19, [i_87, i_33, i_12, i_93, i_66, i_36, i_72, i_66, i_36, i_21, i_87])).
+answer(cycle(i_19, [i_87, i_69, i_36, i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_87])).
+answer(cycle(i_19, [i_87, i_69, i_36, i_21, i_21, i_21, i_87, i_69, i_36, i_21, i_87])).
+answer(cycle(i_19, [i_87, i_69, i_36, i_21, i_21, i_87, i_69, i_36, i_21, i_21, i_87])).
+answer(cycle(i_19, [i_87, i_69, i_36, i_21, i_87, i_69, i_36, i_21, i_21, i_21, i_87])).
+answer(cycle(i_19, [i_87, i_69, i_36, i_72, i_33, i_12, i_93, i_66, i_36, i_21, i_87])).
+answer(cycle(i_19, [i_87, i_69, i_36, i_72, i_66, i_36, i_21, i_21, i_21, i_21, i_87])).
+answer(cycle(i_19, [i_87, i_69, i_36, i_72, i_66, i_36, i_72, i_66, i_36, i_21, i_87])).
+answer(cycle(i_19, [i_93, i_66, i_36, i_21, i_21, i_21, i_21, i_87, i_33, i_12, i_93])).
+answer(cycle(i_19, [i_93, i_66, i_36, i_21, i_87, i_69, i_36, i_72, i_33, i_12, i_93])).
+answer(cycle(i_19, [i_93, i_66, i_36, i_72, i_66, i_36, i_21, i_87, i_33, i_12, i_93])).
+answer(cycle(i_4, [i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57])).
+answer(cycle(i_4, [i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69])).
+answer(cycle(i_78, [i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6])).
+answer(cycle(i_18, [i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75])).
+answer(cycle(i_80, [i_12, i_45, i_12, i_45, i_12, i_45, i_12, i_45, i_12, i_45, i_12])).
+answer(cycle(i_80, [i_15, i_42, i_15, i_42, i_15, i_42, i_15, i_42, i_15, i_42, i_15])).
+answer(cycle(i_80, [i_15, i_42, i_15, i_42, i_15, i_60, i_42, i_15, i_60, i_42, i_15])).
+answer(cycle(i_80, [i_15, i_42, i_15, i_60, i_42, i_15, i_42, i_15, i_60, i_42, i_15])).
+answer(cycle(i_80, [i_15, i_42, i_15, i_60, i_42, i_15, i_60, i_42, i_15, i_42, i_15])).
+answer(cycle(i_80, [i_15, i_60, i_42, i_15, i_42, i_15, i_42, i_15, i_60, i_42, i_15])).
+answer(cycle(i_80, [i_15, i_60, i_42, i_15, i_42, i_15, i_60, i_42, i_15, i_42, i_15])).
+answer(cycle(i_80, [i_15, i_60, i_42, i_15, i_60, i_42, i_15, i_42, i_15, i_42, i_15])).
+answer(cycle(i_80, [i_42, i_15, i_42, i_15, i_42, i_15, i_42, i_15, i_42, i_15, i_42])).
+answer(cycle(i_80, [i_42, i_15, i_42, i_15, i_42, i_15, i_60, i_42, i_15, i_60, i_42])).
+answer(cycle(i_80, [i_42, i_15, i_42, i_15, i_60, i_42, i_15, i_42, i_15, i_60, i_42])).
+answer(cycle(i_80, [i_42, i_15, i_42, i_15, i_60, i_42, i_15, i_60, i_42, i_15, i_42])).
+answer(cycle(i_80, [i_42, i_15, i_60, i_42, i_15, i_42, i_15, i_42, i_15, i_60, i_42])).
+answer(cycle(i_80, [i_42, i_15, i_60, i_42, i_15, i_42, i_15, i_60, i_42, i_15, i_42])).
+answer(cycle(i_80, [i_42, i_15, i_60, i_42, i_15, i_60, i_42, i_15, i_42, i_15, i_42])).
+answer(cycle(i_80, [i_45, i_12, i_45, i_12, i_45, i_12, i_45, i_12, i_45, i_12, i_45])).
+answer(cycle(i_80, [i_54, i_81, i_54, i_81, i_54, i_81, i_54, i_81, i_54, i_81, i_54])).
+answer(cycle(i_80, [i_60, i_42, i_15, i_42, i_15, i_42, i_15, i_60, i_42, i_15, i_60])).
+answer(cycle(i_80, [i_60, i_42, i_15, i_42, i_15, i_60, i_42, i_15, i_42, i_15, i_60])).
+answer(cycle(i_80, [i_60, i_42, i_15, i_60, i_42, i_15, i_42, i_15, i_42, i_15, i_60])).
+answer(cycle(i_80, [i_81, i_54, i_81, i_54, i_81, i_54, i_81, i_54, i_81, i_54, i_81])).
+answer(cycle(i_80, [i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90])).
+answer(cycle(i_50, [i_12, i_27, i_15, i_12, i_27, i_30, i_39, i_48, i_27, i_15, i_12])).
+answer(cycle(i_50, [i_12, i_27, i_15, i_21, i_72, i_78, i_87, i_48, i_27, i_15, i_12])).
+answer(cycle(i_50, [i_12, i_27, i_30, i_39, i_33, i_9, i_33, i_9, i_27, i_15, i_12])).
+answer(cycle(i_50, [i_12, i_27, i_30, i_39, i_48, i_27, i_15, i_12, i_27, i_15, i_12])).
+answer(cycle(i_50, [i_12, i_57, i_69, i_66, i_51, i_57, i_69, i_66, i_51, i_84, i_12])).
+answer(cycle(i_50, [i_15, i_12, i_27, i_15, i_12, i_27, i_30, i_39, i_48, i_27, i_15])).
+answer(cycle(i_50, [i_15, i_12, i_27, i_15, i_21, i_72, i_78, i_87, i_48, i_27, i_15])).
+answer(cycle(i_50, [i_15, i_12, i_27, i_30, i_39, i_33, i_9, i_33, i_9, i_27, i_15])).
+answer(cycle(i_50, [i_15, i_12, i_27, i_30, i_39, i_48, i_27, i_15, i_12, i_27, i_15])).
+answer(cycle(i_50, [i_15, i_21, i_72, i_78, i_87, i_48, i_27, i_15, i_12, i_27, i_15])).
+answer(cycle(i_50, [i_15, i_30, i_39, i_33, i_9, i_27, i_30, i_39, i_48, i_27, i_15])).
+answer(cycle(i_50, [i_15, i_30, i_39, i_33, i_9, i_33, i_9, i_33, i_9, i_27, i_15])).
+answer(cycle(i_50, [i_15, i_30, i_39, i_48, i_27, i_15, i_30, i_39, i_48, i_27, i_15])).
+answer(cycle(i_50, [i_15, i_30, i_39, i_48, i_27, i_30, i_39, i_33, i_9, i_27, i_15])).
+answer(cycle(i_50, [i_21, i_72, i_78, i_87, i_48, i_27, i_15, i_12, i_27, i_15, i_21])).
+answer(cycle(i_50, [i_27, i_15, i_12, i_27, i_15, i_12, i_27, i_30, i_39, i_48, i_27])).
+answer(cycle(i_50, [i_27, i_15, i_12, i_27, i_15, i_21, i_72, i_78, i_87, i_48, i_27])).
+answer(cycle(i_50, [i_27, i_15, i_12, i_27, i_30, i_39, i_33, i_9, i_33, i_9, i_27])).
+answer(cycle(i_50, [i_27, i_15, i_12, i_27, i_30, i_39, i_48, i_27, i_15, i_12, i_27])).
+answer(cycle(i_50, [i_27, i_15, i_21, i_72, i_78, i_87, i_48, i_27, i_15, i_12, i_27])).
+answer(cycle(i_50, [i_27, i_15, i_30, i_39, i_33, i_9, i_27, i_30, i_39, i_48, i_27])).
+answer(cycle(i_50, [i_27, i_15, i_30, i_39, i_33, i_9, i_33, i_9, i_33, i_9, i_27])).
+answer(cycle(i_50, [i_27, i_15, i_30, i_39, i_48, i_27, i_15, i_30, i_39, i_48, i_27])).
+answer(cycle(i_50, [i_27, i_15, i_30, i_39, i_48, i_27, i_30, i_39, i_33, i_9, i_27])).
+answer(cycle(i_50, [i_27, i_30, i_39, i_33, i_9, i_27, i_15, i_30, i_39, i_48, i_27])).
+answer(cycle(i_50, [i_27, i_30, i_39, i_33, i_9, i_27, i_30, i_39, i_33, i_9, i_27])).
+answer(cycle(i_50, [i_27, i_30, i_39, i_33, i_9, i_33, i_9, i_27, i_15, i_12, i_27])).
+answer(cycle(i_50, [i_27, i_30, i_39, i_48, i_27, i_15, i_12, i_27, i_15, i_12, i_27])).
+answer(cycle(i_50, [i_27, i_30, i_39, i_48, i_27, i_15, i_30, i_39, i_33, i_9, i_27])).
+answer(cycle(i_50, [i_30, i_39, i_33, i_9, i_27, i_15, i_30, i_39, i_48, i_27, i_30])).
+answer(cycle(i_50, [i_30, i_39, i_33, i_9, i_27, i_30, i_39, i_33, i_9, i_27, i_30])).
+answer(cycle(i_50, [i_30, i_39, i_33, i_9, i_27, i_30, i_39, i_48, i_27, i_15, i_30])).
+answer(cycle(i_50, [i_30, i_39, i_33, i_9, i_33, i_9, i_27, i_15, i_12, i_27, i_30])).
+answer(cycle(i_50, [i_30, i_39, i_33, i_9, i_33, i_9, i_33, i_9, i_27, i_15, i_30])).
+answer(cycle(i_50, [i_30, i_39, i_48, i_27, i_15, i_12, i_27, i_15, i_12, i_27, i_30])).
+answer(cycle(i_50, [i_30, i_39, i_48, i_27, i_15, i_30, i_39, i_33, i_9, i_27, i_30])).
+answer(cycle(i_50, [i_30, i_39, i_48, i_27, i_15, i_30, i_39, i_48, i_27, i_15, i_30])).
+answer(cycle(i_50, [i_30, i_39, i_48, i_27, i_30, i_39, i_33, i_9, i_27, i_15, i_30])).
+answer(cycle(i_50, [i_33, i_9, i_27, i_15, i_12, i_27, i_30, i_39, i_33, i_9, i_33])).
+answer(cycle(i_50, [i_33, i_9, i_27, i_15, i_30, i_39, i_33, i_9, i_33, i_9, i_33])).
+answer(cycle(i_50, [i_33, i_9, i_27, i_15, i_30, i_39, i_48, i_27, i_30, i_39, i_33])).
+answer(cycle(i_50, [i_33, i_9, i_27, i_30, i_39, i_33, i_9, i_27, i_30, i_39, i_33])).
+answer(cycle(i_50, [i_33, i_9, i_27, i_30, i_39, i_48, i_27, i_15, i_30, i_39, i_33])).
+answer(cycle(i_50, [i_33, i_9, i_33, i_9, i_27, i_15, i_12, i_27, i_30, i_39, i_33])).
+answer(cycle(i_50, [i_33, i_9, i_33, i_9, i_27, i_15, i_30, i_39, i_33, i_9, i_33])).
+answer(cycle(i_50, [i_33, i_9, i_33, i_9, i_33, i_9, i_27, i_15, i_30, i_39, i_33])).
+answer(cycle(i_50, [i_33, i_9, i_33, i_9, i_33, i_9, i_33, i_9, i_33, i_9, i_33])).
+answer(cycle(i_50, [i_36, i_36, i_36, i_36, i_36, i_36, i_36, i_36, i_36, i_36, i_36])).
+answer(cycle(i_50, [i_39, i_33, i_9, i_27, i_15, i_30, i_39, i_48, i_27, i_30, i_39])).
+answer(cycle(i_50, [i_39, i_33, i_9, i_27, i_30, i_39, i_33, i_9, i_27, i_30, i_39])).
+answer(cycle(i_50, [i_39, i_33, i_9, i_27, i_30, i_39, i_48, i_27, i_15, i_30, i_39])).
+answer(cycle(i_50, [i_39, i_33, i_9, i_33, i_9, i_27, i_15, i_12, i_27, i_30, i_39])).
+answer(cycle(i_50, [i_39, i_33, i_9, i_33, i_9, i_33, i_9, i_27, i_15, i_30, i_39])).
+answer(cycle(i_50, [i_39, i_48, i_27, i_15, i_12, i_27, i_15, i_12, i_27, i_30, i_39])).
+answer(cycle(i_50, [i_39, i_48, i_27, i_15, i_30, i_39, i_33, i_9, i_27, i_30, i_39])).
+answer(cycle(i_50, [i_39, i_48, i_27, i_15, i_30, i_39, i_48, i_27, i_15, i_30, i_39])).
+answer(cycle(i_50, [i_39, i_48, i_27, i_30, i_39, i_33, i_9, i_27, i_15, i_30, i_39])).
+answer(cycle(i_50, [i_48, i_27, i_15, i_12, i_27, i_15, i_12, i_27, i_30, i_39, i_48])).
+answer(cycle(i_50, [i_48, i_27, i_15, i_12, i_27, i_15, i_21, i_72, i_78, i_87, i_48])).
+answer(cycle(i_50, [i_48, i_27, i_15, i_30, i_39, i_33, i_9, i_27, i_30, i_39, i_48])).
+answer(cycle(i_50, [i_48, i_27, i_15, i_30, i_39, i_48, i_27, i_15, i_30, i_39, i_48])).
+answer(cycle(i_50, [i_48, i_27, i_30, i_39, i_33, i_9, i_27, i_15, i_30, i_39, i_48])).
+answer(cycle(i_50, [i_51, i_57, i_69, i_66, i_51, i_84, i_12, i_57, i_69, i_66, i_51])).
+answer(cycle(i_50, [i_51, i_57, i_69, i_66, i_57, i_69, i_66, i_57, i_69, i_66, i_51])).
+answer(cycle(i_50, [i_51, i_84, i_12, i_57, i_69, i_66, i_51, i_57, i_69, i_66, i_51])).
+answer(cycle(i_50, [i_51, i_84, i_72, i_69, i_66, i_51, i_84, i_72, i_69, i_66, i_51])).
+answer(cycle(i_50, [i_51, i_84, i_72, i_78, i_87, i_99, i_54, i_72, i_69, i_66, i_51])).
+answer(cycle(i_50, [i_51, i_84, i_72, i_78, i_87, i_99, i_66, i_57, i_69, i_66, i_51])).
+answer(cycle(i_50, [i_54, i_72, i_69, i_66, i_51, i_84, i_72, i_78, i_87, i_99, i_54])).
+answer(cycle(i_50, [i_54, i_72, i_78, i_87, i_99, i_54, i_72, i_78, i_87, i_99, i_54])).
+answer(cycle(i_50, [i_57, i_69, i_66, i_51, i_57, i_69, i_66, i_51, i_84, i_12, i_57])).
+answer(cycle(i_50, [i_57, i_69, i_66, i_51, i_57, i_69, i_66, i_57, i_69, i_66, i_57])).
+answer(cycle(i_50, [i_57, i_69, i_66, i_51, i_84, i_12, i_57, i_69, i_66, i_51, i_57])).
+answer(cycle(i_50, [i_57, i_69, i_66, i_51, i_84, i_72, i_78, i_87, i_99, i_66, i_57])).
+answer(cycle(i_50, [i_57, i_69, i_66, i_57, i_69, i_66, i_51, i_57, i_69, i_66, i_57])).
+answer(cycle(i_50, [i_57, i_69, i_66, i_57, i_69, i_66, i_57, i_69, i_66, i_51, i_57])).
+answer(cycle(i_50, [i_66, i_51, i_57, i_69, i_66, i_51, i_84, i_12, i_57, i_69, i_66])).
+answer(cycle(i_50, [i_66, i_51, i_57, i_69, i_66, i_57, i_69, i_66, i_57, i_69, i_66])).
+answer(cycle(i_50, [i_66, i_51, i_84, i_12, i_57, i_69, i_66, i_51, i_57, i_69, i_66])).
+answer(cycle(i_50, [i_66, i_51, i_84, i_72, i_69, i_66, i_51, i_84, i_72, i_69, i_66])).
+answer(cycle(i_50, [i_66, i_51, i_84, i_72, i_78, i_87, i_99, i_54, i_72, i_69, i_66])).
+answer(cycle(i_50, [i_66, i_51, i_84, i_72, i_78, i_87, i_99, i_66, i_57, i_69, i_66])).
+answer(cycle(i_50, [i_66, i_57, i_69, i_66, i_51, i_57, i_69, i_66, i_57, i_69, i_66])).
+answer(cycle(i_50, [i_66, i_57, i_69, i_66, i_51, i_84, i_72, i_78, i_87, i_99, i_66])).
+answer(cycle(i_50, [i_66, i_57, i_69, i_66, i_57, i_69, i_66, i_51, i_57, i_69, i_66])).
+answer(cycle(i_50, [i_69, i_66, i_51, i_57, i_69, i_66, i_51, i_84, i_12, i_57, i_69])).
+answer(cycle(i_50, [i_69, i_66, i_51, i_57, i_69, i_66, i_57, i_69, i_66, i_57, i_69])).
+answer(cycle(i_50, [i_69, i_66, i_51, i_84, i_12, i_57, i_69, i_66, i_51, i_57, i_69])).
+answer(cycle(i_50, [i_69, i_66, i_51, i_84, i_72, i_69, i_66, i_51, i_84, i_72, i_69])).
+answer(cycle(i_50, [i_69, i_66, i_51, i_84, i_72, i_78, i_87, i_99, i_54, i_72, i_69])).
+answer(cycle(i_50, [i_69, i_66, i_51, i_84, i_72, i_78, i_87, i_99, i_66, i_57, i_69])).
+answer(cycle(i_50, [i_69, i_66, i_57, i_69, i_66, i_51, i_57, i_69, i_66, i_57, i_69])).
+answer(cycle(i_50, [i_69, i_66, i_57, i_69, i_66, i_57, i_69, i_66, i_51, i_57, i_69])).
+answer(cycle(i_50, [i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6])).
+answer(cycle(i_50, [i_72, i_69, i_66, i_51, i_84, i_72, i_69, i_66, i_51, i_84, i_72])).
+answer(cycle(i_50, [i_72, i_69, i_66, i_51, i_84, i_72, i_78, i_87, i_99, i_54, i_72])).
+answer(cycle(i_50, [i_72, i_78, i_87, i_48, i_27, i_15, i_12, i_27, i_15, i_21, i_72])).
+answer(cycle(i_50, [i_72, i_78, i_87, i_99, i_54, i_72, i_69, i_66, i_51, i_84, i_72])).
+answer(cycle(i_50, [i_72, i_78, i_87, i_99, i_54, i_72, i_78, i_87, i_99, i_54, i_72])).
+answer(cycle(i_50, [i_72, i_78, i_87, i_99, i_66, i_57, i_69, i_66, i_51, i_84, i_72])).
+answer(cycle(i_50, [i_78, i_87, i_48, i_27, i_15, i_12, i_27, i_15, i_21, i_72, i_78])).
+answer(cycle(i_50, [i_78, i_87, i_99, i_54, i_72, i_69, i_66, i_51, i_84, i_72, i_78])).
+answer(cycle(i_50, [i_78, i_87, i_99, i_54, i_72, i_78, i_87, i_99, i_54, i_72, i_78])).
+answer(cycle(i_50, [i_78, i_87, i_99, i_66, i_57, i_69, i_66, i_51, i_84, i_72, i_78])).
+answer(cycle(i_50, [i_84, i_12, i_57, i_69, i_66, i_51, i_57, i_69, i_66, i_51, i_84])).
+answer(cycle(i_50, [i_84, i_72, i_69, i_66, i_51, i_84, i_72, i_69, i_66, i_51, i_84])).
+answer(cycle(i_50, [i_84, i_72, i_78, i_87, i_99, i_54, i_72, i_69, i_66, i_51, i_84])).
+answer(cycle(i_50, [i_84, i_72, i_78, i_87, i_99, i_66, i_57, i_69, i_66, i_51, i_84])).
+answer(cycle(i_50, [i_87, i_48, i_27, i_15, i_12, i_27, i_15, i_21, i_72, i_78, i_87])).
+answer(cycle(i_50, [i_87, i_99, i_54, i_72, i_69, i_66, i_51, i_84, i_72, i_78, i_87])).
+answer(cycle(i_50, [i_87, i_99, i_54, i_72, i_78, i_87, i_99, i_54, i_72, i_78, i_87])).
+answer(cycle(i_50, [i_87, i_99, i_66, i_57, i_69, i_66, i_51, i_84, i_72, i_78, i_87])).
+answer(cycle(i_50, [i_99, i_54, i_72, i_69, i_66, i_51, i_84, i_72, i_78, i_87, i_99])).
+answer(cycle(i_50, [i_99, i_54, i_72, i_78, i_87, i_99, i_54, i_72, i_78, i_87, i_99])).
+answer(cycle(i_50, [i_99, i_66, i_57, i_69, i_66, i_51, i_84, i_72, i_78, i_87, i_99])).
+answer(cycle(i_50, [i_9, i_27, i_15, i_12, i_27, i_30, i_39, i_33, i_9, i_33, i_9])).
+answer(cycle(i_50, [i_9, i_27, i_15, i_30, i_39, i_33, i_9, i_33, i_9, i_33, i_9])).
+answer(cycle(i_50, [i_9, i_27, i_15, i_30, i_39, i_48, i_27, i_30, i_39, i_33, i_9])).
+answer(cycle(i_50, [i_9, i_27, i_30, i_39, i_33, i_9, i_27, i_30, i_39, i_33, i_9])).
+answer(cycle(i_50, [i_9, i_27, i_30, i_39, i_48, i_27, i_15, i_30, i_39, i_33, i_9])).
+answer(cycle(i_50, [i_9, i_33, i_9, i_27, i_15, i_12, i_27, i_30, i_39, i_33, i_9])).
+answer(cycle(i_50, [i_9, i_33, i_9, i_27, i_15, i_30, i_39, i_33, i_9, i_33, i_9])).
+answer(cycle(i_50, [i_9, i_33, i_9, i_33, i_9, i_27, i_15, i_30, i_39, i_33, i_9])).
+answer(cycle(i_50, [i_9, i_33, i_9, i_33, i_9, i_33, i_9, i_33, i_9, i_33, i_9])).
+answer(cycle(i_17, [i_0, i_30, i_33, i_63, i_42, i_54, i_0, i_30, i_33, i_75, i_0])).
+answer(cycle(i_17, [i_0, i_30, i_33, i_75, i_0, i_30, i_33, i_63, i_42, i_54, i_0])).
+answer(cycle(i_17, [i_0, i_30, i_33, i_75, i_30, i_33, i_75, i_30, i_33, i_75, i_0])).
+answer(cycle(i_17, [i_30, i_33, i_63, i_42, i_54, i_0, i_30, i_33, i_75, i_0, i_30])).
+answer(cycle(i_17, [i_30, i_33, i_75, i_0, i_30, i_33, i_63, i_42, i_54, i_0, i_30])).
+answer(cycle(i_17, [i_30, i_33, i_75, i_0, i_30, i_33, i_75, i_30, i_33, i_75, i_30])).
+answer(cycle(i_17, [i_30, i_33, i_75, i_30, i_33, i_75, i_0, i_30, i_33, i_75, i_30])).
+answer(cycle(i_17, [i_30, i_33, i_75, i_30, i_33, i_75, i_30, i_33, i_75, i_0, i_30])).
+answer(cycle(i_17, [i_33, i_63, i_42, i_54, i_0, i_30, i_33, i_75, i_0, i_30, i_33])).
+answer(cycle(i_17, [i_33, i_75, i_0, i_30, i_33, i_63, i_42, i_54, i_0, i_30, i_33])).
+answer(cycle(i_17, [i_33, i_75, i_0, i_30, i_33, i_75, i_30, i_33, i_75, i_30, i_33])).
+answer(cycle(i_17, [i_33, i_75, i_30, i_33, i_75, i_0, i_30, i_33, i_75, i_30, i_33])).
+answer(cycle(i_17, [i_33, i_75, i_30, i_33, i_75, i_30, i_33, i_75, i_0, i_30, i_33])).
+answer(cycle(i_17, [i_42, i_54, i_0, i_30, i_33, i_75, i_0, i_30, i_33, i_63, i_42])).
+answer(cycle(i_17, [i_54, i_0, i_30, i_33, i_75, i_0, i_30, i_33, i_63, i_42, i_54])).
+answer(cycle(i_17, [i_63, i_42, i_54, i_0, i_30, i_33, i_75, i_0, i_30, i_33, i_63])).
+answer(cycle(i_17, [i_75, i_0, i_30, i_33, i_63, i_42, i_54, i_0, i_30, i_33, i_75])).
+answer(cycle(i_17, [i_75, i_0, i_30, i_33, i_75, i_30, i_33, i_75, i_30, i_33, i_75])).
+answer(cycle(i_17, [i_75, i_30, i_33, i_75, i_0, i_30, i_33, i_75, i_30, i_33, i_75])).
+answer(cycle(i_17, [i_75, i_30, i_33, i_75, i_30, i_33, i_75, i_0, i_30, i_33, i_75])).
+answer(cycle(i_7, [i_18, i_75, i_84, i_72, i_57, i_18, i_75, i_84, i_72, i_57, i_18])).
+answer(cycle(i_7, [i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45])).
+answer(cycle(i_7, [i_57, i_18, i_75, i_84, i_72, i_57, i_18, i_75, i_84, i_72, i_57])).
+answer(cycle(i_7, [i_72, i_57, i_18, i_75, i_84, i_72, i_57, i_18, i_75, i_84, i_72])).
+answer(cycle(i_7, [i_75, i_84, i_72, i_57, i_18, i_75, i_84, i_72, i_57, i_18, i_75])).
+answer(cycle(i_7, [i_84, i_72, i_57, i_18, i_75, i_84, i_72, i_57, i_18, i_75, i_84])).
+answer(cycle(i_16, [i_21, i_42, i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_63, i_21])).
+answer(cycle(i_16, [i_21, i_42, i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_63, i_21])).
+answer(cycle(i_16, [i_21, i_42, i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_63, i_21])).
+answer(cycle(i_16, [i_27, i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_39, i_87, i_27])).
+answer(cycle(i_16, [i_27, i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_39, i_87, i_27])).
+answer(cycle(i_16, [i_27, i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_39, i_87, i_27])).
+answer(cycle(i_16, [i_27, i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_87, i_27])).
+answer(cycle(i_16, [i_27, i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_87, i_27])).
+answer(cycle(i_16, [i_27, i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_87, i_27])).
+answer(cycle(i_16, [i_39, i_42, i_45, i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_39])).
+answer(cycle(i_16, [i_39, i_42, i_45, i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_39])).
+answer(cycle(i_16, [i_39, i_42, i_45, i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_39])).
+answer(cycle(i_16, [i_39, i_42, i_45, i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_39])).
+answer(cycle(i_16, [i_39, i_42, i_45, i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_39])).
+answer(cycle(i_16, [i_39, i_42, i_45, i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_39])).
+answer(cycle(i_16, [i_39, i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_45, i_93, i_39])).
+answer(cycle(i_16, [i_39, i_45, i_93, i_39, i_45, i_93, i_39, i_42, i_45, i_93, i_39])).
+answer(cycle(i_16, [i_39, i_45, i_93, i_39, i_45, i_93, i_39, i_87, i_27, i_93, i_39])).
+answer(cycle(i_16, [i_39, i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_45, i_93, i_39])).
+answer(cycle(i_16, [i_39, i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_45, i_93, i_39])).
+answer(cycle(i_16, [i_39, i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_39])).
+answer(cycle(i_16, [i_39, i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_39])).
+answer(cycle(i_16, [i_39, i_45, i_93, i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_39])).
+answer(cycle(i_16, [i_39, i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_45, i_93, i_39])).
+answer(cycle(i_16, [i_39, i_87, i_27, i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_39])).
+answer(cycle(i_16, [i_39, i_87, i_27, i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_39])).
+answer(cycle(i_16, [i_39, i_87, i_27, i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_39])).
+answer(cycle(i_16, [i_39, i_87, i_27, i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_39])).
+answer(cycle(i_16, [i_39, i_87, i_27, i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_39])).
+answer(cycle(i_16, [i_39, i_87, i_27, i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_39])).
+answer(cycle(i_16, [i_42, i_45, i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_39, i_42])).
+answer(cycle(i_16, [i_42, i_45, i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_39, i_42])).
+answer(cycle(i_16, [i_42, i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_63, i_21, i_42])).
+answer(cycle(i_16, [i_42, i_45, i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_39, i_42])).
+answer(cycle(i_16, [i_42, i_45, i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_42])).
+answer(cycle(i_16, [i_42, i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_63, i_21, i_42])).
+answer(cycle(i_16, [i_42, i_45, i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_42])).
+answer(cycle(i_16, [i_42, i_45, i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_42])).
+answer(cycle(i_16, [i_42, i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_63, i_21, i_42])).
+answer(cycle(i_16, [i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_42, i_45, i_93, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_45, i_93, i_39, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_87, i_27, i_93, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_39, i_42, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_45, i_93, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_39, i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_39, i_42, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_39, i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_63, i_21, i_42, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_39, i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_42, i_45, i_93, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_45, i_93, i_39, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_87, i_27, i_93, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_39, i_42, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_45, i_93, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_42, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_39, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_63, i_21, i_42, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_42, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_39, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_42, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_39, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_39, i_45, i_93, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_45, i_93, i_39, i_45])).
+answer(cycle(i_16, [i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_63, i_21, i_42, i_45])).
+answer(cycle(i_16, [i_63, i_21, i_42, i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_63])).
+answer(cycle(i_16, [i_63, i_21, i_42, i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_63])).
+answer(cycle(i_16, [i_63, i_21, i_42, i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_63])).
+answer(cycle(i_16, [i_87, i_27, i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_39, i_87])).
+answer(cycle(i_16, [i_87, i_27, i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_39, i_87])).
+answer(cycle(i_16, [i_87, i_27, i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_39, i_87])).
+answer(cycle(i_16, [i_87, i_27, i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_87])).
+answer(cycle(i_16, [i_87, i_27, i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_87])).
+answer(cycle(i_16, [i_87, i_27, i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_87])).
+answer(cycle(i_16, [i_93, i_39, i_42, i_45, i_93, i_39, i_42, i_45, i_93, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_39, i_42, i_45, i_93, i_39, i_45, i_93, i_39, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_39, i_42, i_45, i_93, i_39, i_87, i_27, i_93, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_39, i_42, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_39, i_87, i_27, i_93])).
+answer(cycle(i_16, [i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_45, i_93, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_39, i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_39, i_42, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_39, i_87, i_27, i_93])).
+answer(cycle(i_16, [i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_39, i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_39, i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_39, i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_39, i_45, i_93, i_45, i_93, i_63, i_21, i_42, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_39, i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_39, i_87, i_27, i_93, i_39, i_42, i_45, i_93, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_39, i_87, i_27, i_93, i_39, i_45, i_93, i_39, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_39, i_87, i_27, i_93, i_39, i_87, i_27, i_93, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_39, i_42, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_39, i_87, i_27, i_93])).
+answer(cycle(i_16, [i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_45, i_93, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_42, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_87, i_27, i_93])).
+answer(cycle(i_16, [i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_45, i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_39, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_45, i_93, i_39, i_45, i_93, i_63, i_21, i_42, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_42, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_87, i_27, i_93])).
+answer(cycle(i_16, [i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_45, i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_39, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_45, i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_42, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_87, i_27, i_93])).
+answer(cycle(i_16, [i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_39, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_63, i_21, i_42, i_45, i_93, i_39, i_45, i_93, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_63, i_21, i_42, i_45, i_93, i_45, i_93, i_39, i_45, i_93])).
+answer(cycle(i_16, [i_93, i_63, i_21, i_42, i_45, i_93, i_63, i_21, i_42, i_45, i_93])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_0])).
+answer(cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0])).
+answer(cycle(i_75, [i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_30])).
+answer(cycle(i_75, [i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30])).
+answer(cycle(i_45, [i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0])).
+answer(cycle(i_21, [i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3])).
+answer(cycle(i_74, [i_27, i_57, i_27, i_57, i_27, i_57, i_27, i_57, i_27, i_57, i_27])).
+answer(cycle(i_74, [i_33, i_60, i_33, i_60, i_33, i_60, i_33, i_60, i_33, i_60, i_33])).
+answer(cycle(i_74, [i_57, i_27, i_57, i_27, i_57, i_27, i_57, i_27, i_57, i_27, i_57])).
+answer(cycle(i_74, [i_60, i_33, i_60, i_33, i_60, i_33, i_60, i_33, i_60, i_33, i_60])).
+answer(cycle(i_74, [i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90])).
+answer(cycle(i_77, [i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24])).
+answer(cycle(i_77, [i_69, i_96, i_69, i_96, i_69, i_96, i_69, i_96, i_69, i_96, i_69])).
+answer(cycle(i_77, [i_72, i_72, i_72, i_72, i_72, i_72, i_72, i_72, i_72, i_72, i_72])).
+answer(cycle(i_77, [i_96, i_69, i_96, i_69, i_96, i_69, i_96, i_69, i_96, i_69, i_96])).
+answer(cycle(i_48, [i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69])).
+answer(cycle(i_48, [i_72, i_90, i_72, i_90, i_72, i_90, i_72, i_90, i_72, i_90, i_72])).
+answer(cycle(i_48, [i_90, i_72, i_90, i_72, i_90, i_72, i_90, i_72, i_90, i_72, i_90])).
+answer(cycle(i_76, [i_60, i_78, i_60, i_78, i_60, i_78, i_60, i_78, i_60, i_78, i_60])).
+answer(cycle(i_76, [i_78, i_60, i_78, i_60, i_78, i_60, i_78, i_60, i_78, i_60, i_78])).
+answer(cycle(i_86, [i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0])).
+answer(cycle(i_56, [i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27])).
+answer(cycle(i_56, [i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9])).
+answer(cycle(i_57, [i_48, i_69, i_48, i_69, i_48, i_69, i_48, i_69, i_48, i_69, i_48])).
+answer(cycle(i_57, [i_51, i_84, i_51, i_84, i_51, i_84, i_51, i_84, i_51, i_84, i_51])).
+answer(cycle(i_57, [i_69, i_48, i_69, i_48, i_69, i_48, i_69, i_48, i_69, i_48, i_69])).
+answer(cycle(i_57, [i_84, i_51, i_84, i_51, i_84, i_51, i_84, i_51, i_84, i_51, i_84])).
+answer(cycle(i_25, [i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6])).
+answer(cycle(i_88, [i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3])).
+answer(cycle(i_88, [i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54])).
+answer(cycle(i_88, [i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57])).
+answer(cycle(i_58, [i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18])).
+answer(cycle(i_58, [i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54])).
+answer(cycle(i_24, [i_24, i_33, i_24, i_33, i_24, i_33, i_24, i_33, i_24, i_33, i_24])).
+answer(cycle(i_24, [i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27])).
+answer(cycle(i_24, [i_33, i_24, i_33, i_24, i_33, i_24, i_33, i_24, i_33, i_24, i_33])).
+answer(cycle(i_24, [i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57])).
+answer(cycle(i_24, [i_60, i_87, i_60, i_87, i_60, i_87, i_60, i_87, i_60, i_87, i_60])).
+answer(cycle(i_24, [i_78, i_78, i_78, i_78, i_78, i_78, i_78, i_78, i_78, i_78, i_78])).
+answer(cycle(i_24, [i_87, i_60, i_87, i_60, i_87, i_60, i_87, i_60, i_87, i_60, i_87])).
+answer(cycle(i_59, [i_48, i_48, i_48, i_48, i_48, i_48, i_48, i_48, i_48, i_48, i_48])).
+answer(cycle(i_2, [i_27, i_66, i_27, i_66, i_27, i_66, i_27, i_66, i_27, i_66, i_27])).
+answer(cycle(i_2, [i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3])).
+answer(cycle(i_2, [i_66, i_27, i_66, i_27, i_66, i_27, i_66, i_27, i_66, i_27, i_66])).
+answer(cycle(i_82, [i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_21])).
+answer(cycle(i_82, [i_36, i_36, i_36, i_36, i_36, i_36, i_36, i_36, i_36, i_36, i_36])).
+answer(cycle(i_52, [i_21, i_78, i_21, i_78, i_21, i_78, i_21, i_78, i_21, i_78, i_21])).
+answer(cycle(i_52, [i_78, i_21, i_78, i_21, i_78, i_21, i_78, i_21, i_78, i_21, i_78])).
+answer(cycle(i_29, [i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12])).
+answer(cycle(i_29, [i_39, i_39, i_39, i_39, i_39, i_39, i_39, i_39, i_39, i_39, i_39])).
+answer(cycle(i_53, [i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15])).
+answer(cycle(i_53, [i_21, i_75, i_78, i_96, i_6, i_21, i_75, i_78, i_96, i_6, i_21])).
+answer(cycle(i_53, [i_6, i_21, i_75, i_78, i_96, i_6, i_21, i_75, i_78, i_96, i_6])).
+answer(cycle(i_53, [i_75, i_78, i_96, i_6, i_21, i_75, i_78, i_96, i_6, i_21, i_75])).
+answer(cycle(i_53, [i_78, i_96, i_6, i_21, i_75, i_78, i_96, i_6, i_21, i_75, i_78])).
+answer(cycle(i_53, [i_96, i_6, i_21, i_75, i_78, i_96, i_6, i_21, i_75, i_78, i_96])).
+answer(cycle(i_81, [i_21, i_75, i_30, i_75, i_30, i_75, i_60, i_21, i_75, i_60, i_21])).
+answer(cycle(i_81, [i_21, i_75, i_30, i_75, i_60, i_21, i_75, i_30, i_75, i_60, i_21])).
+answer(cycle(i_81, [i_21, i_75, i_60, i_21, i_75, i_30, i_75, i_30, i_75, i_60, i_21])).
+answer(cycle(i_81, [i_27, i_84, i_27, i_84, i_27, i_84, i_27, i_84, i_27, i_84, i_27])).
+answer(cycle(i_81, [i_30, i_75, i_30, i_75, i_30, i_75, i_30, i_75, i_30, i_75, i_30])).
+answer(cycle(i_81, [i_30, i_75, i_30, i_75, i_60, i_21, i_75, i_60, i_21, i_75, i_30])).
+answer(cycle(i_81, [i_30, i_75, i_60, i_21, i_75, i_30, i_75, i_60, i_21, i_75, i_30])).
+answer(cycle(i_81, [i_30, i_75, i_60, i_21, i_75, i_60, i_21, i_75, i_30, i_75, i_30])).
+answer(cycle(i_81, [i_60, i_21, i_75, i_30, i_75, i_30, i_75, i_60, i_21, i_75, i_60])).
+answer(cycle(i_81, [i_60, i_21, i_75, i_30, i_75, i_60, i_21, i_75, i_30, i_75, i_60])).
+answer(cycle(i_81, [i_60, i_21, i_75, i_60, i_21, i_75, i_30, i_75, i_30, i_75, i_60])).
+answer(cycle(i_81, [i_75, i_30, i_75, i_30, i_75, i_30, i_75, i_30, i_75, i_30, i_75])).
+answer(cycle(i_81, [i_75, i_30, i_75, i_30, i_75, i_60, i_21, i_75, i_60, i_21, i_75])).
+answer(cycle(i_81, [i_75, i_30, i_75, i_60, i_21, i_75, i_30, i_75, i_60, i_21, i_75])).
+answer(cycle(i_81, [i_75, i_30, i_75, i_60, i_21, i_75, i_60, i_21, i_75, i_30, i_75])).
+answer(cycle(i_81, [i_75, i_60, i_21, i_75, i_30, i_75, i_30, i_75, i_60, i_21, i_75])).
+answer(cycle(i_81, [i_75, i_60, i_21, i_75, i_30, i_75, i_60, i_21, i_75, i_30, i_75])).
+answer(cycle(i_81, [i_75, i_60, i_21, i_75, i_60, i_21, i_75, i_30, i_75, i_30, i_75])).
+answer(cycle(i_81, [i_84, i_27, i_84, i_27, i_84, i_27, i_84, i_27, i_84, i_27, i_84])).
+answer(cycle(i_28, [i_15, i_36, i_6, i_87, i_81, i_15, i_36, i_6, i_87, i_81, i_15])).
+answer(cycle(i_28, [i_18, i_78, i_18, i_78, i_18, i_78, i_18, i_78, i_18, i_78, i_18])).
+answer(cycle(i_28, [i_36, i_6, i_87, i_81, i_15, i_36, i_6, i_87, i_81, i_15, i_36])).
+answer(cycle(i_28, [i_6, i_87, i_81, i_15, i_36, i_6, i_87, i_81, i_15, i_36, i_6])).
+answer(cycle(i_28, [i_78, i_18, i_78, i_18, i_78, i_18, i_78, i_18, i_78, i_18, i_78])).
+answer(cycle(i_28, [i_81, i_15, i_36, i_6, i_87, i_81, i_15, i_36, i_6, i_87, i_81])).
+answer(cycle(i_28, [i_87, i_81, i_15, i_36, i_6, i_87, i_81, i_15, i_36, i_6, i_87])).
+answer(cycle(i_84, [i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0])).
+answer(cycle(i_84, [i_21, i_87, i_33, i_93, i_51, i_30, i_21, i_87, i_51, i_30, i_21])).
+answer(cycle(i_84, [i_21, i_87, i_51, i_30, i_21, i_87, i_33, i_93, i_51, i_30, i_21])).
+answer(cycle(i_84, [i_30, i_21, i_87, i_33, i_93, i_51, i_30, i_21, i_87, i_51, i_30])).
+answer(cycle(i_84, [i_30, i_21, i_87, i_51, i_30, i_21, i_87, i_33, i_93, i_51, i_30])).
+answer(cycle(i_84, [i_33, i_93, i_51, i_30, i_21, i_87, i_51, i_30, i_21, i_87, i_33])).
+answer(cycle(i_84, [i_51, i_30, i_21, i_87, i_33, i_93, i_51, i_30, i_21, i_87, i_51])).
+answer(cycle(i_84, [i_51, i_30, i_21, i_87, i_51, i_30, i_21, i_87, i_33, i_93, i_51])).
+answer(cycle(i_84, [i_87, i_33, i_93, i_51, i_30, i_21, i_87, i_51, i_30, i_21, i_87])).
+answer(cycle(i_84, [i_87, i_51, i_30, i_21, i_87, i_33, i_93, i_51, i_30, i_21, i_87])).
+answer(cycle(i_84, [i_93, i_51, i_30, i_21, i_87, i_51, i_30, i_21, i_87, i_33, i_93])).
+answer(cycle(i_54, [i_33, i_96, i_9, i_51, i_66, i_33, i_96, i_9, i_51, i_66, i_33])).
+answer(cycle(i_54, [i_51, i_66, i_33, i_96, i_9, i_51, i_66, i_33, i_96, i_9, i_51])).
+answer(cycle(i_54, [i_66, i_33, i_96, i_9, i_51, i_66, i_33, i_96, i_9, i_51, i_66])).
+answer(cycle(i_54, [i_96, i_9, i_51, i_66, i_33, i_96, i_9, i_51, i_66, i_33, i_96])).
+answer(cycle(i_54, [i_9, i_51, i_66, i_33, i_96, i_9, i_51, i_66, i_33, i_96, i_9])).
+answer(cycle(i_27, [i_21, i_72, i_21, i_72, i_21, i_72, i_21, i_72, i_21, i_72, i_21])).
+answer(cycle(i_27, [i_39, i_84, i_39, i_84, i_39, i_84, i_39, i_84, i_39, i_84, i_39])).
+answer(cycle(i_27, [i_72, i_21, i_72, i_21, i_72, i_21, i_72, i_21, i_72, i_21, i_72])).
+answer(cycle(i_27, [i_84, i_39, i_84, i_39, i_84, i_39, i_84, i_39, i_84, i_39, i_84])).
+answer(cycle(i_55, [i_33, i_33, i_33, i_33, i_33, i_33, i_33, i_33, i_33, i_33, i_33])).
+answer(cycle(i_55, [i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54])).
+answer(cycle(i_83, [i_0, i_6, i_84, i_69, i_6, i_84, i_69, i_6, i_84, i_69, i_0])).
+answer(cycle(i_83, [i_69, i_0, i_6, i_84, i_69, i_6, i_84, i_69, i_6, i_84, i_69])).
+answer(cycle(i_83, [i_69, i_6, i_84, i_69, i_0, i_6, i_84, i_69, i_6, i_84, i_69])).
+answer(cycle(i_83, [i_69, i_6, i_84, i_69, i_6, i_84, i_69, i_0, i_6, i_84, i_69])).
+answer(cycle(i_83, [i_6, i_84, i_69, i_0, i_6, i_84, i_69, i_6, i_84, i_69, i_6])).
+answer(cycle(i_83, [i_6, i_84, i_69, i_6, i_84, i_69, i_0, i_6, i_84, i_69, i_6])).
+answer(cycle(i_83, [i_6, i_84, i_69, i_6, i_84, i_69, i_6, i_84, i_69, i_0, i_6])).
+answer(cycle(i_83, [i_84, i_69, i_0, i_6, i_84, i_69, i_6, i_84, i_69, i_6, i_84])).
+answer(cycle(i_83, [i_84, i_69, i_6, i_84, i_69, i_0, i_6, i_84, i_69, i_6, i_84])).
+answer(cycle(i_83, [i_84, i_69, i_6, i_84, i_69, i_6, i_84, i_69, i_0, i_6, i_84])).
 
-step((true:+cycle(A,B)),cycle(i0,[i12,i66,i9,i12,i66,i9,i12,i9,i12,i9,i12]),true).
-step((true:+cycle(A,B)),cycle(i0,[i12,i66,i9,i12,i9,i12,i66,i9,i12,i9,i12]),true).
-step((true:+cycle(A,B)),cycle(i0,[i12,i66,i9,i12,i9,i12,i9,i12,i66,i9,i12]),true).
-step((true:+cycle(A,B)),cycle(i0,[i12,i9,i12,i66,i9,i12,i66,i9,i12,i9,i12]),true).
-step((true:+cycle(A,B)),cycle(i0,[i12,i9,i12,i66,i9,i12,i9,i12,i66,i9,i12]),true).
-step((true:+cycle(A,B)),cycle(i0,[i12,i9,i12,i9,i12,i66,i9,i12,i66,i9,i12]),true).
-step((true:+cycle(A,B)),cycle(i0,[i12,i9,i12,i9,i12,i9,i12,i9,i12,i9,i12]),true).
-step((true:+cycle(A,B)),cycle(i0,[i66,i9,i12,i66,i9,i12,i9,i12,i9,i12,i66]),true).
-step((true:+cycle(A,B)),cycle(i0,[i66,i9,i12,i9,i12,i66,i9,i12,i9,i12,i66]),true).
-step((true:+cycle(A,B)),cycle(i0,[i66,i9,i12,i9,i12,i9,i12,i66,i9,i12,i66]),true).
-step((true:+cycle(A,B)),cycle(i0,[i6,i6,i6,i6,i6,i6,i6,i6,i6,i6,i6]),true).
-step((true:+cycle(A,B)),cycle(i0,[i75,i84,i75,i84,i75,i84,i75,i84,i75,i84,i75]),true).
-step((true:+cycle(A,B)),cycle(i0,[i84,i75,i84,i75,i84,i75,i84,i75,i84,i75,i84]),true).
-step((true:+cycle(A,B)),cycle(i0,[i9,i12,i66,i9,i12,i66,i9,i12,i9,i12,i9]),true).
-step((true:+cycle(A,B)),cycle(i0,[i9,i12,i66,i9,i12,i9,i12,i66,i9,i12,i9]),true).
-step((true:+cycle(A,B)),cycle(i0,[i9,i12,i66,i9,i12,i9,i12,i9,i12,i66,i9]),true).
-step((true:+cycle(A,B)),cycle(i0,[i9,i12,i9,i12,i66,i9,i12,i66,i9,i12,i9]),true).
-step((true:+cycle(A,B)),cycle(i0,[i9,i12,i9,i12,i66,i9,i12,i9,i12,i66,i9]),true).
-step((true:+cycle(A,B)),cycle(i0,[i9,i12,i9,i12,i9,i12,i66,i9,i12,i66,i9]),true).
-step((true:+cycle(A,B)),cycle(i0,[i9,i12,i9,i12,i9,i12,i9,i12,i9,i12,i9]),true).
-step((true:+cycle(A,B)),cycle(i10,[i15,i78,i60,i33,i87,i15,i78,i60,i33,i87,i15]),true).
-step((true:+cycle(A,B)),cycle(i10,[i33,i87,i15,i78,i60,i33,i87,i15,i78,i60,i33]),true).
-step((true:+cycle(A,B)),cycle(i10,[i60,i33,i87,i15,i78,i60,i33,i87,i15,i78,i60]),true).
-step((true:+cycle(A,B)),cycle(i10,[i78,i60,i33,i87,i15,i78,i60,i33,i87,i15,i78]),true).
-step((true:+cycle(A,B)),cycle(i10,[i87,i15,i78,i60,i33,i87,i15,i78,i60,i33,i87]),true).
-step((true:+cycle(A,B)),cycle(i11,[i15,i30,i78,i45,i51,i15,i30,i78,i45,i51,i15]),true).
-step((true:+cycle(A,B)),cycle(i11,[i30,i78,i45,i51,i15,i30,i78,i45,i51,i15,i30]),true).
-step((true:+cycle(A,B)),cycle(i11,[i39,i39,i39,i39,i39,i39,i39,i39,i39,i39,i39]),true).
-step((true:+cycle(A,B)),cycle(i11,[i3,i3,i3,i3,i3,i3,i3,i3,i3,i3,i3]),true).
-step((true:+cycle(A,B)),cycle(i11,[i45,i51,i15,i30,i78,i45,i51,i15,i30,i78,i45]),true).
-step((true:+cycle(A,B)),cycle(i11,[i51,i15,i30,i78,i45,i51,i15,i30,i78,i45,i51]),true).
-step((true:+cycle(A,B)),cycle(i11,[i78,i45,i51,i15,i30,i78,i45,i51,i15,i30,i78]),true).
-step((true:+cycle(A,B)),cycle(i12,[i45,i45,i45,i45,i45,i45,i45,i45,i45,i45,i45]),true).
-step((true:+cycle(A,B)),cycle(i12,[i66,i66,i66,i66,i66,i66,i66,i66,i66,i66,i66]),true).
-step((true:+cycle(A,B)),cycle(i13,[i12,i60,i12,i60,i12,i60,i12,i60,i12,i60,i12]),true).
-step((true:+cycle(A,B)),cycle(i13,[i45,i48,i78,i81,i87,i45,i48,i78,i81,i87,i45]),true).
-step((true:+cycle(A,B)),cycle(i13,[i48,i78,i81,i87,i45,i48,i78,i81,i87,i45,i48]),true).
-step((true:+cycle(A,B)),cycle(i13,[i60,i12,i60,i12,i60,i12,i60,i12,i60,i12,i60]),true).
-step((true:+cycle(A,B)),cycle(i13,[i78,i81,i87,i45,i48,i78,i81,i87,i45,i48,i78]),true).
-step((true:+cycle(A,B)),cycle(i13,[i81,i87,i45,i48,i78,i81,i87,i45,i48,i78,i81]),true).
-step((true:+cycle(A,B)),cycle(i13,[i87,i45,i48,i78,i81,i87,i45,i48,i78,i81,i87]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i36,i96,i36,i96,i36,i96,i36,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i36,i96,i36,i96,i36,i96,i96,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i36,i96,i36,i96,i96,i36,i96,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i36,i96,i36,i96,i96,i96,i36,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i36,i96,i36,i96,i96,i96,i96,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i36,i96,i96,i36,i96,i36,i96,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i36,i96,i96,i36,i96,i96,i36,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i36,i96,i96,i36,i96,i96,i96,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i36,i96,i96,i96,i36,i96,i36,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i36,i96,i96,i96,i36,i96,i96,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i36,i96,i96,i96,i96,i36,i96,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i36,i96,i96,i96,i96,i96,i36,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i36,i96,i96,i96,i96,i96,i96,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i96,i36,i96,i36,i96,i36,i96,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i96,i36,i96,i36,i96,i96,i36,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i96,i36,i96,i36,i96,i96,i96,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i96,i36,i96,i96,i36,i96,i36,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i96,i36,i96,i96,i36,i96,i96,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i96,i36,i96,i96,i96,i36,i96,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i96,i36,i96,i96,i96,i96,i36,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i96,i36,i96,i96,i96,i96,i96,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i96,i96,i36,i96,i36,i96,i36,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i96,i96,i36,i96,i36,i96,i96,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i96,i96,i36,i96,i96,i36,i96,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i96,i96,i36,i96,i96,i96,i36,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i96,i96,i36,i96,i96,i96,i96,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i96,i96,i96,i36,i96,i36,i96,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i96,i96,i96,i36,i96,i96,i36,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i96,i96,i96,i36,i96,i96,i96,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i96,i96,i96,i96,i36,i96,i36,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i96,i96,i96,i96,i36,i96,i96,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i96,i96,i96,i96,i96,i36,i96,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i96,i96,i96,i96,i96,i96,i36,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i36,i96,i96,i96,i96,i96,i96,i96,i96,i96,i36]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i36,i96,i36,i96,i36,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i36,i96,i36,i96,i36,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i36,i96,i36,i96,i96,i36,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i36,i96,i36,i96,i96,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i36,i96,i36,i96,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i36,i96,i96,i36,i96,i36,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i36,i96,i96,i36,i96,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i36,i96,i96,i36,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i36,i96,i96,i96,i36,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i36,i96,i96,i96,i36,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i36,i96,i96,i96,i96,i36,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i36,i96,i96,i96,i96,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i36,i96,i96,i96,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i96,i36,i96,i36,i96,i36,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i96,i36,i96,i36,i96,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i96,i36,i96,i36,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i96,i36,i96,i96,i36,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i96,i36,i96,i96,i36,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i96,i36,i96,i96,i96,i36,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i96,i36,i96,i96,i96,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i96,i36,i96,i96,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i96,i96,i36,i96,i36,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i96,i96,i36,i96,i36,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i96,i96,i36,i96,i96,i36,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i96,i96,i36,i96,i96,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i96,i96,i36,i96,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i96,i96,i96,i36,i96,i36,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i96,i96,i96,i36,i96,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i96,i96,i96,i36,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i96,i96,i96,i96,i36,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i96,i96,i96,i96,i36,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i96,i96,i96,i96,i96,i36,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i96,i96,i96,i96,i96,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i36,i96,i96,i96,i96,i96,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i36,i96,i36,i96,i36,i96,i36,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i36,i96,i36,i96,i36,i96,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i36,i96,i36,i96,i36,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i36,i96,i36,i96,i96,i36,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i36,i96,i36,i96,i96,i36,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i36,i96,i36,i96,i96,i96,i36,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i36,i96,i36,i96,i96,i96,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i36,i96,i36,i96,i96,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i36,i96,i96,i36,i96,i36,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i36,i96,i96,i36,i96,i36,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i36,i96,i96,i36,i96,i96,i36,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i36,i96,i96,i36,i96,i96,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i36,i96,i96,i36,i96,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i36,i96,i96,i96,i36,i96,i36,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i36,i96,i96,i96,i36,i96,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i36,i96,i96,i96,i36,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i36,i96,i96,i96,i96,i36,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i36,i96,i96,i96,i96,i36,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i36,i96,i96,i96,i96,i96,i36,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i36,i96,i96,i96,i96,i96,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i36,i96,i96,i96,i96,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i36,i96,i36,i96,i36,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i36,i96,i36,i96,i36,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i36,i96,i36,i96,i96,i36,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i36,i96,i36,i96,i96,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i36,i96,i36,i96,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i36,i96,i96,i36,i96,i36,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i36,i96,i96,i36,i96,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i36,i96,i96,i36,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i36,i96,i96,i96,i36,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i36,i96,i96,i96,i36,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i36,i96,i96,i96,i96,i36,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i36,i96,i96,i96,i96,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i36,i96,i96,i96,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i96,i36,i96,i36,i96,i36,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i96,i36,i96,i36,i96,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i96,i36,i96,i36,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i96,i36,i96,i96,i36,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i96,i36,i96,i96,i36,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i96,i36,i96,i96,i96,i36,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i96,i36,i96,i96,i96,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i96,i36,i96,i96,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i96,i96,i36,i96,i36,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i96,i96,i36,i96,i36,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i96,i96,i36,i96,i96,i36,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i96,i96,i36,i96,i96,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i96,i96,i36,i96,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i96,i96,i96,i36,i96,i36,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i96,i96,i96,i36,i96,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i96,i96,i96,i36,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i96,i96,i96,i96,i36,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i96,i96,i96,i96,i36,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i96,i96,i96,i96,i96,i36,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i96,i96,i96,i96,i96,i96,i36,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i96,i96,i96,i96,i96,i96,i96,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i15,[i9,i9,i9,i9,i9,i9,i9,i9,i9,i9,i9]),true).
-step((true:+cycle(A,B)),cycle(i16,[i21,i42,i45,i93,i39,i45,i93,i45,i93,i63,i21]),true).
-step((true:+cycle(A,B)),cycle(i16,[i21,i42,i45,i93,i45,i93,i39,i45,i93,i63,i21]),true).
-step((true:+cycle(A,B)),cycle(i16,[i21,i42,i45,i93,i63,i21,i42,i45,i93,i63,i21]),true).
-step((true:+cycle(A,B)),cycle(i16,[i27,i93,i39,i42,i45,i93,i45,i93,i39,i87,i27]),true).
-step((true:+cycle(A,B)),cycle(i16,[i27,i93,i39,i45,i93,i39,i45,i93,i39,i87,i27]),true).
-step((true:+cycle(A,B)),cycle(i16,[i27,i93,i39,i87,i27,i93,i45,i93,i39,i87,i27]),true).
-step((true:+cycle(A,B)),cycle(i16,[i27,i93,i45,i93,i39,i42,i45,i93,i39,i87,i27]),true).
-step((true:+cycle(A,B)),cycle(i16,[i27,i93,i45,i93,i39,i87,i27,i93,i39,i87,i27]),true).
-step((true:+cycle(A,B)),cycle(i16,[i27,i93,i45,i93,i45,i93,i45,i93,i39,i87,i27]),true).
-step((true:+cycle(A,B)),cycle(i16,[i39,i42,i45,i93,i39,i42,i45,i93,i45,i93,i39]),true).
-step((true:+cycle(A,B)),cycle(i16,[i39,i42,i45,i93,i39,i45,i93,i39,i45,i93,i39]),true).
-step((true:+cycle(A,B)),cycle(i16,[i39,i42,i45,i93,i39,i87,i27,i93,i45,i93,i39]),true).
-step((true:+cycle(A,B)),cycle(i16,[i39,i42,i45,i93,i45,i93,i39,i42,i45,i93,i39]),true).
-step((true:+cycle(A,B)),cycle(i16,[i39,i42,i45,i93,i45,i93,i39,i87,i27,i93,i39]),true).
-step((true:+cycle(A,B)),cycle(i16,[i39,i42,i45,i93,i45,i93,i45,i93,i45,i93,i39]),true).
-step((true:+cycle(A,B)),cycle(i16,[i39,i45,i93,i39,i42,i45,i93,i39,i45,i93,i39]),true).
-step((true:+cycle(A,B)),cycle(i16,[i39,i45,i93,i39,i45,i93,i39,i42,i45,i93,i39]),true).
-step((true:+cycle(A,B)),cycle(i16,[i39,i45,i93,i39,i45,i93,i39,i87,i27,i93,i39]),true).
-step((true:+cycle(A,B)),cycle(i16,[i39,i45,i93,i39,i45,i93,i45,i93,i45,i93,i39]),true).
-step((true:+cycle(A,B)),cycle(i16,[i39,i45,i93,i39,i87,i27,i93,i39,i45,i93,i39]),true).
-step((true:+cycle(A,B)),cycle(i16,[i39,i45,i93,i45,i93,i39,i45,i93,i45,i93,i39]),true).
-step((true:+cycle(A,B)),cycle(i16,[i39,i45,i93,i45,i93,i45,i93,i39,i45,i93,i39]),true).
-step((true:+cycle(A,B)),cycle(i16,[i39,i45,i93,i45,i93,i63,i21,i42,i45,i93,i39]),true).
-step((true:+cycle(A,B)),cycle(i16,[i39,i45,i93,i63,i21,i42,i45,i93,i45,i93,i39]),true).
-step((true:+cycle(A,B)),cycle(i16,[i39,i87,i27,i93,i39,i42,i45,i93,i45,i93,i39]),true).
-step((true:+cycle(A,B)),cycle(i16,[i39,i87,i27,i93,i39,i45,i93,i39,i45,i93,i39]),true).
-step((true:+cycle(A,B)),cycle(i16,[i39,i87,i27,i93,i39,i87,i27,i93,i45,i93,i39]),true).
-step((true:+cycle(A,B)),cycle(i16,[i39,i87,i27,i93,i45,i93,i39,i42,i45,i93,i39]),true).
-step((true:+cycle(A,B)),cycle(i16,[i39,i87,i27,i93,i45,i93,i39,i87,i27,i93,i39]),true).
-step((true:+cycle(A,B)),cycle(i16,[i39,i87,i27,i93,i45,i93,i45,i93,i45,i93,i39]),true).
-step((true:+cycle(A,B)),cycle(i16,[i42,i45,i93,i39,i42,i45,i93,i45,i93,i39,i42]),true).
-step((true:+cycle(A,B)),cycle(i16,[i42,i45,i93,i39,i45,i93,i39,i45,i93,i39,i42]),true).
-step((true:+cycle(A,B)),cycle(i16,[i42,i45,i93,i39,i45,i93,i45,i93,i63,i21,i42]),true).
-step((true:+cycle(A,B)),cycle(i16,[i42,i45,i93,i39,i87,i27,i93,i45,i93,i39,i42]),true).
-step((true:+cycle(A,B)),cycle(i16,[i42,i45,i93,i45,i93,i39,i42,i45,i93,i39,i42]),true).
-step((true:+cycle(A,B)),cycle(i16,[i42,i45,i93,i45,i93,i39,i45,i93,i63,i21,i42]),true).
-step((true:+cycle(A,B)),cycle(i16,[i42,i45,i93,i45,i93,i39,i87,i27,i93,i39,i42]),true).
-step((true:+cycle(A,B)),cycle(i16,[i42,i45,i93,i45,i93,i45,i93,i45,i93,i39,i42]),true).
-step((true:+cycle(A,B)),cycle(i16,[i42,i45,i93,i63,i21,i42,i45,i93,i63,i21,i42]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i39,i42,i45,i93,i39,i42,i45,i93,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i39,i42,i45,i93,i39,i45,i93,i39,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i39,i42,i45,i93,i39,i87,i27,i93,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i39,i42,i45,i93,i45,i93,i39,i42,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i39,i42,i45,i93,i45,i93,i45,i93,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i39,i45,i93,i39,i42,i45,i93,i39,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i39,i45,i93,i39,i45,i93,i39,i42,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i39,i45,i93,i39,i45,i93,i45,i93,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i39,i45,i93,i39,i87,i27,i93,i39,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i39,i45,i93,i45,i93,i39,i45,i93,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i39,i45,i93,i45,i93,i45,i93,i39,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i39,i45,i93,i45,i93,i63,i21,i42,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i39,i45,i93,i63,i21,i42,i45,i93,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i39,i87,i27,i93,i39,i42,i45,i93,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i39,i87,i27,i93,i39,i45,i93,i39,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i39,i87,i27,i93,i39,i87,i27,i93,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i39,i87,i27,i93,i45,i93,i39,i42,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i39,i87,i27,i93,i45,i93,i45,i93,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i45,i93,i39,i42,i45,i93,i39,i42,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i45,i93,i39,i42,i45,i93,i45,i93,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i45,i93,i39,i45,i93,i39,i45,i93,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i45,i93,i39,i45,i93,i45,i93,i39,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i45,i93,i39,i45,i93,i63,i21,i42,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i45,i93,i39,i87,i27,i93,i39,i42,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i45,i93,i39,i87,i27,i93,i45,i93,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i45,i93,i45,i93,i39,i42,i45,i93,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i45,i93,i45,i93,i39,i45,i93,i39,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i45,i93,i45,i93,i39,i87,i27,i93,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i45,i93,i45,i93,i45,i93,i39,i42,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i45,i93,i45,i93,i45,i93,i45,i93,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i45,i93,i63,i21,i42,i45,i93,i39,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i63,i21,i42,i45,i93,i39,i45,i93,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i63,i21,i42,i45,i93,i45,i93,i39,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i45,i93,i63,i21,i42,i45,i93,i63,i21,i42,i45]),true).
-step((true:+cycle(A,B)),cycle(i16,[i63,i21,i42,i45,i93,i39,i45,i93,i45,i93,i63]),true).
-step((true:+cycle(A,B)),cycle(i16,[i63,i21,i42,i45,i93,i45,i93,i39,i45,i93,i63]),true).
-step((true:+cycle(A,B)),cycle(i16,[i63,i21,i42,i45,i93,i63,i21,i42,i45,i93,i63]),true).
-step((true:+cycle(A,B)),cycle(i16,[i87,i27,i93,i39,i42,i45,i93,i45,i93,i39,i87]),true).
-step((true:+cycle(A,B)),cycle(i16,[i87,i27,i93,i39,i45,i93,i39,i45,i93,i39,i87]),true).
-step((true:+cycle(A,B)),cycle(i16,[i87,i27,i93,i39,i87,i27,i93,i45,i93,i39,i87]),true).
-step((true:+cycle(A,B)),cycle(i16,[i87,i27,i93,i45,i93,i39,i42,i45,i93,i39,i87]),true).
-step((true:+cycle(A,B)),cycle(i16,[i87,i27,i93,i45,i93,i39,i87,i27,i93,i39,i87]),true).
-step((true:+cycle(A,B)),cycle(i16,[i87,i27,i93,i45,i93,i45,i93,i45,i93,i39,i87]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i39,i42,i45,i93,i39,i42,i45,i93,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i39,i42,i45,i93,i39,i45,i93,i39,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i39,i42,i45,i93,i39,i87,i27,i93,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i39,i42,i45,i93,i45,i93,i39,i42,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i39,i42,i45,i93,i45,i93,i39,i87,i27,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i39,i42,i45,i93,i45,i93,i45,i93,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i39,i45,i93,i39,i42,i45,i93,i39,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i39,i45,i93,i39,i45,i93,i39,i42,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i39,i45,i93,i39,i45,i93,i39,i87,i27,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i39,i45,i93,i39,i45,i93,i45,i93,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i39,i45,i93,i39,i87,i27,i93,i39,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i39,i45,i93,i45,i93,i39,i45,i93,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i39,i45,i93,i45,i93,i45,i93,i39,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i39,i45,i93,i45,i93,i63,i21,i42,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i39,i45,i93,i63,i21,i42,i45,i93,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i39,i87,i27,i93,i39,i42,i45,i93,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i39,i87,i27,i93,i39,i45,i93,i39,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i39,i87,i27,i93,i39,i87,i27,i93,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i39,i87,i27,i93,i45,i93,i39,i42,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i39,i87,i27,i93,i45,i93,i39,i87,i27,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i39,i87,i27,i93,i45,i93,i45,i93,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i45,i93,i39,i42,i45,i93,i39,i42,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i45,i93,i39,i42,i45,i93,i39,i87,i27,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i45,i93,i39,i42,i45,i93,i45,i93,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i45,i93,i39,i45,i93,i39,i45,i93,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i45,i93,i39,i45,i93,i45,i93,i39,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i45,i93,i39,i45,i93,i63,i21,i42,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i45,i93,i39,i87,i27,i93,i39,i42,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i45,i93,i39,i87,i27,i93,i39,i87,i27,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i45,i93,i39,i87,i27,i93,i45,i93,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i45,i93,i45,i93,i39,i42,i45,i93,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i45,i93,i45,i93,i39,i45,i93,i39,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i45,i93,i45,i93,i39,i87,i27,i93,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i45,i93,i45,i93,i45,i93,i39,i42,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i45,i93,i45,i93,i45,i93,i39,i87,i27,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i45,i93,i45,i93,i45,i93,i45,i93,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i45,i93,i63,i21,i42,i45,i93,i39,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i63,i21,i42,i45,i93,i39,i45,i93,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i63,i21,i42,i45,i93,i45,i93,i39,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i16,[i93,i63,i21,i42,i45,i93,i63,i21,i42,i45,i93]),true).
-step((true:+cycle(A,B)),cycle(i17,[i0,i30,i33,i63,i42,i54,i0,i30,i33,i75,i0]),true).
-step((true:+cycle(A,B)),cycle(i17,[i0,i30,i33,i75,i0,i30,i33,i63,i42,i54,i0]),true).
-step((true:+cycle(A,B)),cycle(i17,[i0,i30,i33,i75,i30,i33,i75,i30,i33,i75,i0]),true).
-step((true:+cycle(A,B)),cycle(i17,[i30,i33,i63,i42,i54,i0,i30,i33,i75,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i17,[i30,i33,i75,i0,i30,i33,i63,i42,i54,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i17,[i30,i33,i75,i0,i30,i33,i75,i30,i33,i75,i30]),true).
-step((true:+cycle(A,B)),cycle(i17,[i30,i33,i75,i30,i33,i75,i0,i30,i33,i75,i30]),true).
-step((true:+cycle(A,B)),cycle(i17,[i30,i33,i75,i30,i33,i75,i30,i33,i75,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i17,[i33,i63,i42,i54,i0,i30,i33,i75,i0,i30,i33]),true).
-step((true:+cycle(A,B)),cycle(i17,[i33,i75,i0,i30,i33,i63,i42,i54,i0,i30,i33]),true).
-step((true:+cycle(A,B)),cycle(i17,[i33,i75,i0,i30,i33,i75,i30,i33,i75,i30,i33]),true).
-step((true:+cycle(A,B)),cycle(i17,[i33,i75,i30,i33,i75,i0,i30,i33,i75,i30,i33]),true).
-step((true:+cycle(A,B)),cycle(i17,[i33,i75,i30,i33,i75,i30,i33,i75,i0,i30,i33]),true).
-step((true:+cycle(A,B)),cycle(i17,[i42,i54,i0,i30,i33,i75,i0,i30,i33,i63,i42]),true).
-step((true:+cycle(A,B)),cycle(i17,[i54,i0,i30,i33,i75,i0,i30,i33,i63,i42,i54]),true).
-step((true:+cycle(A,B)),cycle(i17,[i63,i42,i54,i0,i30,i33,i75,i0,i30,i33,i63]),true).
-step((true:+cycle(A,B)),cycle(i17,[i75,i0,i30,i33,i63,i42,i54,i0,i30,i33,i75]),true).
-step((true:+cycle(A,B)),cycle(i17,[i75,i0,i30,i33,i75,i30,i33,i75,i30,i33,i75]),true).
-step((true:+cycle(A,B)),cycle(i17,[i75,i30,i33,i75,i0,i30,i33,i75,i30,i33,i75]),true).
-step((true:+cycle(A,B)),cycle(i17,[i75,i30,i33,i75,i30,i33,i75,i0,i30,i33,i75]),true).
-step((true:+cycle(A,B)),cycle(i18,[i75,i75,i75,i75,i75,i75,i75,i75,i75,i75,i75]),true).
-step((true:+cycle(A,B)),cycle(i19,[i12,i93,i66,i36,i21,i21,i21,i21,i87,i33,i12]),true).
-step((true:+cycle(A,B)),cycle(i19,[i12,i93,i66,i36,i21,i87,i69,i36,i72,i33,i12]),true).
-step((true:+cycle(A,B)),cycle(i19,[i12,i93,i66,i36,i72,i66,i36,i21,i87,i33,i12]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i21,i21,i21,i21,i21,i21,i21,i21,i21,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i21,i21,i21,i21,i21,i21,i87,i69,i36,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i21,i21,i21,i21,i21,i87,i69,i36,i21,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i21,i21,i21,i21,i87,i69,i36,i21,i21,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i21,i21,i21,i87,i33,i12,i93,i66,i36,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i21,i21,i21,i87,i69,i36,i21,i21,i21,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i21,i21,i21,i87,i69,i36,i72,i66,i36,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i21,i21,i87,i33,i12,i93,i66,i36,i21,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i21,i21,i87,i69,i36,i21,i21,i21,i21,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i21,i21,i87,i69,i36,i21,i87,i69,i36,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i21,i21,i87,i69,i36,i72,i66,i36,i21,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i21,i87,i33,i12,i93,i66,i36,i21,i21,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i21,i87,i69,i36,i21,i21,i21,i21,i21,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i21,i87,i69,i36,i21,i21,i87,i69,i36,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i21,i87,i69,i36,i21,i87,i69,i36,i21,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i21,i87,i69,i36,i72,i66,i36,i21,i21,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i87,i33,i12,i93,i66,i36,i21,i21,i21,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i87,i33,i12,i93,i66,i36,i72,i66,i36,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i87,i69,i36,i21,i21,i21,i21,i21,i21,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i87,i69,i36,i21,i21,i21,i87,i69,i36,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i87,i69,i36,i21,i21,i87,i69,i36,i21,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i87,i69,i36,i21,i87,i69,i36,i21,i21,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i87,i69,i36,i72,i33,i12,i93,i66,i36,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i87,i69,i36,i72,i66,i36,i21,i21,i21,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i21,i87,i69,i36,i72,i66,i36,i72,i66,i36,i21]),true).
-step((true:+cycle(A,B)),cycle(i19,[i33,i12,i93,i66,i36,i21,i21,i21,i21,i87,i33]),true).
-step((true:+cycle(A,B)),cycle(i19,[i33,i12,i93,i66,i36,i21,i87,i69,i36,i72,i33]),true).
-step((true:+cycle(A,B)),cycle(i19,[i33,i12,i93,i66,i36,i72,i66,i36,i21,i87,i33]),true).
-step((true:+cycle(A,B)),cycle(i19,[i36,i21,i21,i21,i21,i21,i21,i21,i87,i69,i36]),true).
-step((true:+cycle(A,B)),cycle(i19,[i36,i21,i21,i21,i21,i87,i33,i12,i93,i66,i36]),true).
-step((true:+cycle(A,B)),cycle(i19,[i36,i21,i21,i21,i21,i87,i69,i36,i72,i66,i36]),true).
-step((true:+cycle(A,B)),cycle(i19,[i36,i21,i21,i21,i87,i69,i36,i21,i87,i69,i36]),true).
-step((true:+cycle(A,B)),cycle(i19,[i36,i21,i21,i87,i69,i36,i21,i21,i87,i69,i36]),true).
-step((true:+cycle(A,B)),cycle(i19,[i36,i21,i87,i33,i12,i93,i66,i36,i72,i66,i36]),true).
-step((true:+cycle(A,B)),cycle(i19,[i36,i21,i87,i69,i36,i21,i21,i21,i87,i69,i36]),true).
-step((true:+cycle(A,B)),cycle(i19,[i36,i21,i87,i69,i36,i72,i33,i12,i93,i66,i36]),true).
-step((true:+cycle(A,B)),cycle(i19,[i36,i21,i87,i69,i36,i72,i66,i36,i72,i66,i36]),true).
-step((true:+cycle(A,B)),cycle(i19,[i36,i72,i33,i12,i93,i66,i36,i21,i87,i69,i36]),true).
-step((true:+cycle(A,B)),cycle(i19,[i36,i72,i66,i36,i21,i21,i21,i21,i87,i69,i36]),true).
-step((true:+cycle(A,B)),cycle(i19,[i36,i72,i66,i36,i21,i87,i33,i12,i93,i66,i36]),true).
-step((true:+cycle(A,B)),cycle(i19,[i36,i72,i66,i36,i21,i87,i69,i36,i72,i66,i36]),true).
-step((true:+cycle(A,B)),cycle(i19,[i36,i72,i66,i36,i72,i66,i36,i21,i87,i69,i36]),true).
-step((true:+cycle(A,B)),cycle(i19,[i66,i36,i21,i21,i21,i21,i87,i33,i12,i93,i66]),true).
-step((true:+cycle(A,B)),cycle(i19,[i66,i36,i21,i21,i21,i21,i87,i69,i36,i72,i66]),true).
-step((true:+cycle(A,B)),cycle(i19,[i66,i36,i21,i87,i33,i12,i93,i66,i36,i72,i66]),true).
-step((true:+cycle(A,B)),cycle(i19,[i66,i36,i21,i87,i69,i36,i72,i33,i12,i93,i66]),true).
-step((true:+cycle(A,B)),cycle(i19,[i66,i36,i21,i87,i69,i36,i72,i66,i36,i72,i66]),true).
-step((true:+cycle(A,B)),cycle(i19,[i66,i36,i72,i66,i36,i21,i87,i33,i12,i93,i66]),true).
-step((true:+cycle(A,B)),cycle(i19,[i66,i36,i72,i66,i36,i21,i87,i69,i36,i72,i66]),true).
-step((true:+cycle(A,B)),cycle(i19,[i69,i36,i21,i21,i21,i21,i21,i21,i21,i87,i69]),true).
-step((true:+cycle(A,B)),cycle(i19,[i69,i36,i21,i21,i21,i87,i69,i36,i21,i87,i69]),true).
-step((true:+cycle(A,B)),cycle(i19,[i69,i36,i21,i21,i87,i69,i36,i21,i21,i87,i69]),true).
-step((true:+cycle(A,B)),cycle(i19,[i69,i36,i21,i87,i69,i36,i21,i21,i21,i87,i69]),true).
-step((true:+cycle(A,B)),cycle(i19,[i69,i36,i72,i33,i12,i93,i66,i36,i21,i87,i69]),true).
-step((true:+cycle(A,B)),cycle(i19,[i69,i36,i72,i66,i36,i21,i21,i21,i21,i87,i69]),true).
-step((true:+cycle(A,B)),cycle(i19,[i69,i36,i72,i66,i36,i72,i66,i36,i21,i87,i69]),true).
-step((true:+cycle(A,B)),cycle(i19,[i72,i33,i12,i93,i66,i36,i21,i87,i69,i36,i72]),true).
-step((true:+cycle(A,B)),cycle(i19,[i72,i66,i36,i21,i21,i21,i21,i87,i69,i36,i72]),true).
-step((true:+cycle(A,B)),cycle(i19,[i72,i66,i36,i21,i87,i33,i12,i93,i66,i36,i72]),true).
-step((true:+cycle(A,B)),cycle(i19,[i72,i66,i36,i21,i87,i69,i36,i72,i66,i36,i72]),true).
-step((true:+cycle(A,B)),cycle(i19,[i72,i66,i36,i72,i66,i36,i21,i87,i69,i36,i72]),true).
-step((true:+cycle(A,B)),cycle(i19,[i87,i33,i12,i93,i66,i36,i21,i21,i21,i21,i87]),true).
-step((true:+cycle(A,B)),cycle(i19,[i87,i33,i12,i93,i66,i36,i72,i66,i36,i21,i87]),true).
-step((true:+cycle(A,B)),cycle(i19,[i87,i69,i36,i21,i21,i21,i21,i21,i21,i21,i87]),true).
-step((true:+cycle(A,B)),cycle(i19,[i87,i69,i36,i21,i21,i21,i87,i69,i36,i21,i87]),true).
-step((true:+cycle(A,B)),cycle(i19,[i87,i69,i36,i21,i21,i87,i69,i36,i21,i21,i87]),true).
-step((true:+cycle(A,B)),cycle(i19,[i87,i69,i36,i21,i87,i69,i36,i21,i21,i21,i87]),true).
-step((true:+cycle(A,B)),cycle(i19,[i87,i69,i36,i72,i33,i12,i93,i66,i36,i21,i87]),true).
-step((true:+cycle(A,B)),cycle(i19,[i87,i69,i36,i72,i66,i36,i21,i21,i21,i21,i87]),true).
-step((true:+cycle(A,B)),cycle(i19,[i87,i69,i36,i72,i66,i36,i72,i66,i36,i21,i87]),true).
-step((true:+cycle(A,B)),cycle(i19,[i93,i66,i36,i21,i21,i21,i21,i87,i33,i12,i93]),true).
-step((true:+cycle(A,B)),cycle(i19,[i93,i66,i36,i21,i87,i69,i36,i72,i33,i12,i93]),true).
-step((true:+cycle(A,B)),cycle(i19,[i93,i66,i36,i72,i66,i36,i21,i87,i33,i12,i93]),true).
-step((true:+cycle(A,B)),cycle(i2,[i27,i66,i27,i66,i27,i66,i27,i66,i27,i66,i27]),true).
-step((true:+cycle(A,B)),cycle(i2,[i3,i3,i3,i3,i3,i3,i3,i3,i3,i3,i3]),true).
-step((true:+cycle(A,B)),cycle(i2,[i66,i27,i66,i27,i66,i27,i66,i27,i66,i27,i66]),true).
-step((true:+cycle(A,B)),cycle(i21,[i3,i3,i3,i3,i3,i3,i3,i3,i3,i3,i3]),true).
-step((true:+cycle(A,B)),cycle(i24,[i24,i33,i24,i33,i24,i33,i24,i33,i24,i33,i24]),true).
-step((true:+cycle(A,B)),cycle(i24,[i27,i27,i27,i27,i27,i27,i27,i27,i27,i27,i27]),true).
-step((true:+cycle(A,B)),cycle(i24,[i33,i24,i33,i24,i33,i24,i33,i24,i33,i24,i33]),true).
-step((true:+cycle(A,B)),cycle(i24,[i57,i57,i57,i57,i57,i57,i57,i57,i57,i57,i57]),true).
-step((true:+cycle(A,B)),cycle(i24,[i60,i87,i60,i87,i60,i87,i60,i87,i60,i87,i60]),true).
-step((true:+cycle(A,B)),cycle(i24,[i78,i78,i78,i78,i78,i78,i78,i78,i78,i78,i78]),true).
-step((true:+cycle(A,B)),cycle(i24,[i87,i60,i87,i60,i87,i60,i87,i60,i87,i60,i87]),true).
-step((true:+cycle(A,B)),cycle(i25,[i6,i6,i6,i6,i6,i6,i6,i6,i6,i6,i6]),true).
-step((true:+cycle(A,B)),cycle(i27,[i21,i72,i21,i72,i21,i72,i21,i72,i21,i72,i21]),true).
-step((true:+cycle(A,B)),cycle(i27,[i39,i84,i39,i84,i39,i84,i39,i84,i39,i84,i39]),true).
-step((true:+cycle(A,B)),cycle(i27,[i72,i21,i72,i21,i72,i21,i72,i21,i72,i21,i72]),true).
-step((true:+cycle(A,B)),cycle(i27,[i84,i39,i84,i39,i84,i39,i84,i39,i84,i39,i84]),true).
-step((true:+cycle(A,B)),cycle(i28,[i15,i36,i6,i87,i81,i15,i36,i6,i87,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i28,[i18,i78,i18,i78,i18,i78,i18,i78,i18,i78,i18]),true).
-step((true:+cycle(A,B)),cycle(i28,[i36,i6,i87,i81,i15,i36,i6,i87,i81,i15,i36]),true).
-step((true:+cycle(A,B)),cycle(i28,[i6,i87,i81,i15,i36,i6,i87,i81,i15,i36,i6]),true).
-step((true:+cycle(A,B)),cycle(i28,[i78,i18,i78,i18,i78,i18,i78,i18,i78,i18,i78]),true).
-step((true:+cycle(A,B)),cycle(i28,[i81,i15,i36,i6,i87,i81,i15,i36,i6,i87,i81]),true).
-step((true:+cycle(A,B)),cycle(i28,[i87,i81,i15,i36,i6,i87,i81,i15,i36,i6,i87]),true).
-step((true:+cycle(A,B)),cycle(i29,[i12,i12,i12,i12,i12,i12,i12,i12,i12,i12,i12]),true).
-step((true:+cycle(A,B)),cycle(i29,[i39,i39,i39,i39,i39,i39,i39,i39,i39,i39,i39]),true).
-step((true:+cycle(A,B)),cycle(i3,[i96,i96,i96,i96,i96,i96,i96,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i31,[i15,i3,i15,i3,i15,i3,i15,i3,i15,i3,i15]),true).
-step((true:+cycle(A,B)),cycle(i31,[i3,i15,i3,i15,i3,i15,i3,i15,i3,i15,i3]),true).
-step((true:+cycle(A,B)),cycle(i31,[i66,i66,i66,i66,i66,i66,i66,i66,i66,i66,i66]),true).
-step((true:+cycle(A,B)),cycle(i32,[i0,i33,i15,i60,i63,i0,i33,i15,i60,i63,i0]),true).
-step((true:+cycle(A,B)),cycle(i32,[i15,i60,i63,i0,i33,i15,i60,i63,i0,i33,i15]),true).
-step((true:+cycle(A,B)),cycle(i32,[i33,i15,i60,i63,i0,i33,i15,i60,i63,i0,i33]),true).
-step((true:+cycle(A,B)),cycle(i32,[i60,i63,i0,i33,i15,i60,i63,i0,i33,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i32,[i63,i0,i33,i15,i60,i63,i0,i33,i15,i60,i63]),true).
-step((true:+cycle(A,B)),cycle(i32,[i6,i90,i6,i90,i6,i90,i6,i90,i6,i90,i6]),true).
-step((true:+cycle(A,B)),cycle(i32,[i90,i6,i90,i6,i90,i6,i90,i6,i90,i6,i90]),true).
-step((true:+cycle(A,B)),cycle(i33,[i69,i69,i69,i69,i69,i69,i69,i69,i69,i69,i69]),true).
-step((true:+cycle(A,B)),cycle(i34,[i0,i30,i0,i30,i0,i30,i0,i30,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i34,[i18,i18,i18,i18,i18,i18,i18,i18,i18,i18,i18]),true).
-step((true:+cycle(A,B)),cycle(i34,[i24,i24,i24,i24,i24,i24,i24,i24,i24,i24,i24]),true).
-step((true:+cycle(A,B)),cycle(i34,[i30,i0,i30,i0,i30,i0,i30,i0,i30,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i34,[i60,i60,i60,i60,i60,i60,i60,i60,i60,i60,i60]),true).
-step((true:+cycle(A,B)),cycle(i34,[i81,i81,i81,i81,i81,i81,i81,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i35,[i45,i45,i45,i45,i45,i45,i45,i45,i45,i45,i45]),true).
-step((true:+cycle(A,B)),cycle(i36,[i24,i84,i51,i36,i24,i84,i51,i36,i93,i36,i24]),true).
-step((true:+cycle(A,B)),cycle(i36,[i24,i84,i51,i36,i72,i24,i84,i51,i36,i72,i24]),true).
-step((true:+cycle(A,B)),cycle(i36,[i24,i84,i51,i36,i93,i36,i24,i84,i51,i36,i24]),true).
-step((true:+cycle(A,B)),cycle(i36,[i24,i84,i51,i36,i93,i36,i93,i36,i93,i36,i24]),true).
-step((true:+cycle(A,B)),cycle(i36,[i36,i24,i84,i51,i36,i24,i84,i51,i36,i93,i36]),true).
-step((true:+cycle(A,B)),cycle(i36,[i36,i24,i84,i51,i36,i93,i36,i24,i84,i51,i36]),true).
-step((true:+cycle(A,B)),cycle(i36,[i36,i24,i84,i51,i36,i93,i36,i93,i36,i93,i36]),true).
-step((true:+cycle(A,B)),cycle(i36,[i36,i72,i24,i84,i51,i36,i72,i24,i84,i51,i36]),true).
-step((true:+cycle(A,B)),cycle(i36,[i36,i93,i36,i24,i84,i51,i36,i24,i84,i51,i36]),true).
-step((true:+cycle(A,B)),cycle(i36,[i36,i93,i36,i24,i84,i51,i36,i93,i36,i93,i36]),true).
-step((true:+cycle(A,B)),cycle(i36,[i36,i93,i36,i93,i36,i24,i84,i51,i36,i93,i36]),true).
-step((true:+cycle(A,B)),cycle(i36,[i36,i93,i36,i93,i36,i93,i36,i24,i84,i51,i36]),true).
-step((true:+cycle(A,B)),cycle(i36,[i36,i93,i36,i93,i36,i93,i36,i93,i36,i93,i36]),true).
-step((true:+cycle(A,B)),cycle(i36,[i51,i36,i24,i84,i51,i36,i93,i36,i24,i84,i51]),true).
-step((true:+cycle(A,B)),cycle(i36,[i51,i36,i72,i24,i84,i51,i36,i72,i24,i84,i51]),true).
-step((true:+cycle(A,B)),cycle(i36,[i51,i36,i93,i36,i24,i84,i51,i36,i24,i84,i51]),true).
-step((true:+cycle(A,B)),cycle(i36,[i51,i36,i93,i36,i93,i36,i93,i36,i24,i84,i51]),true).
-step((true:+cycle(A,B)),cycle(i36,[i72,i24,i84,i51,i36,i72,i24,i84,i51,i36,i72]),true).
-step((true:+cycle(A,B)),cycle(i36,[i84,i51,i36,i24,i84,i51,i36,i93,i36,i24,i84]),true).
-step((true:+cycle(A,B)),cycle(i36,[i84,i51,i36,i72,i24,i84,i51,i36,i72,i24,i84]),true).
-step((true:+cycle(A,B)),cycle(i36,[i84,i51,i36,i93,i36,i24,i84,i51,i36,i24,i84]),true).
-step((true:+cycle(A,B)),cycle(i36,[i84,i51,i36,i93,i36,i93,i36,i93,i36,i24,i84]),true).
-step((true:+cycle(A,B)),cycle(i36,[i93,i36,i24,i84,i51,i36,i24,i84,i51,i36,i93]),true).
-step((true:+cycle(A,B)),cycle(i36,[i93,i36,i24,i84,i51,i36,i93,i36,i93,i36,i93]),true).
-step((true:+cycle(A,B)),cycle(i36,[i93,i36,i93,i36,i24,i84,i51,i36,i93,i36,i93]),true).
-step((true:+cycle(A,B)),cycle(i36,[i93,i36,i93,i36,i93,i36,i24,i84,i51,i36,i93]),true).
-step((true:+cycle(A,B)),cycle(i36,[i93,i36,i93,i36,i93,i36,i93,i36,i93,i36,i93]),true).
-step((true:+cycle(A,B)),cycle(i37,[i6,i6,i6,i6,i6,i6,i6,i6,i6,i6,i6]),true).
-step((true:+cycle(A,B)),cycle(i39,[i90,i90,i90,i90,i90,i90,i90,i90,i90,i90,i90]),true).
-step((true:+cycle(A,B)),cycle(i39,[i96,i96,i96,i96,i96,i96,i96,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i4,[i57,i57,i57,i57,i57,i57,i57,i57,i57,i57,i57]),true).
-step((true:+cycle(A,B)),cycle(i4,[i69,i69,i69,i69,i69,i69,i69,i69,i69,i69,i69]),true).
-step((true:+cycle(A,B)),cycle(i42,[i72,i75,i72,i75,i72,i75,i72,i75,i72,i75,i72]),true).
-step((true:+cycle(A,B)),cycle(i42,[i75,i72,i75,i72,i75,i72,i75,i72,i75,i72,i75]),true).
-step((true:+cycle(A,B)),cycle(i42,[i81,i81,i81,i81,i81,i81,i81,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i42,[i87,i87,i87,i87,i87,i87,i87,i87,i87,i87,i87]),true).
-step((true:+cycle(A,B)),cycle(i42,[i9,i9,i9,i9,i9,i9,i9,i9,i9,i9,i9]),true).
-step((true:+cycle(A,B)),cycle(i43,[i18,i18,i18,i18,i18,i18,i18,i18,i18,i18,i18]),true).
-step((true:+cycle(A,B)),cycle(i43,[i60,i60,i60,i60,i60,i60,i60,i60,i60,i60,i60]),true).
-step((true:+cycle(A,B)),cycle(i44,[i27,i54,i51,i63,i48,i27,i54,i51,i63,i48,i27]),true).
-step((true:+cycle(A,B)),cycle(i44,[i48,i27,i54,i51,i63,i48,i27,i54,i51,i63,i48]),true).
-step((true:+cycle(A,B)),cycle(i44,[i51,i63,i48,i27,i54,i51,i63,i48,i27,i54,i51]),true).
-step((true:+cycle(A,B)),cycle(i44,[i54,i51,i63,i48,i27,i54,i51,i63,i48,i27,i54]),true).
-step((true:+cycle(A,B)),cycle(i44,[i63,i48,i27,i54,i51,i63,i48,i27,i54,i51,i63]),true).
-step((true:+cycle(A,B)),cycle(i45,[i0,i0,i0,i0,i0,i0,i0,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i48,[i69,i69,i69,i69,i69,i69,i69,i69,i69,i69,i69]),true).
-step((true:+cycle(A,B)),cycle(i48,[i72,i90,i72,i90,i72,i90,i72,i90,i72,i90,i72]),true).
-step((true:+cycle(A,B)),cycle(i48,[i90,i72,i90,i72,i90,i72,i90,i72,i90,i72,i90]),true).
-step((true:+cycle(A,B)),cycle(i5,[i0,i63,i81,i15,i60,i15,i60,i15,i60,i48,i0]),true).
-step((true:+cycle(A,B)),cycle(i5,[i0,i63,i81,i15,i60,i15,i81,i15,i60,i48,i0]),true).
-step((true:+cycle(A,B)),cycle(i5,[i0,i63,i81,i15,i81,i15,i60,i15,i60,i48,i0]),true).
-step((true:+cycle(A,B)),cycle(i5,[i0,i63,i81,i15,i81,i15,i81,i15,i60,i48,i0]),true).
-step((true:+cycle(A,B)),cycle(i5,[i0,i63,i9,i0,i63,i9,i93,i9,i93,i9,i0]),true).
-step((true:+cycle(A,B)),cycle(i5,[i0,i63,i9,i0,i81,i15,i60,i15,i60,i48,i0]),true).
-step((true:+cycle(A,B)),cycle(i5,[i0,i63,i9,i0,i81,i15,i81,i15,i60,i48,i0]),true).
-step((true:+cycle(A,B)),cycle(i5,[i0,i63,i9,i93,i81,i15,i60,i15,i60,i48,i0]),true).
-step((true:+cycle(A,B)),cycle(i5,[i0,i63,i9,i93,i81,i15,i81,i15,i60,i48,i0]),true).
-step((true:+cycle(A,B)),cycle(i5,[i0,i63,i9,i93,i9,i0,i63,i9,i93,i9,i0]),true).
-step((true:+cycle(A,B)),cycle(i5,[i0,i63,i9,i93,i9,i0,i81,i15,i60,i48,i0]),true).
-step((true:+cycle(A,B)),cycle(i5,[i0,i63,i9,i93,i9,i93,i81,i15,i60,i48,i0]),true).
-step((true:+cycle(A,B)),cycle(i5,[i0,i63,i9,i93,i9,i93,i9,i0,i63,i9,i0]),true).
-step((true:+cycle(A,B)),cycle(i5,[i0,i81,i15,i60,i15,i60,i48,i0,i63,i9,i0]),true).
-step((true:+cycle(A,B)),cycle(i5,[i0,i81,i15,i60,i48,i0,i63,i9,i93,i9,i0]),true).
-step((true:+cycle(A,B)),cycle(i5,[i0,i81,i15,i60,i48,i0,i81,i15,i60,i48,i0]),true).
-step((true:+cycle(A,B)),cycle(i5,[i0,i81,i15,i81,i15,i60,i48,i0,i63,i9,i0]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i15,i60,i15,i60,i15,i60,i15,i60,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i15,i60,i15,i60,i15,i60,i15,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i15,i60,i15,i60,i15,i81,i15,i60,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i15,i60,i15,i60,i15,i81,i15,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i15,i60,i15,i60,i48,i0,i63,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i15,i60,i15,i81,i15,i60,i15,i60,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i15,i60,i15,i81,i15,i60,i15,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i15,i60,i15,i81,i15,i81,i15,i60,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i15,i60,i15,i81,i15,i81,i15,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i15,i60,i48,i0,i63,i81,i15,i60,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i15,i60,i48,i0,i63,i81,i15,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i15,i60,i48,i0,i63,i9,i0,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i15,i60,i48,i0,i63,i9,i93,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i15,i81,i15,i60,i15,i60,i15,i60,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i15,i81,i15,i60,i15,i60,i15,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i15,i81,i15,i60,i15,i81,i15,i60,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i15,i81,i15,i60,i15,i81,i15,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i15,i81,i15,i60,i48,i0,i63,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i15,i81,i15,i81,i15,i60,i15,i60,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i15,i81,i15,i81,i15,i60,i15,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i15,i81,i15,i81,i15,i81,i15,i60,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i15,i81,i15,i81,i15,i81,i15,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i48,i0,i63,i81,i15,i60,i15,i60,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i48,i0,i63,i81,i15,i60,i15,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i48,i0,i63,i81,i15,i81,i15,i60,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i48,i0,i63,i81,i15,i81,i15,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i48,i0,i63,i9,i0,i81,i15,i60,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i48,i0,i63,i9,i0,i81,i15,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i48,i0,i63,i9,i93,i81,i15,i60,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i48,i0,i63,i9,i93,i81,i15,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i48,i0,i63,i9,i93,i9,i0,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i48,i0,i63,i9,i93,i9,i93,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i60,i48,i0,i81,i15,i60,i48,i0,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i81,i15,i60,i15,i60,i15,i60,i15,i60,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i81,i15,i60,i15,i60,i15,i60,i15,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i81,i15,i60,i15,i60,i15,i81,i15,i60,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i81,i15,i60,i15,i60,i15,i81,i15,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i81,i15,i60,i15,i60,i48,i0,i63,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i81,i15,i60,i15,i81,i15,i60,i15,i60,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i81,i15,i60,i15,i81,i15,i60,i15,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i81,i15,i60,i15,i81,i15,i81,i15,i60,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i81,i15,i60,i15,i81,i15,i81,i15,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i81,i15,i60,i48,i0,i63,i81,i15,i60,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i81,i15,i60,i48,i0,i63,i81,i15,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i81,i15,i60,i48,i0,i63,i9,i0,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i81,i15,i60,i48,i0,i63,i9,i93,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i81,i15,i81,i15,i60,i15,i60,i15,i60,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i81,i15,i81,i15,i60,i15,i60,i15,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i81,i15,i81,i15,i60,i15,i81,i15,i60,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i81,i15,i81,i15,i60,i15,i81,i15,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i81,i15,i81,i15,i60,i48,i0,i63,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i81,i15,i81,i15,i81,i15,i60,i15,i60,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i81,i15,i81,i15,i81,i15,i60,i15,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i81,i15,i81,i15,i81,i15,i81,i15,i60,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i15,i81,i15,i81,i15,i81,i15,i81,i15,i81,i15]),true).
-step((true:+cycle(A,B)),cycle(i5,[i48,i0,i63,i81,i15,i60,i15,i60,i15,i60,i48]),true).
-step((true:+cycle(A,B)),cycle(i5,[i48,i0,i63,i81,i15,i60,i15,i81,i15,i60,i48]),true).
-step((true:+cycle(A,B)),cycle(i5,[i48,i0,i63,i81,i15,i81,i15,i60,i15,i60,i48]),true).
-step((true:+cycle(A,B)),cycle(i5,[i48,i0,i63,i81,i15,i81,i15,i81,i15,i60,i48]),true).
-step((true:+cycle(A,B)),cycle(i5,[i48,i0,i63,i9,i0,i81,i15,i60,i15,i60,i48]),true).
-step((true:+cycle(A,B)),cycle(i5,[i48,i0,i63,i9,i0,i81,i15,i81,i15,i60,i48]),true).
-step((true:+cycle(A,B)),cycle(i5,[i48,i0,i63,i9,i93,i81,i15,i60,i15,i60,i48]),true).
-step((true:+cycle(A,B)),cycle(i5,[i48,i0,i63,i9,i93,i81,i15,i81,i15,i60,i48]),true).
-step((true:+cycle(A,B)),cycle(i5,[i48,i0,i63,i9,i93,i9,i0,i81,i15,i60,i48]),true).
-step((true:+cycle(A,B)),cycle(i5,[i48,i0,i63,i9,i93,i9,i93,i81,i15,i60,i48]),true).
-step((true:+cycle(A,B)),cycle(i5,[i48,i0,i81,i15,i60,i48,i0,i81,i15,i60,i48]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i15,i60,i15,i60,i15,i60,i15,i60,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i15,i60,i15,i60,i15,i60,i15,i81,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i15,i60,i15,i60,i15,i81,i15,i60,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i15,i60,i15,i60,i15,i81,i15,i81,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i15,i60,i15,i60,i48,i0,i63,i81,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i15,i60,i15,i81,i15,i60,i15,i60,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i15,i60,i15,i81,i15,i60,i15,i81,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i15,i60,i15,i81,i15,i81,i15,i60,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i15,i60,i15,i81,i15,i81,i15,i81,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i15,i60,i48,i0,i63,i81,i15,i60,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i15,i60,i48,i0,i63,i81,i15,i81,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i15,i60,i48,i0,i63,i9,i0,i81,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i15,i60,i48,i0,i63,i9,i93,i81,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i15,i81,i15,i60,i15,i60,i15,i60,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i15,i81,i15,i60,i15,i60,i15,i81,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i15,i81,i15,i60,i15,i81,i15,i60,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i15,i81,i15,i60,i15,i81,i15,i81,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i15,i81,i15,i60,i48,i0,i63,i81,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i15,i81,i15,i81,i15,i60,i15,i60,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i15,i81,i15,i81,i15,i60,i15,i81,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i15,i81,i15,i81,i15,i81,i15,i60,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i15,i81,i15,i81,i15,i81,i15,i81,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i48,i0,i63,i81,i15,i60,i15,i60,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i48,i0,i63,i81,i15,i60,i15,i81,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i48,i0,i63,i81,i15,i81,i15,i60,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i48,i0,i63,i81,i15,i81,i15,i81,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i48,i0,i63,i9,i0,i81,i15,i60,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i48,i0,i63,i9,i0,i81,i15,i81,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i48,i0,i63,i9,i93,i81,i15,i60,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i48,i0,i63,i9,i93,i81,i15,i81,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i48,i0,i63,i9,i93,i9,i0,i81,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i48,i0,i63,i9,i93,i9,i93,i81,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i60,i48,i0,i81,i15,i60,i48,i0,i81,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i5,[i63,i81,i15,i60,i15,i60,i15,i60,i48,i0,i63]),true).
-step((true:+cycle(A,B)),cycle(i5,[i63,i81,i15,i60,i15,i81,i15,i60,i48,i0,i63]),true).
-step((true:+cycle(A,B)),cycle(i5,[i63,i81,i15,i81,i15,i60,i15,i60,i48,i0,i63]),true).
-step((true:+cycle(A,B)),cycle(i5,[i63,i81,i15,i81,i15,i81,i15,i60,i48,i0,i63]),true).
-step((true:+cycle(A,B)),cycle(i5,[i63,i9,i0,i63,i9,i93,i9,i93,i9,i0,i63]),true).
-step((true:+cycle(A,B)),cycle(i5,[i63,i9,i0,i81,i15,i60,i15,i60,i48,i0,i63]),true).
-step((true:+cycle(A,B)),cycle(i5,[i63,i9,i0,i81,i15,i81,i15,i60,i48,i0,i63]),true).
-step((true:+cycle(A,B)),cycle(i5,[i63,i9,i93,i81,i15,i60,i15,i60,i48,i0,i63]),true).
-step((true:+cycle(A,B)),cycle(i5,[i63,i9,i93,i81,i15,i81,i15,i60,i48,i0,i63]),true).
-step((true:+cycle(A,B)),cycle(i5,[i63,i9,i93,i9,i0,i63,i9,i93,i9,i0,i63]),true).
-step((true:+cycle(A,B)),cycle(i5,[i63,i9,i93,i9,i0,i81,i15,i60,i48,i0,i63]),true).
-step((true:+cycle(A,B)),cycle(i5,[i63,i9,i93,i9,i93,i81,i15,i60,i48,i0,i63]),true).
-step((true:+cycle(A,B)),cycle(i5,[i63,i9,i93,i9,i93,i9,i0,i63,i9,i0,i63]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i60,i15,i60,i15,i60,i15,i60,i15,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i60,i15,i60,i15,i60,i15,i81,i15,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i60,i15,i60,i15,i60,i48,i0,i63,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i60,i15,i60,i15,i81,i15,i60,i15,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i60,i15,i60,i15,i81,i15,i81,i15,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i60,i15,i60,i48,i0,i63,i81,i15,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i60,i15,i60,i48,i0,i63,i9,i0,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i60,i15,i60,i48,i0,i63,i9,i93,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i60,i15,i81,i15,i60,i15,i60,i15,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i60,i15,i81,i15,i60,i15,i81,i15,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i60,i15,i81,i15,i60,i48,i0,i63,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i60,i15,i81,i15,i81,i15,i60,i15,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i60,i15,i81,i15,i81,i15,i81,i15,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i60,i48,i0,i63,i81,i15,i60,i15,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i60,i48,i0,i63,i81,i15,i81,i15,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i60,i48,i0,i63,i9,i0,i81,i15,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i60,i48,i0,i63,i9,i93,i81,i15,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i60,i48,i0,i63,i9,i93,i9,i0,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i60,i48,i0,i63,i9,i93,i9,i93,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i60,i48,i0,i81,i15,i60,i48,i0,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i81,i15,i60,i15,i60,i15,i60,i15,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i81,i15,i60,i15,i60,i15,i81,i15,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i81,i15,i60,i15,i60,i48,i0,i63,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i81,i15,i60,i15,i81,i15,i60,i15,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i81,i15,i60,i15,i81,i15,i81,i15,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i81,i15,i60,i48,i0,i63,i81,i15,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i81,i15,i60,i48,i0,i63,i9,i0,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i81,i15,i60,i48,i0,i63,i9,i93,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i81,i15,i81,i15,i60,i15,i60,i15,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i81,i15,i81,i15,i60,i15,i81,i15,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i81,i15,i81,i15,i60,i48,i0,i63,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i81,i15,i81,i15,i81,i15,i60,i15,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i81,i15,i81,i15,i81,i15,i81,i15,i81,i15,i81]),true).
-step((true:+cycle(A,B)),cycle(i5,[i93,i81,i15,i60,i15,i60,i48,i0,i63,i9,i93]),true).
-step((true:+cycle(A,B)),cycle(i5,[i93,i81,i15,i60,i48,i0,i63,i9,i93,i9,i93]),true).
-step((true:+cycle(A,B)),cycle(i5,[i93,i81,i15,i81,i15,i60,i48,i0,i63,i9,i93]),true).
-step((true:+cycle(A,B)),cycle(i5,[i93,i9,i0,i63,i9,i0,i63,i9,i93,i9,i93]),true).
-step((true:+cycle(A,B)),cycle(i5,[i93,i9,i0,i63,i9,i93,i9,i0,i63,i9,i93]),true).
-step((true:+cycle(A,B)),cycle(i5,[i93,i9,i0,i81,i15,i60,i48,i0,i63,i9,i93]),true).
-step((true:+cycle(A,B)),cycle(i5,[i93,i9,i93,i81,i15,i60,i48,i0,i63,i9,i93]),true).
-step((true:+cycle(A,B)),cycle(i5,[i93,i9,i93,i9,i0,i63,i9,i0,i63,i9,i93]),true).
-step((true:+cycle(A,B)),cycle(i5,[i93,i9,i93,i9,i93,i9,i93,i9,i93,i9,i93]),true).
-step((true:+cycle(A,B)),cycle(i5,[i9,i0,i63,i9,i0,i63,i9,i93,i9,i93,i9]),true).
-step((true:+cycle(A,B)),cycle(i5,[i9,i0,i63,i9,i93,i9,i0,i63,i9,i93,i9]),true).
-step((true:+cycle(A,B)),cycle(i5,[i9,i0,i63,i9,i93,i9,i93,i9,i0,i63,i9]),true).
-step((true:+cycle(A,B)),cycle(i5,[i9,i0,i81,i15,i60,i15,i60,i48,i0,i63,i9]),true).
-step((true:+cycle(A,B)),cycle(i5,[i9,i0,i81,i15,i60,i48,i0,i63,i9,i93,i9]),true).
-step((true:+cycle(A,B)),cycle(i5,[i9,i0,i81,i15,i81,i15,i60,i48,i0,i63,i9]),true).
-step((true:+cycle(A,B)),cycle(i5,[i9,i93,i81,i15,i60,i15,i60,i48,i0,i63,i9]),true).
-step((true:+cycle(A,B)),cycle(i5,[i9,i93,i81,i15,i60,i48,i0,i63,i9,i93,i9]),true).
-step((true:+cycle(A,B)),cycle(i5,[i9,i93,i81,i15,i81,i15,i60,i48,i0,i63,i9]),true).
-step((true:+cycle(A,B)),cycle(i5,[i9,i93,i9,i0,i63,i9,i0,i63,i9,i93,i9]),true).
-step((true:+cycle(A,B)),cycle(i5,[i9,i93,i9,i0,i63,i9,i93,i9,i0,i63,i9]),true).
-step((true:+cycle(A,B)),cycle(i5,[i9,i93,i9,i0,i81,i15,i60,i48,i0,i63,i9]),true).
-step((true:+cycle(A,B)),cycle(i5,[i9,i93,i9,i93,i81,i15,i60,i48,i0,i63,i9]),true).
-step((true:+cycle(A,B)),cycle(i5,[i9,i93,i9,i93,i9,i0,i63,i9,i0,i63,i9]),true).
-step((true:+cycle(A,B)),cycle(i5,[i9,i93,i9,i93,i9,i93,i9,i93,i9,i93,i9]),true).
-step((true:+cycle(A,B)),cycle(i50,[i12,i27,i15,i12,i27,i30,i39,i48,i27,i15,i12]),true).
-step((true:+cycle(A,B)),cycle(i50,[i12,i27,i15,i21,i72,i78,i87,i48,i27,i15,i12]),true).
-step((true:+cycle(A,B)),cycle(i50,[i12,i27,i30,i39,i33,i9,i33,i9,i27,i15,i12]),true).
-step((true:+cycle(A,B)),cycle(i50,[i12,i27,i30,i39,i48,i27,i15,i12,i27,i15,i12]),true).
-step((true:+cycle(A,B)),cycle(i50,[i12,i57,i69,i66,i51,i57,i69,i66,i51,i84,i12]),true).
-step((true:+cycle(A,B)),cycle(i50,[i15,i12,i27,i15,i12,i27,i30,i39,i48,i27,i15]),true).
-step((true:+cycle(A,B)),cycle(i50,[i15,i12,i27,i15,i21,i72,i78,i87,i48,i27,i15]),true).
-step((true:+cycle(A,B)),cycle(i50,[i15,i12,i27,i30,i39,i33,i9,i33,i9,i27,i15]),true).
-step((true:+cycle(A,B)),cycle(i50,[i15,i12,i27,i30,i39,i48,i27,i15,i12,i27,i15]),true).
-step((true:+cycle(A,B)),cycle(i50,[i15,i21,i72,i78,i87,i48,i27,i15,i12,i27,i15]),true).
-step((true:+cycle(A,B)),cycle(i50,[i15,i30,i39,i33,i9,i27,i30,i39,i48,i27,i15]),true).
-step((true:+cycle(A,B)),cycle(i50,[i15,i30,i39,i33,i9,i33,i9,i33,i9,i27,i15]),true).
-step((true:+cycle(A,B)),cycle(i50,[i15,i30,i39,i48,i27,i15,i30,i39,i48,i27,i15]),true).
-step((true:+cycle(A,B)),cycle(i50,[i15,i30,i39,i48,i27,i30,i39,i33,i9,i27,i15]),true).
-step((true:+cycle(A,B)),cycle(i50,[i21,i72,i78,i87,i48,i27,i15,i12,i27,i15,i21]),true).
-step((true:+cycle(A,B)),cycle(i50,[i27,i15,i12,i27,i15,i12,i27,i30,i39,i48,i27]),true).
-step((true:+cycle(A,B)),cycle(i50,[i27,i15,i12,i27,i15,i21,i72,i78,i87,i48,i27]),true).
-step((true:+cycle(A,B)),cycle(i50,[i27,i15,i12,i27,i30,i39,i33,i9,i33,i9,i27]),true).
-step((true:+cycle(A,B)),cycle(i50,[i27,i15,i12,i27,i30,i39,i48,i27,i15,i12,i27]),true).
-step((true:+cycle(A,B)),cycle(i50,[i27,i15,i21,i72,i78,i87,i48,i27,i15,i12,i27]),true).
-step((true:+cycle(A,B)),cycle(i50,[i27,i15,i30,i39,i33,i9,i27,i30,i39,i48,i27]),true).
-step((true:+cycle(A,B)),cycle(i50,[i27,i15,i30,i39,i33,i9,i33,i9,i33,i9,i27]),true).
-step((true:+cycle(A,B)),cycle(i50,[i27,i15,i30,i39,i48,i27,i15,i30,i39,i48,i27]),true).
-step((true:+cycle(A,B)),cycle(i50,[i27,i15,i30,i39,i48,i27,i30,i39,i33,i9,i27]),true).
-step((true:+cycle(A,B)),cycle(i50,[i27,i30,i39,i33,i9,i27,i15,i30,i39,i48,i27]),true).
-step((true:+cycle(A,B)),cycle(i50,[i27,i30,i39,i33,i9,i27,i30,i39,i33,i9,i27]),true).
-step((true:+cycle(A,B)),cycle(i50,[i27,i30,i39,i33,i9,i33,i9,i27,i15,i12,i27]),true).
-step((true:+cycle(A,B)),cycle(i50,[i27,i30,i39,i48,i27,i15,i12,i27,i15,i12,i27]),true).
-step((true:+cycle(A,B)),cycle(i50,[i27,i30,i39,i48,i27,i15,i30,i39,i33,i9,i27]),true).
-step((true:+cycle(A,B)),cycle(i50,[i30,i39,i33,i9,i27,i15,i30,i39,i48,i27,i30]),true).
-step((true:+cycle(A,B)),cycle(i50,[i30,i39,i33,i9,i27,i30,i39,i33,i9,i27,i30]),true).
-step((true:+cycle(A,B)),cycle(i50,[i30,i39,i33,i9,i27,i30,i39,i48,i27,i15,i30]),true).
-step((true:+cycle(A,B)),cycle(i50,[i30,i39,i33,i9,i33,i9,i27,i15,i12,i27,i30]),true).
-step((true:+cycle(A,B)),cycle(i50,[i30,i39,i33,i9,i33,i9,i33,i9,i27,i15,i30]),true).
-step((true:+cycle(A,B)),cycle(i50,[i30,i39,i48,i27,i15,i12,i27,i15,i12,i27,i30]),true).
-step((true:+cycle(A,B)),cycle(i50,[i30,i39,i48,i27,i15,i30,i39,i33,i9,i27,i30]),true).
-step((true:+cycle(A,B)),cycle(i50,[i30,i39,i48,i27,i15,i30,i39,i48,i27,i15,i30]),true).
-step((true:+cycle(A,B)),cycle(i50,[i30,i39,i48,i27,i30,i39,i33,i9,i27,i15,i30]),true).
-step((true:+cycle(A,B)),cycle(i50,[i33,i9,i27,i15,i12,i27,i30,i39,i33,i9,i33]),true).
-step((true:+cycle(A,B)),cycle(i50,[i33,i9,i27,i15,i30,i39,i33,i9,i33,i9,i33]),true).
-step((true:+cycle(A,B)),cycle(i50,[i33,i9,i27,i15,i30,i39,i48,i27,i30,i39,i33]),true).
-step((true:+cycle(A,B)),cycle(i50,[i33,i9,i27,i30,i39,i33,i9,i27,i30,i39,i33]),true).
-step((true:+cycle(A,B)),cycle(i50,[i33,i9,i27,i30,i39,i48,i27,i15,i30,i39,i33]),true).
-step((true:+cycle(A,B)),cycle(i50,[i33,i9,i33,i9,i27,i15,i12,i27,i30,i39,i33]),true).
-step((true:+cycle(A,B)),cycle(i50,[i33,i9,i33,i9,i27,i15,i30,i39,i33,i9,i33]),true).
-step((true:+cycle(A,B)),cycle(i50,[i33,i9,i33,i9,i33,i9,i27,i15,i30,i39,i33]),true).
-step((true:+cycle(A,B)),cycle(i50,[i33,i9,i33,i9,i33,i9,i33,i9,i33,i9,i33]),true).
-step((true:+cycle(A,B)),cycle(i50,[i36,i36,i36,i36,i36,i36,i36,i36,i36,i36,i36]),true).
-step((true:+cycle(A,B)),cycle(i50,[i39,i33,i9,i27,i15,i30,i39,i48,i27,i30,i39]),true).
-step((true:+cycle(A,B)),cycle(i50,[i39,i33,i9,i27,i30,i39,i33,i9,i27,i30,i39]),true).
-step((true:+cycle(A,B)),cycle(i50,[i39,i33,i9,i27,i30,i39,i48,i27,i15,i30,i39]),true).
-step((true:+cycle(A,B)),cycle(i50,[i39,i33,i9,i33,i9,i27,i15,i12,i27,i30,i39]),true).
-step((true:+cycle(A,B)),cycle(i50,[i39,i33,i9,i33,i9,i33,i9,i27,i15,i30,i39]),true).
-step((true:+cycle(A,B)),cycle(i50,[i39,i48,i27,i15,i12,i27,i15,i12,i27,i30,i39]),true).
-step((true:+cycle(A,B)),cycle(i50,[i39,i48,i27,i15,i30,i39,i33,i9,i27,i30,i39]),true).
-step((true:+cycle(A,B)),cycle(i50,[i39,i48,i27,i15,i30,i39,i48,i27,i15,i30,i39]),true).
-step((true:+cycle(A,B)),cycle(i50,[i39,i48,i27,i30,i39,i33,i9,i27,i15,i30,i39]),true).
-step((true:+cycle(A,B)),cycle(i50,[i48,i27,i15,i12,i27,i15,i12,i27,i30,i39,i48]),true).
-step((true:+cycle(A,B)),cycle(i50,[i48,i27,i15,i12,i27,i15,i21,i72,i78,i87,i48]),true).
-step((true:+cycle(A,B)),cycle(i50,[i48,i27,i15,i30,i39,i33,i9,i27,i30,i39,i48]),true).
-step((true:+cycle(A,B)),cycle(i50,[i48,i27,i15,i30,i39,i48,i27,i15,i30,i39,i48]),true).
-step((true:+cycle(A,B)),cycle(i50,[i48,i27,i30,i39,i33,i9,i27,i15,i30,i39,i48]),true).
-step((true:+cycle(A,B)),cycle(i50,[i51,i57,i69,i66,i51,i84,i12,i57,i69,i66,i51]),true).
-step((true:+cycle(A,B)),cycle(i50,[i51,i57,i69,i66,i57,i69,i66,i57,i69,i66,i51]),true).
-step((true:+cycle(A,B)),cycle(i50,[i51,i84,i12,i57,i69,i66,i51,i57,i69,i66,i51]),true).
-step((true:+cycle(A,B)),cycle(i50,[i51,i84,i72,i69,i66,i51,i84,i72,i69,i66,i51]),true).
-step((true:+cycle(A,B)),cycle(i50,[i51,i84,i72,i78,i87,i99,i54,i72,i69,i66,i51]),true).
-step((true:+cycle(A,B)),cycle(i50,[i51,i84,i72,i78,i87,i99,i66,i57,i69,i66,i51]),true).
-step((true:+cycle(A,B)),cycle(i50,[i54,i72,i69,i66,i51,i84,i72,i78,i87,i99,i54]),true).
-step((true:+cycle(A,B)),cycle(i50,[i54,i72,i78,i87,i99,i54,i72,i78,i87,i99,i54]),true).
-step((true:+cycle(A,B)),cycle(i50,[i57,i69,i66,i51,i57,i69,i66,i51,i84,i12,i57]),true).
-step((true:+cycle(A,B)),cycle(i50,[i57,i69,i66,i51,i57,i69,i66,i57,i69,i66,i57]),true).
-step((true:+cycle(A,B)),cycle(i50,[i57,i69,i66,i51,i84,i12,i57,i69,i66,i51,i57]),true).
-step((true:+cycle(A,B)),cycle(i50,[i57,i69,i66,i51,i84,i72,i78,i87,i99,i66,i57]),true).
-step((true:+cycle(A,B)),cycle(i50,[i57,i69,i66,i57,i69,i66,i51,i57,i69,i66,i57]),true).
-step((true:+cycle(A,B)),cycle(i50,[i57,i69,i66,i57,i69,i66,i57,i69,i66,i51,i57]),true).
-step((true:+cycle(A,B)),cycle(i50,[i66,i51,i57,i69,i66,i51,i84,i12,i57,i69,i66]),true).
-step((true:+cycle(A,B)),cycle(i50,[i66,i51,i57,i69,i66,i57,i69,i66,i57,i69,i66]),true).
-step((true:+cycle(A,B)),cycle(i50,[i66,i51,i84,i12,i57,i69,i66,i51,i57,i69,i66]),true).
-step((true:+cycle(A,B)),cycle(i50,[i66,i51,i84,i72,i69,i66,i51,i84,i72,i69,i66]),true).
-step((true:+cycle(A,B)),cycle(i50,[i66,i51,i84,i72,i78,i87,i99,i54,i72,i69,i66]),true).
-step((true:+cycle(A,B)),cycle(i50,[i66,i51,i84,i72,i78,i87,i99,i66,i57,i69,i66]),true).
-step((true:+cycle(A,B)),cycle(i50,[i66,i57,i69,i66,i51,i57,i69,i66,i57,i69,i66]),true).
-step((true:+cycle(A,B)),cycle(i50,[i66,i57,i69,i66,i51,i84,i72,i78,i87,i99,i66]),true).
-step((true:+cycle(A,B)),cycle(i50,[i66,i57,i69,i66,i57,i69,i66,i51,i57,i69,i66]),true).
-step((true:+cycle(A,B)),cycle(i50,[i69,i66,i51,i57,i69,i66,i51,i84,i12,i57,i69]),true).
-step((true:+cycle(A,B)),cycle(i50,[i69,i66,i51,i57,i69,i66,i57,i69,i66,i57,i69]),true).
-step((true:+cycle(A,B)),cycle(i50,[i69,i66,i51,i84,i12,i57,i69,i66,i51,i57,i69]),true).
-step((true:+cycle(A,B)),cycle(i50,[i69,i66,i51,i84,i72,i69,i66,i51,i84,i72,i69]),true).
-step((true:+cycle(A,B)),cycle(i50,[i69,i66,i51,i84,i72,i78,i87,i99,i54,i72,i69]),true).
-step((true:+cycle(A,B)),cycle(i50,[i69,i66,i51,i84,i72,i78,i87,i99,i66,i57,i69]),true).
-step((true:+cycle(A,B)),cycle(i50,[i69,i66,i57,i69,i66,i51,i57,i69,i66,i57,i69]),true).
-step((true:+cycle(A,B)),cycle(i50,[i69,i66,i57,i69,i66,i57,i69,i66,i51,i57,i69]),true).
-step((true:+cycle(A,B)),cycle(i50,[i6,i6,i6,i6,i6,i6,i6,i6,i6,i6,i6]),true).
-step((true:+cycle(A,B)),cycle(i50,[i72,i69,i66,i51,i84,i72,i69,i66,i51,i84,i72]),true).
-step((true:+cycle(A,B)),cycle(i50,[i72,i69,i66,i51,i84,i72,i78,i87,i99,i54,i72]),true).
-step((true:+cycle(A,B)),cycle(i50,[i72,i78,i87,i48,i27,i15,i12,i27,i15,i21,i72]),true).
-step((true:+cycle(A,B)),cycle(i50,[i72,i78,i87,i99,i54,i72,i69,i66,i51,i84,i72]),true).
-step((true:+cycle(A,B)),cycle(i50,[i72,i78,i87,i99,i54,i72,i78,i87,i99,i54,i72]),true).
-step((true:+cycle(A,B)),cycle(i50,[i72,i78,i87,i99,i66,i57,i69,i66,i51,i84,i72]),true).
-step((true:+cycle(A,B)),cycle(i50,[i78,i87,i48,i27,i15,i12,i27,i15,i21,i72,i78]),true).
-step((true:+cycle(A,B)),cycle(i50,[i78,i87,i99,i54,i72,i69,i66,i51,i84,i72,i78]),true).
-step((true:+cycle(A,B)),cycle(i50,[i78,i87,i99,i54,i72,i78,i87,i99,i54,i72,i78]),true).
-step((true:+cycle(A,B)),cycle(i50,[i78,i87,i99,i66,i57,i69,i66,i51,i84,i72,i78]),true).
-step((true:+cycle(A,B)),cycle(i50,[i84,i12,i57,i69,i66,i51,i57,i69,i66,i51,i84]),true).
-step((true:+cycle(A,B)),cycle(i50,[i84,i72,i69,i66,i51,i84,i72,i69,i66,i51,i84]),true).
-step((true:+cycle(A,B)),cycle(i50,[i84,i72,i78,i87,i99,i54,i72,i69,i66,i51,i84]),true).
-step((true:+cycle(A,B)),cycle(i50,[i84,i72,i78,i87,i99,i66,i57,i69,i66,i51,i84]),true).
-step((true:+cycle(A,B)),cycle(i50,[i87,i48,i27,i15,i12,i27,i15,i21,i72,i78,i87]),true).
-step((true:+cycle(A,B)),cycle(i50,[i87,i99,i54,i72,i69,i66,i51,i84,i72,i78,i87]),true).
-step((true:+cycle(A,B)),cycle(i50,[i87,i99,i54,i72,i78,i87,i99,i54,i72,i78,i87]),true).
-step((true:+cycle(A,B)),cycle(i50,[i87,i99,i66,i57,i69,i66,i51,i84,i72,i78,i87]),true).
-step((true:+cycle(A,B)),cycle(i50,[i99,i54,i72,i69,i66,i51,i84,i72,i78,i87,i99]),true).
-step((true:+cycle(A,B)),cycle(i50,[i99,i54,i72,i78,i87,i99,i54,i72,i78,i87,i99]),true).
-step((true:+cycle(A,B)),cycle(i50,[i99,i66,i57,i69,i66,i51,i84,i72,i78,i87,i99]),true).
-step((true:+cycle(A,B)),cycle(i50,[i9,i27,i15,i12,i27,i30,i39,i33,i9,i33,i9]),true).
-step((true:+cycle(A,B)),cycle(i50,[i9,i27,i15,i30,i39,i33,i9,i33,i9,i33,i9]),true).
-step((true:+cycle(A,B)),cycle(i50,[i9,i27,i15,i30,i39,i48,i27,i30,i39,i33,i9]),true).
-step((true:+cycle(A,B)),cycle(i50,[i9,i27,i30,i39,i33,i9,i27,i30,i39,i33,i9]),true).
-step((true:+cycle(A,B)),cycle(i50,[i9,i27,i30,i39,i48,i27,i15,i30,i39,i33,i9]),true).
-step((true:+cycle(A,B)),cycle(i50,[i9,i33,i9,i27,i15,i12,i27,i30,i39,i33,i9]),true).
-step((true:+cycle(A,B)),cycle(i50,[i9,i33,i9,i27,i15,i30,i39,i33,i9,i33,i9]),true).
-step((true:+cycle(A,B)),cycle(i50,[i9,i33,i9,i33,i9,i27,i15,i30,i39,i33,i9]),true).
-step((true:+cycle(A,B)),cycle(i50,[i9,i33,i9,i33,i9,i33,i9,i33,i9,i33,i9]),true).
-step((true:+cycle(A,B)),cycle(i52,[i21,i78,i21,i78,i21,i78,i21,i78,i21,i78,i21]),true).
-step((true:+cycle(A,B)),cycle(i52,[i78,i21,i78,i21,i78,i21,i78,i21,i78,i21,i78]),true).
-step((true:+cycle(A,B)),cycle(i53,[i15,i15,i15,i15,i15,i15,i15,i15,i15,i15,i15]),true).
-step((true:+cycle(A,B)),cycle(i53,[i21,i75,i78,i96,i6,i21,i75,i78,i96,i6,i21]),true).
-step((true:+cycle(A,B)),cycle(i53,[i6,i21,i75,i78,i96,i6,i21,i75,i78,i96,i6]),true).
-step((true:+cycle(A,B)),cycle(i53,[i75,i78,i96,i6,i21,i75,i78,i96,i6,i21,i75]),true).
-step((true:+cycle(A,B)),cycle(i53,[i78,i96,i6,i21,i75,i78,i96,i6,i21,i75,i78]),true).
-step((true:+cycle(A,B)),cycle(i53,[i96,i6,i21,i75,i78,i96,i6,i21,i75,i78,i96]),true).
-step((true:+cycle(A,B)),cycle(i54,[i33,i96,i9,i51,i66,i33,i96,i9,i51,i66,i33]),true).
-step((true:+cycle(A,B)),cycle(i54,[i51,i66,i33,i96,i9,i51,i66,i33,i96,i9,i51]),true).
-step((true:+cycle(A,B)),cycle(i54,[i66,i33,i96,i9,i51,i66,i33,i96,i9,i51,i66]),true).
-step((true:+cycle(A,B)),cycle(i54,[i96,i9,i51,i66,i33,i96,i9,i51,i66,i33,i96]),true).
-step((true:+cycle(A,B)),cycle(i54,[i9,i51,i66,i33,i96,i9,i51,i66,i33,i96,i9]),true).
-step((true:+cycle(A,B)),cycle(i55,[i33,i33,i33,i33,i33,i33,i33,i33,i33,i33,i33]),true).
-step((true:+cycle(A,B)),cycle(i55,[i54,i54,i54,i54,i54,i54,i54,i54,i54,i54,i54]),true).
-step((true:+cycle(A,B)),cycle(i56,[i27,i27,i27,i27,i27,i27,i27,i27,i27,i27,i27]),true).
-step((true:+cycle(A,B)),cycle(i56,[i9,i9,i9,i9,i9,i9,i9,i9,i9,i9,i9]),true).
-step((true:+cycle(A,B)),cycle(i57,[i48,i69,i48,i69,i48,i69,i48,i69,i48,i69,i48]),true).
-step((true:+cycle(A,B)),cycle(i57,[i51,i84,i51,i84,i51,i84,i51,i84,i51,i84,i51]),true).
-step((true:+cycle(A,B)),cycle(i57,[i69,i48,i69,i48,i69,i48,i69,i48,i69,i48,i69]),true).
-step((true:+cycle(A,B)),cycle(i57,[i84,i51,i84,i51,i84,i51,i84,i51,i84,i51,i84]),true).
-step((true:+cycle(A,B)),cycle(i58,[i18,i18,i18,i18,i18,i18,i18,i18,i18,i18,i18]),true).
-step((true:+cycle(A,B)),cycle(i58,[i54,i54,i54,i54,i54,i54,i54,i54,i54,i54,i54]),true).
-step((true:+cycle(A,B)),cycle(i59,[i48,i48,i48,i48,i48,i48,i48,i48,i48,i48,i48]),true).
-step((true:+cycle(A,B)),cycle(i6,[i3,i3,i3,i3,i3,i3,i3,i3,i3,i3,i3]),true).
-step((true:+cycle(A,B)),cycle(i6,[i75,i75,i75,i75,i75,i75,i75,i75,i75,i75,i75]),true).
-step((true:+cycle(A,B)),cycle(i60,[i12,i63,i93,i27,i39,i48,i42,i45,i99,i33,i12]),true).
-step((true:+cycle(A,B)),cycle(i60,[i27,i39,i48,i42,i45,i99,i33,i12,i63,i93,i27]),true).
-step((true:+cycle(A,B)),cycle(i60,[i33,i12,i63,i93,i27,i39,i48,i42,i45,i99,i33]),true).
-step((true:+cycle(A,B)),cycle(i60,[i39,i48,i42,i45,i99,i33,i12,i63,i93,i27,i39]),true).
-step((true:+cycle(A,B)),cycle(i60,[i42,i45,i99,i33,i12,i63,i93,i27,i39,i48,i42]),true).
-step((true:+cycle(A,B)),cycle(i60,[i45,i99,i33,i12,i63,i93,i27,i39,i48,i42,i45]),true).
-step((true:+cycle(A,B)),cycle(i60,[i48,i42,i45,i99,i33,i12,i63,i93,i27,i39,i48]),true).
-step((true:+cycle(A,B)),cycle(i60,[i63,i93,i27,i39,i48,i42,i45,i99,i33,i12,i63]),true).
-step((true:+cycle(A,B)),cycle(i60,[i93,i27,i39,i48,i42,i45,i99,i33,i12,i63,i93]),true).
-step((true:+cycle(A,B)),cycle(i60,[i99,i33,i12,i63,i93,i27,i39,i48,i42,i45,i99]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i24,i81,i24,i81,i24,i81,i24,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i24,i81,i24,i81,i24,i81,i81,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i24,i81,i24,i81,i81,i24,i81,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i24,i81,i24,i81,i81,i81,i24,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i24,i81,i24,i81,i81,i81,i81,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i24,i81,i81,i24,i81,i24,i81,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i24,i81,i81,i24,i81,i81,i24,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i24,i81,i81,i24,i81,i81,i81,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i24,i81,i81,i81,i24,i81,i24,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i24,i81,i81,i81,i24,i81,i81,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i24,i81,i81,i81,i81,i24,i81,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i24,i81,i81,i81,i81,i81,i24,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i24,i81,i81,i81,i81,i81,i81,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i81,i24,i81,i24,i81,i24,i81,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i81,i24,i81,i24,i81,i81,i24,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i81,i24,i81,i24,i81,i81,i81,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i81,i24,i81,i81,i24,i81,i24,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i81,i24,i81,i81,i24,i81,i81,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i81,i24,i81,i81,i81,i24,i81,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i81,i24,i81,i81,i81,i81,i24,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i81,i24,i81,i81,i81,i81,i81,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i81,i81,i24,i81,i24,i81,i24,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i81,i81,i24,i81,i24,i81,i81,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i81,i81,i24,i81,i81,i24,i81,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i81,i81,i24,i81,i81,i81,i24,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i81,i81,i24,i81,i81,i81,i81,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i81,i81,i81,i24,i81,i24,i81,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i81,i81,i81,i24,i81,i81,i24,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i81,i81,i81,i24,i81,i81,i81,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i81,i81,i81,i81,i24,i81,i24,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i81,i81,i81,i81,i24,i81,i81,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i81,i81,i81,i81,i81,i24,i81,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i81,i81,i81,i81,i81,i81,i24,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i24,i81,i81,i81,i81,i81,i81,i81,i81,i81,i24]),true).
-step((true:+cycle(A,B)),cycle(i62,[i63,i63,i63,i63,i63,i63,i63,i63,i63,i63,i63]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i24,i81,i24,i81,i24,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i24,i81,i24,i81,i24,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i24,i81,i24,i81,i81,i24,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i24,i81,i24,i81,i81,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i24,i81,i24,i81,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i24,i81,i81,i24,i81,i24,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i24,i81,i81,i24,i81,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i24,i81,i81,i24,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i24,i81,i81,i81,i24,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i24,i81,i81,i81,i24,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i24,i81,i81,i81,i81,i24,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i24,i81,i81,i81,i81,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i24,i81,i81,i81,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i81,i24,i81,i24,i81,i24,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i81,i24,i81,i24,i81,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i81,i24,i81,i24,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i81,i24,i81,i81,i24,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i81,i24,i81,i81,i24,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i81,i24,i81,i81,i81,i24,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i81,i24,i81,i81,i81,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i81,i24,i81,i81,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i81,i81,i24,i81,i24,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i81,i81,i24,i81,i24,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i81,i81,i24,i81,i81,i24,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i81,i81,i24,i81,i81,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i81,i81,i24,i81,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i81,i81,i81,i24,i81,i24,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i81,i81,i81,i24,i81,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i81,i81,i81,i24,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i81,i81,i81,i81,i24,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i81,i81,i81,i81,i24,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i81,i81,i81,i81,i81,i24,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i81,i81,i81,i81,i81,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i24,i81,i81,i81,i81,i81,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i24,i81,i24,i81,i24,i81,i24,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i24,i81,i24,i81,i24,i81,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i24,i81,i24,i81,i24,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i24,i81,i24,i81,i81,i24,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i24,i81,i24,i81,i81,i24,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i24,i81,i24,i81,i81,i81,i24,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i24,i81,i24,i81,i81,i81,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i24,i81,i24,i81,i81,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i24,i81,i81,i24,i81,i24,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i24,i81,i81,i24,i81,i24,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i24,i81,i81,i24,i81,i81,i24,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i24,i81,i81,i24,i81,i81,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i24,i81,i81,i24,i81,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i24,i81,i81,i81,i24,i81,i24,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i24,i81,i81,i81,i24,i81,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i24,i81,i81,i81,i24,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i24,i81,i81,i81,i81,i24,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i24,i81,i81,i81,i81,i24,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i24,i81,i81,i81,i81,i81,i24,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i24,i81,i81,i81,i81,i81,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i24,i81,i81,i81,i81,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i24,i81,i24,i81,i24,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i24,i81,i24,i81,i24,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i24,i81,i24,i81,i81,i24,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i24,i81,i24,i81,i81,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i24,i81,i24,i81,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i24,i81,i81,i24,i81,i24,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i24,i81,i81,i24,i81,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i24,i81,i81,i24,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i24,i81,i81,i81,i24,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i24,i81,i81,i81,i24,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i24,i81,i81,i81,i81,i24,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i24,i81,i81,i81,i81,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i24,i81,i81,i81,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i81,i24,i81,i24,i81,i24,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i81,i24,i81,i24,i81,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i81,i24,i81,i24,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i81,i24,i81,i81,i24,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i81,i24,i81,i81,i24,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i81,i24,i81,i81,i81,i24,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i81,i24,i81,i81,i81,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i81,i24,i81,i81,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i81,i81,i24,i81,i24,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i81,i81,i24,i81,i24,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i81,i81,i24,i81,i81,i24,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i81,i81,i24,i81,i81,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i81,i81,i24,i81,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i81,i81,i81,i24,i81,i24,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i81,i81,i81,i24,i81,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i81,i81,i81,i24,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i81,i81,i81,i81,i24,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i81,i81,i81,i81,i24,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i81,i81,i81,i81,i81,i24,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i81,i81,i81,i81,i81,i81,i24,i81]),true).
-step((true:+cycle(A,B)),cycle(i62,[i81,i81,i81,i81,i81,i81,i81,i81,i81,i81,i81]),true).
-step((true:+cycle(A,B)),cycle(i63,[i72,i72,i72,i72,i72,i72,i72,i72,i72,i72,i72]),true).
-step((true:+cycle(A,B)),cycle(i63,[i93,i93,i93,i93,i93,i93,i93,i93,i93,i93,i93]),true).
-step((true:+cycle(A,B)),cycle(i64,[i3,i9,i3,i9,i3,i9,i3,i9,i3,i9,i3]),true).
-step((true:+cycle(A,B)),cycle(i64,[i42,i42,i42,i42,i42,i42,i42,i42,i42,i42,i42]),true).
-step((true:+cycle(A,B)),cycle(i64,[i54,i54,i54,i54,i54,i54,i54,i54,i54,i54,i54]),true).
-step((true:+cycle(A,B)),cycle(i64,[i9,i3,i9,i3,i9,i3,i9,i3,i9,i3,i9]),true).
-step((true:+cycle(A,B)),cycle(i65,[i12,i12,i12,i12,i12,i12,i12,i12,i12,i12,i12]),true).
-step((true:+cycle(A,B)),cycle(i65,[i18,i57,i72,i9,i96,i18,i57,i72,i9,i96,i18]),true).
-step((true:+cycle(A,B)),cycle(i65,[i18,i57,i72,i9,i96,i18,i57,i78,i9,i96,i18]),true).
-step((true:+cycle(A,B)),cycle(i65,[i18,i57,i78,i78,i78,i78,i78,i78,i9,i96,i18]),true).
-step((true:+cycle(A,B)),cycle(i65,[i18,i57,i78,i78,i9,i3,i84,i45,i9,i96,i18]),true).
-step((true:+cycle(A,B)),cycle(i65,[i18,i57,i78,i9,i96,i18,i57,i72,i9,i96,i18]),true).
-step((true:+cycle(A,B)),cycle(i65,[i18,i57,i78,i9,i96,i18,i57,i78,i9,i96,i18]),true).
-step((true:+cycle(A,B)),cycle(i65,[i3,i84,i45,i9,i96,i18,i57,i78,i78,i9,i3]),true).
-step((true:+cycle(A,B)),cycle(i65,[i45,i9,i96,i18,i57,i78,i78,i9,i3,i84,i45]),true).
-step((true:+cycle(A,B)),cycle(i65,[i57,i72,i9,i96,i18,i57,i72,i9,i96,i18,i57]),true).
-step((true:+cycle(A,B)),cycle(i65,[i57,i72,i9,i96,i18,i57,i78,i9,i96,i18,i57]),true).
-step((true:+cycle(A,B)),cycle(i65,[i57,i78,i78,i78,i78,i78,i78,i9,i96,i18,i57]),true).
-step((true:+cycle(A,B)),cycle(i65,[i57,i78,i78,i9,i3,i84,i45,i9,i96,i18,i57]),true).
-step((true:+cycle(A,B)),cycle(i65,[i57,i78,i9,i96,i18,i57,i72,i9,i96,i18,i57]),true).
-step((true:+cycle(A,B)),cycle(i65,[i57,i78,i9,i96,i18,i57,i78,i9,i96,i18,i57]),true).
-step((true:+cycle(A,B)),cycle(i65,[i72,i9,i96,i18,i57,i72,i9,i96,i18,i57,i72]),true).
-step((true:+cycle(A,B)),cycle(i65,[i72,i9,i96,i18,i57,i78,i9,i96,i18,i57,i72]),true).
-step((true:+cycle(A,B)),cycle(i65,[i78,i78,i78,i78,i78,i78,i78,i78,i78,i78,i78]),true).
-step((true:+cycle(A,B)),cycle(i65,[i78,i78,i78,i78,i78,i78,i9,i96,i18,i57,i78]),true).
-step((true:+cycle(A,B)),cycle(i65,[i78,i78,i78,i78,i78,i9,i96,i18,i57,i78,i78]),true).
-step((true:+cycle(A,B)),cycle(i65,[i78,i78,i78,i78,i9,i96,i18,i57,i78,i78,i78]),true).
-step((true:+cycle(A,B)),cycle(i65,[i78,i78,i78,i9,i96,i18,i57,i78,i78,i78,i78]),true).
-step((true:+cycle(A,B)),cycle(i65,[i78,i78,i9,i3,i84,i45,i9,i96,i18,i57,i78]),true).
-step((true:+cycle(A,B)),cycle(i65,[i78,i78,i9,i96,i18,i57,i78,i78,i78,i78,i78]),true).
-step((true:+cycle(A,B)),cycle(i65,[i78,i9,i3,i84,i45,i9,i96,i18,i57,i78,i78]),true).
-step((true:+cycle(A,B)),cycle(i65,[i78,i9,i96,i18,i57,i72,i9,i96,i18,i57,i78]),true).
-step((true:+cycle(A,B)),cycle(i65,[i78,i9,i96,i18,i57,i78,i78,i78,i78,i78,i78]),true).
-step((true:+cycle(A,B)),cycle(i65,[i78,i9,i96,i18,i57,i78,i9,i96,i18,i57,i78]),true).
-step((true:+cycle(A,B)),cycle(i65,[i84,i45,i9,i96,i18,i57,i78,i78,i9,i3,i84]),true).
-step((true:+cycle(A,B)),cycle(i65,[i96,i18,i57,i72,i9,i96,i18,i57,i72,i9,i96]),true).
-step((true:+cycle(A,B)),cycle(i65,[i96,i18,i57,i72,i9,i96,i18,i57,i78,i9,i96]),true).
-step((true:+cycle(A,B)),cycle(i65,[i96,i18,i57,i78,i78,i78,i78,i78,i78,i9,i96]),true).
-step((true:+cycle(A,B)),cycle(i65,[i96,i18,i57,i78,i78,i9,i3,i84,i45,i9,i96]),true).
-step((true:+cycle(A,B)),cycle(i65,[i96,i18,i57,i78,i9,i96,i18,i57,i72,i9,i96]),true).
-step((true:+cycle(A,B)),cycle(i65,[i96,i18,i57,i78,i9,i96,i18,i57,i78,i9,i96]),true).
-step((true:+cycle(A,B)),cycle(i65,[i9,i3,i84,i45,i9,i96,i18,i57,i78,i78,i9]),true).
-step((true:+cycle(A,B)),cycle(i65,[i9,i96,i18,i57,i72,i9,i96,i18,i57,i72,i9]),true).
-step((true:+cycle(A,B)),cycle(i65,[i9,i96,i18,i57,i72,i9,i96,i18,i57,i78,i9]),true).
-step((true:+cycle(A,B)),cycle(i65,[i9,i96,i18,i57,i78,i78,i78,i78,i78,i78,i9]),true).
-step((true:+cycle(A,B)),cycle(i65,[i9,i96,i18,i57,i78,i78,i9,i3,i84,i45,i9]),true).
-step((true:+cycle(A,B)),cycle(i65,[i9,i96,i18,i57,i78,i9,i96,i18,i57,i72,i9]),true).
-step((true:+cycle(A,B)),cycle(i65,[i9,i96,i18,i57,i78,i9,i96,i18,i57,i78,i9]),true).
-step((true:+cycle(A,B)),cycle(i66,[i6,i6,i6,i6,i6,i6,i6,i6,i6,i6,i6]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i15,i15,i15,i15,i15,i15,i15,i15,i15,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i15,i15,i15,i15,i15,i15,i15,i54,i9,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i15,i15,i15,i15,i15,i15,i54,i9,i15,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i15,i15,i15,i15,i15,i54,i9,i15,i15,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i15,i15,i15,i15,i54,i9,i15,i15,i15,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i15,i15,i15,i15,i54,i9,i15,i54,i9,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i15,i15,i15,i54,i9,i15,i15,i15,i15,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i15,i15,i15,i54,i9,i15,i15,i54,i9,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i15,i15,i15,i54,i9,i15,i54,i9,i15,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i15,i15,i54,i9,i15,i15,i15,i15,i15,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i15,i15,i54,i9,i15,i15,i15,i54,i9,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i15,i15,i54,i9,i15,i15,i54,i9,i15,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i15,i15,i54,i9,i15,i54,i9,i15,i15,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i15,i54,i9,i15,i15,i15,i15,i15,i15,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i15,i54,i9,i15,i15,i15,i15,i54,i9,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i15,i54,i9,i15,i15,i15,i54,i9,i15,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i15,i54,i9,i15,i15,i54,i9,i15,i15,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i15,i54,i9,i15,i54,i9,i15,i15,i15,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i15,i54,i9,i15,i54,i9,i15,i54,i9,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i54,i9,i15,i15,i15,i15,i15,i15,i15,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i54,i9,i15,i15,i15,i15,i15,i54,i9,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i54,i9,i15,i15,i15,i15,i54,i9,i15,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i54,i9,i15,i15,i15,i54,i9,i15,i15,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i54,i9,i15,i15,i54,i9,i15,i15,i15,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i54,i9,i15,i15,i54,i9,i15,i54,i9,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i54,i9,i15,i54,i9,i15,i15,i15,i15,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i54,i9,i15,i54,i9,i15,i15,i54,i9,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i15,i54,i9,i15,i54,i9,i15,i54,i9,i15,i15]),true).
-step((true:+cycle(A,B)),cycle(i67,[i54,i9,i15,i15,i15,i15,i15,i15,i15,i15,i54]),true).
-step((true:+cycle(A,B)),cycle(i67,[i54,i9,i15,i15,i15,i15,i15,i54,i9,i15,i54]),true).
-step((true:+cycle(A,B)),cycle(i67,[i54,i9,i15,i15,i15,i15,i54,i9,i15,i15,i54]),true).
-step((true:+cycle(A,B)),cycle(i67,[i54,i9,i15,i15,i15,i54,i9,i15,i15,i15,i54]),true).
-step((true:+cycle(A,B)),cycle(i67,[i54,i9,i15,i15,i54,i9,i15,i15,i15,i15,i54]),true).
-step((true:+cycle(A,B)),cycle(i67,[i54,i9,i15,i15,i54,i9,i15,i54,i9,i15,i54]),true).
-step((true:+cycle(A,B)),cycle(i67,[i54,i9,i15,i54,i9,i15,i15,i15,i15,i15,i54]),true).
-step((true:+cycle(A,B)),cycle(i67,[i54,i9,i15,i54,i9,i15,i15,i54,i9,i15,i54]),true).
-step((true:+cycle(A,B)),cycle(i67,[i54,i9,i15,i54,i9,i15,i54,i9,i15,i15,i54]),true).
-step((true:+cycle(A,B)),cycle(i67,[i9,i15,i15,i15,i15,i15,i15,i15,i15,i54,i9]),true).
-step((true:+cycle(A,B)),cycle(i67,[i9,i15,i15,i15,i15,i15,i54,i9,i15,i54,i9]),true).
-step((true:+cycle(A,B)),cycle(i67,[i9,i15,i15,i15,i15,i54,i9,i15,i15,i54,i9]),true).
-step((true:+cycle(A,B)),cycle(i67,[i9,i15,i15,i15,i54,i9,i15,i15,i15,i54,i9]),true).
-step((true:+cycle(A,B)),cycle(i67,[i9,i15,i15,i54,i9,i15,i15,i15,i15,i54,i9]),true).
-step((true:+cycle(A,B)),cycle(i67,[i9,i15,i15,i54,i9,i15,i54,i9,i15,i54,i9]),true).
-step((true:+cycle(A,B)),cycle(i67,[i9,i15,i54,i9,i15,i15,i15,i15,i15,i54,i9]),true).
-step((true:+cycle(A,B)),cycle(i67,[i9,i15,i54,i9,i15,i15,i54,i9,i15,i54,i9]),true).
-step((true:+cycle(A,B)),cycle(i67,[i9,i15,i54,i9,i15,i54,i9,i15,i15,i54,i9]),true).
-step((true:+cycle(A,B)),cycle(i69,[i24,i24,i24,i24,i24,i24,i24,i24,i24,i24,i24]),true).
-step((true:+cycle(A,B)),cycle(i69,[i3,i3,i3,i3,i3,i3,i3,i3,i3,i3,i3]),true).
-step((true:+cycle(A,B)),cycle(i7,[i18,i75,i84,i72,i57,i18,i75,i84,i72,i57,i18]),true).
-step((true:+cycle(A,B)),cycle(i7,[i45,i45,i45,i45,i45,i45,i45,i45,i45,i45,i45]),true).
-step((true:+cycle(A,B)),cycle(i7,[i57,i18,i75,i84,i72,i57,i18,i75,i84,i72,i57]),true).
-step((true:+cycle(A,B)),cycle(i7,[i72,i57,i18,i75,i84,i72,i57,i18,i75,i84,i72]),true).
-step((true:+cycle(A,B)),cycle(i7,[i75,i84,i72,i57,i18,i75,i84,i72,i57,i18,i75]),true).
-step((true:+cycle(A,B)),cycle(i7,[i84,i72,i57,i18,i75,i84,i72,i57,i18,i75,i84]),true).
-step((true:+cycle(A,B)),cycle(i70,[i0,i18,i0,i18,i0,i18,i0,i18,i0,i18,i0]),true).
-step((true:+cycle(A,B)),cycle(i70,[i18,i0,i18,i0,i18,i0,i18,i0,i18,i0,i18]),true).
-step((true:+cycle(A,B)),cycle(i70,[i39,i48,i69,i84,i75,i69,i84,i75,i69,i90,i39]),true).
-step((true:+cycle(A,B)),cycle(i70,[i39,i48,i69,i84,i75,i69,i84,i87,i69,i90,i39]),true).
-step((true:+cycle(A,B)),cycle(i70,[i39,i48,i69,i84,i87,i69,i84,i75,i69,i90,i39]),true).
-step((true:+cycle(A,B)),cycle(i70,[i39,i48,i69,i84,i87,i69,i84,i87,i69,i90,i39]),true).
-step((true:+cycle(A,B)),cycle(i70,[i48,i69,i84,i75,i69,i84,i75,i69,i90,i39,i48]),true).
-step((true:+cycle(A,B)),cycle(i70,[i48,i69,i84,i75,i69,i84,i87,i69,i90,i39,i48]),true).
-step((true:+cycle(A,B)),cycle(i70,[i48,i69,i84,i87,i69,i84,i75,i69,i90,i39,i48]),true).
-step((true:+cycle(A,B)),cycle(i70,[i48,i69,i84,i87,i69,i84,i87,i69,i90,i39,i48]),true).
-step((true:+cycle(A,B)),cycle(i70,[i69,i84,i75,i69,i84,i75,i69,i90,i39,i48,i69]),true).
-step((true:+cycle(A,B)),cycle(i70,[i69,i84,i75,i69,i84,i87,i69,i90,i39,i48,i69]),true).
-step((true:+cycle(A,B)),cycle(i70,[i69,i84,i75,i69,i90,i39,i48,i69,i84,i75,i69]),true).
-step((true:+cycle(A,B)),cycle(i70,[i69,i84,i75,i69,i90,i39,i48,i69,i84,i87,i69]),true).
-step((true:+cycle(A,B)),cycle(i70,[i69,i84,i87,i69,i84,i75,i69,i90,i39,i48,i69]),true).
-step((true:+cycle(A,B)),cycle(i70,[i69,i84,i87,i69,i84,i87,i69,i90,i39,i48,i69]),true).
-step((true:+cycle(A,B)),cycle(i70,[i69,i84,i87,i69,i90,i39,i48,i69,i84,i75,i69]),true).
-step((true:+cycle(A,B)),cycle(i70,[i69,i84,i87,i69,i90,i39,i48,i69,i84,i87,i69]),true).
-step((true:+cycle(A,B)),cycle(i70,[i69,i90,i39,i48,i69,i84,i75,i69,i84,i75,i69]),true).
-step((true:+cycle(A,B)),cycle(i70,[i69,i90,i39,i48,i69,i84,i75,i69,i84,i87,i69]),true).
-step((true:+cycle(A,B)),cycle(i70,[i69,i90,i39,i48,i69,i84,i87,i69,i84,i75,i69]),true).
-step((true:+cycle(A,B)),cycle(i70,[i69,i90,i39,i48,i69,i84,i87,i69,i84,i87,i69]),true).
-step((true:+cycle(A,B)),cycle(i70,[i75,i69,i84,i75,i69,i90,i39,i48,i69,i84,i75]),true).
-step((true:+cycle(A,B)),cycle(i70,[i75,i69,i84,i87,i69,i90,i39,i48,i69,i84,i75]),true).
-step((true:+cycle(A,B)),cycle(i70,[i75,i69,i90,i39,i48,i69,i84,i75,i69,i84,i75]),true).
-step((true:+cycle(A,B)),cycle(i70,[i75,i69,i90,i39,i48,i69,i84,i87,i69,i84,i75]),true).
-step((true:+cycle(A,B)),cycle(i70,[i84,i75,i69,i84,i75,i69,i90,i39,i48,i69,i84]),true).
-step((true:+cycle(A,B)),cycle(i70,[i84,i75,i69,i84,i87,i69,i90,i39,i48,i69,i84]),true).
-step((true:+cycle(A,B)),cycle(i70,[i84,i75,i69,i90,i39,i48,i69,i84,i75,i69,i84]),true).
-step((true:+cycle(A,B)),cycle(i70,[i84,i75,i69,i90,i39,i48,i69,i84,i87,i69,i84]),true).
-step((true:+cycle(A,B)),cycle(i70,[i84,i87,i69,i84,i75,i69,i90,i39,i48,i69,i84]),true).
-step((true:+cycle(A,B)),cycle(i70,[i84,i87,i69,i84,i87,i69,i90,i39,i48,i69,i84]),true).
-step((true:+cycle(A,B)),cycle(i70,[i84,i87,i69,i90,i39,i48,i69,i84,i75,i69,i84]),true).
-step((true:+cycle(A,B)),cycle(i70,[i84,i87,i69,i90,i39,i48,i69,i84,i87,i69,i84]),true).
-step((true:+cycle(A,B)),cycle(i70,[i87,i69,i84,i75,i69,i90,i39,i48,i69,i84,i87]),true).
-step((true:+cycle(A,B)),cycle(i70,[i87,i69,i84,i87,i69,i90,i39,i48,i69,i84,i87]),true).
-step((true:+cycle(A,B)),cycle(i70,[i87,i69,i90,i39,i48,i69,i84,i75,i69,i84,i87]),true).
-step((true:+cycle(A,B)),cycle(i70,[i87,i69,i90,i39,i48,i69,i84,i87,i69,i84,i87]),true).
-step((true:+cycle(A,B)),cycle(i70,[i90,i39,i48,i69,i84,i75,i69,i84,i75,i69,i90]),true).
-step((true:+cycle(A,B)),cycle(i70,[i90,i39,i48,i69,i84,i75,i69,i84,i87,i69,i90]),true).
-step((true:+cycle(A,B)),cycle(i70,[i90,i39,i48,i69,i84,i87,i69,i84,i75,i69,i90]),true).
-step((true:+cycle(A,B)),cycle(i70,[i90,i39,i48,i69,i84,i87,i69,i84,i87,i69,i90]),true).
-step((true:+cycle(A,B)),cycle(i71,[i0,i21,i0,i21,i0,i21,i0,i21,i0,i21,i0]),true).
-step((true:+cycle(A,B)),cycle(i71,[i0,i21,i0,i21,i0,i45,i21,i0,i45,i21,i0]),true).
-step((true:+cycle(A,B)),cycle(i71,[i0,i21,i0,i45,i21,i0,i21,i0,i45,i21,i0]),true).
-step((true:+cycle(A,B)),cycle(i71,[i0,i21,i0,i45,i21,i0,i45,i21,i0,i21,i0]),true).
-step((true:+cycle(A,B)),cycle(i71,[i0,i45,i21,i0,i21,i0,i21,i0,i45,i21,i0]),true).
-step((true:+cycle(A,B)),cycle(i71,[i0,i45,i21,i0,i21,i0,i45,i21,i0,i21,i0]),true).
-step((true:+cycle(A,B)),cycle(i71,[i0,i45,i21,i0,i45,i21,i0,i21,i0,i21,i0]),true).
-step((true:+cycle(A,B)),cycle(i71,[i21,i0,i21,i0,i21,i0,i21,i0,i21,i0,i21]),true).
-step((true:+cycle(A,B)),cycle(i71,[i21,i0,i21,i0,i21,i0,i45,i21,i0,i45,i21]),true).
-step((true:+cycle(A,B)),cycle(i71,[i21,i0,i21,i0,i45,i21,i0,i21,i0,i45,i21]),true).
-step((true:+cycle(A,B)),cycle(i71,[i21,i0,i21,i0,i45,i21,i0,i45,i21,i0,i21]),true).
-step((true:+cycle(A,B)),cycle(i71,[i21,i0,i45,i21,i0,i21,i0,i21,i0,i45,i21]),true).
-step((true:+cycle(A,B)),cycle(i71,[i21,i0,i45,i21,i0,i21,i0,i45,i21,i0,i21]),true).
-step((true:+cycle(A,B)),cycle(i71,[i21,i0,i45,i21,i0,i45,i21,i0,i21,i0,i21]),true).
-step((true:+cycle(A,B)),cycle(i71,[i45,i21,i0,i21,i0,i21,i0,i45,i21,i0,i45]),true).
-step((true:+cycle(A,B)),cycle(i71,[i45,i21,i0,i21,i0,i45,i21,i0,i21,i0,i45]),true).
-step((true:+cycle(A,B)),cycle(i71,[i45,i21,i0,i45,i21,i0,i21,i0,i21,i0,i45]),true).
-step((true:+cycle(A,B)),cycle(i72,[i60,i60,i60,i60,i60,i60,i60,i60,i60,i60,i60]),true).
-step((true:+cycle(A,B)),cycle(i74,[i27,i57,i27,i57,i27,i57,i27,i57,i27,i57,i27]),true).
-step((true:+cycle(A,B)),cycle(i74,[i33,i60,i33,i60,i33,i60,i33,i60,i33,i60,i33]),true).
-step((true:+cycle(A,B)),cycle(i74,[i57,i27,i57,i27,i57,i27,i57,i27,i57,i27,i57]),true).
-step((true:+cycle(A,B)),cycle(i74,[i60,i33,i60,i33,i60,i33,i60,i33,i60,i33,i60]),true).
-step((true:+cycle(A,B)),cycle(i74,[i90,i90,i90,i90,i90,i90,i90,i90,i90,i90,i90]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i0,i0,i0,i0,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i0,i0,i0,i0,i0,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i0,i0,i0,i0,i0,i30,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i0,i0,i0,i0,i30,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i0,i0,i0,i0,i30,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i0,i0,i0,i30,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i0,i0,i0,i30,i0,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i0,i0,i0,i30,i0,i30,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i0,i0,i30,i0,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i0,i0,i30,i0,i0,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i0,i0,i30,i0,i0,i30,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i0,i0,i30,i0,i30,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i0,i0,i30,i0,i30,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i0,i30,i0,i0,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i0,i30,i0,i0,i0,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i0,i30,i0,i0,i0,i30,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i0,i30,i0,i0,i30,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i0,i30,i0,i0,i30,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i0,i30,i0,i30,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i0,i30,i0,i30,i0,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i0,i30,i0,i30,i0,i30,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i30,i0,i0,i0,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i30,i0,i0,i0,i0,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i30,i0,i0,i0,i0,i30,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i30,i0,i0,i0,i30,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i30,i0,i0,i0,i30,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i30,i0,i0,i30,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i30,i0,i0,i30,i0,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i30,i0,i0,i30,i0,i30,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i30,i0,i30,i0,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i30,i0,i30,i0,i0,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i30,i0,i30,i0,i0,i30,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i30,i0,i30,i0,i30,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i0,i30,i0,i30,i0,i30,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i30,i0,i0,i0,i0,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i30,i0,i0,i0,i0,i0,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i30,i0,i0,i0,i0,i0,i30,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i30,i0,i0,i0,i0,i30,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i30,i0,i0,i0,i0,i30,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i30,i0,i0,i0,i30,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i30,i0,i0,i0,i30,i0,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i30,i0,i0,i0,i30,i0,i30,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i30,i0,i0,i30,i0,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i30,i0,i0,i30,i0,i0,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i30,i0,i0,i30,i0,i0,i30,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i30,i0,i0,i30,i0,i30,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i30,i0,i0,i30,i0,i30,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i30,i0,i30,i0,i0,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i30,i0,i30,i0,i0,i0,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i30,i0,i30,i0,i0,i0,i30,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i30,i0,i30,i0,i0,i30,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i30,i0,i30,i0,i0,i30,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i30,i0,i30,i0,i30,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i30,i0,i30,i0,i30,i0,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i0,i30,i0,i30,i0,i30,i0,i30,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i0,i0,i0,i0,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i0,i0,i0,i0,i0,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i0,i0,i0,i0,i0,i30,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i0,i0,i0,i0,i30,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i0,i0,i0,i0,i30,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i0,i0,i0,i30,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i0,i0,i0,i30,i0,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i0,i0,i0,i30,i0,i30,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i0,i0,i30,i0,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i0,i0,i30,i0,i0,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i0,i0,i30,i0,i0,i30,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i0,i0,i30,i0,i30,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i0,i0,i30,i0,i30,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i0,i30,i0,i0,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i0,i30,i0,i0,i0,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i0,i30,i0,i0,i0,i30,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i0,i30,i0,i0,i30,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i0,i30,i0,i0,i30,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i0,i30,i0,i30,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i0,i30,i0,i30,i0,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i0,i30,i0,i30,i0,i30,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i30,i0,i0,i0,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i30,i0,i0,i0,i0,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i30,i0,i0,i0,i0,i30,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i30,i0,i0,i0,i30,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i30,i0,i0,i0,i30,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i30,i0,i0,i30,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i30,i0,i0,i30,i0,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i30,i0,i0,i30,i0,i30,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i30,i0,i30,i0,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i30,i0,i30,i0,i0,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i30,i0,i30,i0,i0,i30,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i30,i0,i30,i0,i30,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i0,i30,i0,i30,i0,i30,i0,i30,i0,i30,i0]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i0,i0,i0,i0,i0,i0,i0,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i0,i0,i0,i0,i0,i0,i30,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i0,i0,i0,i0,i0,i30,i0,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i0,i0,i0,i0,i30,i0,i0,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i0,i0,i0,i0,i30,i0,i30,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i0,i0,i0,i30,i0,i0,i0,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i0,i0,i0,i30,i0,i0,i30,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i0,i0,i0,i30,i0,i30,i0,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i0,i0,i30,i0,i0,i0,i0,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i0,i0,i30,i0,i0,i0,i30,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i0,i0,i30,i0,i0,i30,i0,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i0,i0,i30,i0,i30,i0,i0,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i0,i0,i30,i0,i30,i0,i30,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i0,i30,i0,i0,i0,i0,i0,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i0,i30,i0,i0,i0,i0,i30,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i0,i30,i0,i0,i0,i30,i0,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i0,i30,i0,i0,i30,i0,i0,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i0,i30,i0,i0,i30,i0,i30,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i0,i30,i0,i30,i0,i0,i0,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i0,i30,i0,i30,i0,i0,i30,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i0,i30,i0,i30,i0,i30,i0,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i30,i0,i0,i0,i0,i0,i0,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i30,i0,i0,i0,i0,i0,i30,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i30,i0,i0,i0,i0,i30,i0,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i30,i0,i0,i0,i30,i0,i0,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i30,i0,i0,i0,i30,i0,i30,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i30,i0,i0,i30,i0,i0,i0,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i30,i0,i0,i30,i0,i0,i30,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i30,i0,i0,i30,i0,i30,i0,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i30,i0,i30,i0,i0,i0,i0,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i30,i0,i30,i0,i0,i0,i30,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i30,i0,i30,i0,i0,i30,i0,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i30,i0,i30,i0,i30,i0,i0,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i75,[i30,i0,i30,i0,i30,i0,i30,i0,i30,i0,i30]),true).
-step((true:+cycle(A,B)),cycle(i76,[i60,i78,i60,i78,i60,i78,i60,i78,i60,i78,i60]),true).
-step((true:+cycle(A,B)),cycle(i76,[i78,i60,i78,i60,i78,i60,i78,i60,i78,i60,i78]),true).
-step((true:+cycle(A,B)),cycle(i77,[i24,i24,i24,i24,i24,i24,i24,i24,i24,i24,i24]),true).
-step((true:+cycle(A,B)),cycle(i77,[i69,i96,i69,i96,i69,i96,i69,i96,i69,i96,i69]),true).
-step((true:+cycle(A,B)),cycle(i77,[i72,i72,i72,i72,i72,i72,i72,i72,i72,i72,i72]),true).
-step((true:+cycle(A,B)),cycle(i77,[i96,i69,i96,i69,i96,i69,i96,i69,i96,i69,i96]),true).
-step((true:+cycle(A,B)),cycle(i78,[i6,i6,i6,i6,i6,i6,i6,i6,i6,i6,i6]),true).
-step((true:+cycle(A,B)),cycle(i79,[i39,i3,i69,i9,i39,i3,i69,i9,i69,i9,i39]),true).
-step((true:+cycle(A,B)),cycle(i79,[i39,i3,i69,i9,i69,i9,i39,i3,i69,i9,i39]),true).
-step((true:+cycle(A,B)),cycle(i79,[i39,i3,i69,i9,i69,i9,i69,i9,i69,i9,i39]),true).
-step((true:+cycle(A,B)),cycle(i79,[i39,i81,i3,i69,i9,i39,i81,i3,i69,i9,i39]),true).
-step((true:+cycle(A,B)),cycle(i79,[i3,i69,i9,i39,i3,i69,i9,i69,i9,i39,i3]),true).
-step((true:+cycle(A,B)),cycle(i79,[i3,i69,i9,i39,i81,i3,i69,i9,i39,i81,i3]),true).
-step((true:+cycle(A,B)),cycle(i79,[i3,i69,i9,i69,i9,i39,i3,i69,i9,i39,i3]),true).
-step((true:+cycle(A,B)),cycle(i79,[i3,i69,i9,i69,i9,i69,i9,i69,i9,i39,i3]),true).
-step((true:+cycle(A,B)),cycle(i79,[i69,i9,i39,i3,i69,i9,i39,i3,i69,i9,i69]),true).
-step((true:+cycle(A,B)),cycle(i79,[i69,i9,i39,i3,i69,i9,i69,i9,i39,i3,i69]),true).
-step((true:+cycle(A,B)),cycle(i79,[i69,i9,i39,i3,i69,i9,i69,i9,i69,i9,i69]),true).
-step((true:+cycle(A,B)),cycle(i79,[i69,i9,i39,i81,i3,i69,i9,i39,i81,i3,i69]),true).
-step((true:+cycle(A,B)),cycle(i79,[i69,i9,i69,i9,i39,i3,i69,i9,i39,i3,i69]),true).
-step((true:+cycle(A,B)),cycle(i79,[i69,i9,i69,i9,i39,i3,i69,i9,i69,i9,i69]),true).
-step((true:+cycle(A,B)),cycle(i79,[i69,i9,i69,i9,i69,i9,i39,i3,i69,i9,i69]),true).
-step((true:+cycle(A,B)),cycle(i79,[i69,i9,i69,i9,i69,i9,i69,i9,i39,i3,i69]),true).
-step((true:+cycle(A,B)),cycle(i79,[i69,i9,i69,i9,i69,i9,i69,i9,i69,i9,i69]),true).
-step((true:+cycle(A,B)),cycle(i79,[i81,i3,i69,i9,i39,i81,i3,i69,i9,i39,i81]),true).
-step((true:+cycle(A,B)),cycle(i79,[i9,i39,i3,i69,i9,i39,i3,i69,i9,i69,i9]),true).
-step((true:+cycle(A,B)),cycle(i79,[i9,i39,i3,i69,i9,i69,i9,i39,i3,i69,i9]),true).
-step((true:+cycle(A,B)),cycle(i79,[i9,i39,i3,i69,i9,i69,i9,i69,i9,i69,i9]),true).
-step((true:+cycle(A,B)),cycle(i79,[i9,i39,i81,i3,i69,i9,i39,i81,i3,i69,i9]),true).
-step((true:+cycle(A,B)),cycle(i79,[i9,i69,i9,i39,i3,i69,i9,i39,i3,i69,i9]),true).
-step((true:+cycle(A,B)),cycle(i79,[i9,i69,i9,i39,i3,i69,i9,i69,i9,i69,i9]),true).
-step((true:+cycle(A,B)),cycle(i79,[i9,i69,i9,i69,i9,i39,i3,i69,i9,i69,i9]),true).
-step((true:+cycle(A,B)),cycle(i79,[i9,i69,i9,i69,i9,i69,i9,i39,i3,i69,i9]),true).
-step((true:+cycle(A,B)),cycle(i79,[i9,i69,i9,i69,i9,i69,i9,i69,i9,i69,i9]),true).
-step((true:+cycle(A,B)),cycle(i80,[i12,i45,i12,i45,i12,i45,i12,i45,i12,i45,i12]),true).
-step((true:+cycle(A,B)),cycle(i80,[i15,i42,i15,i42,i15,i42,i15,i42,i15,i42,i15]),true).
-step((true:+cycle(A,B)),cycle(i80,[i15,i42,i15,i42,i15,i60,i42,i15,i60,i42,i15]),true).
-step((true:+cycle(A,B)),cycle(i80,[i15,i42,i15,i60,i42,i15,i42,i15,i60,i42,i15]),true).
-step((true:+cycle(A,B)),cycle(i80,[i15,i42,i15,i60,i42,i15,i60,i42,i15,i42,i15]),true).
-step((true:+cycle(A,B)),cycle(i80,[i15,i60,i42,i15,i42,i15,i42,i15,i60,i42,i15]),true).
-step((true:+cycle(A,B)),cycle(i80,[i15,i60,i42,i15,i42,i15,i60,i42,i15,i42,i15]),true).
-step((true:+cycle(A,B)),cycle(i80,[i15,i60,i42,i15,i60,i42,i15,i42,i15,i42,i15]),true).
-step((true:+cycle(A,B)),cycle(i80,[i42,i15,i42,i15,i42,i15,i42,i15,i42,i15,i42]),true).
-step((true:+cycle(A,B)),cycle(i80,[i42,i15,i42,i15,i42,i15,i60,i42,i15,i60,i42]),true).
-step((true:+cycle(A,B)),cycle(i80,[i42,i15,i42,i15,i60,i42,i15,i42,i15,i60,i42]),true).
-step((true:+cycle(A,B)),cycle(i80,[i42,i15,i42,i15,i60,i42,i15,i60,i42,i15,i42]),true).
-step((true:+cycle(A,B)),cycle(i80,[i42,i15,i60,i42,i15,i42,i15,i42,i15,i60,i42]),true).
-step((true:+cycle(A,B)),cycle(i80,[i42,i15,i60,i42,i15,i42,i15,i60,i42,i15,i42]),true).
-step((true:+cycle(A,B)),cycle(i80,[i42,i15,i60,i42,i15,i60,i42,i15,i42,i15,i42]),true).
-step((true:+cycle(A,B)),cycle(i80,[i45,i12,i45,i12,i45,i12,i45,i12,i45,i12,i45]),true).
-step((true:+cycle(A,B)),cycle(i80,[i54,i81,i54,i81,i54,i81,i54,i81,i54,i81,i54]),true).
-step((true:+cycle(A,B)),cycle(i80,[i60,i42,i15,i42,i15,i42,i15,i60,i42,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i80,[i60,i42,i15,i42,i15,i60,i42,i15,i42,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i80,[i60,i42,i15,i60,i42,i15,i42,i15,i42,i15,i60]),true).
-step((true:+cycle(A,B)),cycle(i80,[i81,i54,i81,i54,i81,i54,i81,i54,i81,i54,i81]),true).
-step((true:+cycle(A,B)),cycle(i80,[i90,i90,i90,i90,i90,i90,i90,i90,i90,i90,i90]),true).
-step((true:+cycle(A,B)),cycle(i81,[i21,i75,i30,i75,i30,i75,i60,i21,i75,i60,i21]),true).
-step((true:+cycle(A,B)),cycle(i81,[i21,i75,i30,i75,i60,i21,i75,i30,i75,i60,i21]),true).
-step((true:+cycle(A,B)),cycle(i81,[i21,i75,i60,i21,i75,i30,i75,i30,i75,i60,i21]),true).
-step((true:+cycle(A,B)),cycle(i81,[i27,i84,i27,i84,i27,i84,i27,i84,i27,i84,i27]),true).
-step((true:+cycle(A,B)),cycle(i81,[i30,i75,i30,i75,i30,i75,i30,i75,i30,i75,i30]),true).
-step((true:+cycle(A,B)),cycle(i81,[i30,i75,i30,i75,i60,i21,i75,i60,i21,i75,i30]),true).
-step((true:+cycle(A,B)),cycle(i81,[i30,i75,i60,i21,i75,i30,i75,i60,i21,i75,i30]),true).
-step((true:+cycle(A,B)),cycle(i81,[i30,i75,i60,i21,i75,i60,i21,i75,i30,i75,i30]),true).
-step((true:+cycle(A,B)),cycle(i81,[i60,i21,i75,i30,i75,i30,i75,i60,i21,i75,i60]),true).
-step((true:+cycle(A,B)),cycle(i81,[i60,i21,i75,i30,i75,i60,i21,i75,i30,i75,i60]),true).
-step((true:+cycle(A,B)),cycle(i81,[i60,i21,i75,i60,i21,i75,i30,i75,i30,i75,i60]),true).
-step((true:+cycle(A,B)),cycle(i81,[i75,i30,i75,i30,i75,i30,i75,i30,i75,i30,i75]),true).
-step((true:+cycle(A,B)),cycle(i81,[i75,i30,i75,i30,i75,i60,i21,i75,i60,i21,i75]),true).
-step((true:+cycle(A,B)),cycle(i81,[i75,i30,i75,i60,i21,i75,i30,i75,i60,i21,i75]),true).
-step((true:+cycle(A,B)),cycle(i81,[i75,i30,i75,i60,i21,i75,i60,i21,i75,i30,i75]),true).
-step((true:+cycle(A,B)),cycle(i81,[i75,i60,i21,i75,i30,i75,i30,i75,i60,i21,i75]),true).
-step((true:+cycle(A,B)),cycle(i81,[i75,i60,i21,i75,i30,i75,i60,i21,i75,i30,i75]),true).
-step((true:+cycle(A,B)),cycle(i81,[i75,i60,i21,i75,i60,i21,i75,i30,i75,i30,i75]),true).
-step((true:+cycle(A,B)),cycle(i81,[i84,i27,i84,i27,i84,i27,i84,i27,i84,i27,i84]),true).
-step((true:+cycle(A,B)),cycle(i82,[i21,i21,i21,i21,i21,i21,i21,i21,i21,i21,i21]),true).
-step((true:+cycle(A,B)),cycle(i82,[i36,i36,i36,i36,i36,i36,i36,i36,i36,i36,i36]),true).
-step((true:+cycle(A,B)),cycle(i83,[i0,i6,i84,i69,i6,i84,i69,i6,i84,i69,i0]),true).
-step((true:+cycle(A,B)),cycle(i83,[i69,i0,i6,i84,i69,i6,i84,i69,i6,i84,i69]),true).
-step((true:+cycle(A,B)),cycle(i83,[i69,i6,i84,i69,i0,i6,i84,i69,i6,i84,i69]),true).
-step((true:+cycle(A,B)),cycle(i83,[i69,i6,i84,i69,i6,i84,i69,i0,i6,i84,i69]),true).
-step((true:+cycle(A,B)),cycle(i83,[i6,i84,i69,i0,i6,i84,i69,i6,i84,i69,i6]),true).
-step((true:+cycle(A,B)),cycle(i83,[i6,i84,i69,i6,i84,i69,i0,i6,i84,i69,i6]),true).
-step((true:+cycle(A,B)),cycle(i83,[i6,i84,i69,i6,i84,i69,i6,i84,i69,i0,i6]),true).
-step((true:+cycle(A,B)),cycle(i83,[i84,i69,i0,i6,i84,i69,i6,i84,i69,i6,i84]),true).
-step((true:+cycle(A,B)),cycle(i83,[i84,i69,i6,i84,i69,i0,i6,i84,i69,i6,i84]),true).
-step((true:+cycle(A,B)),cycle(i83,[i84,i69,i6,i84,i69,i6,i84,i69,i0,i6,i84]),true).
-step((true:+cycle(A,B)),cycle(i84,[i0,i0,i0,i0,i0,i0,i0,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i84,[i21,i87,i33,i93,i51,i30,i21,i87,i51,i30,i21]),true).
-step((true:+cycle(A,B)),cycle(i84,[i21,i87,i51,i30,i21,i87,i33,i93,i51,i30,i21]),true).
-step((true:+cycle(A,B)),cycle(i84,[i30,i21,i87,i33,i93,i51,i30,i21,i87,i51,i30]),true).
-step((true:+cycle(A,B)),cycle(i84,[i30,i21,i87,i51,i30,i21,i87,i33,i93,i51,i30]),true).
-step((true:+cycle(A,B)),cycle(i84,[i33,i93,i51,i30,i21,i87,i51,i30,i21,i87,i33]),true).
-step((true:+cycle(A,B)),cycle(i84,[i51,i30,i21,i87,i33,i93,i51,i30,i21,i87,i51]),true).
-step((true:+cycle(A,B)),cycle(i84,[i51,i30,i21,i87,i51,i30,i21,i87,i33,i93,i51]),true).
-step((true:+cycle(A,B)),cycle(i84,[i87,i33,i93,i51,i30,i21,i87,i51,i30,i21,i87]),true).
-step((true:+cycle(A,B)),cycle(i84,[i87,i51,i30,i21,i87,i33,i93,i51,i30,i21,i87]),true).
-step((true:+cycle(A,B)),cycle(i84,[i93,i51,i30,i21,i87,i51,i30,i21,i87,i33,i93]),true).
-step((true:+cycle(A,B)),cycle(i86,[i0,i0,i0,i0,i0,i0,i0,i0,i0,i0,i0]),true).
-step((true:+cycle(A,B)),cycle(i88,[i3,i3,i3,i3,i3,i3,i3,i3,i3,i3,i3]),true).
-step((true:+cycle(A,B)),cycle(i88,[i54,i54,i54,i54,i54,i54,i54,i54,i54,i54,i54]),true).
-step((true:+cycle(A,B)),cycle(i88,[i57,i57,i57,i57,i57,i57,i57,i57,i57,i57,i57]),true).
-step((true:+cycle(A,B)),cycle(i89,[i48,i48,i48,i48,i48,i48,i48,i48,i48,i48,i48]),true).
-step((true:+cycle(A,B)),cycle(i89,[i9,i9,i9,i9,i9,i9,i9,i9,i9,i9,i9]),true).
-step((true:+cycle(A,B)),cycle(i9,[i30,i9,i54,i30,i9,i54,i30,i9,i84,i54,i30]),true).
-step((true:+cycle(A,B)),cycle(i9,[i30,i9,i54,i30,i9,i84,i54,i30,i9,i54,i30]),true).
-step((true:+cycle(A,B)),cycle(i9,[i30,i9,i84,i54,i30,i9,i54,i30,i9,i54,i30]),true).
-step((true:+cycle(A,B)),cycle(i9,[i54,i30,i9,i54,i30,i9,i54,i30,i9,i84,i54]),true).
-step((true:+cycle(A,B)),cycle(i9,[i54,i30,i9,i54,i30,i9,i84,i54,i30,i9,i54]),true).
-step((true:+cycle(A,B)),cycle(i9,[i54,i30,i9,i84,i54,i30,i9,i54,i30,i9,i54]),true).
-step((true:+cycle(A,B)),cycle(i9,[i84,i54,i30,i9,i54,i30,i9,i54,i30,i9,i84]),true).
-step((true:+cycle(A,B)),cycle(i9,[i9,i54,i30,i9,i54,i30,i9,i84,i54,i30,i9]),true).
-step((true:+cycle(A,B)),cycle(i9,[i9,i54,i30,i9,i84,i54,i30,i9,i54,i30,i9]),true).
-step((true:+cycle(A,B)),cycle(i9,[i9,i84,i54,i30,i9,i54,i30,i9,i54,i30,i9]),true).
-step((true:+cycle(A,B)),cycle(i92,[i45,i84,i45,i84,i45,i84,i45,i84,i45,i84,i45]),true).
-step((true:+cycle(A,B)),cycle(i92,[i84,i45,i84,i45,i84,i45,i84,i45,i84,i45,i84]),true).
-step((true:+cycle(A,B)),cycle(i93,[i33,i48,i33,i48,i33,i48,i33,i48,i33,i48,i33]),true).
-step((true:+cycle(A,B)),cycle(i93,[i48,i33,i48,i33,i48,i33,i48,i33,i48,i33,i48]),true).
-step((true:+cycle(A,B)),cycle(i93,[i54,i69,i54,i69,i54,i69,i54,i69,i54,i69,i54]),true).
-step((true:+cycle(A,B)),cycle(i93,[i69,i54,i69,i54,i69,i54,i69,i54,i69,i54,i69]),true).
-step((true:+cycle(A,B)),cycle(i93,[i84,i84,i84,i84,i84,i84,i84,i84,i84,i84,i84]),true).
-step((true:+cycle(A,B)),cycle(i94,[i15,i15,i15,i15,i15,i15,i15,i15,i15,i15,i15]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i48,i51,i48,i51,i48,i51,i48,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i48,i51,i48,i51,i48,i51,i51,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i48,i51,i48,i51,i51,i48,i51,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i48,i51,i48,i51,i51,i51,i48,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i48,i51,i48,i51,i51,i51,i51,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i48,i51,i51,i48,i51,i48,i51,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i48,i51,i51,i48,i51,i51,i48,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i48,i51,i51,i48,i51,i51,i51,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i48,i51,i51,i51,i48,i51,i48,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i48,i51,i51,i51,i48,i51,i51,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i48,i51,i51,i51,i51,i48,i51,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i48,i51,i51,i51,i51,i51,i48,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i48,i51,i51,i51,i51,i51,i51,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i51,i48,i51,i48,i51,i48,i51,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i51,i48,i51,i48,i51,i51,i48,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i51,i48,i51,i48,i51,i51,i51,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i51,i48,i51,i51,i48,i51,i48,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i51,i48,i51,i51,i48,i51,i51,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i51,i48,i51,i51,i51,i48,i51,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i51,i48,i51,i51,i51,i51,i48,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i51,i48,i51,i51,i51,i51,i51,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i51,i51,i48,i51,i48,i51,i48,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i51,i51,i48,i51,i48,i51,i51,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i51,i51,i48,i51,i51,i48,i51,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i51,i51,i48,i51,i51,i51,i48,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i51,i51,i48,i51,i51,i51,i51,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i51,i51,i51,i48,i51,i48,i51,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i51,i51,i51,i48,i51,i51,i48,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i51,i51,i51,i48,i51,i51,i51,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i51,i51,i51,i51,i48,i51,i48,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i51,i51,i51,i51,i48,i51,i51,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i51,i51,i51,i51,i51,i48,i51,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i51,i51,i51,i51,i51,i51,i48,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i48,i51,i51,i51,i51,i51,i51,i51,i51,i51,i48]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i48,i51,i48,i51,i48,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i48,i51,i48,i51,i48,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i48,i51,i48,i51,i51,i48,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i48,i51,i48,i51,i51,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i48,i51,i48,i51,i51,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i48,i51,i51,i48,i51,i48,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i48,i51,i51,i48,i51,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i48,i51,i51,i48,i51,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i48,i51,i51,i51,i48,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i48,i51,i51,i51,i48,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i48,i51,i51,i51,i51,i48,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i48,i51,i51,i51,i51,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i48,i51,i51,i51,i51,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i51,i48,i51,i48,i51,i48,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i51,i48,i51,i48,i51,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i51,i48,i51,i48,i51,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i51,i48,i51,i51,i48,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i51,i48,i51,i51,i48,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i51,i48,i51,i51,i51,i48,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i51,i48,i51,i51,i51,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i51,i48,i51,i51,i51,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i51,i51,i48,i51,i48,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i51,i51,i48,i51,i48,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i51,i51,i48,i51,i51,i48,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i51,i51,i48,i51,i51,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i51,i51,i48,i51,i51,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i51,i51,i51,i48,i51,i48,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i51,i51,i51,i48,i51,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i51,i51,i51,i48,i51,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i51,i51,i51,i51,i48,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i51,i51,i51,i51,i48,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i51,i51,i51,i51,i51,i48,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i51,i51,i51,i51,i51,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i48,i51,i51,i51,i51,i51,i51,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i48,i51,i48,i51,i48,i51,i48,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i48,i51,i48,i51,i48,i51,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i48,i51,i48,i51,i48,i51,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i48,i51,i48,i51,i51,i48,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i48,i51,i48,i51,i51,i48,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i48,i51,i48,i51,i51,i51,i48,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i48,i51,i48,i51,i51,i51,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i48,i51,i48,i51,i51,i51,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i48,i51,i51,i48,i51,i48,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i48,i51,i51,i48,i51,i48,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i48,i51,i51,i48,i51,i51,i48,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i48,i51,i51,i48,i51,i51,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i48,i51,i51,i48,i51,i51,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i48,i51,i51,i51,i48,i51,i48,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i48,i51,i51,i51,i48,i51,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i48,i51,i51,i51,i48,i51,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i48,i51,i51,i51,i51,i48,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i48,i51,i51,i51,i51,i48,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i48,i51,i51,i51,i51,i51,i48,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i48,i51,i51,i51,i51,i51,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i48,i51,i51,i51,i51,i51,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i48,i51,i48,i51,i48,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i48,i51,i48,i51,i48,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i48,i51,i48,i51,i51,i48,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i48,i51,i48,i51,i51,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i48,i51,i48,i51,i51,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i48,i51,i51,i48,i51,i48,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i48,i51,i51,i48,i51,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i48,i51,i51,i48,i51,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i48,i51,i51,i51,i48,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i48,i51,i51,i51,i48,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i48,i51,i51,i51,i51,i48,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i48,i51,i51,i51,i51,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i48,i51,i51,i51,i51,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i51,i48,i51,i48,i51,i48,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i51,i48,i51,i48,i51,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i51,i48,i51,i48,i51,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i51,i48,i51,i51,i48,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i51,i48,i51,i51,i48,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i51,i48,i51,i51,i51,i48,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i51,i48,i51,i51,i51,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i51,i48,i51,i51,i51,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i51,i51,i48,i51,i48,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i51,i51,i48,i51,i48,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i51,i51,i48,i51,i51,i48,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i51,i51,i48,i51,i51,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i51,i51,i48,i51,i51,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i51,i51,i51,i48,i51,i48,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i51,i51,i51,i48,i51,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i51,i51,i51,i48,i51,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i51,i51,i51,i51,i48,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i51,i51,i51,i51,i48,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i51,i51,i51,i51,i51,i48,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i51,i51,i51,i51,i51,i51,i48,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i51,i51,i51,i51,i51,i51,i51,i51,i51,i51,i51]),true).
-step((true:+cycle(A,B)),cycle(i95,[i96,i96,i96,i96,i96,i96,i96,i96,i96,i96,i96]),true).
-step((true:+cycle(A,B)),cycle(i96,[i27,i27,i27,i27,i27,i27,i27,i27,i27,i27,i27]),true).
-step((true:+cycle(A,B)),cycle(i96,[i33,i69,i75,i48,i33,i69,i75,i75,i75,i48,i33]),true).
-step((true:+cycle(A,B)),cycle(i96,[i33,i69,i75,i75,i48,i33,i69,i75,i75,i48,i33]),true).
-step((true:+cycle(A,B)),cycle(i96,[i33,i69,i75,i75,i75,i48,i33,i69,i75,i48,i33]),true).
-step((true:+cycle(A,B)),cycle(i96,[i33,i69,i75,i75,i75,i75,i75,i75,i75,i48,i33]),true).
-step((true:+cycle(A,B)),cycle(i96,[i48,i33,i69,i75,i48,i33,i69,i75,i75,i75,i48]),true).
-step((true:+cycle(A,B)),cycle(i96,[i48,i33,i69,i75,i75,i48,i33,i69,i75,i75,i48]),true).
-step((true:+cycle(A,B)),cycle(i96,[i48,i33,i69,i75,i75,i75,i48,i33,i69,i75,i48]),true).
-step((true:+cycle(A,B)),cycle(i96,[i48,i33,i69,i75,i75,i75,i75,i75,i75,i75,i48]),true).
-step((true:+cycle(A,B)),cycle(i96,[i69,i75,i48,i33,i69,i75,i75,i75,i48,i33,i69]),true).
-step((true:+cycle(A,B)),cycle(i96,[i69,i75,i75,i48,i33,i69,i75,i75,i48,i33,i69]),true).
-step((true:+cycle(A,B)),cycle(i96,[i69,i75,i75,i75,i48,i33,i69,i75,i48,i33,i69]),true).
-step((true:+cycle(A,B)),cycle(i96,[i69,i75,i75,i75,i75,i75,i75,i75,i48,i33,i69]),true).
-step((true:+cycle(A,B)),cycle(i96,[i75,i48,i33,i69,i75,i48,i33,i69,i75,i75,i75]),true).
-step((true:+cycle(A,B)),cycle(i96,[i75,i48,i33,i69,i75,i75,i48,i33,i69,i75,i75]),true).
-step((true:+cycle(A,B)),cycle(i96,[i75,i48,i33,i69,i75,i75,i75,i48,i33,i69,i75]),true).
-step((true:+cycle(A,B)),cycle(i96,[i75,i48,i33,i69,i75,i75,i75,i75,i75,i75,i75]),true).
-step((true:+cycle(A,B)),cycle(i96,[i75,i75,i48,i33,i69,i75,i48,i33,i69,i75,i75]),true).
-step((true:+cycle(A,B)),cycle(i96,[i75,i75,i48,i33,i69,i75,i75,i48,i33,i69,i75]),true).
-step((true:+cycle(A,B)),cycle(i96,[i75,i75,i48,i33,i69,i75,i75,i75,i75,i75,i75]),true).
-step((true:+cycle(A,B)),cycle(i96,[i75,i75,i75,i48,i33,i69,i75,i48,i33,i69,i75]),true).
-step((true:+cycle(A,B)),cycle(i96,[i75,i75,i75,i48,i33,i69,i75,i75,i75,i75,i75]),true).
-step((true:+cycle(A,B)),cycle(i96,[i75,i75,i75,i75,i48,i33,i69,i75,i75,i75,i75]),true).
-step((true:+cycle(A,B)),cycle(i96,[i75,i75,i75,i75,i75,i48,i33,i69,i75,i75,i75]),true).
-step((true:+cycle(A,B)),cycle(i96,[i75,i75,i75,i75,i75,i75,i48,i33,i69,i75,i75]),true).
-step((true:+cycle(A,B)),cycle(i96,[i75,i75,i75,i75,i75,i75,i75,i48,i33,i69,i75]),true).
-step((true:+cycle(A,B)),cycle(i96,[i75,i75,i75,i75,i75,i75,i75,i75,i75,i75,i75]),true).
-step((true:+cycle(A,B)),cycle(i97,[i18,i69,i18,i69,i18,i69,i18,i69,i18,i69,i18]),true).
-step((true:+cycle(A,B)),cycle(i97,[i27,i27,i27,i27,i27,i27,i27,i27,i27,i27,i27]),true).
-step((true:+cycle(A,B)),cycle(i97,[i60,i60,i60,i60,i60,i60,i60,i60,i60,i60,i60]),true).
-step((true:+cycle(A,B)),cycle(i97,[i69,i18,i69,i18,i69,i18,i69,i18,i69,i18,i69]),true).
-step((true:+cycle(A,B)),cycle(i97,[i75,i84,i75,i84,i75,i84,i75,i84,i75,i84,i75]),true).
-step((true:+cycle(A,B)),cycle(i97,[i84,i75,i84,i75,i84,i75,i84,i75,i84,i75,i84]),true).
-step((true:+cycle(A,B)),cycle(i98,[i12,i12,i12,i12,i12,i12,i12,i12,i12,i12,i12]),true).
-step((true:+cycle(A,B)),cycle(i98,[i15,i15,i15,i15,i15,i15,i15,i15,i15,i15,i15]),true).
+step((true:+cycle(_, _)), cycle(i_94, [i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_64, [i_3, i_9, i_3, i_9, i_3, i_9, i_3, i_9, i_3, i_9, i_3]), true).
+step((true:+cycle(_, _)), cycle(i_64, [i_42, i_42, i_42, i_42, i_42, i_42, i_42, i_42, i_42, i_42, i_42]), true).
+step((true:+cycle(_, _)), cycle(i_64, [i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54]), true).
+step((true:+cycle(_, _)), cycle(i_64, [i_9, i_3, i_9, i_3, i_9, i_3, i_9, i_3, i_9, i_3, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_34, [i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_34, [i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18]), true).
+step((true:+cycle(_, _)), cycle(i_34, [i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_34, [i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_34, [i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_34, [i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_48, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_95, [i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_35, [i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_63, [i_72, i_72, i_72, i_72, i_72, i_72, i_72, i_72, i_72, i_72, i_72]), true).
+step((true:+cycle(_, _)), cycle(i_63, [i_93, i_93, i_93, i_93, i_93, i_93, i_93, i_93, i_93, i_93, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_66, [i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_24, i_84, i_51, i_36, i_24, i_84, i_51, i_36, i_93, i_36, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_24, i_84, i_51, i_36, i_72, i_24, i_84, i_51, i_36, i_72, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_24, i_84, i_51, i_36, i_93, i_36, i_24, i_84, i_51, i_36, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_24, i_84, i_51, i_36, i_93, i_36, i_93, i_36, i_93, i_36, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_36, i_24, i_84, i_51, i_36, i_24, i_84, i_51, i_36, i_93, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_36, i_24, i_84, i_51, i_36, i_93, i_36, i_24, i_84, i_51, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_36, i_24, i_84, i_51, i_36, i_93, i_36, i_93, i_36, i_93, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_36, i_72, i_24, i_84, i_51, i_36, i_72, i_24, i_84, i_51, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_36, i_93, i_36, i_24, i_84, i_51, i_36, i_24, i_84, i_51, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_36, i_93, i_36, i_24, i_84, i_51, i_36, i_93, i_36, i_93, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_36, i_93, i_36, i_93, i_36, i_24, i_84, i_51, i_36, i_93, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_36, i_93, i_36, i_93, i_36, i_93, i_36, i_24, i_84, i_51, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_36, i_93, i_36, i_93, i_36, i_93, i_36, i_93, i_36, i_93, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_51, i_36, i_24, i_84, i_51, i_36, i_93, i_36, i_24, i_84, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_51, i_36, i_72, i_24, i_84, i_51, i_36, i_72, i_24, i_84, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_51, i_36, i_93, i_36, i_24, i_84, i_51, i_36, i_24, i_84, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_51, i_36, i_93, i_36, i_93, i_36, i_93, i_36, i_24, i_84, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_72, i_24, i_84, i_51, i_36, i_72, i_24, i_84, i_51, i_36, i_72]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_84, i_51, i_36, i_24, i_84, i_51, i_36, i_93, i_36, i_24, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_84, i_51, i_36, i_72, i_24, i_84, i_51, i_36, i_72, i_24, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_84, i_51, i_36, i_93, i_36, i_24, i_84, i_51, i_36, i_24, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_84, i_51, i_36, i_93, i_36, i_93, i_36, i_93, i_36, i_24, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_93, i_36, i_24, i_84, i_51, i_36, i_24, i_84, i_51, i_36, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_93, i_36, i_24, i_84, i_51, i_36, i_93, i_36, i_93, i_36, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_93, i_36, i_93, i_36, i_24, i_84, i_51, i_36, i_93, i_36, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_93, i_36, i_93, i_36, i_93, i_36, i_24, i_84, i_51, i_36, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_36, [i_93, i_36, i_93, i_36, i_93, i_36, i_93, i_36, i_93, i_36, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_92, [i_45, i_84, i_45, i_84, i_45, i_84, i_45, i_84, i_45, i_84, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_92, [i_84, i_45, i_84, i_45, i_84, i_45, i_84, i_45, i_84, i_45, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_37, [i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_18, i_57, i_72, i_9, i_96, i_18, i_57, i_72, i_9, i_96, i_18]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_18, i_57, i_72, i_9, i_96, i_18, i_57, i_78, i_9, i_96, i_18]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_18, i_57, i_78, i_78, i_78, i_78, i_78, i_78, i_9, i_96, i_18]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_18, i_57, i_78, i_78, i_9, i_3, i_84, i_45, i_9, i_96, i_18]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_18, i_57, i_78, i_9, i_96, i_18, i_57, i_72, i_9, i_96, i_18]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_18, i_57, i_78, i_9, i_96, i_18, i_57, i_78, i_9, i_96, i_18]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_3, i_84, i_45, i_9, i_96, i_18, i_57, i_78, i_78, i_9, i_3]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_45, i_9, i_96, i_18, i_57, i_78, i_78, i_9, i_3, i_84, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_57, i_72, i_9, i_96, i_18, i_57, i_72, i_9, i_96, i_18, i_57]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_57, i_72, i_9, i_96, i_18, i_57, i_78, i_9, i_96, i_18, i_57]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_57, i_78, i_78, i_78, i_78, i_78, i_78, i_9, i_96, i_18, i_57]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_57, i_78, i_78, i_9, i_3, i_84, i_45, i_9, i_96, i_18, i_57]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_57, i_78, i_9, i_96, i_18, i_57, i_72, i_9, i_96, i_18, i_57]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_57, i_78, i_9, i_96, i_18, i_57, i_78, i_9, i_96, i_18, i_57]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_72, i_9, i_96, i_18, i_57, i_72, i_9, i_96, i_18, i_57, i_72]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_72, i_9, i_96, i_18, i_57, i_78, i_9, i_96, i_18, i_57, i_72]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_78, i_78, i_78, i_78, i_78, i_78, i_78, i_78, i_78, i_78, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_78, i_78, i_78, i_78, i_78, i_78, i_9, i_96, i_18, i_57, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_78, i_78, i_78, i_78, i_78, i_9, i_96, i_18, i_57, i_78, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_78, i_78, i_78, i_78, i_9, i_96, i_18, i_57, i_78, i_78, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_78, i_78, i_78, i_9, i_96, i_18, i_57, i_78, i_78, i_78, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_78, i_78, i_9, i_3, i_84, i_45, i_9, i_96, i_18, i_57, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_78, i_78, i_9, i_96, i_18, i_57, i_78, i_78, i_78, i_78, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_78, i_9, i_3, i_84, i_45, i_9, i_96, i_18, i_57, i_78, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_78, i_9, i_96, i_18, i_57, i_72, i_9, i_96, i_18, i_57, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_78, i_9, i_96, i_18, i_57, i_78, i_78, i_78, i_78, i_78, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_78, i_9, i_96, i_18, i_57, i_78, i_9, i_96, i_18, i_57, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_84, i_45, i_9, i_96, i_18, i_57, i_78, i_78, i_9, i_3, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_96, i_18, i_57, i_72, i_9, i_96, i_18, i_57, i_72, i_9, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_96, i_18, i_57, i_72, i_9, i_96, i_18, i_57, i_78, i_9, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_96, i_18, i_57, i_78, i_78, i_78, i_78, i_78, i_78, i_9, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_96, i_18, i_57, i_78, i_78, i_9, i_3, i_84, i_45, i_9, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_96, i_18, i_57, i_78, i_9, i_96, i_18, i_57, i_72, i_9, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_96, i_18, i_57, i_78, i_9, i_96, i_18, i_57, i_78, i_9, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_9, i_3, i_84, i_45, i_9, i_96, i_18, i_57, i_78, i_78, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_9, i_96, i_18, i_57, i_72, i_9, i_96, i_18, i_57, i_72, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_9, i_96, i_18, i_57, i_72, i_9, i_96, i_18, i_57, i_78, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_9, i_96, i_18, i_57, i_78, i_78, i_78, i_78, i_78, i_78, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_9, i_96, i_18, i_57, i_78, i_78, i_9, i_3, i_84, i_45, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_9, i_96, i_18, i_57, i_78, i_9, i_96, i_18, i_57, i_72, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_65, [i_9, i_96, i_18, i_57, i_78, i_9, i_96, i_18, i_57, i_78, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_93, [i_33, i_48, i_33, i_48, i_33, i_48, i_33, i_48, i_33, i_48, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_93, [i_48, i_33, i_48, i_33, i_48, i_33, i_48, i_33, i_48, i_33, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_93, [i_54, i_69, i_54, i_69, i_54, i_69, i_54, i_69, i_54, i_69, i_54]), true).
+step((true:+cycle(_, _)), cycle(i_93, [i_69, i_54, i_69, i_54, i_69, i_54, i_69, i_54, i_69, i_54, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_93, [i_84, i_84, i_84, i_84, i_84, i_84, i_84, i_84, i_84, i_84, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_60, [i_12, i_63, i_93, i_27, i_39, i_48, i_42, i_45, i_99, i_33, i_12]), true).
+step((true:+cycle(_, _)), cycle(i_60, [i_27, i_39, i_48, i_42, i_45, i_99, i_33, i_12, i_63, i_93, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_60, [i_33, i_12, i_63, i_93, i_27, i_39, i_48, i_42, i_45, i_99, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_60, [i_39, i_48, i_42, i_45, i_99, i_33, i_12, i_63, i_93, i_27, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_60, [i_42, i_45, i_99, i_33, i_12, i_63, i_93, i_27, i_39, i_48, i_42]), true).
+step((true:+cycle(_, _)), cycle(i_60, [i_45, i_99, i_33, i_12, i_63, i_93, i_27, i_39, i_48, i_42, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_60, [i_48, i_42, i_45, i_99, i_33, i_12, i_63, i_93, i_27, i_39, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_60, [i_63, i_93, i_27, i_39, i_48, i_42, i_45, i_99, i_33, i_12, i_63]), true).
+step((true:+cycle(_, _)), cycle(i_60, [i_93, i_27, i_39, i_48, i_42, i_45, i_99, i_33, i_12, i_63, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_60, [i_99, i_33, i_12, i_63, i_93, i_27, i_39, i_48, i_42, i_45, i_99]), true).
+step((true:+cycle(_, _)), cycle(i_31, [i_15, i_3, i_15, i_3, i_15, i_3, i_15, i_3, i_15, i_3, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_31, [i_3, i_15, i_3, i_15, i_3, i_15, i_3, i_15, i_3, i_15, i_3]), true).
+step((true:+cycle(_, _)), cycle(i_31, [i_66, i_66, i_66, i_66, i_66, i_66, i_66, i_66, i_66, i_66, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_0, i_63, i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_48, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_0, i_63, i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_48, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_0, i_63, i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_48, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_0, i_63, i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_48, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_0, i_63, i_9, i_0, i_63, i_9, i_93, i_9, i_93, i_9, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_0, i_63, i_9, i_0, i_81, i_15, i_60, i_15, i_60, i_48, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_0, i_63, i_9, i_0, i_81, i_15, i_81, i_15, i_60, i_48, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_0, i_63, i_9, i_93, i_81, i_15, i_60, i_15, i_60, i_48, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_0, i_63, i_9, i_93, i_81, i_15, i_81, i_15, i_60, i_48, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_0, i_63, i_9, i_93, i_9, i_0, i_63, i_9, i_93, i_9, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_0, i_63, i_9, i_93, i_9, i_0, i_81, i_15, i_60, i_48, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_0, i_63, i_9, i_93, i_9, i_93, i_81, i_15, i_60, i_48, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_0, i_63, i_9, i_93, i_9, i_93, i_9, i_0, i_63, i_9, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_0, i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_9, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_0, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_9, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_0, i_81, i_15, i_60, i_48, i_0, i_81, i_15, i_60, i_48, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_0, i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_60, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_60, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_60, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_60, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_60, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_9, i_0, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_60, i_15, i_60, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_60, i_15, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_81, i_15, i_60, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_81, i_15, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_48, i_0, i_63, i_9, i_0, i_81, i_15, i_60, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_48, i_0, i_63, i_9, i_0, i_81, i_15, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_81, i_15, i_60, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_81, i_15, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_9, i_0, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_9, i_93, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_60, i_48, i_0, i_81, i_15, i_60, i_48, i_0, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_60, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_60, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_60, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_60, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_60, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_0, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_48, i_0, i_63, i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_48, i_0, i_63, i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_48, i_0, i_63, i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_48, i_0, i_63, i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_48, i_0, i_63, i_9, i_0, i_81, i_15, i_60, i_15, i_60, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_48, i_0, i_63, i_9, i_0, i_81, i_15, i_81, i_15, i_60, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_48, i_0, i_63, i_9, i_93, i_81, i_15, i_60, i_15, i_60, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_48, i_0, i_63, i_9, i_93, i_81, i_15, i_81, i_15, i_60, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_48, i_0, i_63, i_9, i_93, i_9, i_0, i_81, i_15, i_60, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_48, i_0, i_63, i_9, i_93, i_9, i_93, i_81, i_15, i_60, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_48, i_0, i_81, i_15, i_60, i_48, i_0, i_81, i_15, i_60, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_60, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_81, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_15, i_60, i_48, i_0, i_63, i_9, i_0, i_81, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_81, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_48, i_0, i_63, i_81, i_15, i_60, i_15, i_60, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_48, i_0, i_63, i_81, i_15, i_60, i_15, i_81, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_48, i_0, i_63, i_81, i_15, i_81, i_15, i_60, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_48, i_0, i_63, i_81, i_15, i_81, i_15, i_81, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_48, i_0, i_63, i_9, i_0, i_81, i_15, i_60, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_48, i_0, i_63, i_9, i_0, i_81, i_15, i_81, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_48, i_0, i_63, i_9, i_93, i_81, i_15, i_60, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_48, i_0, i_63, i_9, i_93, i_81, i_15, i_81, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_48, i_0, i_63, i_9, i_93, i_9, i_0, i_81, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_48, i_0, i_63, i_9, i_93, i_9, i_93, i_81, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_60, i_48, i_0, i_81, i_15, i_60, i_48, i_0, i_81, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_63, i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_48, i_0, i_63]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_63, i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_48, i_0, i_63]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_63, i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_63, i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_63, i_9, i_0, i_63, i_9, i_93, i_9, i_93, i_9, i_0, i_63]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_63, i_9, i_0, i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_63, i_9, i_0, i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_63, i_9, i_93, i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_63, i_9, i_93, i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_63, i_9, i_93, i_9, i_0, i_63, i_9, i_93, i_9, i_0, i_63]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_63, i_9, i_93, i_9, i_0, i_81, i_15, i_60, i_48, i_0, i_63]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_63, i_9, i_93, i_9, i_93, i_81, i_15, i_60, i_48, i_0, i_63]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_63, i_9, i_93, i_9, i_93, i_9, i_0, i_63, i_9, i_0, i_63]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_9, i_0, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_60, i_15, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_81, i_15, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_0, i_81, i_15, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_81, i_15, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_9, i_0, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_9, i_93, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_60, i_48, i_0, i_81, i_15, i_60, i_48, i_0, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_60, i_15, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_81, i_15, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_60, i_15, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_81, i_15, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_81, i_15, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_0, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_60, i_15, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_81, i_15, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_60, i_15, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_81, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_81, i_15, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_93, i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_9, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_93, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_9, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_93, i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_93, i_9, i_0, i_63, i_9, i_0, i_63, i_9, i_93, i_9, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_93, i_9, i_0, i_63, i_9, i_93, i_9, i_0, i_63, i_9, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_93, i_9, i_0, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_93, i_9, i_93, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_93, i_9, i_93, i_9, i_0, i_63, i_9, i_0, i_63, i_9, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_93, i_9, i_93, i_9, i_93, i_9, i_93, i_9, i_93, i_9, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_9, i_0, i_63, i_9, i_0, i_63, i_9, i_93, i_9, i_93, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_9, i_0, i_63, i_9, i_93, i_9, i_0, i_63, i_9, i_93, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_9, i_0, i_63, i_9, i_93, i_9, i_93, i_9, i_0, i_63, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_9, i_0, i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_9, i_0, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_9, i_0, i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_9, i_93, i_81, i_15, i_60, i_15, i_60, i_48, i_0, i_63, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_9, i_93, i_81, i_15, i_60, i_48, i_0, i_63, i_9, i_93, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_9, i_93, i_81, i_15, i_81, i_15, i_60, i_48, i_0, i_63, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_9, i_93, i_9, i_0, i_63, i_9, i_0, i_63, i_9, i_93, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_9, i_93, i_9, i_0, i_63, i_9, i_93, i_9, i_0, i_63, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_9, i_93, i_9, i_0, i_81, i_15, i_60, i_48, i_0, i_63, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_9, i_93, i_9, i_93, i_81, i_15, i_60, i_48, i_0, i_63, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_9, i_93, i_9, i_93, i_9, i_0, i_63, i_9, i_0, i_63, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_5, [i_9, i_93, i_9, i_93, i_9, i_93, i_9, i_93, i_9, i_93, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_63, i_63, i_63, i_63, i_63, i_63, i_63, i_63, i_63, i_63, i_63]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_24, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_62, [i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_32, [i_0, i_33, i_15, i_60, i_63, i_0, i_33, i_15, i_60, i_63, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_32, [i_15, i_60, i_63, i_0, i_33, i_15, i_60, i_63, i_0, i_33, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_32, [i_33, i_15, i_60, i_63, i_0, i_33, i_15, i_60, i_63, i_0, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_32, [i_60, i_63, i_0, i_33, i_15, i_60, i_63, i_0, i_33, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_32, [i_63, i_0, i_33, i_15, i_60, i_63, i_0, i_33, i_15, i_60, i_63]), true).
+step((true:+cycle(_, _)), cycle(i_32, [i_6, i_90, i_6, i_90, i_6, i_90, i_6, i_90, i_6, i_90, i_6]), true).
+step((true:+cycle(_, _)), cycle(i_32, [i_90, i_6, i_90, i_6, i_90, i_6, i_90, i_6, i_90, i_6, i_90]), true).
+step((true:+cycle(_, _)), cycle(i_89, [i_48, i_48, i_48, i_48, i_48, i_48, i_48, i_48, i_48, i_48, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_89, [i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_33, [i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_11, [i_15, i_30, i_78, i_45, i_51, i_15, i_30, i_78, i_45, i_51, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_11, [i_30, i_78, i_45, i_51, i_15, i_30, i_78, i_45, i_51, i_15, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_11, [i_39, i_39, i_39, i_39, i_39, i_39, i_39, i_39, i_39, i_39, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_11, [i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3]), true).
+step((true:+cycle(_, _)), cycle(i_11, [i_45, i_51, i_15, i_30, i_78, i_45, i_51, i_15, i_30, i_78, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_11, [i_51, i_15, i_30, i_78, i_45, i_51, i_15, i_30, i_78, i_45, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_11, [i_78, i_45, i_51, i_15, i_30, i_78, i_45, i_51, i_15, i_30, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_71, [i_0, i_21, i_0, i_21, i_0, i_21, i_0, i_21, i_0, i_21, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_71, [i_0, i_21, i_0, i_21, i_0, i_45, i_21, i_0, i_45, i_21, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_71, [i_0, i_21, i_0, i_45, i_21, i_0, i_21, i_0, i_45, i_21, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_71, [i_0, i_21, i_0, i_45, i_21, i_0, i_45, i_21, i_0, i_21, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_71, [i_0, i_45, i_21, i_0, i_21, i_0, i_21, i_0, i_45, i_21, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_71, [i_0, i_45, i_21, i_0, i_21, i_0, i_45, i_21, i_0, i_21, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_71, [i_0, i_45, i_21, i_0, i_45, i_21, i_0, i_21, i_0, i_21, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_71, [i_21, i_0, i_21, i_0, i_21, i_0, i_21, i_0, i_21, i_0, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_71, [i_21, i_0, i_21, i_0, i_21, i_0, i_45, i_21, i_0, i_45, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_71, [i_21, i_0, i_21, i_0, i_45, i_21, i_0, i_21, i_0, i_45, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_71, [i_21, i_0, i_21, i_0, i_45, i_21, i_0, i_45, i_21, i_0, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_71, [i_21, i_0, i_45, i_21, i_0, i_21, i_0, i_21, i_0, i_45, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_71, [i_21, i_0, i_45, i_21, i_0, i_21, i_0, i_45, i_21, i_0, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_71, [i_21, i_0, i_45, i_21, i_0, i_45, i_21, i_0, i_21, i_0, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_71, [i_45, i_21, i_0, i_21, i_0, i_21, i_0, i_45, i_21, i_0, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_71, [i_45, i_21, i_0, i_21, i_0, i_45, i_21, i_0, i_21, i_0, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_71, [i_45, i_21, i_0, i_45, i_21, i_0, i_21, i_0, i_21, i_0, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_42, [i_72, i_75, i_72, i_75, i_72, i_75, i_72, i_75, i_72, i_75, i_72]), true).
+step((true:+cycle(_, _)), cycle(i_42, [i_75, i_72, i_75, i_72, i_75, i_72, i_75, i_72, i_75, i_72, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_42, [i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_42, [i_87, i_87, i_87, i_87, i_87, i_87, i_87, i_87, i_87, i_87, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_42, [i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_0, i_18, i_0, i_18, i_0, i_18, i_0, i_18, i_0, i_18, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_18, i_0, i_18, i_0, i_18, i_0, i_18, i_0, i_18, i_0, i_18]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_39, i_48, i_69, i_84, i_75, i_69, i_84, i_75, i_69, i_90, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_39, i_48, i_69, i_84, i_75, i_69, i_84, i_87, i_69, i_90, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_39, i_48, i_69, i_84, i_87, i_69, i_84, i_75, i_69, i_90, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_39, i_48, i_69, i_84, i_87, i_69, i_84, i_87, i_69, i_90, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_48, i_69, i_84, i_75, i_69, i_84, i_75, i_69, i_90, i_39, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_48, i_69, i_84, i_75, i_69, i_84, i_87, i_69, i_90, i_39, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_48, i_69, i_84, i_87, i_69, i_84, i_75, i_69, i_90, i_39, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_48, i_69, i_84, i_87, i_69, i_84, i_87, i_69, i_90, i_39, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_69, i_84, i_75, i_69, i_84, i_75, i_69, i_90, i_39, i_48, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_69, i_84, i_75, i_69, i_84, i_87, i_69, i_90, i_39, i_48, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_69, i_84, i_75, i_69, i_90, i_39, i_48, i_69, i_84, i_75, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_69, i_84, i_75, i_69, i_90, i_39, i_48, i_69, i_84, i_87, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_69, i_84, i_87, i_69, i_84, i_75, i_69, i_90, i_39, i_48, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_69, i_84, i_87, i_69, i_84, i_87, i_69, i_90, i_39, i_48, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_69, i_84, i_87, i_69, i_90, i_39, i_48, i_69, i_84, i_75, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_69, i_84, i_87, i_69, i_90, i_39, i_48, i_69, i_84, i_87, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_69, i_90, i_39, i_48, i_69, i_84, i_75, i_69, i_84, i_75, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_69, i_90, i_39, i_48, i_69, i_84, i_75, i_69, i_84, i_87, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_69, i_90, i_39, i_48, i_69, i_84, i_87, i_69, i_84, i_75, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_69, i_90, i_39, i_48, i_69, i_84, i_87, i_69, i_84, i_87, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_75, i_69, i_84, i_75, i_69, i_90, i_39, i_48, i_69, i_84, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_75, i_69, i_84, i_87, i_69, i_90, i_39, i_48, i_69, i_84, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_75, i_69, i_90, i_39, i_48, i_69, i_84, i_75, i_69, i_84, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_75, i_69, i_90, i_39, i_48, i_69, i_84, i_87, i_69, i_84, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_84, i_75, i_69, i_84, i_75, i_69, i_90, i_39, i_48, i_69, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_84, i_75, i_69, i_84, i_87, i_69, i_90, i_39, i_48, i_69, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_84, i_75, i_69, i_90, i_39, i_48, i_69, i_84, i_75, i_69, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_84, i_75, i_69, i_90, i_39, i_48, i_69, i_84, i_87, i_69, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_84, i_87, i_69, i_84, i_75, i_69, i_90, i_39, i_48, i_69, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_84, i_87, i_69, i_84, i_87, i_69, i_90, i_39, i_48, i_69, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_84, i_87, i_69, i_90, i_39, i_48, i_69, i_84, i_75, i_69, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_84, i_87, i_69, i_90, i_39, i_48, i_69, i_84, i_87, i_69, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_87, i_69, i_84, i_75, i_69, i_90, i_39, i_48, i_69, i_84, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_87, i_69, i_84, i_87, i_69, i_90, i_39, i_48, i_69, i_84, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_87, i_69, i_90, i_39, i_48, i_69, i_84, i_75, i_69, i_84, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_87, i_69, i_90, i_39, i_48, i_69, i_84, i_87, i_69, i_84, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_90, i_39, i_48, i_69, i_84, i_75, i_69, i_84, i_75, i_69, i_90]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_90, i_39, i_48, i_69, i_84, i_75, i_69, i_84, i_87, i_69, i_90]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_90, i_39, i_48, i_69, i_84, i_87, i_69, i_84, i_75, i_69, i_90]), true).
+step((true:+cycle(_, _)), cycle(i_70, [i_90, i_39, i_48, i_69, i_84, i_87, i_69, i_84, i_87, i_69, i_90]), true).
+step((true:+cycle(_, _)), cycle(i_10, [i_15, i_78, i_60, i_33, i_87, i_15, i_78, i_60, i_33, i_87, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_10, [i_33, i_87, i_15, i_78, i_60, i_33, i_87, i_15, i_78, i_60, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_10, [i_60, i_33, i_87, i_15, i_78, i_60, i_33, i_87, i_15, i_78, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_10, [i_78, i_60, i_33, i_87, i_15, i_78, i_60, i_33, i_87, i_15, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_10, [i_87, i_15, i_78, i_60, i_33, i_87, i_15, i_78, i_60, i_33, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_43, [i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18]), true).
+step((true:+cycle(_, _)), cycle(i_43, [i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_0, [i_12, i_66, i_9, i_12, i_66, i_9, i_12, i_9, i_12, i_9, i_12]), true).
+step((true:+cycle(_, _)), cycle(i_0, [i_12, i_66, i_9, i_12, i_9, i_12, i_66, i_9, i_12, i_9, i_12]), true).
+step((true:+cycle(_, _)), cycle(i_0, [i_12, i_66, i_9, i_12, i_9, i_12, i_9, i_12, i_66, i_9, i_12]), true).
+step((true:+cycle(_, _)), cycle(i_0, [i_12, i_9, i_12, i_66, i_9, i_12, i_66, i_9, i_12, i_9, i_12]), true).
+step((true:+cycle(_, _)), cycle(i_0, [i_12, i_9, i_12, i_66, i_9, i_12, i_9, i_12, i_66, i_9, i_12]), true).
+step((true:+cycle(_, _)), cycle(i_0, [i_12, i_9, i_12, i_9, i_12, i_66, i_9, i_12, i_66, i_9, i_12]), true).
+step((true:+cycle(_, _)), cycle(i_0, [i_12, i_9, i_12, i_9, i_12, i_9, i_12, i_9, i_12, i_9, i_12]), true).
+step((true:+cycle(_, _)), cycle(i_0, [i_66, i_9, i_12, i_66, i_9, i_12, i_9, i_12, i_9, i_12, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_0, [i_66, i_9, i_12, i_9, i_12, i_66, i_9, i_12, i_9, i_12, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_0, [i_66, i_9, i_12, i_9, i_12, i_9, i_12, i_66, i_9, i_12, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_0, [i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6]), true).
+step((true:+cycle(_, _)), cycle(i_0, [i_75, i_84, i_75, i_84, i_75, i_84, i_75, i_84, i_75, i_84, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_0, [i_84, i_75, i_84, i_75, i_84, i_75, i_84, i_75, i_84, i_75, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_0, [i_9, i_12, i_66, i_9, i_12, i_66, i_9, i_12, i_9, i_12, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_0, [i_9, i_12, i_66, i_9, i_12, i_9, i_12, i_66, i_9, i_12, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_0, [i_9, i_12, i_66, i_9, i_12, i_9, i_12, i_9, i_12, i_66, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_0, [i_9, i_12, i_9, i_12, i_66, i_9, i_12, i_66, i_9, i_12, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_0, [i_9, i_12, i_9, i_12, i_66, i_9, i_12, i_9, i_12, i_66, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_0, [i_9, i_12, i_9, i_12, i_9, i_12, i_66, i_9, i_12, i_66, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_0, [i_9, i_12, i_9, i_12, i_9, i_12, i_9, i_12, i_9, i_12, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_44, [i_27, i_54, i_51, i_63, i_48, i_27, i_54, i_51, i_63, i_48, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_44, [i_48, i_27, i_54, i_51, i_63, i_48, i_27, i_54, i_51, i_63, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_44, [i_51, i_63, i_48, i_27, i_54, i_51, i_63, i_48, i_27, i_54, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_44, [i_54, i_51, i_63, i_48, i_27, i_54, i_51, i_63, i_48, i_27, i_54]), true).
+step((true:+cycle(_, _)), cycle(i_44, [i_63, i_48, i_27, i_54, i_51, i_63, i_48, i_27, i_54, i_51, i_63]), true).
+step((true:+cycle(_, _)), cycle(i_72, [i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_36, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_15, [i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_98, [i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12]), true).
+step((true:+cycle(_, _)), cycle(i_98, [i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_9, [i_30, i_9, i_54, i_30, i_9, i_54, i_30, i_9, i_84, i_54, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_9, [i_30, i_9, i_54, i_30, i_9, i_84, i_54, i_30, i_9, i_54, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_9, [i_30, i_9, i_84, i_54, i_30, i_9, i_54, i_30, i_9, i_54, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_9, [i_54, i_30, i_9, i_54, i_30, i_9, i_54, i_30, i_9, i_84, i_54]), true).
+step((true:+cycle(_, _)), cycle(i_9, [i_54, i_30, i_9, i_54, i_30, i_9, i_84, i_54, i_30, i_9, i_54]), true).
+step((true:+cycle(_, _)), cycle(i_9, [i_54, i_30, i_9, i_84, i_54, i_30, i_9, i_54, i_30, i_9, i_54]), true).
+step((true:+cycle(_, _)), cycle(i_9, [i_84, i_54, i_30, i_9, i_54, i_30, i_9, i_54, i_30, i_9, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_9, [i_9, i_54, i_30, i_9, i_54, i_30, i_9, i_84, i_54, i_30, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_9, [i_9, i_54, i_30, i_9, i_84, i_54, i_30, i_9, i_54, i_30, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_9, [i_9, i_84, i_54, i_30, i_9, i_54, i_30, i_9, i_54, i_30, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_39, [i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90]), true).
+step((true:+cycle(_, _)), cycle(i_39, [i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_54, i_9, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_15, i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_54, i_9, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_54, i_9, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_15, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_54, i_9, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_54, i_9, i_15, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_15, i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_15, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_15, i_15, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_54, i_9, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_54, i_9, i_15, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_15, i_54, i_9, i_15, i_15, i_54, i_9, i_15, i_15, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_15, i_15, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_54, i_9, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_15, i_54, i_9, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_54, i_9, i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_54, i_9, i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_54, i_9, i_15, i_15, i_54, i_9, i_15, i_54, i_9, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_15, i_54, i_9, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_54, i_9, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_54]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_54, i_9, i_15, i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_54]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_54, i_9, i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_54]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_54, i_9, i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_54]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_54, i_9, i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_54]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_54, i_9, i_15, i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_54]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_54, i_9, i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_15, i_54]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_54, i_9, i_15, i_54, i_9, i_15, i_15, i_54, i_9, i_15, i_54]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_54, i_9, i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_15, i_54]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_9, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_54, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_9, i_15, i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_54, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_9, i_15, i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_54, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_9, i_15, i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_54, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_9, i_15, i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_54, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_9, i_15, i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_54, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_9, i_15, i_54, i_9, i_15, i_15, i_15, i_15, i_15, i_54, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_9, i_15, i_54, i_9, i_15, i_15, i_54, i_9, i_15, i_54, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_67, [i_9, i_15, i_54, i_9, i_15, i_54, i_9, i_15, i_15, i_54, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_13, [i_12, i_60, i_12, i_60, i_12, i_60, i_12, i_60, i_12, i_60, i_12]), true).
+step((true:+cycle(_, _)), cycle(i_13, [i_45, i_48, i_78, i_81, i_87, i_45, i_48, i_78, i_81, i_87, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_13, [i_48, i_78, i_81, i_87, i_45, i_48, i_78, i_81, i_87, i_45, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_13, [i_60, i_12, i_60, i_12, i_60, i_12, i_60, i_12, i_60, i_12, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_13, [i_78, i_81, i_87, i_45, i_48, i_78, i_81, i_87, i_45, i_48, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_13, [i_81, i_87, i_45, i_48, i_78, i_81, i_87, i_45, i_48, i_78, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_13, [i_87, i_45, i_48, i_78, i_81, i_87, i_45, i_48, i_78, i_81, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_3, [i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_6, [i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3]), true).
+step((true:+cycle(_, _)), cycle(i_6, [i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_33, i_69, i_75, i_48, i_33, i_69, i_75, i_75, i_75, i_48, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_33, i_69, i_75, i_75, i_48, i_33, i_69, i_75, i_75, i_48, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_33, i_69, i_75, i_75, i_75, i_48, i_33, i_69, i_75, i_48, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_33, i_69, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_48, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_48, i_33, i_69, i_75, i_48, i_33, i_69, i_75, i_75, i_75, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_48, i_33, i_69, i_75, i_75, i_48, i_33, i_69, i_75, i_75, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_48, i_33, i_69, i_75, i_75, i_75, i_48, i_33, i_69, i_75, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_48, i_33, i_69, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_69, i_75, i_48, i_33, i_69, i_75, i_75, i_75, i_48, i_33, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_69, i_75, i_75, i_48, i_33, i_69, i_75, i_75, i_48, i_33, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_69, i_75, i_75, i_75, i_48, i_33, i_69, i_75, i_48, i_33, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_69, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_48, i_33, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_75, i_48, i_33, i_69, i_75, i_48, i_33, i_69, i_75, i_75, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_75, i_48, i_33, i_69, i_75, i_75, i_48, i_33, i_69, i_75, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_75, i_48, i_33, i_69, i_75, i_75, i_75, i_48, i_33, i_69, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_75, i_48, i_33, i_69, i_75, i_75, i_75, i_75, i_75, i_75, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_75, i_75, i_48, i_33, i_69, i_75, i_48, i_33, i_69, i_75, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_75, i_75, i_48, i_33, i_69, i_75, i_75, i_48, i_33, i_69, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_75, i_75, i_48, i_33, i_69, i_75, i_75, i_75, i_75, i_75, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_75, i_75, i_75, i_48, i_33, i_69, i_75, i_48, i_33, i_69, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_75, i_75, i_75, i_48, i_33, i_69, i_75, i_75, i_75, i_75, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_75, i_75, i_75, i_75, i_48, i_33, i_69, i_75, i_75, i_75, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_75, i_75, i_75, i_75, i_75, i_48, i_33, i_69, i_75, i_75, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_75, i_75, i_75, i_75, i_75, i_75, i_48, i_33, i_69, i_75, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_48, i_33, i_69, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_96, [i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_12, [i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_12, [i_66, i_66, i_66, i_66, i_66, i_66, i_66, i_66, i_66, i_66, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_69, [i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_69, [i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3]), true).
+step((true:+cycle(_, _)), cycle(i_97, [i_18, i_69, i_18, i_69, i_18, i_69, i_18, i_69, i_18, i_69, i_18]), true).
+step((true:+cycle(_, _)), cycle(i_97, [i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_97, [i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_97, [i_69, i_18, i_69, i_18, i_69, i_18, i_69, i_18, i_69, i_18, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_97, [i_75, i_84, i_75, i_84, i_75, i_84, i_75, i_84, i_75, i_84, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_97, [i_84, i_75, i_84, i_75, i_84, i_75, i_84, i_75, i_84, i_75, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_39, i_3, i_69, i_9, i_39, i_3, i_69, i_9, i_69, i_9, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_39, i_3, i_69, i_9, i_69, i_9, i_39, i_3, i_69, i_9, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_39, i_3, i_69, i_9, i_69, i_9, i_69, i_9, i_69, i_9, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_39, i_81, i_3, i_69, i_9, i_39, i_81, i_3, i_69, i_9, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_3, i_69, i_9, i_39, i_3, i_69, i_9, i_69, i_9, i_39, i_3]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_3, i_69, i_9, i_39, i_81, i_3, i_69, i_9, i_39, i_81, i_3]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_3, i_69, i_9, i_69, i_9, i_39, i_3, i_69, i_9, i_39, i_3]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_3, i_69, i_9, i_69, i_9, i_69, i_9, i_69, i_9, i_39, i_3]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_69, i_9, i_39, i_3, i_69, i_9, i_39, i_3, i_69, i_9, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_69, i_9, i_39, i_3, i_69, i_9, i_69, i_9, i_39, i_3, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_69, i_9, i_39, i_3, i_69, i_9, i_69, i_9, i_69, i_9, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_69, i_9, i_39, i_81, i_3, i_69, i_9, i_39, i_81, i_3, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_69, i_9, i_69, i_9, i_39, i_3, i_69, i_9, i_39, i_3, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_69, i_9, i_69, i_9, i_39, i_3, i_69, i_9, i_69, i_9, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_69, i_9, i_69, i_9, i_69, i_9, i_39, i_3, i_69, i_9, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_69, i_9, i_69, i_9, i_69, i_9, i_69, i_9, i_39, i_3, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_69, i_9, i_69, i_9, i_69, i_9, i_69, i_9, i_69, i_9, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_81, i_3, i_69, i_9, i_39, i_81, i_3, i_69, i_9, i_39, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_9, i_39, i_3, i_69, i_9, i_39, i_3, i_69, i_9, i_69, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_9, i_39, i_3, i_69, i_9, i_69, i_9, i_39, i_3, i_69, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_9, i_39, i_3, i_69, i_9, i_69, i_9, i_69, i_9, i_69, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_9, i_39, i_81, i_3, i_69, i_9, i_39, i_81, i_3, i_69, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_9, i_69, i_9, i_39, i_3, i_69, i_9, i_39, i_3, i_69, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_9, i_69, i_9, i_39, i_3, i_69, i_9, i_69, i_9, i_69, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_9, i_69, i_9, i_69, i_9, i_39, i_3, i_69, i_9, i_69, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_9, i_69, i_9, i_69, i_9, i_69, i_9, i_39, i_3, i_69, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_79, [i_9, i_69, i_9, i_69, i_9, i_69, i_9, i_69, i_9, i_69, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_12, i_93, i_66, i_36, i_21, i_21, i_21, i_21, i_87, i_33, i_12]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_12, i_93, i_66, i_36, i_21, i_87, i_69, i_36, i_72, i_33, i_12]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_12, i_93, i_66, i_36, i_72, i_66, i_36, i_21, i_87, i_33, i_12]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_87, i_69, i_36, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_21, i_21, i_21, i_21, i_21, i_87, i_69, i_36, i_21, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_21, i_21, i_21, i_21, i_87, i_69, i_36, i_21, i_21, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_21, i_21, i_21, i_87, i_33, i_12, i_93, i_66, i_36, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_21, i_21, i_21, i_87, i_69, i_36, i_21, i_21, i_21, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_21, i_21, i_21, i_87, i_69, i_36, i_72, i_66, i_36, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_21, i_21, i_87, i_33, i_12, i_93, i_66, i_36, i_21, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_21, i_21, i_87, i_69, i_36, i_21, i_21, i_21, i_21, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_21, i_21, i_87, i_69, i_36, i_21, i_87, i_69, i_36, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_21, i_21, i_87, i_69, i_36, i_72, i_66, i_36, i_21, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_21, i_87, i_33, i_12, i_93, i_66, i_36, i_21, i_21, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_21, i_87, i_69, i_36, i_21, i_21, i_21, i_21, i_21, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_21, i_87, i_69, i_36, i_21, i_21, i_87, i_69, i_36, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_21, i_87, i_69, i_36, i_21, i_87, i_69, i_36, i_21, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_21, i_87, i_69, i_36, i_72, i_66, i_36, i_21, i_21, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_87, i_33, i_12, i_93, i_66, i_36, i_21, i_21, i_21, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_87, i_33, i_12, i_93, i_66, i_36, i_72, i_66, i_36, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_87, i_69, i_36, i_21, i_21, i_21, i_21, i_21, i_21, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_87, i_69, i_36, i_21, i_21, i_21, i_87, i_69, i_36, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_87, i_69, i_36, i_21, i_21, i_87, i_69, i_36, i_21, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_87, i_69, i_36, i_21, i_87, i_69, i_36, i_21, i_21, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_87, i_69, i_36, i_72, i_33, i_12, i_93, i_66, i_36, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_87, i_69, i_36, i_72, i_66, i_36, i_21, i_21, i_21, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_21, i_87, i_69, i_36, i_72, i_66, i_36, i_72, i_66, i_36, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_33, i_12, i_93, i_66, i_36, i_21, i_21, i_21, i_21, i_87, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_33, i_12, i_93, i_66, i_36, i_21, i_87, i_69, i_36, i_72, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_33, i_12, i_93, i_66, i_36, i_72, i_66, i_36, i_21, i_87, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_36, i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_87, i_69, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_36, i_21, i_21, i_21, i_21, i_87, i_33, i_12, i_93, i_66, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_36, i_21, i_21, i_21, i_21, i_87, i_69, i_36, i_72, i_66, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_36, i_21, i_21, i_21, i_87, i_69, i_36, i_21, i_87, i_69, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_36, i_21, i_21, i_87, i_69, i_36, i_21, i_21, i_87, i_69, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_36, i_21, i_87, i_33, i_12, i_93, i_66, i_36, i_72, i_66, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_36, i_21, i_87, i_69, i_36, i_21, i_21, i_21, i_87, i_69, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_36, i_21, i_87, i_69, i_36, i_72, i_33, i_12, i_93, i_66, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_36, i_21, i_87, i_69, i_36, i_72, i_66, i_36, i_72, i_66, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_36, i_72, i_33, i_12, i_93, i_66, i_36, i_21, i_87, i_69, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_36, i_72, i_66, i_36, i_21, i_21, i_21, i_21, i_87, i_69, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_36, i_72, i_66, i_36, i_21, i_87, i_33, i_12, i_93, i_66, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_36, i_72, i_66, i_36, i_21, i_87, i_69, i_36, i_72, i_66, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_36, i_72, i_66, i_36, i_72, i_66, i_36, i_21, i_87, i_69, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_66, i_36, i_21, i_21, i_21, i_21, i_87, i_33, i_12, i_93, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_66, i_36, i_21, i_21, i_21, i_21, i_87, i_69, i_36, i_72, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_66, i_36, i_21, i_87, i_33, i_12, i_93, i_66, i_36, i_72, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_66, i_36, i_21, i_87, i_69, i_36, i_72, i_33, i_12, i_93, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_66, i_36, i_21, i_87, i_69, i_36, i_72, i_66, i_36, i_72, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_66, i_36, i_72, i_66, i_36, i_21, i_87, i_33, i_12, i_93, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_66, i_36, i_72, i_66, i_36, i_21, i_87, i_69, i_36, i_72, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_69, i_36, i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_87, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_69, i_36, i_21, i_21, i_21, i_87, i_69, i_36, i_21, i_87, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_69, i_36, i_21, i_21, i_87, i_69, i_36, i_21, i_21, i_87, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_69, i_36, i_21, i_87, i_69, i_36, i_21, i_21, i_21, i_87, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_69, i_36, i_72, i_33, i_12, i_93, i_66, i_36, i_21, i_87, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_69, i_36, i_72, i_66, i_36, i_21, i_21, i_21, i_21, i_87, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_69, i_36, i_72, i_66, i_36, i_72, i_66, i_36, i_21, i_87, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_72, i_33, i_12, i_93, i_66, i_36, i_21, i_87, i_69, i_36, i_72]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_72, i_66, i_36, i_21, i_21, i_21, i_21, i_87, i_69, i_36, i_72]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_72, i_66, i_36, i_21, i_87, i_33, i_12, i_93, i_66, i_36, i_72]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_72, i_66, i_36, i_21, i_87, i_69, i_36, i_72, i_66, i_36, i_72]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_72, i_66, i_36, i_72, i_66, i_36, i_21, i_87, i_69, i_36, i_72]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_87, i_33, i_12, i_93, i_66, i_36, i_21, i_21, i_21, i_21, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_87, i_33, i_12, i_93, i_66, i_36, i_72, i_66, i_36, i_21, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_87, i_69, i_36, i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_87, i_69, i_36, i_21, i_21, i_21, i_87, i_69, i_36, i_21, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_87, i_69, i_36, i_21, i_21, i_87, i_69, i_36, i_21, i_21, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_87, i_69, i_36, i_21, i_87, i_69, i_36, i_21, i_21, i_21, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_87, i_69, i_36, i_72, i_33, i_12, i_93, i_66, i_36, i_21, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_87, i_69, i_36, i_72, i_66, i_36, i_21, i_21, i_21, i_21, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_87, i_69, i_36, i_72, i_66, i_36, i_72, i_66, i_36, i_21, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_93, i_66, i_36, i_21, i_21, i_21, i_21, i_87, i_33, i_12, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_93, i_66, i_36, i_21, i_87, i_69, i_36, i_72, i_33, i_12, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_19, [i_93, i_66, i_36, i_72, i_66, i_36, i_21, i_87, i_33, i_12, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_4, [i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57]), true).
+step((true:+cycle(_, _)), cycle(i_4, [i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_78, [i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6]), true).
+step((true:+cycle(_, _)), cycle(i_18, [i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_80, [i_12, i_45, i_12, i_45, i_12, i_45, i_12, i_45, i_12, i_45, i_12]), true).
+step((true:+cycle(_, _)), cycle(i_80, [i_15, i_42, i_15, i_42, i_15, i_42, i_15, i_42, i_15, i_42, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_80, [i_15, i_42, i_15, i_42, i_15, i_60, i_42, i_15, i_60, i_42, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_80, [i_15, i_42, i_15, i_60, i_42, i_15, i_42, i_15, i_60, i_42, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_80, [i_15, i_42, i_15, i_60, i_42, i_15, i_60, i_42, i_15, i_42, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_80, [i_15, i_60, i_42, i_15, i_42, i_15, i_42, i_15, i_60, i_42, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_80, [i_15, i_60, i_42, i_15, i_42, i_15, i_60, i_42, i_15, i_42, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_80, [i_15, i_60, i_42, i_15, i_60, i_42, i_15, i_42, i_15, i_42, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_80, [i_42, i_15, i_42, i_15, i_42, i_15, i_42, i_15, i_42, i_15, i_42]), true).
+step((true:+cycle(_, _)), cycle(i_80, [i_42, i_15, i_42, i_15, i_42, i_15, i_60, i_42, i_15, i_60, i_42]), true).
+step((true:+cycle(_, _)), cycle(i_80, [i_42, i_15, i_42, i_15, i_60, i_42, i_15, i_42, i_15, i_60, i_42]), true).
+step((true:+cycle(_, _)), cycle(i_80, [i_42, i_15, i_42, i_15, i_60, i_42, i_15, i_60, i_42, i_15, i_42]), true).
+step((true:+cycle(_, _)), cycle(i_80, [i_42, i_15, i_60, i_42, i_15, i_42, i_15, i_42, i_15, i_60, i_42]), true).
+step((true:+cycle(_, _)), cycle(i_80, [i_42, i_15, i_60, i_42, i_15, i_42, i_15, i_60, i_42, i_15, i_42]), true).
+step((true:+cycle(_, _)), cycle(i_80, [i_42, i_15, i_60, i_42, i_15, i_60, i_42, i_15, i_42, i_15, i_42]), true).
+step((true:+cycle(_, _)), cycle(i_80, [i_45, i_12, i_45, i_12, i_45, i_12, i_45, i_12, i_45, i_12, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_80, [i_54, i_81, i_54, i_81, i_54, i_81, i_54, i_81, i_54, i_81, i_54]), true).
+step((true:+cycle(_, _)), cycle(i_80, [i_60, i_42, i_15, i_42, i_15, i_42, i_15, i_60, i_42, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_80, [i_60, i_42, i_15, i_42, i_15, i_60, i_42, i_15, i_42, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_80, [i_60, i_42, i_15, i_60, i_42, i_15, i_42, i_15, i_42, i_15, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_80, [i_81, i_54, i_81, i_54, i_81, i_54, i_81, i_54, i_81, i_54, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_80, [i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_12, i_27, i_15, i_12, i_27, i_30, i_39, i_48, i_27, i_15, i_12]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_12, i_27, i_15, i_21, i_72, i_78, i_87, i_48, i_27, i_15, i_12]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_12, i_27, i_30, i_39, i_33, i_9, i_33, i_9, i_27, i_15, i_12]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_12, i_27, i_30, i_39, i_48, i_27, i_15, i_12, i_27, i_15, i_12]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_12, i_57, i_69, i_66, i_51, i_57, i_69, i_66, i_51, i_84, i_12]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_15, i_12, i_27, i_15, i_12, i_27, i_30, i_39, i_48, i_27, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_15, i_12, i_27, i_15, i_21, i_72, i_78, i_87, i_48, i_27, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_15, i_12, i_27, i_30, i_39, i_33, i_9, i_33, i_9, i_27, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_15, i_12, i_27, i_30, i_39, i_48, i_27, i_15, i_12, i_27, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_15, i_21, i_72, i_78, i_87, i_48, i_27, i_15, i_12, i_27, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_15, i_30, i_39, i_33, i_9, i_27, i_30, i_39, i_48, i_27, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_15, i_30, i_39, i_33, i_9, i_33, i_9, i_33, i_9, i_27, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_15, i_30, i_39, i_48, i_27, i_15, i_30, i_39, i_48, i_27, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_15, i_30, i_39, i_48, i_27, i_30, i_39, i_33, i_9, i_27, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_21, i_72, i_78, i_87, i_48, i_27, i_15, i_12, i_27, i_15, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_27, i_15, i_12, i_27, i_15, i_12, i_27, i_30, i_39, i_48, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_27, i_15, i_12, i_27, i_15, i_21, i_72, i_78, i_87, i_48, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_27, i_15, i_12, i_27, i_30, i_39, i_33, i_9, i_33, i_9, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_27, i_15, i_12, i_27, i_30, i_39, i_48, i_27, i_15, i_12, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_27, i_15, i_21, i_72, i_78, i_87, i_48, i_27, i_15, i_12, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_27, i_15, i_30, i_39, i_33, i_9, i_27, i_30, i_39, i_48, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_27, i_15, i_30, i_39, i_33, i_9, i_33, i_9, i_33, i_9, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_27, i_15, i_30, i_39, i_48, i_27, i_15, i_30, i_39, i_48, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_27, i_15, i_30, i_39, i_48, i_27, i_30, i_39, i_33, i_9, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_27, i_30, i_39, i_33, i_9, i_27, i_15, i_30, i_39, i_48, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_27, i_30, i_39, i_33, i_9, i_27, i_30, i_39, i_33, i_9, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_27, i_30, i_39, i_33, i_9, i_33, i_9, i_27, i_15, i_12, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_27, i_30, i_39, i_48, i_27, i_15, i_12, i_27, i_15, i_12, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_27, i_30, i_39, i_48, i_27, i_15, i_30, i_39, i_33, i_9, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_30, i_39, i_33, i_9, i_27, i_15, i_30, i_39, i_48, i_27, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_30, i_39, i_33, i_9, i_27, i_30, i_39, i_33, i_9, i_27, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_30, i_39, i_33, i_9, i_27, i_30, i_39, i_48, i_27, i_15, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_30, i_39, i_33, i_9, i_33, i_9, i_27, i_15, i_12, i_27, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_30, i_39, i_33, i_9, i_33, i_9, i_33, i_9, i_27, i_15, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_30, i_39, i_48, i_27, i_15, i_12, i_27, i_15, i_12, i_27, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_30, i_39, i_48, i_27, i_15, i_30, i_39, i_33, i_9, i_27, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_30, i_39, i_48, i_27, i_15, i_30, i_39, i_48, i_27, i_15, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_30, i_39, i_48, i_27, i_30, i_39, i_33, i_9, i_27, i_15, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_33, i_9, i_27, i_15, i_12, i_27, i_30, i_39, i_33, i_9, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_33, i_9, i_27, i_15, i_30, i_39, i_33, i_9, i_33, i_9, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_33, i_9, i_27, i_15, i_30, i_39, i_48, i_27, i_30, i_39, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_33, i_9, i_27, i_30, i_39, i_33, i_9, i_27, i_30, i_39, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_33, i_9, i_27, i_30, i_39, i_48, i_27, i_15, i_30, i_39, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_33, i_9, i_33, i_9, i_27, i_15, i_12, i_27, i_30, i_39, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_33, i_9, i_33, i_9, i_27, i_15, i_30, i_39, i_33, i_9, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_33, i_9, i_33, i_9, i_33, i_9, i_27, i_15, i_30, i_39, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_33, i_9, i_33, i_9, i_33, i_9, i_33, i_9, i_33, i_9, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_36, i_36, i_36, i_36, i_36, i_36, i_36, i_36, i_36, i_36, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_39, i_33, i_9, i_27, i_15, i_30, i_39, i_48, i_27, i_30, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_39, i_33, i_9, i_27, i_30, i_39, i_33, i_9, i_27, i_30, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_39, i_33, i_9, i_27, i_30, i_39, i_48, i_27, i_15, i_30, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_39, i_33, i_9, i_33, i_9, i_27, i_15, i_12, i_27, i_30, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_39, i_33, i_9, i_33, i_9, i_33, i_9, i_27, i_15, i_30, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_39, i_48, i_27, i_15, i_12, i_27, i_15, i_12, i_27, i_30, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_39, i_48, i_27, i_15, i_30, i_39, i_33, i_9, i_27, i_30, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_39, i_48, i_27, i_15, i_30, i_39, i_48, i_27, i_15, i_30, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_39, i_48, i_27, i_30, i_39, i_33, i_9, i_27, i_15, i_30, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_48, i_27, i_15, i_12, i_27, i_15, i_12, i_27, i_30, i_39, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_48, i_27, i_15, i_12, i_27, i_15, i_21, i_72, i_78, i_87, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_48, i_27, i_15, i_30, i_39, i_33, i_9, i_27, i_30, i_39, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_48, i_27, i_15, i_30, i_39, i_48, i_27, i_15, i_30, i_39, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_48, i_27, i_30, i_39, i_33, i_9, i_27, i_15, i_30, i_39, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_51, i_57, i_69, i_66, i_51, i_84, i_12, i_57, i_69, i_66, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_51, i_57, i_69, i_66, i_57, i_69, i_66, i_57, i_69, i_66, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_51, i_84, i_12, i_57, i_69, i_66, i_51, i_57, i_69, i_66, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_51, i_84, i_72, i_69, i_66, i_51, i_84, i_72, i_69, i_66, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_51, i_84, i_72, i_78, i_87, i_99, i_54, i_72, i_69, i_66, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_51, i_84, i_72, i_78, i_87, i_99, i_66, i_57, i_69, i_66, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_54, i_72, i_69, i_66, i_51, i_84, i_72, i_78, i_87, i_99, i_54]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_54, i_72, i_78, i_87, i_99, i_54, i_72, i_78, i_87, i_99, i_54]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_57, i_69, i_66, i_51, i_57, i_69, i_66, i_51, i_84, i_12, i_57]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_57, i_69, i_66, i_51, i_57, i_69, i_66, i_57, i_69, i_66, i_57]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_57, i_69, i_66, i_51, i_84, i_12, i_57, i_69, i_66, i_51, i_57]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_57, i_69, i_66, i_51, i_84, i_72, i_78, i_87, i_99, i_66, i_57]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_57, i_69, i_66, i_57, i_69, i_66, i_51, i_57, i_69, i_66, i_57]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_57, i_69, i_66, i_57, i_69, i_66, i_57, i_69, i_66, i_51, i_57]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_66, i_51, i_57, i_69, i_66, i_51, i_84, i_12, i_57, i_69, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_66, i_51, i_57, i_69, i_66, i_57, i_69, i_66, i_57, i_69, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_66, i_51, i_84, i_12, i_57, i_69, i_66, i_51, i_57, i_69, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_66, i_51, i_84, i_72, i_69, i_66, i_51, i_84, i_72, i_69, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_66, i_51, i_84, i_72, i_78, i_87, i_99, i_54, i_72, i_69, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_66, i_51, i_84, i_72, i_78, i_87, i_99, i_66, i_57, i_69, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_66, i_57, i_69, i_66, i_51, i_57, i_69, i_66, i_57, i_69, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_66, i_57, i_69, i_66, i_51, i_84, i_72, i_78, i_87, i_99, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_66, i_57, i_69, i_66, i_57, i_69, i_66, i_51, i_57, i_69, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_69, i_66, i_51, i_57, i_69, i_66, i_51, i_84, i_12, i_57, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_69, i_66, i_51, i_57, i_69, i_66, i_57, i_69, i_66, i_57, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_69, i_66, i_51, i_84, i_12, i_57, i_69, i_66, i_51, i_57, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_69, i_66, i_51, i_84, i_72, i_69, i_66, i_51, i_84, i_72, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_69, i_66, i_51, i_84, i_72, i_78, i_87, i_99, i_54, i_72, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_69, i_66, i_51, i_84, i_72, i_78, i_87, i_99, i_66, i_57, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_69, i_66, i_57, i_69, i_66, i_51, i_57, i_69, i_66, i_57, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_69, i_66, i_57, i_69, i_66, i_57, i_69, i_66, i_51, i_57, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_72, i_69, i_66, i_51, i_84, i_72, i_69, i_66, i_51, i_84, i_72]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_72, i_69, i_66, i_51, i_84, i_72, i_78, i_87, i_99, i_54, i_72]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_72, i_78, i_87, i_48, i_27, i_15, i_12, i_27, i_15, i_21, i_72]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_72, i_78, i_87, i_99, i_54, i_72, i_69, i_66, i_51, i_84, i_72]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_72, i_78, i_87, i_99, i_54, i_72, i_78, i_87, i_99, i_54, i_72]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_72, i_78, i_87, i_99, i_66, i_57, i_69, i_66, i_51, i_84, i_72]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_78, i_87, i_48, i_27, i_15, i_12, i_27, i_15, i_21, i_72, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_78, i_87, i_99, i_54, i_72, i_69, i_66, i_51, i_84, i_72, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_78, i_87, i_99, i_54, i_72, i_78, i_87, i_99, i_54, i_72, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_78, i_87, i_99, i_66, i_57, i_69, i_66, i_51, i_84, i_72, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_84, i_12, i_57, i_69, i_66, i_51, i_57, i_69, i_66, i_51, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_84, i_72, i_69, i_66, i_51, i_84, i_72, i_69, i_66, i_51, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_84, i_72, i_78, i_87, i_99, i_54, i_72, i_69, i_66, i_51, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_84, i_72, i_78, i_87, i_99, i_66, i_57, i_69, i_66, i_51, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_87, i_48, i_27, i_15, i_12, i_27, i_15, i_21, i_72, i_78, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_87, i_99, i_54, i_72, i_69, i_66, i_51, i_84, i_72, i_78, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_87, i_99, i_54, i_72, i_78, i_87, i_99, i_54, i_72, i_78, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_87, i_99, i_66, i_57, i_69, i_66, i_51, i_84, i_72, i_78, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_99, i_54, i_72, i_69, i_66, i_51, i_84, i_72, i_78, i_87, i_99]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_99, i_54, i_72, i_78, i_87, i_99, i_54, i_72, i_78, i_87, i_99]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_99, i_66, i_57, i_69, i_66, i_51, i_84, i_72, i_78, i_87, i_99]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_9, i_27, i_15, i_12, i_27, i_30, i_39, i_33, i_9, i_33, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_9, i_27, i_15, i_30, i_39, i_33, i_9, i_33, i_9, i_33, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_9, i_27, i_15, i_30, i_39, i_48, i_27, i_30, i_39, i_33, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_9, i_27, i_30, i_39, i_33, i_9, i_27, i_30, i_39, i_33, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_9, i_27, i_30, i_39, i_48, i_27, i_15, i_30, i_39, i_33, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_9, i_33, i_9, i_27, i_15, i_12, i_27, i_30, i_39, i_33, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_9, i_33, i_9, i_27, i_15, i_30, i_39, i_33, i_9, i_33, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_9, i_33, i_9, i_33, i_9, i_27, i_15, i_30, i_39, i_33, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_50, [i_9, i_33, i_9, i_33, i_9, i_33, i_9, i_33, i_9, i_33, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_17, [i_0, i_30, i_33, i_63, i_42, i_54, i_0, i_30, i_33, i_75, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_17, [i_0, i_30, i_33, i_75, i_0, i_30, i_33, i_63, i_42, i_54, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_17, [i_0, i_30, i_33, i_75, i_30, i_33, i_75, i_30, i_33, i_75, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_17, [i_30, i_33, i_63, i_42, i_54, i_0, i_30, i_33, i_75, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_17, [i_30, i_33, i_75, i_0, i_30, i_33, i_63, i_42, i_54, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_17, [i_30, i_33, i_75, i_0, i_30, i_33, i_75, i_30, i_33, i_75, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_17, [i_30, i_33, i_75, i_30, i_33, i_75, i_0, i_30, i_33, i_75, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_17, [i_30, i_33, i_75, i_30, i_33, i_75, i_30, i_33, i_75, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_17, [i_33, i_63, i_42, i_54, i_0, i_30, i_33, i_75, i_0, i_30, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_17, [i_33, i_75, i_0, i_30, i_33, i_63, i_42, i_54, i_0, i_30, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_17, [i_33, i_75, i_0, i_30, i_33, i_75, i_30, i_33, i_75, i_30, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_17, [i_33, i_75, i_30, i_33, i_75, i_0, i_30, i_33, i_75, i_30, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_17, [i_33, i_75, i_30, i_33, i_75, i_30, i_33, i_75, i_0, i_30, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_17, [i_42, i_54, i_0, i_30, i_33, i_75, i_0, i_30, i_33, i_63, i_42]), true).
+step((true:+cycle(_, _)), cycle(i_17, [i_54, i_0, i_30, i_33, i_75, i_0, i_30, i_33, i_63, i_42, i_54]), true).
+step((true:+cycle(_, _)), cycle(i_17, [i_63, i_42, i_54, i_0, i_30, i_33, i_75, i_0, i_30, i_33, i_63]), true).
+step((true:+cycle(_, _)), cycle(i_17, [i_75, i_0, i_30, i_33, i_63, i_42, i_54, i_0, i_30, i_33, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_17, [i_75, i_0, i_30, i_33, i_75, i_30, i_33, i_75, i_30, i_33, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_17, [i_75, i_30, i_33, i_75, i_0, i_30, i_33, i_75, i_30, i_33, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_17, [i_75, i_30, i_33, i_75, i_30, i_33, i_75, i_0, i_30, i_33, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_7, [i_18, i_75, i_84, i_72, i_57, i_18, i_75, i_84, i_72, i_57, i_18]), true).
+step((true:+cycle(_, _)), cycle(i_7, [i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_7, [i_57, i_18, i_75, i_84, i_72, i_57, i_18, i_75, i_84, i_72, i_57]), true).
+step((true:+cycle(_, _)), cycle(i_7, [i_72, i_57, i_18, i_75, i_84, i_72, i_57, i_18, i_75, i_84, i_72]), true).
+step((true:+cycle(_, _)), cycle(i_7, [i_75, i_84, i_72, i_57, i_18, i_75, i_84, i_72, i_57, i_18, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_7, [i_84, i_72, i_57, i_18, i_75, i_84, i_72, i_57, i_18, i_75, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_21, i_42, i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_63, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_21, i_42, i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_63, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_21, i_42, i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_63, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_27, i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_39, i_87, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_27, i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_39, i_87, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_27, i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_39, i_87, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_27, i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_87, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_27, i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_87, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_27, i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_87, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_39, i_42, i_45, i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_39, i_42, i_45, i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_39, i_42, i_45, i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_39, i_42, i_45, i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_39, i_42, i_45, i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_39, i_42, i_45, i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_39, i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_45, i_93, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_39, i_45, i_93, i_39, i_45, i_93, i_39, i_42, i_45, i_93, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_39, i_45, i_93, i_39, i_45, i_93, i_39, i_87, i_27, i_93, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_39, i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_45, i_93, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_39, i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_45, i_93, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_39, i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_39, i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_39, i_45, i_93, i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_39, i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_45, i_93, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_39, i_87, i_27, i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_39, i_87, i_27, i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_39, i_87, i_27, i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_39, i_87, i_27, i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_39, i_87, i_27, i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_39, i_87, i_27, i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_42, i_45, i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_39, i_42]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_42, i_45, i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_39, i_42]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_42, i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_63, i_21, i_42]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_42, i_45, i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_39, i_42]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_42, i_45, i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_42]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_42, i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_63, i_21, i_42]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_42, i_45, i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_42]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_42, i_45, i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_42]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_42, i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_63, i_21, i_42]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_42, i_45, i_93, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_45, i_93, i_39, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_87, i_27, i_93, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_39, i_42, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_45, i_93, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_39, i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_39, i_42, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_39, i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_63, i_21, i_42, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_39, i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_42, i_45, i_93, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_45, i_93, i_39, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_87, i_27, i_93, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_39, i_42, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_45, i_93, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_42, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_39, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_63, i_21, i_42, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_42, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_39, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_42, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_39, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_39, i_45, i_93, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_45, i_93, i_39, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_63, i_21, i_42, i_45]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_63, i_21, i_42, i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_63]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_63, i_21, i_42, i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_63]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_63, i_21, i_42, i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_63]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_87, i_27, i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_39, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_87, i_27, i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_39, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_87, i_27, i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_39, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_87, i_27, i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_87, i_27, i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_87, i_27, i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_39, i_42, i_45, i_93, i_39, i_42, i_45, i_93, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_39, i_42, i_45, i_93, i_39, i_45, i_93, i_39, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_39, i_42, i_45, i_93, i_39, i_87, i_27, i_93, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_39, i_42, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_39, i_87, i_27, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_45, i_93, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_39, i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_39, i_42, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_39, i_87, i_27, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_39, i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_39, i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_39, i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_39, i_45, i_93, i_45, i_93, i_63, i_21, i_42, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_39, i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_39, i_87, i_27, i_93, i_39, i_42, i_45, i_93, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_39, i_87, i_27, i_93, i_39, i_45, i_93, i_39, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_39, i_87, i_27, i_93, i_39, i_87, i_27, i_93, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_39, i_42, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_39, i_87, i_27, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_45, i_93, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_42, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_39, i_87, i_27, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_45, i_93, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_45, i_93, i_39, i_45, i_93, i_39, i_45, i_93, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_45, i_93, i_39, i_45, i_93, i_45, i_93, i_39, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_45, i_93, i_39, i_45, i_93, i_63, i_21, i_42, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_42, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_39, i_87, i_27, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_45, i_93, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_45, i_93, i_45, i_93, i_39, i_42, i_45, i_93, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_45, i_93, i_45, i_93, i_39, i_45, i_93, i_39, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_45, i_93, i_45, i_93, i_39, i_87, i_27, i_93, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_42, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_39, i_87, i_27, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_45, i_93, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_45, i_93, i_63, i_21, i_42, i_45, i_93, i_39, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_63, i_21, i_42, i_45, i_93, i_39, i_45, i_93, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_63, i_21, i_42, i_45, i_93, i_45, i_93, i_39, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_16, [i_93, i_63, i_21, i_42, i_45, i_93, i_63, i_21, i_42, i_45, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_30, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_30, i_0, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_0, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_30, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_0, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_30, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_30, i_0, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_0, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_30, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_30, i_0, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_0, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_75, [i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30, i_0, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_45, [i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_21, [i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3]), true).
+step((true:+cycle(_, _)), cycle(i_74, [i_27, i_57, i_27, i_57, i_27, i_57, i_27, i_57, i_27, i_57, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_74, [i_33, i_60, i_33, i_60, i_33, i_60, i_33, i_60, i_33, i_60, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_74, [i_57, i_27, i_57, i_27, i_57, i_27, i_57, i_27, i_57, i_27, i_57]), true).
+step((true:+cycle(_, _)), cycle(i_74, [i_60, i_33, i_60, i_33, i_60, i_33, i_60, i_33, i_60, i_33, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_74, [i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90, i_90]), true).
+step((true:+cycle(_, _)), cycle(i_77, [i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_77, [i_69, i_96, i_69, i_96, i_69, i_96, i_69, i_96, i_69, i_96, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_77, [i_72, i_72, i_72, i_72, i_72, i_72, i_72, i_72, i_72, i_72, i_72]), true).
+step((true:+cycle(_, _)), cycle(i_77, [i_96, i_69, i_96, i_69, i_96, i_69, i_96, i_69, i_96, i_69, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_48, [i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_48, [i_72, i_90, i_72, i_90, i_72, i_90, i_72, i_90, i_72, i_90, i_72]), true).
+step((true:+cycle(_, _)), cycle(i_48, [i_90, i_72, i_90, i_72, i_90, i_72, i_90, i_72, i_90, i_72, i_90]), true).
+step((true:+cycle(_, _)), cycle(i_76, [i_60, i_78, i_60, i_78, i_60, i_78, i_60, i_78, i_60, i_78, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_76, [i_78, i_60, i_78, i_60, i_78, i_60, i_78, i_60, i_78, i_60, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_86, [i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_56, [i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_56, [i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_57, [i_48, i_69, i_48, i_69, i_48, i_69, i_48, i_69, i_48, i_69, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_57, [i_51, i_84, i_51, i_84, i_51, i_84, i_51, i_84, i_51, i_84, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_57, [i_69, i_48, i_69, i_48, i_69, i_48, i_69, i_48, i_69, i_48, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_57, [i_84, i_51, i_84, i_51, i_84, i_51, i_84, i_51, i_84, i_51, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_25, [i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6, i_6]), true).
+step((true:+cycle(_, _)), cycle(i_88, [i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3]), true).
+step((true:+cycle(_, _)), cycle(i_88, [i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54]), true).
+step((true:+cycle(_, _)), cycle(i_88, [i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57]), true).
+step((true:+cycle(_, _)), cycle(i_58, [i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18, i_18]), true).
+step((true:+cycle(_, _)), cycle(i_58, [i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54]), true).
+step((true:+cycle(_, _)), cycle(i_24, [i_24, i_33, i_24, i_33, i_24, i_33, i_24, i_33, i_24, i_33, i_24]), true).
+step((true:+cycle(_, _)), cycle(i_24, [i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_24, [i_33, i_24, i_33, i_24, i_33, i_24, i_33, i_24, i_33, i_24, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_24, [i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57, i_57]), true).
+step((true:+cycle(_, _)), cycle(i_24, [i_60, i_87, i_60, i_87, i_60, i_87, i_60, i_87, i_60, i_87, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_24, [i_78, i_78, i_78, i_78, i_78, i_78, i_78, i_78, i_78, i_78, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_24, [i_87, i_60, i_87, i_60, i_87, i_60, i_87, i_60, i_87, i_60, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_59, [i_48, i_48, i_48, i_48, i_48, i_48, i_48, i_48, i_48, i_48, i_48]), true).
+step((true:+cycle(_, _)), cycle(i_2, [i_27, i_66, i_27, i_66, i_27, i_66, i_27, i_66, i_27, i_66, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_2, [i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3, i_3]), true).
+step((true:+cycle(_, _)), cycle(i_2, [i_66, i_27, i_66, i_27, i_66, i_27, i_66, i_27, i_66, i_27, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_82, [i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_21, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_82, [i_36, i_36, i_36, i_36, i_36, i_36, i_36, i_36, i_36, i_36, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_52, [i_21, i_78, i_21, i_78, i_21, i_78, i_21, i_78, i_21, i_78, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_52, [i_78, i_21, i_78, i_21, i_78, i_21, i_78, i_21, i_78, i_21, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_29, [i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12, i_12]), true).
+step((true:+cycle(_, _)), cycle(i_29, [i_39, i_39, i_39, i_39, i_39, i_39, i_39, i_39, i_39, i_39, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_53, [i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_53, [i_21, i_75, i_78, i_96, i_6, i_21, i_75, i_78, i_96, i_6, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_53, [i_6, i_21, i_75, i_78, i_96, i_6, i_21, i_75, i_78, i_96, i_6]), true).
+step((true:+cycle(_, _)), cycle(i_53, [i_75, i_78, i_96, i_6, i_21, i_75, i_78, i_96, i_6, i_21, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_53, [i_78, i_96, i_6, i_21, i_75, i_78, i_96, i_6, i_21, i_75, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_53, [i_96, i_6, i_21, i_75, i_78, i_96, i_6, i_21, i_75, i_78, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_81, [i_21, i_75, i_30, i_75, i_30, i_75, i_60, i_21, i_75, i_60, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_81, [i_21, i_75, i_30, i_75, i_60, i_21, i_75, i_30, i_75, i_60, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_81, [i_21, i_75, i_60, i_21, i_75, i_30, i_75, i_30, i_75, i_60, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_81, [i_27, i_84, i_27, i_84, i_27, i_84, i_27, i_84, i_27, i_84, i_27]), true).
+step((true:+cycle(_, _)), cycle(i_81, [i_30, i_75, i_30, i_75, i_30, i_75, i_30, i_75, i_30, i_75, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_81, [i_30, i_75, i_30, i_75, i_60, i_21, i_75, i_60, i_21, i_75, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_81, [i_30, i_75, i_60, i_21, i_75, i_30, i_75, i_60, i_21, i_75, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_81, [i_30, i_75, i_60, i_21, i_75, i_60, i_21, i_75, i_30, i_75, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_81, [i_60, i_21, i_75, i_30, i_75, i_30, i_75, i_60, i_21, i_75, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_81, [i_60, i_21, i_75, i_30, i_75, i_60, i_21, i_75, i_30, i_75, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_81, [i_60, i_21, i_75, i_60, i_21, i_75, i_30, i_75, i_30, i_75, i_60]), true).
+step((true:+cycle(_, _)), cycle(i_81, [i_75, i_30, i_75, i_30, i_75, i_30, i_75, i_30, i_75, i_30, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_81, [i_75, i_30, i_75, i_30, i_75, i_60, i_21, i_75, i_60, i_21, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_81, [i_75, i_30, i_75, i_60, i_21, i_75, i_30, i_75, i_60, i_21, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_81, [i_75, i_30, i_75, i_60, i_21, i_75, i_60, i_21, i_75, i_30, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_81, [i_75, i_60, i_21, i_75, i_30, i_75, i_30, i_75, i_60, i_21, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_81, [i_75, i_60, i_21, i_75, i_30, i_75, i_60, i_21, i_75, i_30, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_81, [i_75, i_60, i_21, i_75, i_60, i_21, i_75, i_30, i_75, i_30, i_75]), true).
+step((true:+cycle(_, _)), cycle(i_81, [i_84, i_27, i_84, i_27, i_84, i_27, i_84, i_27, i_84, i_27, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_28, [i_15, i_36, i_6, i_87, i_81, i_15, i_36, i_6, i_87, i_81, i_15]), true).
+step((true:+cycle(_, _)), cycle(i_28, [i_18, i_78, i_18, i_78, i_18, i_78, i_18, i_78, i_18, i_78, i_18]), true).
+step((true:+cycle(_, _)), cycle(i_28, [i_36, i_6, i_87, i_81, i_15, i_36, i_6, i_87, i_81, i_15, i_36]), true).
+step((true:+cycle(_, _)), cycle(i_28, [i_6, i_87, i_81, i_15, i_36, i_6, i_87, i_81, i_15, i_36, i_6]), true).
+step((true:+cycle(_, _)), cycle(i_28, [i_78, i_18, i_78, i_18, i_78, i_18, i_78, i_18, i_78, i_18, i_78]), true).
+step((true:+cycle(_, _)), cycle(i_28, [i_81, i_15, i_36, i_6, i_87, i_81, i_15, i_36, i_6, i_87, i_81]), true).
+step((true:+cycle(_, _)), cycle(i_28, [i_87, i_81, i_15, i_36, i_6, i_87, i_81, i_15, i_36, i_6, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_84, [i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_84, [i_21, i_87, i_33, i_93, i_51, i_30, i_21, i_87, i_51, i_30, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_84, [i_21, i_87, i_51, i_30, i_21, i_87, i_33, i_93, i_51, i_30, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_84, [i_30, i_21, i_87, i_33, i_93, i_51, i_30, i_21, i_87, i_51, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_84, [i_30, i_21, i_87, i_51, i_30, i_21, i_87, i_33, i_93, i_51, i_30]), true).
+step((true:+cycle(_, _)), cycle(i_84, [i_33, i_93, i_51, i_30, i_21, i_87, i_51, i_30, i_21, i_87, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_84, [i_51, i_30, i_21, i_87, i_33, i_93, i_51, i_30, i_21, i_87, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_84, [i_51, i_30, i_21, i_87, i_51, i_30, i_21, i_87, i_33, i_93, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_84, [i_87, i_33, i_93, i_51, i_30, i_21, i_87, i_51, i_30, i_21, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_84, [i_87, i_51, i_30, i_21, i_87, i_33, i_93, i_51, i_30, i_21, i_87]), true).
+step((true:+cycle(_, _)), cycle(i_84, [i_93, i_51, i_30, i_21, i_87, i_51, i_30, i_21, i_87, i_33, i_93]), true).
+step((true:+cycle(_, _)), cycle(i_54, [i_33, i_96, i_9, i_51, i_66, i_33, i_96, i_9, i_51, i_66, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_54, [i_51, i_66, i_33, i_96, i_9, i_51, i_66, i_33, i_96, i_9, i_51]), true).
+step((true:+cycle(_, _)), cycle(i_54, [i_66, i_33, i_96, i_9, i_51, i_66, i_33, i_96, i_9, i_51, i_66]), true).
+step((true:+cycle(_, _)), cycle(i_54, [i_96, i_9, i_51, i_66, i_33, i_96, i_9, i_51, i_66, i_33, i_96]), true).
+step((true:+cycle(_, _)), cycle(i_54, [i_9, i_51, i_66, i_33, i_96, i_9, i_51, i_66, i_33, i_96, i_9]), true).
+step((true:+cycle(_, _)), cycle(i_27, [i_21, i_72, i_21, i_72, i_21, i_72, i_21, i_72, i_21, i_72, i_21]), true).
+step((true:+cycle(_, _)), cycle(i_27, [i_39, i_84, i_39, i_84, i_39, i_84, i_39, i_84, i_39, i_84, i_39]), true).
+step((true:+cycle(_, _)), cycle(i_27, [i_72, i_21, i_72, i_21, i_72, i_21, i_72, i_21, i_72, i_21, i_72]), true).
+step((true:+cycle(_, _)), cycle(i_27, [i_84, i_39, i_84, i_39, i_84, i_39, i_84, i_39, i_84, i_39, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_55, [i_33, i_33, i_33, i_33, i_33, i_33, i_33, i_33, i_33, i_33, i_33]), true).
+step((true:+cycle(_, _)), cycle(i_55, [i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54, i_54]), true).
+step((true:+cycle(_, _)), cycle(i_83, [i_0, i_6, i_84, i_69, i_6, i_84, i_69, i_6, i_84, i_69, i_0]), true).
+step((true:+cycle(_, _)), cycle(i_83, [i_69, i_0, i_6, i_84, i_69, i_6, i_84, i_69, i_6, i_84, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_83, [i_69, i_6, i_84, i_69, i_0, i_6, i_84, i_69, i_6, i_84, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_83, [i_69, i_6, i_84, i_69, i_6, i_84, i_69, i_0, i_6, i_84, i_69]), true).
+step((true:+cycle(_, _)), cycle(i_83, [i_6, i_84, i_69, i_0, i_6, i_84, i_69, i_6, i_84, i_69, i_6]), true).
+step((true:+cycle(_, _)), cycle(i_83, [i_6, i_84, i_69, i_6, i_84, i_69, i_0, i_6, i_84, i_69, i_6]), true).
+step((true:+cycle(_, _)), cycle(i_83, [i_6, i_84, i_69, i_6, i_84, i_69, i_6, i_84, i_69, i_0, i_6]), true).
+step((true:+cycle(_, _)), cycle(i_83, [i_84, i_69, i_0, i_6, i_84, i_69, i_6, i_84, i_69, i_6, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_83, [i_84, i_69, i_6, i_84, i_69, i_0, i_6, i_84, i_69, i_6, i_84]), true).
+step((true:+cycle(_, _)), cycle(i_83, [i_84, i_69, i_6, i_84, i_69, i_6, i_84, i_69, i_0, i_6, i_84]), true).
