@@ -1,39 +1,48 @@
 % Hamiltonian path
 % See https://en.wikipedia.org/wiki/Hamiltonian_path
-% Original code from https://webcms3.cse.unsw.edu.au/static/uploads/course/COMP4418/19T3/d112d4466d89b3455df9abb7188d5b318b81cc3fffa4fb1a32f43e68c1c57173/0c.Prolog.pdf
 
 :- op(1200, xfx, :+).
 
-% edges
-edge(1, 5).
-edge(1, 7).
-edge(2, 1).
-edge(2, 7).
-edge(3, 1).
-edge(3, 6).
-edge(4, 3).
-edge(4, 5).
-edge(5, 8).
-edge(6, 4).
-edge(6, 5).
-edge(7, 5).
-edge(8, 6).
-edge(8, 7).
+% Given edges
+edge(v1,v2).
+edge(v1,v3).
+edge(v1,v5).
+edge(v1,v6).
+edge(v2,v3).
+edge(v2,v4).
+edge(v2,v6).
+edge(v3,v4).
+edge(v3,v6).
+edge(v4,v5).
+edge(v4,v6).
 
-% path
-path(Node, Node, _, [Node]).
-path(Start, Finish, Visited, [Start|Path]) :-
-    edge(Start, X),
-    \+member(X, Visited),
-    path(X, Finish, [X|Visited], Path).
+% Define undirected adjacency
+adjacent(V, U) :- edge(V, U).
+adjacent(V, U) :- edge(U, V).
 
-% hamiltonian
-hamiltonianPath(P) :-
-    findall(V, (edge(V, _); edge(_, V)), Fs),
-    sort(Fs, Vs),
-    member(S, Vs),
-    path(S, _, [S], P),
-    sort(P, Vs).
+% Collect all vertices
+vertices(Vertices) :-
+    findall(V, (edge(V, _); edge(_, V)), All),
+    sort(All, Vertices).
+
+% Hamiltonian path predicate
+hamiltonian_path(Path) :-
+    vertices(Vs),
+    length(Vs, N),
+    length(Path, N),
+    Path = [Start | _],
+    member(Start, Vs),
+    ham_path(Path, [Start]).
+
+% Base case: single vertex
+ham_path([_], _).
+
+% Recursive case: extend path
+ham_path([A,B|T], Visited) :-
+    adjacent(A, B),
+    \+ member(B, Visited),
+    ham_path([B|T], [B|Visited]).
 
 % query
-true :+ hamiltonianPath(_).
+true :+ hamiltonian_path(_).
+
