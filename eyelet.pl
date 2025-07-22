@@ -2,9 +2,6 @@
 % eyelet -- Jos De Roo
 % --------------------
 
-:- use_module(library(between)).
-:- use_module(library(format)).
-:- use_module(library(iso_ext)).
 :- use_module(library(lists)).
 :- use_module(library(terms)).
 
@@ -19,10 +16,13 @@
 :- dynamic(limit/1).
 :- dynamic(step/3).
 
-version('eyelet v1.5.6 (2025-07-20)').
+version('eyelet v1.5.5 (2025-05-19)').
 
 % main goal
 main :-
+    catch(use_module(library(between)), _, true),
+    catch(use_module(library(format)), _, true),
+    catch(use_module(library(iso_ext)), _, true),
     set_prolog_flag(double_quotes, chars),
     assertz(closure(0)),
     assertz(limit(-1)),
