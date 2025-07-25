@@ -27,7 +27,7 @@ It is similar to the way one spells 'tree' in Portuguese, which is also a good a
 ## Testing
 
 - install [SWI-Prolog](https://www.swi-prolog.org/Download.html)
-- run [./test](./test) to go from [./input/](./input/) to [./output/](./output/)
+- run [./test-swipl](./test-swipl) to go from [./input/](./input/) to [./output-swipl/](./output-swipl/)
 
 __or__
 
