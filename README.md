@@ -1,13 +1,8 @@
-# eyelet
-
-aka arvol inspired by https://en.wikipedia.org/wiki/Arvol_Looking_Horse and also by the middle letters RVO https://en.wikipedia.org/wiki/Roger_Van_Overstraeten who founded imec.
-
-Beatriz Esteves:
-It is similar to the way one spells 'tree' in Portuguese, which is also a good analogy, strong roots, strong fruits :)
+# arvol
 
 ## eye reasoning in prolog
 
-- besides top-down reasoning with `conclusion :- premise` rules, eyelet also supports bottom-up reasoning with `conclusion :+ premise` rules
+- besides top-down reasoning with `conclusion :- premise` rules, arvol also supports bottom-up reasoning with `conclusion :+ premise` rules
 - variables are interpreted universally except for `conclusion :+ premise` conclusion-only variables which are interpreted existentially
 - linear implication is done with `becomes(from_conjunction, to_conjunction)`
 - bottom-up reasoning can use `stable(n)` to fail if the deductive closure at level `n` is not yet stable

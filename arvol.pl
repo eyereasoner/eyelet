@@ -1,6 +1,6 @@
-% --------------------
-% eyelet -- Jos De Roo
-% --------------------
+% -------------------
+% arvol -- Jos De Roo
+% -------------------
 
 :- use_module(library(lists)).
 :- use_module(library(terms)).
@@ -16,7 +16,7 @@
 :- dynamic(limit/1).
 :- dynamic(step/3).
 
-version('eyelet v1.5.5 (2025-05-19)').
+version('arvol v1.5.5 (2025-05-19)').
 
 % main goal
 main :-
@@ -38,7 +38,7 @@ main :-
         (Conc :+ Prem),
         dynify((Conc :+ Prem))
     ),
-    catch(eyelet, E,
+    catch(arvol, E,
         (   E = halt(Exit)
         ->  true
         ;   format(user_error, "*** ~w~n", [E]),
@@ -62,7 +62,7 @@ main :-
     halt(Exit).
 
 %
-% eyelet
+% arvol
 %
 % 1/ select rule Conc :+ Prem
 % 2/ prove Prem and if it fails backtrack to 1/
@@ -76,7 +76,7 @@ main :-
 %    else assert brake and start again at 1/
 %
 
-eyelet :-
+arvol :-
     (   (Conc :+ Prem),                         % 1/
         copy_term((Conc :+ Prem), Rule),
         Prem,                                   % 2/
@@ -112,7 +112,7 @@ eyelet :-
                 Closure < Limit,
                 NewClosure is Closure+1,
                 becomes(closure(Closure), closure(NewClosure)),
-                eyelet
+                arvol
             ;   format(":- op(1200, xfx, :+).~n~n", []),
                 forall(
                     answer(P),
@@ -128,7 +128,7 @@ eyelet :-
                 )
             )
         ;   assertz(brake),
-            eyelet
+            arvol
         )
     ).
 

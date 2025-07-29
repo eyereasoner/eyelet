@@ -1,0 +1,4 @@
+#!/bin/bash
+export arvol=$(dirname "$(readlink -f "$0")")/arvol.pl
+
+scryer-prolog -g main ${arvol} "$@"

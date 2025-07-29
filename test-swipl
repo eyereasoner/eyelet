@@ -9,8 +9,8 @@ OK=0
 DIFF=0
 
 echo -e "${YELLOW}-------------------------------------------------${NORMAL}"
-echo -e "${YELLOW}running the eyelet examples and test cases${NORMAL}"
-echo -e "${YELLOW}using eyelet $(tpl -g main eyelet.pl 2>&1 | awk '{ print $2 }') and swipl v$(swipl --version 2>&1 | awk '{ print $3 }')${NORMAL}"
+echo -e "${YELLOW}running the arvol examples and test cases${NORMAL}"
+echo -e "${YELLOW}using arvol $(tpl -g main arvol.pl 2>&1 | awk '{ print $2 }') and swipl v$(swipl --version 2>&1 | awk '{ print $3 }')${NORMAL}"
 echo -e "${YELLOW}-------------------------------------------------${NORMAL}"
 echo ""
 
@@ -26,7 +26,7 @@ do
     f="$(basename ${file})"
     echo -en "$(pad "${f}" -34)"
     start=$(($(date +%s%N)/1000000))
-    swipl -g main eyelet.pl "${file}" > output-swipl/${f}
+    swipl -g main arvol.pl "${file}" > output-swipl/${f}
     end=$(($(date +%s%N)/1000000))
     echo -en "${YELLOW}$(pad "`expr $end - $start` msec" 12)${NORMAL} "
     if [[ $(git diff output-swipl/${f} | wc -l) -eq 0 ]]; then
