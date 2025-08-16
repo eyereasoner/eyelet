@@ -74,13 +74,12 @@ class Logger:
 # Simulation
 # ─────────────────────────────────────────────────────────────
 def run_sim(n: int, meals: int, think_s: float, eat_s: float) -> Tuple[List[Log], float]:
-    """Run the deterministic dining simulation; return (logs, elapsed_seconds)."""
+    """Run the deterministic dining simulation; return logs."""
     forks = [threading.Lock() for _ in range(n)]
     turn_cond = threading.Condition()
     turn = {"i": 0}  # box turn in a dict so closures can mutate
 
     logger = Logger()
-    t0 = time.perf_counter()
 
     def philosopher(i: int) -> None:
         left  = forks[i]
@@ -106,13 +105,12 @@ def run_sim(n: int, meals: int, think_s: float, eat_s: float) -> Tuple[List[Log]
     threads = [threading.Thread(target=philosopher, args=(i,), name=f"P{i}") for i in range(n)]
     for t in threads: t.start()
     for t in threads: t.join()
-    elapsed = time.perf_counter() - t0
-    return logger.logs, elapsed
+    return logger.logs
 
 # ─────────────────────────────────────────────────────────────
 # ARC — Answer
 # ─────────────────────────────────────────────────────────────
-def arc_answer(logs: List[Log], n: int, m: int, elapsed: float) -> None:
+def arc_answer(logs: List[Log], n: int, m: int) -> None:
     print("Answer")
     print("------")
     # Build eating sequence (by start time) and group into rounds
@@ -183,8 +181,8 @@ def arc_check(logs: List[Log], n: int, m: int) -> None:
 # Main
 # ─────────────────────────────────────────────────────────────
 if __name__ == "__main__":
-    logs, elapsed = run_sim(N_PHILOSOPHERS, MEALS_PER_PHIL, THINK_TIME, EAT_TIME)
-    arc_answer(logs, N_PHILOSOPHERS, MEALS_PER_PHIL, elapsed)
+    logs = run_sim(N_PHILOSOPHERS, MEALS_PER_PHIL, THINK_TIME, EAT_TIME)
+    arc_answer(logs, N_PHILOSOPHERS, MEALS_PER_PHIL)
     arc_reason()
     arc_check(logs, N_PHILOSOPHERS, MEALS_PER_PHIL)
 

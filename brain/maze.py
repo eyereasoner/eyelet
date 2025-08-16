@@ -35,7 +35,7 @@ Defaults: width=41 (odd), height=21 (odd), path_char=' ', wall_char='#'.
 from __future__ import annotations
 from dataclasses import dataclass
 from typing import List, Tuple, Iterable, Optional
-import random, sys, time
+import random, sys
 
 Cell      = Tuple[int, int]        # (x, y) indexes into grid[y][x]
 Direction = Tuple[int, int]        # 2-cell step (dx, dy)
@@ -200,8 +200,7 @@ def bfs_component(grid: List[List[int]], start: Cell) -> int:
 # ─────────────────────────────────────────────────────────────
 # ARC sections
 # ─────────────────────────────────────────────────────────────
-def arc_answer(grid: List[List[int]], trace: List[CarveEvent],
-               path_char: str, wall_char: str, elapsed: float) -> None:
+def arc_answer(grid: List[List[int]], trace: List[CarveEvent], path_char: str, wall_char: str) -> None:
     W, H = len(grid[0]), len(grid)
     print("Answer")
     print("------")
@@ -210,7 +209,6 @@ def arc_answer(grid: List[List[int]], trace: List[CarveEvent],
     print(f"  size = {W}×{H} (odd)")
     print(f"  open cells = {len(open_cells(grid))}")
     print(f"  edges between open cells = {count_edges(grid)}")
-    print(f"  build time = {elapsed:.3f}s\n")
 
 def arc_reason(trace: List[CarveEvent], max_events: int = 40) -> None:
     print("Reason why")
@@ -267,11 +265,9 @@ def main(argv):
     seed = 0
 
     trace: List[CarveEvent] = []
-    t0 = time.perf_counter()
     grid = carve_maze(width, height, rng_seed=seed, record=trace)
-    elapsed = max(0.0, time.perf_counter() - t0)
 
-    arc_answer(grid, trace, path_ch, wall_ch, elapsed)
+    arc_answer(grid, trace, path_ch, wall_ch)
     arc_reason(trace)
     arc_check(grid, width, height, seed)
 

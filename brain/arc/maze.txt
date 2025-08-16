@@ -26,8 +26,6 @@ Stats:
   size = 41×21 (odd)
   open cells = 263
   edges between open cells = 262
-  build time = 0.001s
-
 Reason why
 ----------
 Randomized Prim with fixed seed. We grow a spanning tree of interior
