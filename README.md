@@ -1,8 +1,8 @@
-# arvol
+# eyelet
 
 ## eye reasoning in prolog
 
-- besides top-down reasoning with `conclusion :- premise` rules, arvol also supports bottom-up reasoning with `conclusion :+ premise` rules
+- besides top-down reasoning with `conclusion :- premise` rules, eyelet also supports bottom-up reasoning with `conclusion :+ premise` rules
 - variables are interpreted universally except for `conclusion :+ premise` conclusion-only variables which are interpreted existentially
 - linear implication is done with `becomes(from_conjunction, to_conjunction)`
 - bottom-up reasoning can use `stable(n)` to fail if the deductive closure at level `n` is not yet stable
