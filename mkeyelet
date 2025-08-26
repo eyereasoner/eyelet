@@ -60,7 +60,9 @@ cat eyelet.pl | sed -e "s/'eyelet.*'/'eyelet $RELEASE \($DATE\)'/" > eyelet.pl.t
 mv eyelet.pl.tmp eyelet.pl
 
 # run the tests and do git diff
-./test
+./test-scryer
+./test-swipl
+./test-trealla
 git diff
 
 # git commands
