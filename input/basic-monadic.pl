@@ -10004,10 +10004,19 @@ i_9(i_9, i_54).
 i_9(i_9, i_84).
 i_9(i_9, i_96).
 
+% all i_/2 predicates, sorted once
+i_predicate(A) :-
+    findall(P,
+            ( current_predicate(P/2),
+              sub_atom(P, 0, 2, _, i_),
+              P \= cycle
+            ),
+            Ps0),
+    sort(Ps0, Ps),
+    member(A, Ps).
+
 cycle(A, [B, C, D, E, F, G, H, I, J, K, B]) :-
-    current_predicate(A/2),
-    sub_atom(A, 0, 2, _, i_),
-    A \= cycle,
+    i_predicate(A),
     call(A, B, C),
     call(A, C, D),
     call(A, D, E),
