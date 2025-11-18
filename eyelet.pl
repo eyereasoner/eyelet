@@ -8,13 +8,14 @@
 :- op(1200, xfx, :+).
 
 :- dynamic((:+)/2).
+:- dynamic(answer/1).
 :- dynamic(brake/0).
 :- dynamic(closure/1).
 :- dynamic(count/2).
 :- dynamic(fuse/1).
 :- dynamic(limit/1).
 
-version('eyelet v2.0.0 (2025-11-18)').
+version('eyelet v2.0.1 (2025-11-18)').
 
 % main goal
 main :-
@@ -77,8 +78,10 @@ main :-
 eyelet :-
     (   (Conc :+ Prem),                         % 1/
         Prem,                                   % 2/
-        (   Conc = true                         % 3/
-        ->  portray_clause(Prem)
+        (   Conc = true,                        % 3/
+            \+answer(Prem)
+        ->  portray_clause(Prem),
+            assertz(answer(Prem))
         ;   (   Conc = false
             ->  portray_clause(fuse(Prem)),
                 throw(halt(2))

@@ -4,9 +4,3 @@ needs_maintenance(t456,problem_based_maintenance).
 needs_maintenance(t789,problem_based_maintenance).
 needs_maintenance(t456,performance_based_maintenance).
 needs_maintenance(t101,performance_based_maintenance).
-needs_maintenance(t456,time_based_maintenance).
-needs_maintenance(t456,age_based_maintenance).
-needs_maintenance(t456,problem_based_maintenance).
-needs_maintenance(t789,problem_based_maintenance).
-needs_maintenance(t456,performance_based_maintenance).
-needs_maintenance(t101,performance_based_maintenance).

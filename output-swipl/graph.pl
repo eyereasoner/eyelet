@@ -1,10 +1,4 @@
 path(angers, nantes).
 path(lemans, nantes).
-path(angers, nantes).
-path(lemans, nantes).
-path(chartres, nantes).
-path(paris, nantes).
-path(angers, nantes).
-path(lemans, nantes).
 path(chartres, nantes).
 path(paris, nantes).

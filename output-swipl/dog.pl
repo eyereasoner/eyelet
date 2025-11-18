@@ -1,10 +1,1 @@
 mustHave(alice, dogLicense).
-mustHave(alice, dogLicense).
-mustHave(alice, dogLicense).
-mustHave(alice, dogLicense).
-mustHave(alice, dogLicense).
-mustHave(alice, dogLicense).
-mustHave(alice, dogLicense).
-mustHave(alice, dogLicense).
-mustHave(alice, dogLicense).
-mustHave(alice, dogLicense).

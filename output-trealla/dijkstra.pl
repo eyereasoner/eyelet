@@ -5,10 +5,3 @@ dijkstra("af",["abdf",15]).
 dijkstra("af",["acef",15]).
 dijkstra("af",["acdef",15]).
 dijkstra("af",["acdf",16]).
-dijkstra("af",["acbdef",13]).
-dijkstra("af",["acbdf",14]).
-dijkstra("af",["abdef",14]).
-dijkstra("af",["abdf",15]).
-dijkstra("af",["acef",15]).
-dijkstra("af",["acdef",15]).
-dijkstra("af",["acdf",16]).
