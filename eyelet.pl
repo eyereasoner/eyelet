@@ -8,15 +8,13 @@
 :- op(1200, xfx, :+).
 
 :- dynamic((:+)/2).
-:- dynamic(answer/1).
 :- dynamic(brake/0).
 :- dynamic(closure/1).
 :- dynamic(count/2).
 :- dynamic(fuse/1).
 :- dynamic(limit/1).
-:- dynamic(step/3).
 
-version('eyelet v1.5.5 (2025-05-19)').
+version('eyelet v2.0.0 (2025-11-18)').
 
 % main goal
 main :-
@@ -66,34 +64,23 @@ main :-
 %
 % 1/ select rule Conc :+ Prem
 % 2/ prove Prem and if it fails backtrack to 1/
-% 3/ if Conc = true assert answer + step
-%    else if Conc = false output fuse + steps and stop
-%    else if ~Conc assert Conc + step and retract brake
+% 3/ if Conc = true output Prem
+%    else if Conc = false output fuse stop
+%    else if ~Conc assert Conc and retract brake
 % 4/ backtrack to 2/ and if it fails go to 5/
 % 5/ if brake
 %       if not stable start again at 1/
-%       else output answers + steps and stop
+%       else stop
 %    else assert brake and start again at 1/
 %
 
 eyelet :-
     (   (Conc :+ Prem),                         % 1/
-        copy_term((Conc :+ Prem), Rule),
         Prem,                                   % 2/
         (   Conc = true                         % 3/
-        ->  assert_conj(answer(Prem)),
-            assert_conj(step(Rule, Prem, Conc))
+        ->  portray_clause(Prem)
         ;   (   Conc = false
-            ->  format(":- op(1200, xfx, :+).~n~n", []),
-                portray_clause(fuse(Prem)),
-                (   step(_, _, _),
-                    nl
-                ->  forall(
-                        step(R, P, C),
-                        portray_clause(step(R, P, C))
-                    )
-                ;   true
-                ),
+            ->  portray_clause(fuse(Prem)),
                 throw(halt(2))
             ;   (   Conc \= (_ :+ _)
                 ->  skolemize(Conc, 0, _)
@@ -101,7 +88,6 @@ eyelet :-
                 ),
                 \+ Conc,
                 assert_conj(Conc),
-                assert_conj(step(Rule, Prem, Conc)),
                 retract(brake)
             )
         ),
@@ -113,19 +99,7 @@ eyelet :-
                 NewClosure is Closure+1,
                 becomes(closure(Closure), closure(NewClosure)),
                 eyelet
-            ;   format(":- op(1200, xfx, :+).~n~n", []),
-                forall(
-                    answer(P),
-                    portray_clause(answer(P))
-                ),
-                (   step(_, _, _),
-                    nl
-                ->  forall(
-                        step(R, P, C),
-                        portray_clause(step(R, P, C))
-                    )
-                ;   true
-                )
+            ;   true
             )
         ;   assertz(brake),
             eyelet
