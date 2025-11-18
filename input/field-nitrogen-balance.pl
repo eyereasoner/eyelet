@@ -312,13 +312,10 @@ confirming that combining a large N surplus with a high loss fraction \
 yields the highest potential loss in this model.".
 
 % -------------------------------------------------------------------
-% Example Eyelet-style queries
+% ARC queries
 % -------------------------------------------------------------------
 
-true :+ scenario_ok.
 true :+ answer(_).
 true :+ reason(_).
 true :+ check(_, _, _).
-true :+ status(_, _).
-true :+ leach_index(_, _).
 
