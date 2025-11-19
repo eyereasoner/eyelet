@@ -1,0 +1,11 @@
+#!/bin/bash
+
+./test-trealla
+echo ""
+
+./test-scryer
+echo ""
+
+./test-swipl
+echo ""
+
