@@ -1,0 +1,8 @@
+scenario_ok.
+answer('In the physics-based braking model with a 1 s reaction time and g≈9.8 m/s², the stopping distance is d_stop = v*1.0 + v^2/(2*mu*g). On the four example scenarios, this world judges CityDry and CityWet as safe, because their available distance is larger than the computed stopping distance, while HighwayDryShortGap and CityIce are risky: at highway speed or on ice, the required stopping distance exceeds the available gap.').
+reason('The physical world combines a reaction-distance term v*1.0 with a braking distance v^2/(2*mu*g) limited by friction mu and gravity g≈9.8 m/s². At a given speed, lowering the friction (wet or icy surface) increases the braking distance; at a fixed mu, going faster increases both the reaction and braking distances. In CityDry and CityWet the available distance still exceeds the computed stopping distance, so the model calls them safe. In HighwayDryShortGap the higher speed makes the stopping distance longer than the gap, and in CityIce the low friction does the same, so both are classified as risky.').
+check(1, true, 'PASS 1: CityDry and CityWet are safe; HighwayDryShortGap and CityIce are risky in the physical world.').
+check(2, true, 'PASS 2: At the same friction (mu=0.8), the highway scenario has a longer stopping distance than city dry.').
+check(3, true, 'PASS 3: At the same speed, lowering friction from dry to wet to ice increases the stopping distance.').
+check(4, true, 'PASS 4: In every scenario, reaction and braking distances are positive and stopping distance exceeds reaction distance.').
+check(5, true, 'PASS 5: Each scenario is classified as either safe or risky, and never both.').
