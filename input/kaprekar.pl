@@ -32,9 +32,21 @@ digitsToNumber([A-0, B-0, C-0, D-0], E) :-
     E is A*1000+B*100+C*10+D.
 
 % recursion count
-recursionCount(I, J) :-
+recursionCount1(I, J) :-
     kaprekar(I, 0, J).
+recursionCount2(I, J) :-
+    recursionCount1(I, J).
+recursionCount3(I, J) :-
+    recursionCount1(I, J).
+recursionCount4(I, J) :-
+    recursionCount1(I, J).
 
 % query
-(true :+ recursionCount(I, _)) :-
-    between(1, 10000, I).
+(true :+ recursionCount1(I, _)) :-
+    between(1, 2500, I).
+(true :+ recursionCount2(I, _)) :-
+    between(2501, 5000, I).
+(true :+ recursionCount3(I, _)) :-
+    between(5001, 7500, I).
+(true :+ recursionCount4(I, _)) :-
+    between(7501, 10000, I).
