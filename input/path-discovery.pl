@@ -39,11 +39,8 @@ reverse_acc([X|Xs], Acc, Ys) :- reverse_acc(Xs, [X|Acc], Ys).
 
 ids_to_names([], []).
 ids_to_names([Id|Ids], [Name|Names]) :-
-    airport_id(Name, Id),
+    airport(Id, Name),
     ids_to_names(Ids, Names).
-
-airport_id(Name, Id) :-
-    airport(Id, Name).
 
 % route_ids(+SourceId, +DestinationId, +MaxStopovers, -PathIds)
 % A direct flight has 0 stopovers; a path with N stopovers has N+1 legs.
