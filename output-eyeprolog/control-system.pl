@@ -1,0 +1,2 @@
+control1(actuator1,39.273461986782763).
+control1(actuator2,26.079999999999998).

@@ -1,0 +1,10 @@
+ackermann([0,6],7).
+ackermann([1,2],4).
+ackermann([1,7],9).
+ackermann([2,2],7).
+ackermann([2,9],21).
+ackermann([3,4],125).
+ackermann([3,14],131069).
+ackermann([4,0],13).
+ackermann([4,1],65533).
+ackermann([5,0],65533).

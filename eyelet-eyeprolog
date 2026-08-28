@@ -1,0 +1,10 @@
+#!/bin/bash
+set -e
+
+root=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
+engine=${EYEPROLOG:-eyeprolog}
+
+exec "$engine" --no-auto-table -g main \
+  "$root/eyelet-eyeprolog-prelude.pl" \
+  "$root/eyelet.pl" \
+  "$@"
