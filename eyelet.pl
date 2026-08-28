@@ -15,7 +15,7 @@
 :- dynamic(limit/1).
 :- dynamic(portray/1).
 
-version('eyelet v2.0.2 (2025-11-18)').
+version('eyelet v2.0.3 (2026-08-29)').
 
 % main goal
 main :-
@@ -27,6 +27,7 @@ main :-
     assertz(limit(-1)),
     assertz(count(fm, 0)),
     assertz(count(mf, 0)),
+    assertz(brake),
     (   (_ :+ _)
     ->  true
     ;   version(Version),
@@ -89,7 +90,6 @@ eyelet :-
                 ->  skolemize(Conc, 0, _)
                 ;   true
                 ),
-                \+ Conc,
                 assert_conj(Conc),
                 retract(brake)
             )
@@ -109,16 +109,21 @@ eyelet :-
         )
     ).
 
-% assert conjunction
-assert_conj((B, C)) :-
-    assert_conj(B),
-    assert_conj(C).
+% assert every new conjunct and succeed iff the closure grew
 assert_conj(A) :-
+    conj_list(A, B),
+    assert_new(B, false, Changed),
+    Changed = true.
+
+assert_new([], Changed, Changed).
+assert_new([A|B], Changed0, Changed) :-
     (   \+ A
-    ->  copy_term(A, B),
-        assertz(B)
-    ;   true
-    ).
+    ->  copy_term(A, C),
+        assertz(C),
+        Changed1 = true
+    ;   Changed1 = Changed0
+    ),
+    assert_new(B, Changed1, Changed).
 
 % skolemize
 skolemize(Term, N0, N) :-

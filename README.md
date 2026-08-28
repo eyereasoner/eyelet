@@ -31,3 +31,9 @@ __or__
 
 - install [Scryer Prolog](https://github.com/mthom/scryer-prolog?tab=readme-ov-file#installing-scryer-prolog)
 - run [./test-scryer](./test-scryer) to go from [./input/](./input/) to [./output-scryer/](./output-scryer/)
+
+__or__
+
+- install [EyeProlog](https://github.com/eyereasoner/eyeprolog) v1.4.9 or newer
+- run [./test-eyeprolog](./test-eyeprolog) to go from [./input/](./input/) to [./output-eyeprolog/](./output-eyeprolog/)
+- [./eyelet-eyeprolog](./eyelet-eyeprolog) uses EyeProlog's traditional depth-first mode for Eyelet portability

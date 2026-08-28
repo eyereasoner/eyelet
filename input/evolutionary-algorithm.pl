@@ -74,5 +74,5 @@ score([_|Tt], [_|Tp], C, Score) :-
 
 % query
 true :+ set_random(seed(100)).
-true :+ evolution(_, _, _).
 true :+ solve('METHINKS IT IS LIKE A WEASEL').
+true :+ evolution(_, _, _).

@@ -9,3 +9,6 @@ echo ""
 ./test-swipl
 echo ""
 
+
+./test-eyeprolog
+echo ""
