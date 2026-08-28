@@ -63,6 +63,7 @@ mv eyelet.pl.tmp eyelet.pl
 ./test-scryer
 ./test-swipl
 ./test-trealla
+./test-eyeprolog
 git diff
 
 # git commands
