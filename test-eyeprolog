@@ -10,10 +10,20 @@ DIFF=0
 root=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
 mkdir -p "$root/output-eyeprolog"
 
+engine=${EYEPROLOG:-eyeprolog}
+engine_bin=$(command -v -- "$engine" 2>/dev/null)
+if [[ -z "$engine_bin" ]]; then
+    echo "cannot find EyeProlog executable: $engine" >&2
+    exit 127
+fi
+engine_bin=$(realpath "$engine_bin" 2>/dev/null || readlink -f "$engine_bin")
+engine_root=$(cd -- "$(dirname -- "$engine_bin")/.." && pwd)
+eyeprolog_version=$(sed -nE 's/^[[:space:]]*"version"[[:space:]]*:[[:space:]]*"([^"]+)".*/\1/p' "$engine_root/package.json" | head -1)
+[[ -n "$eyeprolog_version" ]] || eyeprolog_version="unknown"
+
 echo -e "${YELLOW}-------------------------------------------------${NORMAL}"
 echo -e "${YELLOW}running the eyelet examples and test cases${NORMAL}"
-eyeprolog_version=$(${EYEPROLOG:-eyeprolog} --version 2>&1 | head -1)
-echo -e "${YELLOW}using eyelet with ${eyeprolog_version}${NORMAL}"
+echo -e "${YELLOW}using eyelet with eyeprolog ${eyeprolog_version}${NORMAL}"
 echo -e "${YELLOW}-------------------------------------------------${NORMAL}"
 echo ""
 
@@ -23,19 +33,12 @@ pad () {
     printf "%$2.${2#-}s" "$1"
 }
 
+files=("$root"/input/*.pl)
 begin=$(date +%s)
-for file in "$root"/input/*.pl
+while IFS=$'\t' read -r f elapsed status
 do
-    f="$(basename "$file")"
     echo -en "$(pad "${f}" -36)"
-    start=$(($(date +%s%N)/1000000))
-    if "$root/eyelet-eyeprolog" "$file" > "$root/output-eyeprolog/${f}"; then
-        status=0
-    else
-        status=$?
-    fi
-    end=$(($(date +%s%N)/1000000))
-    echo -en "${YELLOW}$(pad "$((end - start)) ms" 10)${NORMAL} "
+    echo -en "${YELLOW}$(pad "${elapsed} ms" 10)${NORMAL} "
 
     if [[ $status -le 2 ]] && git diff --quiet -- "output-eyeprolog/${f}"; then
         match=1
@@ -49,7 +52,13 @@ do
         echo -e "${RED}DIFF${NORMAL}"
         ((DIFF++))
     fi
-done
+done < <(
+    node "$root/test-eyeprolog-worker.mjs" \
+        "$engine_root" \
+        "$root/eyelet-eyeprolog-prelude.pl" \
+        "$root/output-eyeprolog" \
+        "${files[@]}"
+)
 end=$(date +%s)
 echo ""
 
