@@ -2,6 +2,8 @@
 % See https://en.wikipedia.org/wiki/Tak_(function)
 
 :- op(1200, xfx, :+).
+:- use_module(library(tabling)).
+:- table tak/2.
 
 tak([X, Y, Z], Z) :-
     X =< Y,

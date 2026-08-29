@@ -1,39 +1,31 @@
-% Ackermann function
-% See https://en.wikipedia.org/wiki/Ackermann_function
+% Ackermann-style hyperoperation benchmark.
+% The implementation is shared with EyeProlog's examples/ackermann.pl so the
+% exponentiation level uses native arithmetic instead of tens of thousands of
+% recursive Prolog calls.
 
-:- op(1200, xfx, :+).
+ackermann([X, Y], A) :-
+    ackermann(X, Y, A).
 
-% ackermann(x, y, z)
-ackermann([A, B], C) :-
-    D is B+3,
-    ackermann(A, D, 2, E),
-    C is E-3.
+ackermann(X, Y, A) :-
+    B is Y+3,
+    hyper(X, B, 2, C),
+    A is C-3.
 
-% succ (x=0)
-ackermann(0, A, _, B) :-
-    !,
-    B is A+1.
+hyper(0, Y, _Z, A) :- A is Y+1.
+hyper(1, Y, Z, A) :- A is Y+Z.
+hyper(2, Y, Z, A) :- A is Y*Z.
+hyper(3, Y, Z, A) :- A is Z^Y.
 
-% sum (x=1)
-ackermann(1, A, B, C) :-
-    !,
-    C is A+B.
+hyper(X, 0, _Z, 1) :-
+    X > 3.
+hyper(X, Y, Z, A) :-
+    X > 3,
+    Y \= 0,
+    B is Y-1,
+    hyper(X, B, Z, C),
+    D is X-1,
+    hyper(D, C, Z, A).
 
-% product (x=2)
-ackermann(2, A, B, C) :-
-    !,
-    C is A*B.
-
-% exponentiation (x=3), tetration (x=4), pentation (x=5), hexation (x=6), etc
-ackermann(_, 0, _, 1) :-
-    !.
-ackermann(A, B, C, D) :-
-    E is B-1,
-    ackermann(A, E, C, F),
-    G is A-1,
-    ackermann(G, F, C, D).
-
-% query
 true :+ ackermann([0, 6], _).
 true :+ ackermann([1, 2], _).
 true :+ ackermann([1, 7], _).

@@ -17,6 +17,13 @@
 - conclusion-only variables are existentials
 - avoiding loops that could occur with top-down reasoning
 
+
+## Native EyeProlog execution
+
+EyeProlog recognizes `:+` as an extended infix operator. When a loaded program contains `:+/2` rules and no explicit `-g/--goal` is supplied, its native forward-rule driver repeatedly solves premises and adds novel conclusions until closure. `true :+ Goal` prints successful instances, `false :+ Goal` emits `fuse(Goal)` and exits with status 2, conclusion-only variables are Skolemized, and derived `:+` rules retain universal variables.
+
+The Eyelet compatibility prelude supplies only `stable/1`, `becomes/2`, and the historical debugging counters. The former `eyelet.pl` meta-interpreter is therefore avoided for EyeProlog runs.
+
 ## Testing
 
 - install [SWI-Prolog](https://www.swi-prolog.org/Download.html)
@@ -34,6 +41,9 @@ __or__
 
 __or__
 
-- install [EyeProlog](https://github.com/eyereasoner/eyeprolog) v1.4.9 or newer
+- install EyeProlog v1.5.0 or newer (with native `:+` and explicit-only tabling)
 - run [./test-eyeprolog](./test-eyeprolog) to go from [./input/](./input/) to [./output-eyeprolog/](./output-eyeprolog/)
-- [./eyelet-eyeprolog](./eyelet-eyeprolog) uses EyeProlog's traditional depth-first mode for Eyelet portability
+- [./eyelet-eyeprolog](./eyelet-eyeprolog) now loads only the small compatibility prelude; EyeProlog itself executes the `:+` fixed point natively
+- `eyelet.pl` remains in the repository for SWI/Trealla/Scryer, but is not on EyeProlog's execution path
+- the EyeProlog launcher contains no tabling mode flag; ordinary recursion is depth-first and any predicate that needs tabling must declare `:- table ...` explicitly
+- the EyeProlog comparison outputs include corrected Ackermann `[4,2]` and Takeuchi results; differential checks against Trealla/Scryer are useful when an older EyeProlog golden was incomplete

@@ -4,7 +4,9 @@ set -e
 root=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
 engine=${EYEPROLOG:-eyeprolog}
 
-exec "$engine" --no-auto-table -g main \
+# EyeProlog executes top-level :+/2 rules natively when no explicit -g goal
+# is supplied.  The prelude only provides Eyelet compatibility helpers such as
+# stable/1 and becomes/2; eyelet.pl is intentionally not loaded here.
+exec "$engine" \
   "$root/eyelet-eyeprolog-prelude.pl" \
-  "$root/eyelet.pl" \
   "$@"

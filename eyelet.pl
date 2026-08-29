@@ -15,7 +15,7 @@
 :- dynamic(limit/1).
 :- dynamic(portray/1).
 
-version('eyelet v2.0.6 (2026-08-29)').
+version('eyelet v2.0.7 (2026-08-29)').
 
 % main goal
 main :-
