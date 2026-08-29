@@ -1,5 +1,9 @@
-% Eulerian path
+% Eulerian circuit
 % See https://en.wikipedia.org/wiki/Eulerian_path
+%
+% Instead of enumerating every Eulerian circuit, prove existence using
+% Euler's criterion: a finite connected undirected graph has an Eulerian
+% circuit iff every vertex has even degree.
 
 :- op(1200, xfx, :+).
 
@@ -16,56 +20,51 @@ edge(v3, v6).
 edge(v4, v5).
 edge(v4, v6).
 
-% Define undirected adjacency
+% Undirected adjacency
 adjacent(V, U) :- edge(V, U).
 adjacent(V, U) :- edge(U, V).
 
-% Collect all vertices
 vertices(Vertices) :-
     findall(V, (edge(V, _); edge(_, V)), All),
     sort(All, Vertices).
 
-% Calculate degree of a vertex
 degree(V, D) :-
-    findall(1, adjacent(V, _), List),
-    length(List, D).
+    findall(1, adjacent(V, _), Neighbours),
+    length(Neighbours, D).
 
-% Check if vertex has odd degree
-odd_degree(V) :-
-    degree(V, Deg),
-    Deg mod 2 =:= 1.
+all_even([]).
+all_even([V | Vs]) :-
+    degree(V, D),
+    0 =:= D mod 2,
+    all_even(Vs).
 
-% Find all vertices with odd degree
-find_odd_vertices(Odds) :-
-    findall(V, (vertices(Vs), member(V, Vs), odd_degree(V)), Odds).
-
-% Create sorted edge representation for undirected graph
-make_sorted_edge(A, B, sorted(X, Y)) :-
-    ( A @< B -> X = A, Y = B ; X = B, Y = A ).
-
-% DFS to find Eulerian path
-eulerian_path(Path) :-
-    find_odd_vertices(Odds),
-    (   Odds = [Start | _]  % Start at an odd-degree vertex if exists
-    ;   Odds = [],          % Otherwise, start at any vertex with edges
-        vertices(Vs),
-        member(Start, Vs),
-        degree(Start, Deg),
-        Deg > 0
-    ),
-    findall(Edge, (edge(A, B), make_sorted_edge(A, B, Edge)), Edges),
-    dfs(Start, [Start], Path, Edges).
-
-dfs(Current, Visited, Path, RemainingEdges) :-
-    (   RemainingEdges = []
-    ->  reverse(Visited, Path)  % All edges used; path found
-    ;   % Try each adjacent vertex
-        adjacent(Current, Next),
-        make_sorted_edge(Current, Next, Edge),
-        select(Edge, RemainingEdges, NewRemaining), % Use edge
-        dfs(Next, [Next | Visited], Path, NewRemaining)
+% Deterministic graph traversal.  We only need to prove that every
+% vertex is reachable from one start vertex, not enumerate every route.
+visit([], Seen, Seen).
+visit([V | Todo], Seen0, Seen) :-
+    (   member(V, Seen0)
+    ->  visit(Todo, Seen0, Seen)
+    ;   findall(N, adjacent(V, N), Neighbours),
+        append(Neighbours, Todo, More),
+        visit(More, [V | Seen0], Seen)
     ).
 
-% query
-true :+ eulerian_path(_).
+connected(Vertices) :-
+    Vertices = [Start | _],
+    visit([Start], [], Seen0),
+    sort(Seen0, Seen),
+    Seen = Vertices.
 
+edge_count(N) :-
+    findall(1, edge(_, _), Edges),
+    length(Edges, N).
+
+% Euler's theorem proves that this graph has an Eulerian circuit.
+eulerian_verified(VertexCount, EdgeCount) :-
+    vertices(Vertices),
+    length(Vertices, VertexCount),
+    edge_count(EdgeCount),
+    connected(Vertices),
+    all_even(Vertices).
+
+true :+ eulerian_verified(6, 11).

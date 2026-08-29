@@ -11,4 +11,4 @@ move(N, [A, B, C]) :-
     move(M, [C, B, A]).
 
 % query
-true :+ move(14, [left, centre, right]).
+true :+ move(12, [left, centre, right]).

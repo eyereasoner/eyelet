@@ -1,1 +1,1 @@
-move(14, [left, centre, right]).
+move(12, [left, centre, right]).
