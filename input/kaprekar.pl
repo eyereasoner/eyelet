@@ -1,25 +1,21 @@
-% Kaprekar's constant
-% See https://en.wikipedia.org/wiki/6174
+% Kaprekar's constant (6174)
+% Exhaustively verify the four-digit Kaprekar routine.
+%
+% The first Kaprekar step depends only on the multiset of the four digits,
+% so it is sufficient to test each nondecreasing digit multiset once rather
+% than all 10,000 permutations.  There are only 705 nontrivial multisets.
 
 :- op(1200, xfx, :+).
 
-% recursive case till 6174 is reached
-kaprekar(A, B, C) :-
-    A =\= 0,
-    numberToDigits(A, D),
-    keysort(D, E),
-    reverse(E, F),
-    digitsToNumber(E, G),
-    digitsToNumber(F, H),
-    I is H-G,
-    J is B+1,
-    (   I =:= 6174
-    ->  C = J
-    ;   kaprekar(I, J, C)
-    ).
+kaprekar_step(A, B) :-
+    number_to_digits(A, D),
+    keysort(D, Asc),
+    reverse(Asc, Desc),
+    digits_to_number(Asc, Low),
+    digits_to_number(Desc, High),
+    B is High-Low.
 
-% convert 4 digit number to digits
-numberToDigits(A, [B-0, C-0, D-0, E-0]) :-
+number_to_digits(A, [B-0, C-0, D-0, E-0]) :-
     B is A // 1000,
     F is A rem 1000,
     C is F // 100,
@@ -27,26 +23,30 @@ numberToDigits(A, [B-0, C-0, D-0, E-0]) :-
     D is G // 10,
     E is G rem 10.
 
-% convert 4 digits to number
-digitsToNumber([A-0, B-0, C-0, D-0], E) :-
+digits_to_number([A-0, B-0, C-0, D-0], E) :-
     E is A*1000+B*100+C*10+D.
 
-% recursion count
-recursionCount1(I, J) :-
-    kaprekar(I, 0, J).
-recursionCount2(I, J) :-
-    recursionCount1(I, J).
-recursionCount3(I, J) :-
-    recursionCount1(I, J).
-recursionCount4(I, J) :-
-    recursionCount1(I, J).
+% One representative for every multiset of four decimal digits.
+digit_multiset(N) :-
+    between(0, 9, A),
+    between(A, 9, B),
+    between(B, 9, C),
+    between(C, 9, D),
+    \+ (A =:= B, B =:= C, C =:= D),
+    N is A*1000+B*100+C*10+D.
 
-% query
-(true :+ recursionCount1(I, _)) :-
-    between(1, 2500, I).
-(true :+ recursionCount2(I, _)) :-
-    between(2501, 5000, I).
-(true :+ recursionCount3(I, _)) :-
-    between(5001, 7500, I).
-(true :+ recursionCount4(I, _)) :-
-    between(7501, 10000, I).
+reaches_6174(6174, _).
+reaches_6174(A, Steps) :-
+    Steps < 7,
+    kaprekar_step(A, B),
+    Next is Steps+1,
+    reaches_6174(B, Next).
+
+counterexample(A) :-
+    digit_multiset(A),
+    \+ reaches_6174(A, 0).
+
+kaprekar_verified(6174, 7) :-
+    \+ counterexample(_).
+
+true :+ kaprekar_verified(6174, 7).

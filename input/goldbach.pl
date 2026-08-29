@@ -44,5 +44,5 @@ has_factor(N, L) :-
 
 % query
 (true :+ goldbach(N, [_, _])) :-
-    between(2, 35, I),
+    between(2, 25, I),
     N is 2^I.

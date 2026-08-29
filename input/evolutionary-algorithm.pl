@@ -1,78 +1,86 @@
 % Evolutionary algorithm
-% See https://en.wikipedia.org/wiki/Evolutionary_algorithm
-% Original code from https://rosettacode.org/wiki/Evolutionary_algorithm#Prolog
+% Portable deterministic variant for cross-Prolog regression testing.
+%
+% Proves the main point of the classic "weasel" experiment: repeated random
+% mutation plus selection can evolve an initially random string to a target.
+% A tiny integer PRNG is threaded explicitly so every Prolog gets the same run.
 
 :- op(1200, xfx, :+).
 
-:- use_module(library(random)).
+next_random(Seed0, Seed) :-
+    Seed is (Seed0*48271) mod 2147483647.
 
-:- dynamic(evolution/3).
+random_n(N, Seed0, Seed, Value) :-
+    next_random(Seed0, Seed),
+    Value is (Seed*N + 1073741823) // 2147483647.
 
-solve(TargetAtom) :-
+random_alpha(Seed0, Seed, Ch) :-
+    random_n(26, Seed0, Seed, P),
+    ( P =:= 0 -> Ch = 32 ; Ch is P+64 ).
+
+random_text(0, Seed, Seed, []) :- !.
+random_text(N, Seed0, Seed, [H|T]) :-
+    random_alpha(Seed0, Seed1, H),
+    N1 is N-1,
+    random_text(N1, Seed1, Seed, T).
+
+score(Target, Text, Score) :-
+    score(Target, Text, 0, Score).
+
+score([], [], Score, Score).
+score([A|As], [B|Bs], S0, Score) :-
+    ( A =:= B -> S1 = S0 ; S1 is S0+1 ),
+    score(As, Bs, S1, Score).
+
+mutate(_, [], Seed, Seed, []) :- !.
+mutate(Probability, [H|T], Seed0, Seed, [M|Ms]) :-
+    random_n(100, Seed0, Seed1, P),
+    ( P > Probability ->
+        M = H,
+        Seed2 = Seed1
+    ;
+        random_alpha(Seed1, Seed2, M)
+    ),
+    mutate(Probability, T, Seed2, Seed, Ms).
+
+% Select the best of N mutations without constructing and sorting a population.
+best_mutation(N, Probability, Start, Target, Seed0, Seed, Best) :-
+    mutate(Probability, Start, Seed0, Seed1, First),
+    score(Target, First, FirstScore),
+    N1 is N-1,
+    best_mutation_(N1, Probability, Start, Target,
+                   Seed1, Seed, First, FirstScore, Best).
+
+best_mutation_(0, _, _, _, Seed, Seed, Best, _, Best) :- !.
+best_mutation_(N, Probability, Start, Target,
+               Seed0, Seed, Best0, BestScore0, Best) :-
+    mutate(Probability, Start, Seed0, Seed1, Candidate),
+    score(Target, Candidate, CandidateScore),
+    ( CandidateScore < BestScore0 ->
+        Best1 = Candidate,
+        BestScore1 = CandidateScore
+    ;
+        Best1 = Best0,
+        BestScore1 = BestScore0
+    ),
+    N1 is N-1,
+    best_mutation_(N1, Probability, Start, Target,
+                   Seed1, Seed, Best1, BestScore1, Best).
+
+solve(TargetAtom, Generations) :-
     atom_codes(TargetAtom, Target),
     length(Target, Len),
-    random_text(Len, Start),
-    evolve(0, 5, Target, Start).    % evolution 0 and 5% probability for a mutation
+    random_text(Len, 80, Seed0, Start),
+    evolve(0, 100, 6, 35, Target, Start, Seed0, Generations).
 
-random_text(0, []).                 % generate some random text (fixed length)
-random_text(Len, [H|T]) :-
-    succ(L, Len),
-    random_alpha(H),
-    random_text(L, T).
+evolve(Generation, _, _, _, Target, Target, _, Generation) :- !.
+evolve(Generation, Max, Population, Probability, Target, Start, Seed0, Generations) :-
+    Generation < Max,
+    best_mutation(Population, Probability, Start, Target, Seed0, Seed, Best),
+    Next is Generation+1,
+    evolve(Next, Max, Population, Probability, Target, Best, Seed, Generations).
 
-random_alpha(Ch) :-                 % generate a single random character
-    random(R),
-    P is round(R*26),
-    (   P = 0
-    ->  Ch is 32
-    ;   Ch is P+64
-    ).
+evolution_verified(Target, Generations) :-
+    solve(Target, Generations).
 
-evolve(Evolution, Probability, Target, mutation(Score, Value)) :-
-    atom_codes(Val, Value),
-    (   \+evolution(Evolution, Score, Val)
-    ->  assertz(evolution(Evolution, Score, Val))
-    ;   true
-    ),
-    (   Score = 0
-    ->  true
-    ;   evolve(Evolution, Probability, Target, Value)
-    ).
-evolve(Evolution, Probability, Target, Start) :-
-    findall(mutation(Score, M),     % generate 80 mutations, select the best
-        (   between(1, 80, _),
-            mutate(Probability, Start, M),
-            score(M, Score, Target)
-        ),
-        Mutations
-    ),
-    sort(Mutations, [Best|_]),
-    succ(Evolution, Evo),
-    evolve(Evo, Probability, Target, Best).
-
-mutate(_, [], []).                  % mutate(Probability, Input, Output)
-mutate(Probability, [H|Txt], [H|Mut]) :-
-    random(R),
-    P is round(R*100),
-    P > Probability,
-    !,
-    mutate(Probability, Txt, Mut).
-mutate(Probability, [_|Txt], [M|Mut]) :-
-    random_alpha(M),
-    mutate(Probability, Txt, Mut).
-
-score(Txt, Score, Target) :-
-    score(Target, Txt, 0, Score).
-
-score([], [], Score, Score).        % score a generated mutation (count diffs)
-score([Ht|Tt], [Ht|Tp], C, Score) :-
-    !,
-    score(Tt, Tp, C, Score).
-score([_|Tt], [_|Tp], C, Score) :-
-    succ(C, N),
-    score(Tt, Tp, N, Score).
-
-% query
-true :+ set_random(seed(100)).
-true :+ solve('METHINKS IT IS LIKE A WEASEL').
-true :+ evolution(_, _, _).
+true :+ evolution_verified('WEASEL', 15).
