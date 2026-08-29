@@ -10,12 +10,11 @@
 :- dynamic((:+)/2).
 :- dynamic(brake/0).
 :- dynamic(closure/1).
-:- dynamic(count/2).
 :- dynamic(fuse/1).
 :- dynamic(limit/1).
 :- dynamic(portray/1).
 
-version('eyelet v2.0.7 (2026-08-29)').
+version('eyelet v2.0.8 (2026-08-29)').
 
 % main goal
 main :-
@@ -25,8 +24,6 @@ main :-
     set_prolog_flag(double_quotes, chars),
     assertz(closure(0)),
     assertz(limit(-1)),
-    assertz(count(fm, 0)),
-    assertz(count(mf, 0)),
     assertz(brake),
     (   (_ :+ _)
     ->  true
@@ -44,16 +41,6 @@ main :-
         ;   format(user_error, "*** ~w~n", [E]),
             Exit = 1
         )
-    ),
-    count(fm, Fm),
-    (   Fm = 0
-    ->  true
-    ;   format(user_error, "*** fm=~w~n", [Fm])
-    ),
-    count(mf, Mf),
-    (   Mf = 0
-    ->  true
-    ;   format(user_error, "*** mf=~w~n", [Mf])
     ),
     (   Exit = 0
     ->  true
@@ -199,21 +186,3 @@ dynify(A) :-
         catch((assertz(T), retract(T)), _, true)
     ),
     dynify(C).
-
-% debugging tools
-fm(A) :-
-    format(user_error, "*** ~q~n", [A]),
-    count(fm, B),
-    C is B+1,
-    becomes(count(fm, B), count(fm, C)).
-
-mf(A) :-
-    forall(
-        catch(A, _, fail),
-        (   format(user_error, "*** ", []),
-            portray_clause(user_error, A),
-            count(mf, B),
-            C is B+1,
-            becomes(count(mf, B), count(mf, C))
-        )
-    ).

@@ -55,7 +55,6 @@ do
 done < <(
     node "$root/test-eyeprolog-worker.mjs" \
         "$engine_root" \
-        "$root/eyelet-eyeprolog-prelude.pl" \
         "$root/output-eyeprolog" \
         "${files[@]}"
 )
