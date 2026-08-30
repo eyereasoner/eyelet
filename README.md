@@ -18,11 +18,13 @@
 - avoiding loops that could occur with top-down reasoning
 
 
-## Native EyeProlog execution
+## EyeProlog execution
 
-EyeProlog recognizes `:+` as an extended infix operator. When a loaded program contains `:+/2` rules and no explicit `-g/--goal` is supplied, its native forward-rule driver repeatedly solves premises and adds novel conclusions until closure. `true :+ Goal` prints successful instances, `false :+ Goal` emits `fuse(Goal)` and exits with status 2, conclusion-only variables are Skolemized, and derived `:+` rules retain universal variables.
+EyeProlog recognizes `:+` as an extended infix operator. When a loaded program contains `:+/2` rules and no explicit `-g/--goal` is supplied, it autoloads its bundled Prolog `library(eyelet)` fixed-point driver. The driver repeatedly solves premises and adds novel conclusions until closure. `true :+ Goal` prints successful instances, `false :+ Goal` emits `fuse(Goal)` and exits with status 2, conclusion-only variables are Skolemized, and derived `:+` rules retain universal variables.
 
-EyeProlog bundles `library(eyelet)`, which exports the `:+` operator, `stable/1`, and `becomes/2`. Its normal library autoloader discovers the helper predicates even inside `:+` premises, so Eyelet files can run directly with `eyeprolog input/file.pl`; no EyeProlog compatibility prelude is needed.
+EyeProlog bundles `library(eyelet)`, which exports the `:+` operator, `stable/1`, and `becomes/2`. Its normal library autoloader discovers the helper predicates even inside `:+` premises, so Eyelet files can run directly with `eyeprolog input/file.pl`; no EyeProlog compatibility prelude is needed. The fixed-point semantics live in that Prolog module; the JavaScript host only bootstraps it and provides private mutability/output adapters.
+
+The portable `eyelet.pl` driver uses the same simplified structure: it inspects rules before execution rather than proving premises during setup, tracks closure growth with an explicit `changed/0` marker instead of the older `brake/0` loop, avoids fixed-point iteration for query-only files, preserves universal variables in derived `:+` rules, and prepares state predicates used by `becomes/2` where the host Prolog permits it.
 
 ## Testing
 
@@ -41,7 +43,7 @@ __or__
 
 __or__
 
-- install an EyeProlog build with native `:+`, explicit-only tabling, and bundled `library(eyelet)`
+- install an EyeProlog build with Prolog-driven `:+`, explicit-only tabling, and bundled `library(eyelet)`
 - run [./test-eyeprolog](./test-eyeprolog) to go from [./input/](./input/) to [./output-eyeprolog/](./output-eyeprolog/)
 - or run any file directly, for example `eyeprolog input/derived-rule.pl`; [./eyelet-eyeprolog](./eyelet-eyeprolog) is only a thin compatibility alias for `eyeprolog`
 - `eyelet.pl` remains in the repository for SWI/Trealla/Scryer, but is not on EyeProlog's execution path

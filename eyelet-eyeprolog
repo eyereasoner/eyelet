@@ -3,6 +3,6 @@ set -e
 
 engine=${EYEPROLOG:-eyeprolog}
 
-# EyeProlog executes :+/2 natively; library(eyelet) supplies stable/1 and
-# becomes/2 through the normal bundled-library autoloader.
+# EyeProlog autoloads its bundled Prolog library(eyelet) driver for :+/2,
+# including stable/1 and becomes/2 through the normal library autoloader.
 exec "$engine" "$@"

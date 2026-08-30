@@ -38,7 +38,7 @@ begin=$(date +%s)
 while IFS=$'\t' read -r f elapsed status
 do
     echo -en "$(pad "${f}" -36)"
-    echo -en "${YELLOW}$(pad "${elapsed} ms" 10)${NORMAL} "
+    echo -en "${YELLOW}$(pad "$(printf "%.0f" "${elapsed}") ms" 10)${NORMAL} "
 
     if [[ $status -le 2 ]] && git diff --quiet -- "output-eyeprolog/${f}"; then
         match=1
