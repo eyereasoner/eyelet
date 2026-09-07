@@ -26,7 +26,7 @@ do
     f="$(basename ${file})"
     echo -en "$(pad "${f}" -36)"
     start=$(($(date +%s%N)/1000000))
-    swipl -g main eyelet.pl "${file}" > output-swipl/${f}
+    swipl -f suppress-swi-warnings.pl -g main eyelet.pl "${file}" > output-swipl/${f}
     end=$(($(date +%s%N)/1000000))
     echo -en "${YELLOW}$(pad "`expr $end - $start` ms" 10)${NORMAL} "
     if [[ $(git diff output-swipl/${f} | wc -l) -eq 0 ]]; then
