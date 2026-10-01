@@ -23,7 +23,7 @@ eyeprolog_version=$(sed -nE 's/^[[:space:]]*"version"[[:space:]]*:[[:space:]]*"(
 
 echo -e "${YELLOW}-------------------------------------------------${NORMAL}"
 echo -e "${YELLOW}running the eyelet examples and test cases${NORMAL}"
-echo -e "${YELLOW}using eyelet with eyeprolog ${eyeprolog_version}${NORMAL}"
+echo -e "${YELLOW}using eyelet with eyeprolog v${eyeprolog_version}${NORMAL}"
 echo -e "${YELLOW}-------------------------------------------------${NORMAL}"
 echo ""
 
