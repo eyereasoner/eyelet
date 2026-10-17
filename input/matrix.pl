@@ -259,7 +259,7 @@ list0(N, [0|T]) :-
 listd(0, _D, _L, []) :-
     !.
 listd(N, D, [E|R], [E|T]) :-
-    N rem (D+1) =:= 1,
+    1 is N rem (D+1),
     !,
     N1 is N-1,
     listd(N1, D, R, T).

@@ -6,7 +6,7 @@
 
 goldbach(4, [2, 2]).
 goldbach(N, L) :-
-    0 =:= N rem 2,
+    0 is N rem 2,
     N > 4,
     goldb(N, L, 3).
 
@@ -31,14 +31,15 @@ is_prime(2).
 is_prime(3).
 is_prime(P) :-
     P > 3,
-    1 =:= P rem 2,
+    1 is P rem 2,
     \+has_factor(P, 3).
 
 has_factor(N, L) :-
-    0 =:= N rem L,
+    0 is N rem L,
     !.
 has_factor(N, L) :-
-    L*L <  N,
+    LL is L*L,
+    LL < N,
     L2 is L+2,
     has_factor(N, L2).
 

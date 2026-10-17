@@ -9,13 +9,14 @@ prime(2).
 prime(3).
 prime(P) :-
     P > 3,
-    P mod 2 =\= 0,
+    1 is P mod 2,
     \+factor(P, 3).
 
 factor(N, L) :-
-    N mod L =:= 0.
+    0 is N mod L.
 factor(N, L) :-
-    L*L < N,
+    LL is L*L,
+    LL < N,
     L2 is L+2,
     factor(N, L2).
 
@@ -84,7 +85,7 @@ prime_factors(1, [], _) :-
     !.
 prime_factors(N, [F|L], F) :-
    R is N//F,
-   N =:= R*F,
+   N is R*F,
    !,
    prime_factors(R, L, F).
 prime_factors(N, L, F) :-
@@ -98,7 +99,8 @@ prime_factors(N, L, F) :-
 next_factor(_, 2, 3) :-
     !.
 next_factor(N, F, NF) :-
-    F*F < N,
+    FF is F*F,
+    FF < N,
     !,
     NF is F+2.
 next_factor(N, _, N).
@@ -112,7 +114,7 @@ divide(N, F, M, R) :-
 
 divi(N, F, M, R, K) :-
     S is N//F,
-    N =:= S*F,
+    N is S*F,
     !,
     K1 is K+1,
     divi(S, F, M, R, K1).
