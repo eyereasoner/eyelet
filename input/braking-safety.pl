@@ -131,7 +131,7 @@ answer(Text) :-
     !,
     % We just hard-code scenario names in the text; the numeric values
     % are in the model and used for classification.
-    S0  = 'In the physics-based braking model with a 1 s reaction time and g≈9.8 m/s², ',
+    S0  = 'In the physics-based braking model with a 1 s reaction time and g\x2248\9.8 m/s², ',
     bs_cat(S0, 'the stopping distance is d_stop = v*1.0 + v^2/(2*mu*g). ', S1),
     bs_cat(S1, 'On the four example scenarios, this world judges ', S2),
     bs_cat(S2, 'CityDry and CityWet as safe, because their available distance is larger than the computed stopping distance, ', S3),
@@ -142,7 +142,7 @@ reason(Text) :-
     !,
     Text =
 'The physical world combines a reaction-distance term v*1.0 with a braking \
-distance v^2/(2*mu*g) limited by friction mu and gravity g≈9.8 m/s². At a \
+distance v^2/(2*mu*g) limited by friction mu and gravity g\x2248\9.8 m/s². At a \
 given speed, lowering the friction (wet or icy surface) increases the braking \
 distance; at a fixed mu, going faster increases both the reaction and braking \
 distances. In CityDry and CityWet the available distance still exceeds the \

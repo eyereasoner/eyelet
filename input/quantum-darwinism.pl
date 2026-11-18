@@ -89,7 +89,7 @@ evolve(OldState, NewState) :-
     % propagate entanglement
     forall(entangled(OldState, Other),
            assertz(entangled(NewState, Other))),
-    format("% 🌱 New state created: ~w from ~w~n", [NewState, OldState]).
+    format("% \x1F331\ New state created: ~w from ~w~n", [NewState, OldState]).
 
 % query
 true :+ evolve(state1, _).

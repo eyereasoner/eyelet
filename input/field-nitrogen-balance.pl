@@ -144,7 +144,7 @@ answer(Text) :-
     scenario_ok,
     Text =
 "In this nitrogen-balance model, LowInputDry ends up under-supplied in N, \
-BalancedLoam is close to the crop’s demand, and both HighInputRisk and \
+BalancedLoam is close to the crop\x2019\s demand, and both HighInputRisk and \
 SandyOverFertil are over-supplied. LowInputDry has too little total N input, \
 so even after modest losses the available N falls clearly below the crop demand. \
 BalancedLoam combines soil N and fertilizer N so that, after typical field losses, \
@@ -181,20 +181,20 @@ reason(Text) :-
     leach_index(sandy_over_fertil, _Lsand),
     Text =
 "The model uses a simple nitrogen balance: totalN = soilN + fertN, then \
-availN = totalN · (1 − lossFrac). The crop’s N demand defines a target level. \
-If availN falls below about 0.9 × demand, the field is classified as under-supplied; \
+availN = totalN \xB7\ (1 \x2212\ lossFrac). The crop\x2019\s N demand defines a target level. \
+If availN falls below about 0.9 \xD7\ demand, the field is classified as under-supplied; \
 if it lies between 0.9 and 1.1 times demand it is called balanced; and if it exceeds \
-1.1 × demand it is over-supplied. In LowInputDry, soil N plus fertilizer N is modest, \
-so even after multiplying by (1 − lossFrac) the available N is much smaller than the \
+1.1 \xD7\ demand it is over-supplied. In LowInputDry, soil N plus fertilizer N is modest, \
+so even after multiplying by (1 \x2212\ lossFrac) the available N is much smaller than the \
 demand, generating a large deficit. In BalancedLoam, the chosen fertilizer rate brings \
 totalN high enough that, after losses, availN sits close to the target demand. \
 In HighInputRisk and SandyOverFertil, totalN is large enough that availN overshoots \
 the demand, creating a positive surplus. The leaching index is defined as \
-surplusN × lossFrac, so it grows both with the size of the surplus and with the \
+surplusN \xD7\ lossFrac, so it grows both with the size of the surplus and with the \
 loss fraction. SandyOverFertil combines a large surplus with a high lossFrac, \
 which makes its leaching index the largest among the four fields. These behaviours \
 follow directly from the linear dependence of availN on soilN, fertN and lossFrac \
-and from comparing availN with the crop’s N demand.".
+and from comparing availN with the crop\x2019\s N demand.".
 
 % -------------------------------------------------------------------
 % C: Checks – harness rules

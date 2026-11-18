@@ -296,7 +296,7 @@ airport('212', 'Boufarik Airport').
 airport('213', 'Reggane Airport').
 airport('214', 'Illizi Takhamalt Airport').
 airport('215', 'Ain Oussera Airport').
-airport('216', 'Aguenar – Hadj Bey Akhamok Airport').
+airport('216', 'Aguenar \x2013\ Hadj Bey Akhamok Airport').
 airport('217', 'Jijel Ferhat Abbas Airport').
 airport('218', 'Mecheria Airport').
 airport('219', 'Relizane Airport').
@@ -309,7 +309,7 @@ airport('226', 'Bou Sfer Airport').
 airport('227', 'Tindouf Airport').
 airport('228', 'Ech Cheliff Airport').
 airport('229', 'Tafaraoui Airport').
-airport('230', 'Zenata – Messali El Hadj Airport').
+airport('230', 'Zenata \x2013\ Messali El Hadj Airport').
 airport('231', 'Es Senia Airport').
 airport('232', 'Sidi Bel Abbes Airport').
 airport('233', 'Ghriss Airport').
@@ -1151,7 +1151,7 @@ airport('1090', 'Tidjikja Airport').
 airport('1091', 'Kiffa Airport').
 airport('1092', 'Néma Airport').
 airport('1093', 'Kaédi Airport').
-airport('1094', 'Nouakchott–Oumtounsy International Airport').
+airport('1094', 'Nouakchott\x2013\Oumtounsy International Airport').
 airport('1095', 'Sélibaby Airport').
 airport('1096', 'Atar International Airport').
 airport('1097', 'Nouadhibou International Airport').
@@ -1278,7 +1278,7 @@ airport('1224', 'Getafe Air Base').
 airport('1225', 'Ibiza Airport').
 airport('1226', 'Jerez Airport').
 airport('1227', 'San Javier Airport').
-airport('1229', 'Adolfo Suárez Madrid–Barajas Airport').
+airport('1229', 'Adolfo Suárez Madrid\x2013\Barajas Airport').
 airport('1230', 'Málaga Airport').
 airport('1231', 'Menorca Airport').
 airport('1232', 'Moron Air Base').
@@ -1548,13 +1548,13 @@ airport('1502', 'Foggia "Gino Lisa" Airport').
 airport('1503', 'Taranto-Grottaglie "Marcello Arlotta" Airport').
 airport('1504', 'Lecce Galatina Air Base').
 airport('1505', 'Pescara International Airport').
-airport('1506', 'Brindisi – Salento Airport').
+airport('1506', 'Brindisi \x2013\ Salento Airport').
 airport('1507', 'Gioia Del Colle Air Base').
 airport('1508', 'Lamezia Terme Airport').
 airport('1509', 'Catania-Fontanarossa Airport').
 airport('1510', 'Lampedusa Airport').
 airport('1511', 'Pantelleria Airport').
-airport('1512', 'Falcone–Borsellino Airport').
+airport('1512', 'Falcone\x2013\Borsellino Airport').
 airport('1513', 'Palermo-Boccadifalco Airport').
 airport('1514', 'Reggio Calabria Airport').
 airport('1515', 'Vincenzo Florio Airport Trapani-Birgi').
@@ -1586,7 +1586,7 @@ airport('1541', 'Forlì Airport').
 airport('1542', 'Ghedi Air Base').
 airport('1543', 'Verona-Boscomantico Airport').
 airport('1544', 'Brescia Airport').
-airport('1545', 'Trieste–Friuli Venezia Giulia Airport').
+airport('1545', 'Trieste\x2013\Friuli Venezia Giulia Airport').
 airport('1546', 'Federico Fellini International Airport').
 airport('1547', 'Istrana Air Base').
 airport('1548', 'Vicenza Airport').
@@ -1594,9 +1594,9 @@ airport('1549', 'Padova Airport').
 airport('1550', 'Verona Villafranca Airport').
 airport('1551', 'Venice Marco Polo Airport').
 airport('1552', 'Siena-Ampugnano Airport').
-airport('1553', 'Ciampino–G. B. Pastine International Airport').
+airport('1553', 'Ciampino\x2013\G. B. Pastine International Airport').
 airport('1554', 'Pratica Di Mare Air Base').
-airport('1555', 'Leonardo da Vinci–Fiumicino Airport').
+airport('1555', 'Leonardo da Vinci\x2013\Fiumicino Airport').
 airport('1556', 'Guidonia Air Base').
 airport('1558', 'Marina Di Campo Airport').
 airport('1559', 'Latina Air Base').
@@ -1607,7 +1607,7 @@ airport('1563', 'Peretola Airport').
 airport('1564', 'Grosseto Air Base').
 airport('1565', 'Urbe Airport').
 airport('1566', 'Viterbo Airport').
-airport('1567', 'Perugia San Francesco d''Assisi – Umbria International Airport').
+airport('1567', 'Perugia San Francesco d''Assisi \x2013\ Umbria International Airport').
 airport('1568', 'Cerklje Airport').
 airport('1569', 'Ljubljana Jože Pučnik Airport').
 airport('1570', 'Maribor Airport').
@@ -2101,7 +2101,7 @@ airport('2085', 'Ras Tanura Airport').
 airport('2086', 'Sharurah Airport').
 airport('2088', 'Sulayel Airport').
 airport('2089', 'Tabuk Airport').
-airport('2090', 'Ta’if Regional Airport').
+airport('2090', 'Ta\x2019\if Regional Airport').
 airport('2091', 'Thumamah Airport').
 airport('2092', 'Ras Tanajib Airport').
 airport('2093', 'Turaif Domestic Airport').
@@ -2514,7 +2514,7 @@ airport('2555', 'Hercílio Luz International Airport').
 airport('2556', 'Fernando de Noronha Airport').
 airport('2558', 'Furnas Airport').
 airport('2559', 'Pinto Martins International Airport').
-airport('2560', 'Rio Galeão – Tom Jobim International Airport').
+airport('2560', 'Rio Galeão \x2013\ Tom Jobim International Airport').
 airport('2561', 'Guajará-Mirim Airport').
 airport('2562', 'Santa Genoveva Airport').
 airport('2563', 'EMBRAER - Unidade Gavião Peixoto Airport').
@@ -2596,7 +2596,7 @@ airport('2642', 'Balmaceda Airport').
 airport('2643', 'El Bosque Airport').
 airport('2644', 'Chile Chico Airport').
 airport('2645', 'El Loa Airport').
-airport('2646', 'Gral. Bernardo O´Higgins Airport').
+airport('2646', 'Gral. Bernardo O\xB4\Higgins Airport').
 airport('2647', 'Pdte. Carlos Ibañez del Campo Airport').
 airport('2648', 'Teniente Vidal Airport').
 airport('2649', 'Diego Aracena Airport').
@@ -3471,7 +3471,7 @@ airport('3584', 'Williamsport Regional Airport').
 airport('3585', 'Indianapolis International Airport').
 airport('3586', 'Whiteman Air Force Base').
 airport('3587', 'Akron Fulton International Airport').
-airport('3588', 'Greenwood–Leflore Airport').
+airport('3588', 'Greenwood\x2013\Leflore Airport').
 airport('3589', 'Westchester County Airport').
 airport('3590', 'Francis S Gabreski Airport').
 airport('3591', 'Jonesboro Municipal Airport').
@@ -3885,7 +3885,7 @@ airport('4012', 'Naples Municipal Airport').
 airport('4013', 'LTS Pulau Redang Airport').
 airport('4014', 'Louisville International Standiford Field').
 airport('4015', 'Charlottesville Albemarle Airport').
-airport('4016', 'Roanoke–Blacksburg Regional Airport').
+airport('4016', 'Roanoke\x2013\Blacksburg Regional Airport').
 airport('4017', 'Blue Grass Airport').
 airport('4018', 'Evansville Regional Airport').
 airport('4019', 'Albuquerque International Sunport').
@@ -4783,7 +4783,7 @@ airport('6033', 'Necochea Airport').
 airport('6034', 'Orlando Bezerra de Menezes Airport').
 airport('6036', 'Coronel Horácio de Mattos Airport').
 airport('6037', 'Macaé Airport').
-airport('6038', 'Frank Miloye Milenkowichi–Marília State Airport').
+airport('6038', 'Frank Miloye Milenkowichi\x2013\Marília State Airport').
 airport('6039', 'Vitória da Conquista Airport').
 airport('6040', 'Santa Maria Airport').
 airport('6041', 'Toledo Airport').
@@ -6489,7 +6489,7 @@ airport('8752', 'Nusawiru Airport').
 airport('8759', 'Galion Municipal Airport').
 airport('8761', 'Tiputini Airport').
 airport('8762', 'Rio Amazonas Airport').
-airport('8763', 'Clarksville–Montgomery County Regional Airport').
+airport('8763', 'Clarksville\x2013\Montgomery County Regional Airport').
 airport('8771', 'Lompoc Airport').
 airport('8772', 'Chester County G O Carlson Airport').
 airport('8773', 'Bost Airport').
@@ -6590,7 +6590,7 @@ airport('8950', 'Pecos Municipal Airport').
 airport('8951', 'Hattiesburg Bobby L Chain Municipal Airport').
 airport('8952', 'Botucatu - Tancredo de Almeida Neves Airport').
 airport('8953', 'Base Aérea Airport').
-airport('8954', 'Mário Pereira Lopes–São Carlos Airport').
+airport('8954', 'Mário Pereira Lopes\x2013\São Carlos Airport').
 airport('8958', 'Chan Gurney Municipal Airport').
 airport('8961', 'Sir Bani Yas Airport').
 airport('8962', 'AIRPORT_8962').
@@ -7054,7 +7054,7 @@ airport('11094', 'Bay City Municipal Airport').
 airport('11095', 'Cox Field').
 airport('11096', 'Coffeyville Municipal Airport').
 airport('11097', 'The Farm Airport').
-airport('11098', 'Greeley–Weld County Airport').
+airport('11098', 'Greeley\x2013\Weld County Airport').
 airport('11099', 'General Dewitt Spain Airport').
 airport('11100', 'Oryol Yuzhny Airport').
 airport('11101', 'Fremont Municipal Airport').
@@ -7807,7 +7807,7 @@ airport('13630', 'Tatakoto Airport').
 airport('13631', 'Sasereme Airport').
 airport('13632', 'Tanah Merah Airport').
 airport('13635', 'Denali Airport').
-airport('13636', 'Comte. Rolim Adolfo Amaro–Jundiaí State Airport').
+airport('13636', 'Comte. Rolim Adolfo Amaro\x2013\Jundiaí State Airport').
 airport('13642', 'Potomac Airpark').
 airport('13643', 'Helisul IV Heliport').
 airport('13647', 'Brits Airport').

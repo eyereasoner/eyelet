@@ -2,10 +2,10 @@
 
 :- op(1200, xfx, :+).
 
-人間(ジョー).       % human(joe).
-動物(人間).         % animal(human).
+'人間'('ジョー').       % human(joe).
+'動物'('人間').         % animal(human).
 
-動物(X) :- 人間(X). % animal(X) :- human(X).
+'動物'(X) :- '人間'(X). % animal(X) :- human(X).
 
 % query
-true :+ 動物(_).
+true :+ '動物'(_).
