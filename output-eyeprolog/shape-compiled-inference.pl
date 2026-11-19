@@ -1,0 +1,26 @@
+compiled_rule((out(_A,_B,'sosa:isFeatureOfInterestOf',_C):+msg(_A,_C,'ex:about',_B))).
+compiled_rule((out(_A,_B,'schema:elevation',_C):+msg(_A,_B,'ex:elevation',_D),_C is _D*1000)).
+compiled_rule((out(_A,_B,'sosa:observedProperty',_C):+msg(_A,_B,'ex:quantity',_D),concept_map('qudt:QuantityKinds',_D,_C))).
+compiled_rule((out(_A,_B,'rdf:type','sosa:FeatureOfInterest'):+msg(_A,_C,'ex:about',_B))).
+concept_map('qudt:QuantityKinds','ex:temp','quantitykind:Temperature').
+concept_map('qudt:QuantityKinds','ex:rh','quantitykind:RelativeHumidity').
+compiled_rule((out(_A,_B,'sosa:madeBySensor',_C):+msg(_A,_B,'ex:observedBy',_C))).
+compiled_rule((out(_A,_B,'sosa:madeObservation',_C):+msg(_A,_C,'ex:observedBy',_B))).
+compiled_rule((out(_A,_B,'rdf:type','sosa:Observation'):+msg(_A,_B,'rdf:type','ex:Reading'))).
+compiled_rule((out(_A,_B,'rdf:type','sosa:Sensor'):+msg(_A,_C,'ex:observedBy',_B))).
+out(m1,'ex:greenhouse3','sosa:isFeatureOfInterestOf','ex:r1').
+out(m2,'ex:greenhouse3','sosa:isFeatureOfInterestOf','ex:r2').
+out(m1,'ex:r1','schema:elevation',2000).
+out(m2,'ex:r2','schema:elevation',3000).
+out(m1,'ex:r1','sosa:observedProperty','quantitykind:Temperature').
+out(m2,'ex:r2','sosa:observedProperty','quantitykind:RelativeHumidity').
+out(m1,'ex:greenhouse3','rdf:type','sosa:FeatureOfInterest').
+out(m2,'ex:greenhouse3','rdf:type','sosa:FeatureOfInterest').
+out(m1,'ex:r1','sosa:madeBySensor','ex:thermo7').
+out(m2,'ex:r2','sosa:madeBySensor','ex:hygro2').
+out(m1,'ex:thermo7','sosa:madeObservation','ex:r1').
+out(m2,'ex:hygro2','sosa:madeObservation','ex:r2').
+out(m1,'ex:r1','rdf:type','sosa:Observation').
+out(m2,'ex:r2','rdf:type','sosa:Observation').
+out(m1,'ex:thermo7','rdf:type','sosa:Sensor').
+out(m2,'ex:hygro2','rdf:type','sosa:Sensor').
